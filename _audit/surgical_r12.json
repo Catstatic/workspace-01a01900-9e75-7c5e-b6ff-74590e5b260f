@@ -1,0 +1,26 @@
+{
+ "round": 12,
+ "note": "Audit crash fixes (repeat-negative RangeErrors at NOOBIE in maze/spirit/runner; duel null #duelIntentV2). Verifier reverts these new→old after stripping insertion blocks.",
+ "pairs": [
+  {
+   "name": "fix maze hearts: noobie 5 lives crashed repeat(3-5)",
+   "old": "document.getElementById('mazeLives').textContent='♥'.repeat(lives)+'♡'.repeat(3-lives);",
+   "new": "document.getElementById('mazeLives').textContent='♥'.repeat(lives)+'♡'.repeat(Math.max(0,3-lives));"
+  },
+  {
+   "name": "fix spirit gems: noobie 5 sanity crashed repeat(3-5)",
+   "old": "document.getElementById('spiritStability').textContent='◆'.repeat(stability)+'◇'.repeat(3-stability);",
+   "new": "document.getElementById('spiritStability').textContent='◆'.repeat(stability)+'◇'.repeat(Math.max(0,3-stability));"
+  },
+  {
+   "name": "fix runner hearts: noobie 5 lives crashed repeat(3-5)",
+   "old": "document.getElementById('neonLives').textContent='♥'.repeat(lives)+'♡'.repeat(3-lives);",
+   "new": "document.getElementById('neonLives').textContent='♥'.repeat(lives)+'♡'.repeat(Math.max(0,3-lives));"
+  },
+  {
+   "name": "fix duel: markup ids telegraph but draw() wrote to non-existent #duelIntentV2 (every draw crashed)",
+   "old": "'/8';intentEl.textContent=intent;telegraph.textContent='GUARDIAN TELEGRAPH · '+intent;}",
+   "new": "'/8';if(intentEl)intentEl.textContent=intent;telegraph.textContent='GUARDIAN TELEGRAPH · '+intent;}"
+  }
+ ]
+}

@@ -1,0 +1,812 @@
+{
+ "_meta": {
+  "op": "PAPERFORGE STAGE 1 — CARTOGRAPHY (new-year extension)",
+  "generated": "2026-08-17",
+  "basis": "user-supplied fiziks PDFs mined by _audit/paperforge/parse_gate.py",
+  "taxonomy": "TOPICFORGE T0 taxonomy, lane-first algorithm (identical to topicforge_mine.js)",
+  "scope": "GATE 2020 + GATE 2024 + GATE 2025 (the 3 requisition years; 65Q each)",
+  "keyStatus": {
+   "gate2020": "UNKEYED — question paper only, no answers in PDF",
+   "gate2024": "fiziks solved key (65/65) — coaching key, not official IIT key sheet",
+   "gate2025": "fiziks solved key (65/65) — coaching key, not official IIT key sheet"
+  },
+  "note": "Report-only. Shipped TOPICFORGE map/fleet untouched."
+ },
+ "years": {
+  "gate2020": {
+   "label": "GATE 2020 Physics",
+   "keyStatus": "unkeyed",
+   "totalQ": 65,
+   "ga": 10,
+   "ph": 55,
+   "typesByPart": {
+    "GA": {
+     "MCQ": 10
+    },
+    "PH": {
+     "MCQ": 30,
+     "NAT": 25
+    }
+   },
+   "marksSplit": {
+    "m1": 30,
+    "m2": 35
+   },
+   "difficultyProxy": {
+    "seed": 30,
+    "standard": 35
+   },
+   "lanes": {
+    "mathphys": {
+     "total": 5,
+     "subs": {
+      "linear-algebra": 3,
+      "complex-analysis": 1,
+      "probability": 1
+     }
+    },
+    "classical": {
+     "total": 6,
+     "subs": {
+      "lagrangian": 2,
+      "central-orbits": 1,
+      "rigid-body": 1,
+      "relativity": 2
+     }
+    },
+    "emtheory": {
+     "total": 7,
+     "subs": {
+      "electrostatics": 3,
+      "magnetostatics": 1,
+      "dielectrics": 1,
+      "maxwell-poynting": 2
+     }
+    },
+    "quantum": {
+     "total": 10,
+     "subs": {
+      "operators-commutators": 4,
+      "angular-spin": 4,
+      "hydrogen-atom": 1,
+      "wells-tunneling": 1
+     }
+    },
+    "thermo": {
+     "total": 5,
+     "subs": {
+      "laws-maxwell": 2,
+      "kinetic-theory": 1,
+      "quantum-stats": 2
+     }
+    },
+    "electronics": {
+     "total": 4,
+     "subs": {
+      "diode-circuits": 1,
+      "digital-logic": 3
+     }
+    },
+    "atomic": {
+     "total": 0,
+     "subs": {}
+    },
+    "nuclear": {
+     "total": 4,
+     "subs": {
+      "conservation-quark": 3,
+      "decay-kinematics": 1
+     }
+    },
+    "solidstate": {
+     "total": 5,
+     "subs": {
+      "crystal-structure": 4,
+      "reciprocal-diffraction": 1
+     }
+    },
+    "aptitude": {
+     "total": 6,
+     "subs": {
+      "general-aptitude": 6
+     }
+    }
+   },
+   "concepts": {
+    "perturbation-theory": 1,
+    "flipflop-counters": 3,
+    "bragg-laue-diffraction": 1,
+    "contour-residues": 1,
+    "wells-bound-states": 1,
+    "harmonic-oscillator": 1,
+    "digital-counters": 1,
+    "series-completion": 2,
+    "clocks-calendars": 2,
+    "dice-coins-probability": 2,
+    "data-graphs": 1,
+    "ratio-percentage": 1
+   },
+   "unclassified": [
+    "Q1",
+    "Q2",
+    "Q5",
+    "Q8",
+    "Q11",
+    "Q13",
+    "Q22",
+    "Q35",
+    "Q39",
+    "Q49",
+    "Q58",
+    "Q59",
+    "Q65"
+   ]
+  },
+  "gate2024": {
+   "label": "GATE 2024 Physics",
+   "keyStatus": "fiziks-solved",
+   "totalQ": 65,
+   "ga": 10,
+   "ph": 55,
+   "typesByPart": {
+    "GA": {
+     "MCQ": 10
+    },
+    "PH": {
+     "MCQ": 26,
+     "MSQ": 17,
+     "NAT": 12
+    }
+   },
+   "marksSplit": {
+    "m1": 30,
+    "m2": 35
+   },
+   "difficultyProxy": {
+    "seed": 30,
+    "standard": 35
+   },
+   "lanes": {
+    "mathphys": {
+     "total": 6,
+     "subs": {
+      "linear-algebra": 3,
+      "vector-calculus": 1,
+      "complex-analysis": 1,
+      "fourier-laplace": 1
+     }
+    },
+    "classical": {
+     "total": 8,
+     "subs": {
+      "lagrangian": 2,
+      "central-orbits": 2,
+      "hamiltonian": 2,
+      "canonical-pb": 1,
+      "relativity": 1
+     }
+    },
+    "emtheory": {
+     "total": 9,
+     "subs": {
+      "electrostatics": 3,
+      "magnetostatics": 2,
+      "dielectrics": 2,
+      "maxwell-poynting": 1,
+      "radiation": 1
+     }
+    },
+    "quantum": {
+     "total": 5,
+     "subs": {
+      "operators-commutators": 1,
+      "harmonic-oscillator": 1,
+      "angular-spin": 1,
+      "hydrogen-atom": 1,
+      "variational-wkb": 1
+     }
+    },
+    "thermo": {
+     "total": 5,
+     "subs": {
+      "laws-maxwell": 2,
+      "phase-transitions": 1,
+      "ensembles-partition": 1,
+      "ising-critical": 1
+     }
+    },
+    "electronics": {
+     "total": 3,
+     "subs": {
+      "bjt-fet-amplifiers": 2,
+      "digital-logic": 1
+     }
+    },
+    "atomic": {
+     "total": 1,
+     "subs": {
+      "nmr-esr": 1
+     }
+    },
+    "nuclear": {
+     "total": 4,
+     "subs": {
+      "shell-model": 1,
+      "decay-activity": 2,
+      "conservation-quark": 1
+     }
+    },
+    "solidstate": {
+     "total": 7,
+     "subs": {
+      "crystal-structure": 1,
+      "reciprocal-diffraction": 1,
+      "phonons-specheat": 1,
+      "semiconductors": 2,
+      "magnetism": 2
+     }
+    },
+    "aptitude": {
+     "total": 7,
+     "subs": {
+      "general-aptitude": 7
+     }
+    }
+   },
+   "concepts": {
+    "partition-function-two-level": 1,
+    "perturbation-theory": 1,
+    "opamp-golden-rules": 1,
+    "zeeman-patterns": 1,
+    "bragg-laue-diffraction": 1,
+    "debye-t3": 1,
+    "contour-residues": 1,
+    "wells-bound-states": 3,
+    "harmonic-oscillator": 1,
+    "semf-fission": 1,
+    "hall-effect": 1,
+    "series-completion": 1,
+    "clocks-calendars": 2,
+    "dice-coins-probability": 4,
+    "data-graphs": 1,
+    "ratio-percentage": 1
+   },
+   "unclassified": [
+    "Q1",
+    "Q4",
+    "Q10",
+    "Q22",
+    "Q24",
+    "Q25",
+    "Q26",
+    "Q29",
+    "Q30",
+    "Q51"
+   ]
+  },
+  "gate2025": {
+   "label": "GATE 2025 Physics",
+   "keyStatus": "fiziks-solved",
+   "totalQ": 65,
+   "ga": 10,
+   "ph": 55,
+   "typesByPart": {
+    "GA": {
+     "MCQ": 10
+    },
+    "PH": {
+     "MCQ": 26,
+     "MSQ": 16,
+     "NAT": 13
+    }
+   },
+   "marksSplit": {
+    "m1": 30,
+    "m2": 35
+   },
+   "difficultyProxy": {
+    "seed": 30,
+    "standard": 35
+   },
+   "lanes": {
+    "mathphys": {
+     "total": 2,
+     "subs": {
+      "linear-algebra": 1,
+      "complex-analysis": 1
+     }
+    },
+    "classical": {
+     "total": 8,
+     "subs": {
+      "lagrangian": 1,
+      "small-oscillations": 1,
+      "hamiltonian": 3,
+      "canonical-pb": 1,
+      "relativity": 2
+     }
+    },
+    "emtheory": {
+     "total": 9,
+     "subs": {
+      "electrostatics": 4,
+      "magnetostatics": 2,
+      "dielectrics": 2,
+      "waves-media": 1
+     }
+    },
+    "quantum": {
+     "total": 14,
+     "subs": {
+      "operators-commutators": 2,
+      "angular-spin": 8,
+      "hydrogen-atom": 1,
+      "two-level": 1,
+      "scattering": 2
+     }
+    },
+    "thermo": {
+     "total": 6,
+     "subs": {
+      "laws-maxwell": 2,
+      "engines-cycles": 1,
+      "phase-transitions": 2,
+      "quantum-stats": 1
+     }
+    },
+    "electronics": {
+     "total": 3,
+     "subs": {
+      "diode-circuits": 1,
+      "bjt-fet-amplifiers": 1,
+      "digital-logic": 1
+     }
+    },
+    "atomic": {
+     "total": 1,
+     "subs": {
+      "mol-spectra": 1
+     }
+    },
+    "nuclear": {
+     "total": 2,
+     "subs": {
+      "conservation-quark": 2
+     }
+    },
+    "solidstate": {
+     "total": 6,
+     "subs": {
+      "crystal-structure": 4,
+      "phonons-specheat": 1,
+      "free-electron": 1
+     }
+    },
+    "aptitude": {
+     "total": 9,
+     "subs": {
+      "general-aptitude": 9
+     }
+    }
+   },
+   "concepts": {
+    "partition-function-two-level": 1,
+    "normal-modes": 1,
+    "lorentz-arithmetic": 1,
+    "opamp-golden-rules": 1,
+    "debye-t3": 1,
+    "radioactive-decay": 1,
+    "contour-residues": 1,
+    "group-vs-phase-velocity": 1,
+    "wells-bound-states": 2,
+    "scattering-cross-section": 1,
+    "harmonic-oscillator": 1,
+    "pn-junction-diode": 1,
+    "entropy-calculations": 1,
+    "series-completion": 1,
+    "clocks-calendars": 1,
+    "ratio-percentage": 2
+   },
+   "unclassified": [
+    "Q9",
+    "Q13",
+    "Q32",
+    "Q37",
+    "Q55"
+   ]
+  }
+ },
+ "combined": {
+  "laneTotals": {
+   "mathphys": 13,
+   "classical": 22,
+   "emtheory": 25,
+   "quantum": 29,
+   "thermo": 16,
+   "electronics": 10,
+   "atomic": 2,
+   "nuclear": 10,
+   "solidstate": 18,
+   "aptitude": 22
+  },
+  "conceptTotals": {
+   "perturbation-theory": 2,
+   "flipflop-counters": 3,
+   "bragg-laue-diffraction": 2,
+   "contour-residues": 3,
+   "wells-bound-states": 6,
+   "harmonic-oscillator": 3,
+   "digital-counters": 1,
+   "series-completion": 4,
+   "clocks-calendars": 5,
+   "dice-coins-probability": 6,
+   "data-graphs": 2,
+   "ratio-percentage": 4,
+   "partition-function-two-level": 2,
+   "opamp-golden-rules": 2,
+   "zeeman-patterns": 1,
+   "debye-t3": 2,
+   "semf-fission": 1,
+   "hall-effect": 1,
+   "normal-modes": 1,
+   "lorentz-arithmetic": 1,
+   "radioactive-decay": 1,
+   "group-vs-phase-velocity": 1,
+   "scattering-cross-section": 1,
+   "pn-junction-diode": 1,
+   "entropy-calculations": 1
+  },
+  "types": {
+   "GA:MCQ": 30,
+   "PH:MCQ": 82,
+   "PH:NAT": 50,
+   "PH:MSQ": 33
+  },
+  "marksSplit": {
+   "m1": 90,
+   "m2": 105
+  },
+  "diff": {
+   "seed": 90,
+   "standard": 105
+  }
+ },
+ "rosterDelta": [
+  {
+   "rank": 1,
+   "id": "dice-coins-probability",
+   "oldSessions": 22,
+   "oldHits": 76,
+   "newYearHits": {
+    "2020": 2,
+    "2024": 4,
+    "2025": 0
+   },
+   "sessionsIfRemined": 24
+  },
+  {
+   "rank": 2,
+   "id": "ratio-percentage",
+   "oldSessions": 20,
+   "oldHits": 39,
+   "newYearHits": {
+    "2020": 1,
+    "2024": 1,
+    "2025": 2
+   },
+   "sessionsIfRemined": 23
+  },
+  {
+   "rank": 3,
+   "id": "harmonic-oscillator",
+   "oldSessions": 19,
+   "oldHits": 31,
+   "newYearHits": {
+    "2020": 1,
+    "2024": 1,
+    "2025": 1
+   },
+   "sessionsIfRemined": 22
+  },
+  {
+   "rank": 4,
+   "id": "wells-bound-states",
+   "oldSessions": 16,
+   "oldHits": 27,
+   "newYearHits": {
+    "2020": 1,
+    "2024": 3,
+    "2025": 2
+   },
+   "sessionsIfRemined": 19
+  },
+  {
+   "rank": 5,
+   "id": "clocks-calendars",
+   "oldSessions": 14,
+   "oldHits": 20,
+   "newYearHits": {
+    "2020": 2,
+    "2024": 2,
+    "2025": 1
+   },
+   "sessionsIfRemined": 17
+  },
+  {
+   "rank": 6,
+   "id": "series-completion",
+   "oldSessions": 13,
+   "oldHits": 18,
+   "newYearHits": {
+    "2020": 2,
+    "2024": 1,
+    "2025": 1
+   },
+   "sessionsIfRemined": 16
+  },
+  {
+   "rank": 7,
+   "id": "partition-function-two-level",
+   "oldSessions": 13,
+   "oldHits": 16,
+   "newYearHits": {
+    "2020": 0,
+    "2024": 1,
+    "2025": 1
+   },
+   "sessionsIfRemined": 15
+  },
+  {
+   "rank": 8,
+   "id": "scattering-cross-section",
+   "oldSessions": 13,
+   "oldHits": 15,
+   "newYearHits": {
+    "2020": 0,
+    "2024": 0,
+    "2025": 1
+   },
+   "sessionsIfRemined": 14
+  },
+  {
+   "rank": 9,
+   "id": "opamp-golden-rules",
+   "oldSessions": 11,
+   "oldHits": 13,
+   "newYearHits": {
+    "2020": 0,
+    "2024": 1,
+    "2025": 1
+   },
+   "sessionsIfRemined": 13
+  },
+  {
+   "rank": 10,
+   "id": "flipflop-counters",
+   "oldSessions": 10,
+   "oldHits": 16,
+   "newYearHits": {
+    "2020": 3,
+    "2024": 0,
+    "2025": 0
+   },
+   "sessionsIfRemined": 11
+  },
+  {
+   "rank": 11,
+   "id": "contour-residues",
+   "oldSessions": 10,
+   "oldHits": 12,
+   "newYearHits": {
+    "2020": 1,
+    "2024": 1,
+    "2025": 1
+   },
+   "sessionsIfRemined": 13
+  },
+  {
+   "rank": 12,
+   "id": "debye-t3",
+   "oldSessions": 10,
+   "oldHits": 11,
+   "newYearHits": {
+    "2020": 0,
+    "2024": 1,
+    "2025": 1
+   },
+   "sessionsIfRemined": 12
+  },
+  {
+   "rank": 13,
+   "id": "perturbation-theory",
+   "oldSessions": 10,
+   "oldHits": 10,
+   "newYearHits": {
+    "2020": 1,
+    "2024": 1,
+    "2025": 0
+   },
+   "sessionsIfRemined": 12
+  },
+  {
+   "rank": 14,
+   "id": "band-effective-mass",
+   "oldSessions": 9,
+   "oldHits": 13,
+   "newYearHits": {
+    "2020": 0,
+    "2024": 0,
+    "2025": 0
+   },
+   "sessionsIfRemined": 9
+  },
+  {
+   "rank": 15,
+   "id": "bragg-laue-diffraction",
+   "oldSessions": 6,
+   "oldHits": 7,
+   "newYearHits": {
+    "2020": 1,
+    "2024": 1,
+    "2025": 0
+   },
+   "sessionsIfRemined": 8
+  },
+  {
+   "rank": 16,
+   "id": "normal-modes",
+   "oldSessions": 6,
+   "oldHits": 6,
+   "newYearHits": {
+    "2020": 0,
+    "2024": 0,
+    "2025": 1
+   },
+   "sessionsIfRemined": 7
+  },
+  {
+   "rank": 17,
+   "id": "commutator-identities",
+   "oldSessions": 6,
+   "oldHits": 6,
+   "newYearHits": {
+    "2020": 0,
+    "2024": 0,
+    "2025": 0
+   },
+   "sessionsIfRemined": 6
+  },
+  {
+   "rank": 18,
+   "id": "zeeman-patterns",
+   "oldSessions": 5,
+   "oldHits": 7,
+   "newYearHits": {
+    "2020": 0,
+    "2024": 1,
+    "2025": 0
+   },
+   "sessionsIfRemined": 6
+  },
+  {
+   "rank": 19,
+   "id": "radioactive-decay",
+   "oldSessions": 5,
+   "oldHits": 5,
+   "newYearHits": {
+    "2020": 0,
+    "2024": 0,
+    "2025": 1
+   },
+   "sessionsIfRemined": 6
+  },
+  {
+   "rank": 20,
+   "id": "hall-effect",
+   "oldSessions": 5,
+   "oldHits": 5,
+   "newYearHits": {
+    "2020": 0,
+    "2024": 1,
+    "2025": 0
+   },
+   "sessionsIfRemined": 6
+  },
+  {
+   "rank": 21,
+   "id": "pn-junction-diode",
+   "oldSessions": 4,
+   "oldHits": 5,
+   "newYearHits": {
+    "2020": 0,
+    "2024": 0,
+    "2025": 1
+   },
+   "sessionsIfRemined": 5
+  },
+  {
+   "rank": 22,
+   "id": "group-vs-phase-velocity",
+   "oldSessions": 4,
+   "oldHits": 4,
+   "newYearHits": {
+    "2020": 0,
+    "2024": 0,
+    "2025": 1
+   },
+   "sessionsIfRemined": 5
+  },
+  {
+   "rank": 23,
+   "id": "hydrogen-spectra",
+   "oldSessions": 4,
+   "oldHits": 4,
+   "newYearHits": {
+    "2020": 0,
+    "2024": 0,
+    "2025": 0
+   },
+   "sessionsIfRemined": 4
+  },
+  {
+   "rank": 24,
+   "id": "data-graphs",
+   "oldSessions": 4,
+   "oldHits": 4,
+   "newYearHits": {
+    "2020": 1,
+    "2024": 1,
+    "2025": 0
+   },
+   "sessionsIfRemined": 6
+  },
+  {
+   "rank": 25,
+   "id": "carnot-cycles",
+   "oldSessions": 3,
+   "oldHits": 4,
+   "newYearHits": {
+    "2020": 0,
+    "2024": 0,
+    "2025": 0
+   },
+   "sessionsIfRemined": 3
+  },
+  {
+   "rank": 26,
+   "id": "digital-counters",
+   "oldSessions": 3,
+   "oldHits": 4,
+   "newYearHits": {
+    "2020": 1,
+    "2024": 0,
+    "2025": 0
+   },
+   "sessionsIfRemined": 4
+  },
+  {
+   "rank": 27,
+   "id": "semf-fission",
+   "oldSessions": 3,
+   "oldHits": 3,
+   "newYearHits": {
+    "2020": 0,
+    "2024": 1,
+    "2025": 0
+   },
+   "sessionsIfRemined": 4
+  },
+  {
+   "rank": 28,
+   "id": "entropy-calculations",
+   "oldSessions": 3,
+   "oldHits": 3,
+   "newYearHits": {
+    "2020": 0,
+    "2024": 0,
+    "2025": 1
+   },
+   "sessionsIfRemined": 4
+  }
+ ]
+}

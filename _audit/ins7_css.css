@@ -1,0 +1,7 @@
+/* ============ AI IMAGE ATTACH (Step 7) ============ */
+.ai-img-stage{display:none;margin-top:8px;align-items:center;gap:10px;padding:7px 9px;border:1px dashed var(--accent,#456);border-radius:9px;background:color-mix(in srgb,var(--accent,#456) 5%,transparent);}
+.ai-img-stage.on{display:flex;}
+.ai-img-thumb{max-height:56px;max-width:120px;border-radius:6px;border:1px solid var(--line,#ccd2dc);object-fit:cover;}
+.ai-img-meta{flex:1;min-width:0;color:var(--ink-1,#444);font:500 .58rem/1.4 'DM Mono',monospace;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.ai-img-clear{border:1px solid var(--line,#ccd2dc);border-radius:6px;background:transparent;color:var(--ink-1,#444);padding:4px 8px;font:700 .56rem/1 'DM Mono',monospace;cursor:pointer;}
+.ai-img-clear:hover{border-color:#c94f4f;color:#c94f4f;}

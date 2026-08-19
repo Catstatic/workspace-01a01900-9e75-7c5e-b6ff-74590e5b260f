@@ -1,0 +1,84 @@
+/* ============================================================================
+   ROUND 29 — NEURAL AMP DECK (part 1: skin)
+   The music player ported from the donor page and redesigned for the tracker
+   design language: dark glass card, teal accent family, Space Grotesk type.
+   ============================================================================ */
+#ampLauncher.amp-pulse{box-shadow:0 0 14px rgba(45,212,191,.55),0 0 4px rgba(45,212,191,.9);border-color:rgba(45,212,191,.75);}
+#ampDeck{position:fixed;right:86px;bottom:22px;z-index:1901;width:384px;max-width:calc(100vw - 110px);
+  height:min(640px,calc(100vh - 44px));display:none;flex-direction:column;gap:0;overflow:hidden;
+  background:linear-gradient(160deg,rgba(13,16,23,.97),rgba(9,11,17,.97));
+  border:1px solid rgba(45,212,191,.35);border-radius:16px;
+  box-shadow:0 18px 60px rgba(0,0,0,.65),0 0 0 1px rgba(0,0,0,.4),inset 0 1px 0 rgba(255,255,255,.05);
+  backdrop-filter:blur(10px);
+  font-family:var(--font-body,'Space Grotesk',system-ui,sans-serif);color:var(--ink-0,#e8eefb);}
+#ampDeck.open{display:flex;}
+#ampDeck *{box-sizing:border-box;}
+.amp-head{display:flex;align-items:center;gap:12px;padding:14px 14px 10px;border-bottom:1px solid rgba(45,212,191,.18);}
+.amp-vinyl{width:44px;height:44px;border-radius:50%;flex-shrink:0;position:relative;
+  background:conic-gradient(#111 0 22%,#1c2330 22% 25%,#111 25% 47%,#1c2330 47% 50%,#111 50% 72%,#1c2330 72% 75%,#111 75% 97%,#1c2330 97%);
+  border:2px solid rgba(45,212,191,.5);}
+.amp-vinyl::after{content:'';position:absolute;inset:34%;border-radius:50%;background:#2dd4bf;box-shadow:0 0 8px rgba(45,212,191,.7);}
+#ampDeck.playing .amp-vinyl{animation:ampSpin 2.6s linear infinite;}
+@keyframes ampSpin{to{transform:rotate(360deg);}}
+.amp-np{flex:1;min-width:0;}
+.amp-np-kicker{font:700 .55rem/1.4 var(--font-display,'Space Grotesk',sans-serif);letter-spacing:.18em;color:#67e8f9;opacity:.8;}
+.amp-np-title{font-size:.86rem;font-weight:600;white-space:nowrap;overflow:hidden;position:relative;height:1.3em;color:var(--ink-0,#e8eefb);}
+.amp-np-title span{display:inline-block;padding-right:40px;}
+#ampDeck.playing .amp-np-title span{animation:ampMarquee 9s linear infinite;}
+@keyframes ampMarquee{0%,18%{transform:translateX(0);}82%,100%{transform:translateX(calc(-100% + 40px));}}
+.amp-live{display:none;font:700 .52rem/1 var(--font-display,'Space Grotesk',sans-serif);letter-spacing:.14em;
+  color:#ff6b6b;border:1px solid rgba(255,107,107,.5);border-radius:5px;padding:2px 6px;margin-top:4px;width:max-content;}
+.amp-live::before{content:'●';margin-right:4px;animation:ampBlink 1.2s infinite;}
+#ampDeck.radio-mode .amp-live{display:inline-block;}
+@keyframes ampBlink{50%{opacity:.25;}}
+.amp-close{background:transparent;border:1px solid rgba(255,107,107,.4);color:#ff8a8a;border-radius:8px;
+  width:26px;height:26px;cursor:pointer;font-size:.8rem;flex-shrink:0;}
+.amp-close:hover{background:rgba(255,107,107,.15);}
+.amp-transport{display:flex;align-items:center;justify-content:center;gap:14px;padding:10px 14px 4px;}
+.amp-tbtn{background:transparent;border:1px solid rgba(45,212,191,.35);color:#67e8f9;border-radius:50%;
+  width:34px;height:34px;cursor:pointer;font-size:.85rem;display:flex;align-items:center;justify-content:center;transition:all .15s;}
+.amp-tbtn:hover{background:rgba(45,212,191,.12);}
+.amp-tbtn.on{background:rgba(45,212,191,.22);box-shadow:0 0 10px rgba(45,212,191,.4);color:#d5fffa;}
+.amp-tbtn.amp-play{width:46px;height:46px;font-size:1.15rem;border-color:rgba(45,212,191,.65);color:#d5fffa;
+  background:rgba(45,212,191,.15);box-shadow:0 0 14px rgba(45,212,191,.35);}
+.amp-progress{display:flex;align-items:center;gap:8px;padding:8px 16px 2px;font-size:.62rem;color:#9db2c8;font-variant-numeric:tabular-nums;}
+.amp-bar{flex:1;height:5px;border-radius:3px;background:rgba(255,255,255,.08);cursor:pointer;position:relative;}
+.amp-fill{position:absolute;left:0;top:0;bottom:0;border-radius:3px;background:linear-gradient(90deg,#2dd4bf,#67e8f9);width:0%;}
+#ampDeck.radio-mode .amp-bar{opacity:.35;cursor:default;}
+.amp-volume{display:flex;align-items:center;gap:8px;padding:6px 16px 4px;font-size:.68rem;color:#9db2c8;}
+.amp-volume input[type=range]{flex:1;accent-color:#2dd4bf;height:4px;cursor:pointer;}
+.amp-status{min-height:14px;padding:2px 16px 4px;font-size:.62rem;color:#9db2c8;}
+.amp-status.warn{color:#f8c97a;}
+.amp-status.good{color:#7ee787;}
+.amp-search{padding:6px 14px 2px;}
+.amp-search input{width:100%;padding:7px 12px;font-size:.78rem;background:rgba(45,212,191,.06);
+  border:1px solid rgba(45,212,191,.28);border-radius:8px;color:var(--ink-0,#e8eefb);outline:none;font-family:inherit;}
+.amp-search input:focus{border-color:rgba(45,212,191,.6);box-shadow:0 0 0 2px rgba(45,212,191,.12);}
+.amp-cats{display:flex;gap:6px;flex-wrap:wrap;padding:8px 14px 6px;}
+.amp-chip{font:700 .56rem/1 var(--font-display,'Space Grotesk',sans-serif);letter-spacing:.1em;padding:5px 9px;
+  border-radius:999px;border:1px solid rgba(45,212,191,.3);background:rgba(45,212,191,.06);color:#9db2c8;cursor:pointer;transition:all .15s;}
+.amp-chip:hover{border-color:rgba(45,212,191,.55);color:#d5fffa;}
+.amp-chip.active{background:rgba(45,212,191,.22);color:#d5fffa;border-color:rgba(45,212,191,.7);box-shadow:0 0 8px rgba(45,212,191,.25);}
+.amp-chip.radio-chip{border-color:rgba(255,107,107,.4);color:#ff9d9d;}
+.amp-chip.radio-chip.active{background:rgba(255,107,107,.16);color:#ffd7d7;border-color:rgba(255,107,107,.7);}
+.amp-list{flex:1;overflow-y:auto;padding:4px 10px 12px;scrollbar-width:thin;scrollbar-color:rgba(45,212,191,.4) transparent;}
+.amp-list::-webkit-scrollbar{width:6px;}
+.amp-list::-webkit-scrollbar-thumb{background:rgba(45,212,191,.3);border-radius:3px;}
+.amp-row{display:flex;align-items:center;gap:9px;padding:7px 9px;border-radius:9px;cursor:pointer;transition:background .12s;}
+.amp-row:hover{background:rgba(45,212,191,.08);}
+.amp-row.current{background:rgba(45,212,191,.14);border:1px solid rgba(45,212,191,.35);}
+.amp-row-name{flex:1;min-width:0;font-size:.8rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:#e8eefb;}
+.amp-row.current .amp-row-name{color:#d5fffa;font-weight:600;}
+.amp-row-tag{flex-shrink:0;font:700 .5rem/1 var(--font-display,'Space Grotesk',sans-serif);letter-spacing:.08em;
+  color:#6b7c8f;border:1px solid rgba(107,124,143,.35);border-radius:4px;padding:2px 5px;}
+.amp-row-tag.is-radio{color:#ff9d9d;border-color:rgba(255,107,107,.35);}
+.amp-eq{display:none;align-items:flex-end;gap:2px;height:11px;flex-shrink:0;}
+.amp-row.current .amp-eq{display:flex;}
+#ampDeck:not(.playing) .amp-row.current .amp-eq i{animation-play-state:paused;}
+.amp-eq i{width:3px;background:#2dd4bf;border-radius:1px;animation:ampEq .9s ease-in-out infinite;}
+.amp-eq i:nth-child(1){height:45%;animation-delay:0s;}
+.amp-eq i:nth-child(2){height:100%;animation-delay:.22s;}
+.amp-eq i:nth-child(3){height:65%;animation-delay:.48s;}
+@keyframes ampEq{0%,100%{transform:scaleY(.45);}50%{transform:scaleY(1);}}
+.amp-empty{padding:38px 0;text-align:center;color:#6b7c8f;font-size:.78rem;}
+@media (prefers-reduced-motion: reduce){.amp-vinyl,.amp-np-title span,.amp-live::before,.amp-eq i{animation:none !important;}}

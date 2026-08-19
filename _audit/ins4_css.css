@@ -1,0 +1,21 @@
+/* ============ SIMULATOR / REVIEW AI (Step 4, theme-aware) ============ */
+.sim-ai-bar{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:18px 0 4px;padding:12px 14px;border:1px solid var(--line,#ccd2dc);border-radius:12px;background:color-mix(in srgb,var(--accent,#456) 6%,transparent);}
+.sim-ai-bar .content-ai-tag{margin-right:4px;}
+.sim-ai-note{width:100%;color:var(--ink-2,#666);font:500 .58rem/1.5 'DM Mono','JetBrains Mono',monospace;}
+.sai-tool-row{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px;}
+.sai-btn{border:1px dashed var(--accent,#456);border-radius:7px;background:transparent;color:var(--accent,#456);padding:5px 9px;font:700 .56rem/1.2 'DM Mono',monospace;letter-spacing:.1em;cursor:pointer;}
+.sai-btn:hover{background:color-mix(in srgb,var(--accent,#456) 12%,transparent);}
+.sai-btn:disabled{opacity:.45;cursor:not-allowed;}
+.sai-live-btn{border:1px solid var(--accent,#456) !important;}
+.sim-ai-panel{margin-top:10px;border:1px solid var(--line,#ccd2dc);border-radius:12px;background:var(--bg-1,#fff);overflow:hidden;}
+.sim-ai-panel .cai-body{max-height:none;}
+.sai-key-toggle{margin-top:10px;}
+.sai-key-block{display:none;margin-top:8px;padding:10px 12px;border:1px dashed var(--accent,#456);border-radius:9px;background:color-mix(in srgb,var(--accent,#456) 5%,transparent);}
+.sai-key-block.open{display:block;}
+.review-q .cai-card{margin:10px 0 2px;}
+#examMain .sim-ai-panel{margin:14px 0;border-style:dashed;}
+.exam-ai-live-note{color:var(--ink-2,#666);font:500 .58rem/1.5 'DM Mono',monospace;padding:8px 13px 0;}
+@media (max-width:640px){
+  .sim-ai-bar{padding:10px;}
+  .sai-btn{font-size:.54rem;}
+}

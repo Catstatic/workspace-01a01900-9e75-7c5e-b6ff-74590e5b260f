@@ -1,0 +1,46 @@
+{
+ "round": 11,
+ "note": "GameForge II surgical hooks (mystery archives + chess commentator); verifier reverts these new→old after stripping insertion blocks.",
+ "pairs": [
+  {
+   "name": "myst-bank: rename handcrafted dossiers to baseCases",
+   "old": "  function initMystery(){\n    const cases=[",
+   "new": "  function initMystery(){\n    const baseCases=["
+  },
+  {
+   "name": "myst-wire: GameForge queue + difficulty target w/ original fallback",
+   "old": "    const cfg=levelConfig();let index=0,sanity=cfg.sanity;",
+   "new": "    const cases=(window.GameForge&&GameForge.mysteryQueue)?GameForge.mysteryQueue(gameLevel,baseCases):baseCases.slice();\n    const cfg=levelConfig();let index=0,sanity=cfg.sanity;const target=(window.GameForge&&GameForge.mysteryTarget)?GameForge.mysteryTarget(gameLevel):baseCases.length;"
+  },
+  {
+   "name": "myst-draw: poke + live target + sanity-pip crash fix + AI badge + escaping",
+   "old": "    function draw(){\n      const item=cases[index%cases.length];\n      root.innerHTML='<div class=\"mystery-case-head\"><span>CASE '+(index+1)+'/5</span><b>SANITY '+('●'.repeat(sanity)+'○'.repeat(3-sanity))+'</b></div><h3 class=\"mystery-case-title\">'+item.name+'</h3><div class=\"mystery-clues\">'+item.clues.map((c,i)=>'<div class=\"mystery-clue\"><span>0'+(i+1)+'</span>'+c+'</div>').join('')+'</div><div class=\"mystery-options\">'+item.options.map((o,i)=>'<button class=\"mystery-option\" data-index=\"'+i+'\">'+o+'</button>').join('')+'</div>';",
+   "new": "    function draw(){\n      if(window.GameForge&&GameForge.mysteryPoke)GameForge.mysteryPoke(cases,index,gameLevel);\n      const item=cases[index%cases.length];\n      root.innerHTML='<div class=\"mystery-case-head\"><span>CASE '+(index+1)+'/'+target+'</span><b>SANITY '+('●'.repeat(sanity)+'○'.repeat(Math.max(0,3-sanity)))+'</b></div>'+(item.ai?'<div class=\"mystery-ai-note\"><span class=\"gf-ai-badge\" title=\"Case file written by your configured AI provider\">\\u2726 AI-GENERATED</span></div>':'')+'<h3 class=\"mystery-case-title\">'+escapeHtml(item.name)+'</h3><div class=\"mystery-clues\">'+item.clues.map((c,i)=>'<div class=\"mystery-clue\"><span>0'+(i+1)+'</span>'+escapeHtml(c)+'</div>').join('')+'</div><div class=\"mystery-options\">'+item.options.map((o,i)=>'<button class=\"mystery-option\" data-index=\"'+i+'\">'+escapeHtml(o)+'</button>').join('')+'</div>';"
+  },
+  {
+   "name": "myst-win: target-based victory instead of fixed 5",
+   "old": "        if(chosen===item.answer){btn.classList.add('good');setScore(score+22+sanity*3);setStatus('Correct deduction · the fog parts.');index++;if(index>=cases.length){finish('The mystery is digested · you return above the gray fog.');return;}setTimeout(draw,420);}",
+   "new": "        if(chosen===item.answer){btn.classList.add('good');setScore(score+22+sanity*3);setStatus(index+1<target?('Correct deduction · the fog parts · case '+(index+2)+' of '+target+' surfaces.'):'Correct deduction · the fog parts.');index++;if(index>=target){finish('The mystery is digested · you return above the gray fog.');return;}setTimeout(draw,420);}"
+  },
+  {
+   "name": "myst-status: archives status line w/ original fallback",
+   "old": "    draw();setStatus('Read the three clues, then declare the pathway.');",
+   "new": "    draw();setStatus((window.GameForge&&GameForge.mysteryStatus)?GameForge.mysteryStatus(cases,gameLevel,target):'Read the three clues, then declare the pathway.');"
+  },
+  {
+   "name": "chess-player-move hook",
+   "old": "      pushHistory();board=applyMove(board,move.from,move.to);lastMove=move;selected=null;legal=[];turn='b';moveNumber+=1;render();\n      if(!evaluateAfterMove()){setStatus('Shadow engine calculating · '+notation(move));aiTimer=setTimeout(engineMove,520);}",
+   "new": "      pushHistory();board=applyMove(board,move.from,move.to);lastMove=move;selected=null;legal=[];turn='b';moveNumber+=1;render();\n      if(!evaluateAfterMove()){setStatus('Shadow engine calculating · '+notation(move));aiTimer=setTimeout(engineMove,520);}\n      if(window.GameForge&&GameForge.chessNote)GameForge.chessNote({side:'w',san:notation(move),cap:move.captured?move.captured[1]:null,promote:(move.piece&&move.piece[1]==='P'&&move.to.r===0),check:inCheck(board,'b'),mate:gameOver&&inCheck(board,'b'),ended:gameOver,n:moveNumber,diff:difficultyLabel()});"
+  },
+  {
+   "name": "chess-engine-move hook",
+   "old": "    if(!evaluateAfterMove())setStatus('Your move · '+settings.label+' played '+notation(best)+'.');\n    render();\n  }\n  function newGame(){",
+   "new": "    if(!evaluateAfterMove())setStatus('Your move · '+settings.label+' played '+notation(best)+'.');\n    if(window.GameForge&&GameForge.chessNote)GameForge.chessNote({side:'b',san:notation(best),cap:best.captured?best.captured[1]:null,promote:(best.piece&&best.piece[1]==='P'&&best.to.r===7),check:inCheck(board,'w'),mate:gameOver&&inCheck(board,'w'),ended:gameOver,n:moveNumber,diff:settings.label});\n    render();\n  }\n  function newGame(){"
+  },
+  {
+   "name": "chess-new-game hook",
+   "old": "    setStatus('Your move · select a white piece.');render();startClock();",
+   "new": "    setStatus('Your move · select a white piece.');if(window.GameForge&&GameForge.chessNote)GameForge.chessNote({side:'new',diff:difficultyLabel()});render();startClock();"
+  }
+ ]
+}

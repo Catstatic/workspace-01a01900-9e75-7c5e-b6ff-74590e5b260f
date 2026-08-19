@@ -1,0 +1,21 @@
+{
+ "round": "R31",
+ "note": "TOPICFORGE T0: Topic Drills tab + panel scaffold (map view, locked launchers) + topicforge-map.js/topicforge-panel.js companions · companion tags re-anchored to pre-</body> (head cluster would interpose inside R28 new)",
+ "pairs": [
+  {
+   "name": "tf-tab-button",
+   "old": "<button class=\"tab-btn\" data-tab=\"priority\"><span class=\"tab-num\">15</span>Priority Weighting</button>",
+   "new": "<button class=\"tab-btn\" data-tab=\"priority\"><span class=\"tab-num\">15</span>Priority Weighting</button>\n    <button class=\"tab-btn\" data-tab=\"topicforge\"><span class=\"tab-num\">16</span>Topic Drills</button>"
+  },
+  {
+   "name": "tf-panel-shell",
+   "old": "</div>\n</div><!-- /wrap -->\n<footer>",
+   "new": "</div>\n<!-- ============================================================ -->\n<!-- PANEL 16: TOPIC DRILLS (TOPICFORGE — T0 live map; fleets forge T1+) -->\n<!-- ============================================================ -->\n<div class=\"panel\" id=\"panel-topicforge\">\n  <div class=\"section-head\">\n    <div class=\"eyebrow\">TopicForge · Topic-Wise Mock Fleet</div>\n    <div class=\"h1\">🎯 Topic Drills</div>\n    <div class=\"sub\">Every topic lane below is weighted by mining the real bank — 12 CSIR sessions + 11 GATE banks, 1,624 questions — not coaching folklore. Each lane will carry 5 mocks × 25 exam-flavored, doubly-solved original problems; concept drills isolate the repeat offenders. The map below is the T0 deliverable itself: launch buttons stay locked until you approve these weights.</div>\n  </div>\n  <div id=\"tfLanes\" class=\"tf-grid\"></div>\n  <div class=\"tf-shelf\">\n    <div class=\"eyebrow\">🔁 Concept Drill Lane — repeat offenders ranked (≥3 distinct exam sessions)</div>\n    <div id=\"tfDrills\" class=\"tf-chips\"></div>\n  </div>\n  <div id=\"tfUnclass\" class=\"tf-note\"></div>\n</div>\n</div><!-- /wrap -->\n<footer>"
+  },
+  {
+   "name": "tf-companion-tags-pre-body",
+   "old": "</body>",
+   "new": "<script src=\"./topicforge-map.js\"></script>\n<script src=\"./topicforge-panel.js\"></script>\n</body>"
+  }
+ ]
+}

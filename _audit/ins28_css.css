@@ -1,0 +1,83 @@
+/* ============================================================================
+   ROUND 30 — INKSTONE (part 1: skin) — content-section annotations
+   Highlight / margin-note / bookmark layer for the Content Vault reader.
+   ============================================================================ */
+/* ---- annotation marks inside the reader --------------------------------- */
+.ink-hl{border-radius:3px;padding:0 1px;cursor:pointer;transition:filter .12s;}
+.ink-hl:hover{filter:brightness(1.25);}
+.ink-hl.c-amber{background:rgba(245,184,61,.28);box-shadow:inset 0 -2px 0 rgba(245,184,61,.75);}
+.ink-hl.c-teal{background:rgba(45,212,191,.22);box-shadow:inset 0 -2px 0 rgba(45,212,191,.75);}
+.ink-hl.c-rose{background:rgba(251,113,133,.22);box-shadow:inset 0 -2px 0 rgba(251,113,133,.75);}
+.ink-hl.c-violet{background:rgba(167,139,250,.22);box-shadow:inset 0 -2px 0 rgba(167,139,250,.75);}
+.ink-hl.ink-note-mk{border-bottom:2px dotted #f8c97a;}
+.ink-hl.ink-note-mk::after{content:' ⁎';color:#f8c97a;font-size:.75em;}
+.ink-booked{border-left:3px solid #2dd4bf;padding-left:8px;margin-left:-11px;}
+@keyframes inkFlash{0%,100%{background:transparent;}30%{background:rgba(45,212,191,.30);}}
+.ink-flash{animation:inkFlash 1.15s ease-out;}
+/* ---- floating selection toolbar ----------------------------------------- */
+#inkToolbar{position:absolute;z-index:12020;display:none;align-items:center;gap:6px;padding:6px 8px;
+  background:rgba(10,13,20,.97);border:1px solid rgba(45,212,191,.4);border-radius:10px;
+  box-shadow:0 10px 32px rgba(0,0,0,.55);font-family:var(--font-display,'Space Grotesk',sans-serif);}
+#inkToolbar .ink-dot{width:17px;height:17px;border-radius:50%;border:2px solid transparent;cursor:pointer;padding:0;}
+#inkToolbar .ink-dot:hover,#inkToolbar .ink-dot.sel{border-color:#e8eefb;transform:scale(1.12);}
+.ink-dot.c-amber{background:#f5b83d;}.ink-dot.c-teal{background:#2dd4bf;}
+.ink-dot.c-rose{background:#fb7185;}.ink-dot.c-violet{background:#a78bfa;}
+#inkToolbar .ink-act{background:rgba(45,212,191,.1);border:1px solid rgba(45,212,191,.45);color:#a7f3ea;
+  border-radius:7px;padding:4px 9px;font-size:.66rem;font-weight:700;letter-spacing:.08em;cursor:pointer;}
+#inkToolbar .ink-act:hover{background:rgba(45,212,191,.22);}
+#inkToolbar .ink-x{background:transparent;border:none;color:#6b7c8f;cursor:pointer;font-size:.8rem;}
+/* ---- note popover (create / edit) ---------------------------------------- */
+#inkPop{position:absolute;z-index:12021;display:none;width:252px;padding:10px;background:rgba(10,13,20,.97);
+  border:1px solid rgba(248,201,122,.45);border-radius:12px;box-shadow:0 14px 40px rgba(0,0,0,.6);
+  font-family:var(--font-body,'Space Grotesk',sans-serif);}
+#inkPop .inkp-kicker{font:700 .56rem/1 var(--font-display,'Space Grotesk',sans-serif);letter-spacing:.14em;color:#f8c97a;margin-bottom:6px;}
+#inkPop .inkp-quote{font-size:.68rem;color:#9db2c8;max-height:44px;overflow:hidden;margin-bottom:8px;
+  border-left:2px solid rgba(248,201,122,.5);padding-left:7px;font-style:italic;}
+#inkPop textarea{width:100%;min-height:64px;resize:vertical;background:rgba(45,212,191,.05);
+  border:1px solid rgba(45,212,191,.28);border-radius:8px;color:#e8eefb;font-size:.76rem;padding:7px 9px;
+  font-family:inherit;outline:none;}
+#inkPop textarea:focus{border-color:rgba(45,212,191,.6);}
+#inkPop .inkp-row{display:flex;gap:6px;margin-top:8px;justify-content:space-between;align-items:center;}
+#inkPop .inkp-save{background:rgba(45,212,191,.18);border:1px solid rgba(45,212,191,.55);color:#d5fffa;
+  border-radius:7px;padding:5px 12px;font-size:.66rem;font-weight:700;letter-spacing:.08em;cursor:pointer;}
+#inkPop .inkp-save:hover{background:rgba(45,212,191,.3);}
+#inkPop .inkp-del{background:transparent;border:1px solid rgba(251,113,133,.5);color:#fb7185;
+  border-radius:7px;padding:5px 10px;font-size:.66rem;cursor:pointer;}
+#inkPop .inkp-del:hover{background:rgba(251,113,133,.12);}
+#inkPop .inkp-colors{display:flex;gap:5px;}
+/* ---- bookmark hover fab --------------------------------------------------- */
+#inkBookFab{position:absolute;z-index:12019;display:none;width:24px;height:24px;border-radius:7px;
+  background:rgba(10,13,20,.94);border:1px solid rgba(45,212,191,.5);color:#67e8f9;font-size:.72rem;
+  cursor:pointer;align-items:center;justify-content:center;box-shadow:0 4px 14px rgba(0,0,0,.5);}
+#inkBookFab:hover{background:rgba(45,212,191,.2);}
+#inkBookFab.marked{background:rgba(45,212,191,.3);color:#d5fffa;}
+/* ---- manager drawer -------------------------------------------------------- */
+#inkDrawerBtn{padding:4px 11px;border-radius:8px;border:1px solid rgba(45,212,191,.45);
+  background:rgba(45,212,191,.08);color:#67e8f9;font-size:10px;font-weight:700;letter-spacing:.12em;
+  text-transform:uppercase;cursor:pointer;font-family:var(--font-display,'Space Grotesk',sans-serif);}
+#inkDrawerBtn:hover{background:rgba(45,212,191,.16);}
+#inkDrawer{position:fixed;top:84px;right:18px;bottom:18px;width:320px;max-width:calc(100vw - 36px);z-index:12018;
+  display:none;flex-direction:column;background:rgba(10,13,20,.97);border:1px solid rgba(45,212,191,.35);
+  border-radius:14px;box-shadow:0 18px 48px rgba(0,0,0,.6);overflow:hidden;
+  font-family:var(--font-body,'Space Grotesk',sans-serif);}
+#inkDrawer.open{display:flex;}
+.inkd-head{padding:12px 14px 8px;border-bottom:1px solid rgba(45,212,191,.18);}
+.inkd-kicker{font:700 .58rem/1.5 var(--font-display,'Space Grotesk',sans-serif);letter-spacing:.16em;color:#67e8f9;}
+.inkd-title{font-size:.85rem;font-weight:600;color:#e8eefb;margin-top:2px;}
+.inkd-filters{display:flex;gap:5px;padding:8px 14px;border-bottom:1px solid rgba(45,212,191,.12);}
+.inkd-f{font:700 .55rem/1 var(--font-display,'Space Grotesk',sans-serif);letter-spacing:.08em;padding:4px 9px;
+  border-radius:999px;border:1px solid rgba(45,212,191,.3);background:transparent;color:#9db2c8;cursor:pointer;}
+.inkd-f.on{background:rgba(45,212,191,.2);color:#d5fffa;border-color:rgba(45,212,191,.65);}
+.inkd-list{flex:1;overflow-y:auto;padding:8px 10px 12px;scrollbar-width:thin;}
+.inkd-item{display:flex;gap:9px;padding:9px 8px;border-radius:9px;border-left:3px solid #2dd4bf;
+  background:rgba(45,212,191,.05);margin-bottom:7px;cursor:pointer;}
+.inkd-item:hover{background:rgba(45,212,191,.11);}
+.inkd-item .inkd-body{flex:1;min-width:0;}
+.inkd-q{font-size:.74rem;color:#e8eefb;overflow:hidden;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;}
+.inkd-n{font-size:.68rem;color:#f8c97a;margin-top:4px;overflow:hidden;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;}
+.inkd-meta{font-size:.56rem;color:#6b7c8f;margin-top:5px;letter-spacing:.06em;}
+.inkd-x{flex-shrink:0;align-self:flex-start;background:transparent;border:none;color:#6b7c8f;cursor:pointer;font-size:.78rem;padding:2px 4px;}
+.inkd-x:hover{color:#fb7185;}
+.inkd-empty{text-align:center;color:#6b7c8f;font-size:.74rem;padding:36px 8px;}
+.inkd-foot{padding:8px 14px;border-top:1px solid rgba(45,212,191,.12);font-size:.6rem;color:#6b7c8f;}
+@media (prefers-reduced-motion: reduce){.ink-flash{animation:none;}}

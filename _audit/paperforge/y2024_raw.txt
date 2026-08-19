@@ -1,0 +1,3868 @@
+
+===== PAGE 1 =====
+ 
+ 
+ 
+GATE Physics-2024 
+Solution-Mathematical Physics 
+ 
+Physics by fiziks 
+Learn Physics in Right Way 
+ 
+ 
+ H.No. 40-D, G.F., Jia Sarai, Near IIT, Hauz Khas, New Delhi -16 
+
+ Phone: 011-26865455/+91-9871145498, 
+Website: www.physicsbyfiziks.com, Email: fiziks.physics@gmail.com    1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+GATE Physics-2024 
+Solution-Mathematical Physics 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Be Part of Disciplined Learning 
+===== PAGE 2 =====
+ 
+ 
+ 
+GATE Physics-2024 
+Solution-Mathematical Physics 
+ 
+Physics by fiziks 
+Learn Physics in Right Way 
+ 
+2 H.No. 40-D, G.F., Jia Sarai, Near IIT, Hauz Khas, New Delhi -16 
+
+ Phone: 011-26865455/+91-9871145498, 
+Website: www.physicsbyfiziks.com, Email: fiziks.physics@gmail.com    
+ 
+ 
+ 
+Q.11 – Q.35 Carry ONE mark Each 
+Q30.  Consider a volume integral 
+2 1
+V
+I dV r
+   
+ over a volume 
+V , where 
+2 2 2r x y z   . Which of the following statement is/are 
+correct? 
+(A) 
+4I  , if 
+0r  is inside the volume 
+V  
+(B) Integrand vanishes for 
+0r  
+(C) 
+0I  , if 
+0r  is not inside the volume 
+V  
+(D) Integrand diverges as 
+r  
+Ans: (A), (B), (C) 
+Solution: 
+ 
+23
+2
+ˆ11 4r rr r r                    
+ 
+ 
+23 1 4
+VV
+I dV r dV r   
+;                      
+ 
+3 ,0
+0, 0
+rr r  
+  
+4I 
+     if 
+0r  is inside volume V. 
+0I 
+           if 
+0r  is not inside V. 
+0I 
+           if 
+0r  
+Q31.  The complex function 
+2
+1ze
+   has _______________ 
+(A) a simple pole at 
+1z                             (B) an essential singularity at 
+1z  
+(C) a residue equal to –2 at 
+1z                  (D) a branch point at 
+1z  
+Ans: (B), (C) 
+Solution: 
+     
+2
+1
+23
+2 4 1 8 11 ... 1 2! 3! 11
+zf z e z zz
+         
+ 
+Since there is infinite negative powers of 
+ 1z  so it has essential singularity at 
+1z  
+Residue at 
+1z  is 
+ 2  
+ 
+ 
+ 
+ 
+===== PAGE 3 =====
+ 
+ 
+ 
+GATE Physics-2024 
+Solution-Mathematical Physics 
+ 
+Physics by fiziks 
+Learn Physics in Right Way 
+ 
+ 
+ H.No. 40-D, G.F., Jia Sarai, Near IIT, Hauz Khas, New Delhi -16 
+
+ Phone: 011-26865455/+91-9871145498, 
+Website: www.physicsbyfiziks.com, Email: fiziks.physics@gmail.com    3 
+ 
+ 
+Q.36 – Q.65 Carry TWO marks Each 
+Q43.  Consider two matrices: 
+12
+01P   and 
+10
+01Q   
+ Which of the following statement is/are true? 
+(A) P and Q have same set of eigenvalues 
+(B) P and Q commute with each other 
+(C) P and Q have different sets of linearly independent eigenvectors 
+(D) P is diagonalizable 
+Ans: (A), (B), (C) 
+Solution:  
+Characteristic equation: 
+ 
+2120 0 1 001PI  
+      
+1,1  
+and 
+ 
+2100 0 1 1,101QI    
+         
+QI
+ so 
+PQ P QP  
+11
+22
+121 01
+xxPX X xx
+             
+1 2 1 220x x x x    
+ 
+1
+1
+1
+00
+xX            
+ and 
+ 
+1 2
+1 2 1 1 1 0 0 0 0 0
+T xX X x x x       ,   
+2
+0
+0X   
+QI
+ so any non-zero vector is an eigenvector of Q having eigenvalue. 
+Q45.  Consider a vector field 
+ 
+22 ˆ ˆ2 3 4F xz y y yz z  
+ . The closed path 
+ : A B C D A    
+ in 
+0z  plane is shown in figure. 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+           
+F dl
+
+
+  denotes the line integral of 
+F
+  along the closed path 
+ . Which of the following 
+option is/are true? 
+ 
+ 0,0A
+ 1,0B
+ 1,1C
+ 0,1D
+y
+x
+===== PAGE 4 =====
+ 
+ 
+ 
+GATE Physics-2024 
+Solution-Mathematical Physics 
+ 
+Physics by fiziks 
+Learn Physics in Right Way 
+ 
+4 H.No. 40-D, G.F., Jia Sarai, Near IIT, Hauz Khas, New Delhi -16 
+
+ Phone: 011-26865455/+91-9871145498, 
+Website: www.physicsbyfiziks.com, Email: fiziks.physics@gmail.com    
+ 
+ 
+(A) 
+0F dl
+
+
+                           (B) 
+F
+  is non-conservative  
+(C) 
+0F 
+                                (D) 
+F
+  can be written as the gradient of a scalar field  
+Ans: (A), (B) 
+Solution: 
+ 
+22 ˆ ˆ2 3 4F xz y y yz z  
+ 
+     
+220 2 3 4 6 8 6 0 0F xz y yz y yz y zx y z
+             
+ 
+   
+2
+22
+ˆˆ ˆ
+ˆˆ ˆ4 2 0 0 2 0
+0 2 3 4
+x y z
+F x z x y z zx y z
+xz y yz
+             
+
+ 
+2 ˆ ˆ4 2 2z x x zz  
+ 
+ˆ2 0 0F xx z   
+ [
+F
+  is non-conservative] 
+Now 
+     ˆ ˆ20
+S
+F dl F da xx dxdyz
+
+         
+  
+Q51.  
+A  and 
+ , 1,2,3,...,Bn    are contravariant and covariant vectors, respectively. By 
+convention, any repeated indices are summed over. Which of the following expression 
+is/are tensors? 
+(A) 
+AB
+                      (B) 
+AB
+AB
+
+
+
+                          (C) 
+A
+B
+
+                  (D) 
+AB
+    
+Ans: (A), (B) 
+Q56.  The Fourier transform and its inverse transform are respectively defined as 
+   1
+2
+ixf f x e dx 
+
+
+
+ 
+ and 
+   1
+2
+ixf x f e d 
+
+ 
+
+ 
+ . Consider  two 
+functions 
+f  and 
+g . Another function 
+*fg  is defined as  
+                                  
+      1*
+2
+f g x f y g x y dy
+
+
+
+   
+ Which of the following relation is/are true? 
+ Note: Tilde (~) denote the Fourier transform. 
+    
+  
+Ans: (A), (B), (D)  
+===== PAGE 5 =====
+ 
+ 
+ 
+GATE Physics-2024 
+Solution-Classical Mechanics 
+ 
+Physics by fiziks 
+Learn Physics in Right Way 
+ 
+ 
+ H.No. 40 -D, G.F., Jia Sarai, Near IIT, Hauz Khas, New Delhi -16 
+
+ Phone: 011 -26865455/+91 -9871145498, 
+Website:  www.physicsbyfiziks.com, Email: fiziks.physics@gmail.com    
+1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+GATE Physics-2024 
+Solution-Classical Mechanics 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Be Part of Disciplined Learning 
+===== PAGE 6 =====
+ 
+ 
+ 
+GATE Physics-2024 
+Solution-Classical Mechanics 
+ 
+Physics by fiziks 
+Learn Physics in Right Way 
+ 
+2 H.No. 40 -D, G.F., Jia Sarai , Near IIT, Hauz Khas, New Delhi -16 
+
+ Phone: 011 -26865455/+91 -9871145498, 
+Website: www.physicsbyfiziks.com, Email: fiziks.physics@gmail.com    
+ 
+ 
+Q.11 – Q.35 Carry ONE mark Each  
+Q11.  If 
+ 1 ,F Q q Qq  is the generating function of a canonical transformation from 
+ ,pq  to 
+ ,PQ
+, then which one of the following relations is correct?  
+(A) 
+pQ
+Pq   (B) 
+PQ
+pq   
+(C) 
+pQ
+Pq   (D) 
+PQ
+pq  
+Ans: (C) 
+Solution: 
+1F Qq
+ , so 
+1FpQ q
+    ...(1)    and     
+1FPq Q
+      ...(2) 
+From equation (1) and (2)   
+pQ
+Pq  
+Q23.  Let 
+ ,,p q t
+  be the phase space density of an ensemble of a system. The Hamilton ian of 
+the system is 
+ ,H p q
+ . If 
+ ,AB  denotes the Poisson bracket of 
+A  and 
+B , then 
+ 
+0d
+dt
+   implies 
+(A) 
+0t
+    (B) 
+ , Ht
+     
+(C) 
+, 2
+pq
+t
+   
+   (D) 
+, 2
+qq
+t
+   
+  
+Ans: (B) 
+Solution: The time evolution of a function 
+ ,,p q t
+ : 
+ ,d Hdt t
+     
+If 
+0d
+dt
+   then 
+ , Ht
+    
+Q25.  An inertial observer sees two spacecrafts 
+S  and 
+T  flying away from each other along 
+x -
+axis with individual speed 
+0.5c , where 
+c  is the speed of light. The speed of 
+T  with 
+respect to 
+S  is 
+(A) 
+4
+5 c                         (B) 
+4
+3 c                             (C) 
+c                          (D) 
+2
+3 c  
+Ans: (A) 
+Solution: 
+   
+  
+2
+0.5 0.5 4
+0.5 0.5 1.25 51
+TS
+cc cvc cc
+c
+     
+===== PAGE 7 =====
+ 
+ 
+ 
+GATE Physics-2024 
+Solution-Classical Mechanics 
+ 
+Physics by fiziks 
+Learn Physics in Right Way 
+ 
+ 
+ H.No. 40 -D, G.F., Jia Sarai, Near IIT, Hauz Khas, New Delhi -16 
+
+ Phone: 011 -26865455/+91 -9871145498, 
+Website:  www.physicsbyfiziks.com, Email: fiziks.physics@gmail.com    
+3 
+ 
+ 
+Q.36 – Q.65 Carry TWO marks Each  
+Q38.  Consider the Lagrangian 
+2
+0L mxy m xy 
+ . If 
+xp  and 
+yp  denote the generalized 
+momenta conjugate to 
+x  and 
+y , respectively, then the canonical equations of motion are  
+(A) 
+22
+00, , ,
+yx
+xy
+ppx p m x y p m ymm    
+  
+(B) 
+22
+00, , ,
+yx
+xy
+ppx p m x y p m ymm    
+  
+(C) 
+22
+00, , ,
+y x
+xy
+p px p m y y p m xmm    
+  
+(D) 
+22
+00, , ,
+y x
+xy
+p px p m y y p m xmm    
+  
+Ans: (C) 
+Solution:  
+x
+x
+pLp my yxm
+   
+,  
+y
+y
+pLp mx xym
+   
+  
+2
+0x
+Lp m y x  
+, 
+2
+0y
+Lp m x y  
+  
+Q41.  The equation of motion for the forced simple harmonic oscillator is  
+                                       
+     
+2 cosx t x t F t
+  
+ where 
+ 00xt   and 
+ 00xt 
+ .Which one of the following options is correct?  
+(A) 
+   sinx t t t    (B) 
+   cosx t t t   
+(C) 
+ xt    (D) 
+ 
+tx t e   
+Ans: (A) 
+Solution: 
+(i) 
+   1 sinx t c t t  :  
+     At 
+ 0 0 0t x t     
+(ii) 
+     11sin cosx t c t c t t   
+ :   
+    At 
+ 0 0 0t x t   
+  
+ 
+ 
+===== PAGE 8 =====
+ 
+ 
+ 
+GATE Physics-2024 
+Solution-Classical Mechanics 
+ 
+Physics by fiziks 
+Learn Physics in Right Way 
+ 
+4 H.No. 40 -D, G.F., Jia Sarai , Near IIT, Hauz Khas, New Delhi -16 
+
+ Phone: 011 -26865455/+91 -9871145498, 
+Website: www.physicsbyfiziks.com, Email: fiziks.physics@gmail.com    
+ 
+ 
+Q60.  Lagrangian of a particle of mass  
+m  is 
+241
+2L mx x 
+ , where 
+  is a positive constant. If 
+the particle oscillates with total energy 
+E , then the time period of oscillations is  
+ 
+1
+4
+0
+42
+E
+dxa
+Exm
+
+
+
+
+ 
+
+. The value of 
+a  is ____________ (in integer).  
+Ans: 4 
+Solution:
+ 
+14
+00
+4
+ET
+dxdt v
+
+
+   
+ 
+ 
+14
+40
+4
+2
+E
+dxT
+Exm
+
+
+
+
+
+4         
+241
+2E mv x 
+                          
+ 
+ 
+===== PAGE 9 =====
+ 
+ 
+ 
+GATE Physics-2024 
+Solution- Electromagnetic Theory  
+ 
+Physics by fiziks 
+Learn Physics in Right Way 
+ 
+ 
+ H.No. 40 -D, G.F., Jia Sarai, Near IIT, Hauz Khas, New Delhi -16 
+
+ Phone: 011 -26865455/+91 -9871145498, 
+Website: www.physicsbyfiziks.com, Email: fiziks.physics@gmail .com   
+1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+GATE Physics-2024 
+Solution-Electromagnetic Theory 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Be Part of Disciplined Learning 
+===== PAGE 10 =====
+ 
+ 
+ 
+GATE Physics-2024 
+Solution- Electromagnetic Theory  
+ 
+Physics by fiziks 
+Learn Physics in Right Way 
+ 
+2 H.No. 40 -D, G.F., Jia Sarai, Near IIT, Hauz Khas, New Delhi -16 
+
+ Phone: 011 -26865455/+91 -9871145498, 
+Website: www.physicsbyfiziks.com, Email: fiziks.physics@gmail.com    
+ 
+ 
+Q.11 – Q.35 Carry ONE mark Each  
+Q12.  An unpolarized plane electromagnetic wave in a dielectric medium 1 is incident on a 
+plane interface that separates medium  1 from another dielectric medium 2. Medium 1 and 
+medium 2 have refractive indices 
+1n  and 
+2n , respectively, with 
+21nn . If the angle of 
+incidence is 
+1 2
+1
+tan n
+n
+ 
+
+ , which one of the following statements is true?  
+(A) The reflected wave is unpolarized  
+(B) The reflected wave is polarized parallel to the plane of incidence  
+(C) The reflected wave is polarized perpendicular to the plane of incidence  
+(D) There is no transmitted wa ve 
+Ans: (C) 
+Solution: 
+At Brewster Angle 
+1 2
+1
+tanB
+n
+n   
+
+ 
+The reflected wave is polarized perpendicular to 
+the plane of incidence. 
+ 
+Q20.  An infinitely long cylinder of radius 
+R  carries a frozen -in magnetization 
+ˆsM ke z 
+ , 
+where 
+k  is a constant and 
+s  is the distance from the axis of cylinder. The magnetic 
+permeability of free space is 
+0 . There is no free current present anywhe re. The magnetic 
+flux density 
+ B
+  inside the cylinder is 
+(A) 0  (B) 
+0 ˆRke z    
+(C) 
+0 ˆske z    (D) 
+0 ˆs Rke z s  
+  
+Ans: (C) 
+Solution: 
+free 0I 
+ and there is cylindrical symmetry so 
+freeH d I
+  
+0
+0
+00 BH M B M      
+0 ˆszB ke z 
+ 
+ 
+ 
+
+B
+1n
+2n
+21nn
+90
+1
+2
+===== PAGE 11 =====
+ 
+ 
+ 
+GATE Physics-2024 
+Solution- Electromagnetic Theory  
+ 
+Physics by fiziks 
+Learn Physics in Right Way 
+ 
+ 
+ H.No. 40 -D, G.F., Jia Sarai, Near IIT, Hauz Khas, New Delhi -16 
+
+ Phone: 011 -26865455/+91 -9871145498, 
+Website: www.physicsbyfiziks.com, Email: fiziks.physics@gmail .com   
+3 
+ 
+ 
+Q34.  The electric field in a region depends only on 
+x  and 
+y  coordinates as  
+                                                
+ 
+22
+ˆˆxx yyEk xy
+ 
+  
+ where k is a constant. The flux of 
+E
+  through the surface of a sphere of radius 
+R  with its 
+center at the origin is 
+n kR , where the value of 
+n  is ___________ (in integer).  
+Ans: 4 
+Solution: 
+sin cosxR 
+, 
+sin sinyR  , 
+2 ˆsinda R d d r   
+  
+E
+S
+E da 
+ 
+   
+2
+22
+ˆˆ ˆsink xx yyE da R d d rxy      
+    2
+22
+ˆ ˆ ˆ ˆ sinx x r y y rk R d d xy        
+ 
+         
+   
+ 
+2
+2 2 2 2
+sin cos sin cos sin sin sin sin sin
+sin cos sin
+RRk R d d
+R
+          
+  
+ 
+  
+          
+ 
+2 2 2
+2
+22
+sin cos sin
+sinsin
+R
+k R d d R
+  
+  
+ 
+
+             
+sinE da kR d d     
+  
+2
+00
+sin 2 2 4E
+S
+E da kR d d kR kR
+
+             
+  
+4n  
+ 
+Q.36 – Q.65 Carry TWO marks Each  
+Q40.  In a parallel plate capacitor, the plate at 
+0x  is grounded and the plate at 
+xd  is 
+maintained at a potential 
+0V . The space between the two plates is filled with a linear 
+dielectric of permittivity 
+0 1 x
+d
+  , where 
+0  is the permittivity of free space. 
+Neglecting the edge effects, the electric field 
+ E
+  inside the capacitor is  
+(A) 
+ 
+0 ˆ
+ln 2
+V xdx    (B) 
+0 ˆV xd   
+(C) 
+ 
+0 ˆV xdx    (D) 
+ 
+0 ˆVd xd x x   
+Ans: (A) 
+ 
+ˆr
+R
+===== PAGE 12 =====
+ 
+ 
+ 
+GATE Physics-2024 
+Solution- Electromagnetic Theory  
+ 
+Physics by fiziks 
+Learn Physics in Right Way 
+ 
+4 H.No. 40 -D, G.F., Jia Sarai, Near IIT, Hauz Khas, New Delhi -16 
+
+ Phone: 011 -26865455/+91 -9871145498, 
+Website: www.physicsbyfiziks.com, Email: fiziks.physics@gmail.com    
+ 
+ 
+Solution: 
+Let charge on capacitor plate is 
+Q  then 
+0
+0
+ˆ
+1r
+QE x E dl dx xA Ad
+    
+ 
+0
+0000 0
+1 ln 1
+1
+ddd
+Q Q xV E dl dx d xA A d d
+        
+ 
+00
+0
+0
+2 2
+VQd QV ln A A dln
+   
+ 
+Thus 
+ 
+0 0 0
+0
+0
+11 ˆ ˆ ˆ
+221r
+VVQE x x x xA dln x d ln
+d
+      
+  
+Q46.  Two point charges of charge 
+q  each are placed a distance 
+2d  apart. A grounded solid 
+conducting sphere of radius 
+a  is placed midway between them. Assume 
+22ad . 
+Which of the following statement is/are true?  
+(A) If 
+8
+da , the net force acting on the charges is directed towards each other  
+(B) The potential at the surface of the sphere is zero  
+(C) Total induced charge on the sphere is 
+2aq
+d
+  
+(D) The potential at the center of the sphere is non -zero 
+Ans: (A), (B), (C) 
+Solution:                                               
+22ad
+  
+ 
+ 
+ 
+ 
+' aqq d
+ and 
+2ab d  
+Total induced charge 
+' 22'T
+aq q q d   
+Potential at the center = 0 
+ 
+0
+0x
+0V
+xd
+0 1 x
+d
+ 
+q
+q
+a
+0V 
+d
+d
+q
+q
+
+'q
+'q
+
+b
+b
+
+===== PAGE 13 =====
+ 
+ 
+ 
+GATE Physics-2024 
+Solution- Electromagnetic Theory  
+ 
+Physics by fiziks 
+Learn Physics in Right Way 
+ 
+ 
+ H.No. 40 -D, G.F., Jia Sarai, Near IIT, Hauz Khas, New Delhi -16 
+
+ Phone: 011 -26865455/+91 -9871145498, 
+Website: www.physicsbyfiziks.com, Email: fiziks.physics@gmail .com   
+5 
+ 
+ 
+Q55.  An oscillating electric dipole of moment 
+   0 ˆcosd t d t z 
+  is placed at origin as shown 
+in figure. Consider a point 
+ ,,Pr   at a very large distance from the d ipole. Here 
+,r   
+and 
+  are spherical polar coordinates. Which of the following statement is/are true for 
+intensity of radiation? 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(A) Intensity is zero if P is on the 
+z  axis 
+(B) Intensity is zero at 
+,, 24P r R      
+(C) Intensity at 
+,, 24P r R      is greater than that at 
+,, 44P r R      
+(D) Intensity at 
+,, 24P r R      is equal to that at 
+,, 44P r R      
+Ans: (A), (C) 
+Solution: 
+  00 ˆˆcos cosp t qd qd tz p tz   
+  
+2
+2
+sinI S k r
+  
+  
+(A) On z-axis, 
+00 I     
+(B) 
+2
+1 22
+sin 2, , : 024
+kP R I k RR
+       
+(C) 
+2
+1
+2 1 2 22
+sin 4, , :4 4 2 2
+IkkP R I I I RR
+         
+ 
+ 
+x
+y
+z
+d
+
+===== PAGE 14 =====
+ 
+ 
+ 
+GATE Physics-2024 
+Solution-Quantum Mechanics 
+ 
+Physics by fiziks 
+Learn Physics in Right Way 
+ 
+ 
+ H.No. 40-D, G.F., Jia Sarai, Near IIT, Hauz Khas, New Delhi -16 
+
+ Phone: 011-26865455/+91-9871145498, 
+Website: www.physicsbyfiziks.com, Email: fiziks.physics@gmail.com    1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+GATE Physics-2024 
+Solution-Quantum Mechanics 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Be Part of Disciplined Learning 
+===== PAGE 15 =====
+ 
+ 
+ 
+GATE Physics-2024 
+Solution-Quantum Mechanics 
+ 
+Physics by fiziks 
+Learn Physics in Right Way 
+ 
+2 H.No. 40-D, G.F., Jia Sarai, Near IIT, Hauz Khas, New Delhi -16 
+
+ Phone: 011-26865455/+91-9871145498, 
+Website: www.physicsbyfiziks.com, Email: fiziks.physics@gmail.com    
+ 
+ 
+Q.11 – Q.35 Carry ONE mark Each 
+Q13.  The wavefunction of a particle in an infinite one-dimensional potential well at time 
+t  is 
+ 
+       
+312 64
+1 2 3
+2 1 1, 3 66
+iE tiE t iE t iix t e x e e x e e x       
+  
+ where 
+12,  and 
+3  are the normalized ground state, the normalized first excited state 
+and the normalized second excited state, respectively. 
+12,EE  and 
+3E  are the eigen -
+energies corresponding to 
+12,  and 
+3 , respectively. The expectation value of energy 
+of the particle in state 
+ ,xt  is 
+(A) 
+1
+17
+6 E   (B) 
+1
+2
+3 E   
+(C) 
+1
+3
+2 E   (D) 
+114E  
+Ans: (A) 
+Solution: 
+       1 1 2 2 3 3,x t c x c x c x       
+where 
+1
+1
+2
+3
+iE tce 
+ , 
+26
+2
+1
+6
+i iE tc e e  
+  and 
+34
+3
+1
+6
+iE tic e e  
+  
+The expectation value of energy is  
+ 
+ 
+ii
+i
+E P EE PE
+
+222
+1 1 2 2 3 3
+222
+1 2 3
+E c E c E c
+c c c
+
+
+1 2 3
+2 1 1
+3 6 6
+211
+3 6 6
+E E E    
+
+
+ 1 2 3
+1 46 E E E  
+ 
+where 
+2 2 2
+22
+n
+nE mL
+
+ ; 
+22
+1 22E mL
+
+ ,
+21 4EE  and 
+31 9EE     
+ 1 1 1 1
+1 174 4 966E E E E E    
+. Thus correct answer is option (A) 
+ 
+Q22.  A particle is subjected to a potential 
+                                          
+  0
+,0
+,
+0, elsewhere
+x
+V x V a x b
+
+  
+  
+ Here, 
+0a  and 
+ba . If the energy of the particle 
+0EV , which one of the following 
+schematics is a valid quantum mechanical wavefunction 
+   for the system? 
+  
+===== PAGE 16 =====
+ 
+ 
+ 
+GATE Physics-2024 
+Solution-Quantum Mechanics 
+ 
+Physics by fiziks 
+Learn Physics in Right Way 
+ 
+ 
+ H.No. 40-D, G.F., Jia Sarai, Near IIT, Hauz Khas, New Delhi -16 
+
+ Phone: 011-26865455/+91-9871145498, 
+Website: www.physicsbyfiziks.com, Email: fiziks.physics@gmail.com    3 
+ 
+ 
+(A) 
+ 
+(B) 
+ 
+ 
+(C) 
+ 
+ 
+(D) 
+ 
+Ans: (B) 
+Solution: 
+  0
+;0
+;
+0 ; elsewhere
+x
+V x V a x b
+
+  
+
+ 
+ 
+The 
+  0x   at 
+0x  as potential is infinite. 
+The 
+ x  must decay exponentially in 
+a x b
+ as 
+0EV  and oscillatory in a region 
+where 
+0V  . Thus option (B) is correct. 
+ 
+ 
+ 
+x
+ 0,0
+a
+b
+
+0V
+x
+ 0,0
+a
+b
+
+0V
+x
+a
+b
+ 0,0
+
+0V
+x
+a
+b
+ 0,0
+
+0V
+a
+V 
+0x
+b
+0V 
+0EV
+0VV
+0V 
+ x
+a
+b
+0
+x
+
+===== PAGE 17 =====
+ 
+ 
+ 
+GATE Physics-2024 
+Solution-Quantum Mechanics 
+ 
+Physics by fiziks 
+Learn Physics in Right Way 
+ 
+4 H.No. 40-D, G.F., Jia Sarai, Near IIT, Hauz Khas, New Delhi -16 
+
+ Phone: 011-26865455/+91-9871145498, 
+Website: www.physicsbyfiziks.com, Email: fiziks.physics@gmail.com    
+ 
+ 
+Q28.  Following trial wavefunctions  
+ 12'
+1
+Z r r
+e
+
+  
+                                 and    
+  
+12'
+2 1 2 1
+Z r r
+e g r r
+
+  
+  
+ are used to get a variational estimate of the ground state energy of the helium atom. 
+'Z  
+and 
+g  are the variational parameters, 
+1r
+  and 
+2r
+  are the position vectors of the electrons. 
+Let 
+0E  be the exact ground state energy of the helium atom. 
+1E  and 
+2E  are the 
+variational estimates of the ground state energy of the helium atom corresponding to 
+1  
+and 
+2 , respectively. Which one of the following options is true?  
+(A) 
+1 0 2 0 1 2,,E E E E E E     (B) 
+1 0 2 0 1 2,,E E E E E E    
+(C) 
+1 0 2 0 1 2,,E E E E E E     (D) 
+1 0 2 0 1 2,,E E E E E E    
+Ans: (D) 
+Solution: Variational principle always gives an upper bound to ground state energy 
+ 0E  
+10EE
+ and  
+20EE  
+only option (D) satisfying the condition. Therefore, option (D) is correct answer. 
+Q29.  The wavefunction for particle is given by the form 
+ ix
+e
+ , where 
+  and 
+  real 
+constants. In which one of the following potentials 
+ Vx , the particle is moving? 
+(A) 
+ 
+22V x x    (B) 
+ 
+xV x e    
+(C) 
+  0Vx    (D) 
+   sinV x x   
+Ans: (C) 
+Solution: Method-I: The given wave function  
+ 
+i x i xx e e Ae       is a plane wave 
+function. This wave function is valid for a system in which either potential is zero 
+  0Vx   or 
+constant   (
+ Vx = constant). Thus only option (C) is correct. 
+Method-II:  The Schrodinger wave equation is 
+ 
+22
+22
+d V x Em dx
+  
+  
+Since,  
+ 
+ixx Ae  
+ d idx
+     
+2
+2
+2
+d
+dx
+    
+ 
+2
+2
+2 V x Em        
+ 
+Compare 
+x -dependent terms on L.H.S. and R.H.S. 
+  0Vx  
+The correct option is (C) 
+===== PAGE 18 =====
+ 
+ 
+ 
+GATE Physics-2024 
+Solution-Quantum Mechanics 
+ 
+Physics by fiziks 
+Learn Physics in Right Way 
+ 
+ 
+ H.No. 40-D, G.F., Jia Sarai, Near IIT, Hauz Khas, New Delhi -16 
+
+ Phone: 011-26865455/+91-9871145498, 
+Website: www.physicsbyfiziks.com, Email: fiziks.physics@gmail.com    5 
+ 
+ 
+Q.36 – Q.65 Carry TWO marks Each 
+Q47.  A particle of mass 
+m  is moving in the potential 
+ 
+22
+00
+1 ,02
+,0
+V m x xVx
+x
+ 
+   
+ Figures, 
+,,P Q R  and 
+S  show different combinations of the values of 
+0  and 
+0V . 
+ 
+ 
+  
+ 
+     ,,
+P Q R
+j j jE E E  and 
+ S
+jE  with 
+0,1, 2,...j , are the eigen -energies of the 
+j -th level for 
+the potentials shown in figures 
+,,P Q R  and 
+S , respectively. Which of the statement 
+is/are true? 
+(A) 
+   
+00
+PQ
+EE    (B) 
+   
+00
+QS
+EE    
+(C) 
+   
+01
+PR
+EE   (D) 
+   
+00
+RQ
+EE   
+Ans: (B), (C), (D) 
+Solution: The energy eigenvalue is 
+00
+32 2
+jE V j   
+  ; 
+0,1,2,3,...j  
+ 
+0
+30 0 12 182
+P
+E     
+;                          
+ 
+0
+33 0 12 212
+Q
+E     
+  
+ 
+1
+34 2 4 4 14 182
+R
+E       
+;        
+ 
+0
+30 0 14 212
+S
+E     
+  
+O
+x
+ Vx
+0 0V 
+1
+0 14 rad s 
+FigureS
+x
+O
+0V
+ Vx
+Figure R
+0 4 JoulesV 
+1
+0 4 rad s 
+O
+x
+0V
+0 3 JoulesV 
+ Vx
+1
+0 12 rad s 
+FigureQ
+O
+x
+0 0V 
+1
+0 12 rad s 
+ Vx
+Figure P
+===== PAGE 19 =====
+ 
+ 
+ 
+GATE Physics-2024 
+Solution-Quantum Mechanics 
+ 
+Physics by fiziks 
+Learn Physics in Right Way 
+ 
+6 H.No. 40-D, G.F., Jia Sarai, Near IIT, Hauz Khas, New Delhi -16 
+
+ Phone: 011-26865455/+91-9871145498, 
+Website: www.physicsbyfiziks.com, Email: fiziks.physics@gmail.com    
+ 
+ 
+Thus, 
+   
+00
+PQ
+EE   ; option (A) is wrong;        
+   
+00 21
+QS
+EE 
+ ; option (B) is correct 
+   
+01 18
+PR
+EE 
+ ; option (C) is correct;       
+   
+00
+RQ
+EE  ; option (D) is correct 
+Thus, correct options are (B), (C) and (D) 
+Q48.  The non-relativistic Hamiltonian for a single electron atom is  
+ 
+2
+0
+2
+pH V r m  where         
+           
+ Vr  is the Coulomb potential and 
+m  is the mass of the electron. Considering the spin-       
+           orbit interaction term 
+22
+11' 2
+dVH L S m c r dr
+  added to 
+0H , which of the following   
+           statement is/are true? 
+(A)  
+'H  commutes with 
+2L  
+(B)  
+'H  commutes with 
+zL  and 
+zS  
+(C)  For a given value o f principal quantum number 
+n  and orbital angular momentum 
+quantum number 
+l , there are 
+ 2 2 1l  degenerate eigenstates of 
+0H  
+(D)  
+22
+0, , , zH L S L  and 
+zS  have a set of simultaneous eigenstates 
+Ans: (A), (C), (D) 
+Solution: (i) 
+22
+22
+11', , 2
+dVH L L S L m c r dr
+  
+  
+Since 
+2,0 iLL   and 
+2,0 iLS  . Therefore 
+2,0L S L 
+ . Thus 
+2', 0HL   
+The statement (A) is correct. 
+(ii) 
+  22
+11', , 2
+zz
+dVH L L S L m c r dr
+ 
+ . Now 
+,, z x x y y z z zL S L L S L S L S L    
+  
+Since 
+,i j ijk kL L i L 
+ . Therefore 
+,0 zL S L 
+ , thus statement (B) is not correct. 
+(iii) For given value of 
+n  and 
+ , the degeneracy is 
+ 21g 
+  
+Thus statement (C) is correct. 
+(iv) The unperturbed Hamiltonian 
+0H  is spherically symmetric and depends only on 
+r . 
+Thus 
+2,0HL   and 
+ ,0 zHL   
+H
+ also commutes with 
+2S  and 
+zS , because 
+H  does not depend on the spin degree of freedom. 
+2,0HS 
+ and 
+ ,0 zHS   
+Thus statement (D) is correct. 
+The correct statements are (A), (C) and (D). 
+===== PAGE 20 =====
+ 
+ 
+ 
+GATE Physics-2024 
+Solution-Quantum Mechanics 
+ 
+Physics by fiziks 
+Learn Physics in Right Way 
+ 
+ 
+ H.No. 40-D, G.F., Jia Sarai, Near IIT, Hauz Khas, New Delhi -16 
+
+ Phone: 011-26865455/+91-9871145498, 
+Website: www.physicsbyfiziks.com, Email: fiziks.physics@gmail.com    7 
+ 
+ 
+Q61.  A particle of mass 
+m  in an infinite potential well of width 
+a  is subjected to a 
+perturbation, 
+2
+2' 40
+hV ma  as shown in figure, where 
+h  is Planck's constant. 
+ 
+ The first order energy shift of the fourth energy eigenstate due to this perturbation is 
+ 
+2
+2
+h
+Nma
+
+  
+ The value of 
+N  is____________ (in integer). 
+Ans: 160 
+Solution:  
+ 1 Strength of perturbation  length of the perturbation
+length of the well
+nE 
+2
+22
+2
+40 4
+160
+a
+ma
+a ma
+
+
+ 
+Thus 
+160N  
+ 
+Q64.  An electron in the Coulomb field of a p roton is in the following state of coherent 
+superposition of orthonormal states 
+nlm  
+                                    
+100 210 320
+1 1 5
+33 3
+       
+ Let 
+12,EE , and 
+3E  represent the firs t three energy levels of the system. A sequence of 
+measurements is done on the same system at different times. Energy is measured first at 
+time 
+1t  and the outcome is 
+2E . Then total angular momentum is measu red at time 
+21tt   
+and finally energy is measured again at 
+32tt  . The probability of finding the system in a 
+state with energy 
+2E  after the final measurement is 
+9P . The value of 
+P  is _____ ( in 
+integer). 
+Ans: 9 
+ 
+
+
+3
+4
+a
+4
+a
+'V
+===== PAGE 21 =====
+ 
+ 
+ 
+GATE Physics-2024 
+Solution-Quantum Mechanics 
+ 
+Physics by fiziks 
+Learn Physics in Right Way 
+ 
+8 H.No. 40-D, G.F., Jia Sarai, Near IIT, Hauz Khas, New Delhi -16 
+
+ Phone: 011-26865455/+91-9871145498, 
+Website: www.physicsbyfiziks.com, Email: fiziks.physics@gmail.com    
+ 
+ 
+Solution:                                  
+1 1 5100 210 32033 3
+     
+First energy measurement at 
+1t : Since energy measurement collapses the wavefunction to  the 
+eigenstate corresponding to the measured energy, the system collapses to the state 
+210  after the 
+first measurement  
+                                                    
+2
+ˆ 210HE   
+Total angular momentum measurement at 
+21tt  . 
+                                                     
+22 210 2 210L 
+  
+Second energy measurement at 
+32tt  : Since the system is still is the state 
+210 , which 
+corresponds to the energy 
+2E . 
+                                                     
+2
+ˆ 210 210HE  
+The probability of getting 
+2E  is 
+ 2
+91 99
+PPE    . Thus 
+9P . 
+ 
+ 
+===== PAGE 22 =====
+ 
+ 
+ 
+GATE Physics-2024 
+Solution-Thermodynamics and Statistical  Mechanics 
+ 
+Physics by fiziks 
+Learn Physics in Right Way 
+ 
+ 
+ H.No. 40 -D, G.F., Jia Sarai, Near IIT, Hauz Khas, New Delhi -16 
+
+ Phone: 011 -26865455/+91 -9871145498, 
+Website: www.physicsbyfiziks.com, Email: fizi ks.physics@gmail.com    
+1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+GATE Physics-2024 
+Solution-Thermodynamics and Statistical Mechanics 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Be Part of Disciplined Learning 
+===== PAGE 23 =====
+ 
+ 
+ 
+GATE Physics-2024 
+Solution-Thermodynamics and Statistical Mechanics  
+ 
+Physics by fiziks 
+Learn Physics in Right Way 
+ 
+2 H.No. 40 -D, G.F., Jia Sarai, Near IIT, Hauz Khas, New Delhi -16 
+
+ Phone: 011 -26865455/+91 -9871145498, 
+Website: www.physicsbyfiziks.com, Email: fiziks.physics@gmail.com    
+ 
+ 
+Q.11 – Q.35 Carry ONE mark Each  
+Q14.  If a thermodynamical system is adiabatically isolated and experiences a change in 
+volume under an exter nally applied constant pressure, then the thermodynamical 
+potential minimized at equilibrium is the  
+(A) enthalpy                                               (B) Helmholtz free energy  
+(C) Gibbs free energy                                (D) grand potential 
+Ans: (A) 
+Solution: 
+dH TdS VdP ; 
+ConstantS
+  and 
+ConstantP  then 
+0dH . 
+Thus enthalpy is minimized at equilibrium.  
+Q33.  The vapor pressure 
+ P  of solid ammonia is given by 
+  3754ln 23.03P T , while that 
+of liquid ammonia is given by 
+  3063ln 19.49P T , where 
+T  is the temperature in K. 
+ The temperature of the triple point of ammonia is ____________ K ( rounded off to two 
+decimal places). 
+Ans:  195.10 to 195.30 
+Solution: For Triple point 
+  3754 3063ln 23.03 19.49P TT     
+3063 3754 19.49 23.03TT     
+3754 3063 23.03 19.49TT   
+691 3.54T
+691 195.203.54TK  
+ 
+Q35.  The Hamiltonian of a system of 
+N  particles in volume 
+V  at temperature 
+T  is 
+                                        
+22
+22
+11
+NN
+i i i i
+ii
+H a q b p
+
+  
+ where 
+ia  and 
+ib  are positive constants. The ensemble average of the Hamiltonian is 
+BNk T
+, where 
+Bk  is the Boltzmann constant. The value of 
+  is ________(in integer).  
+Ans: 2 
+Solution: Given, Hamiltonian 
+22
+22
+11
+NN
+i i i i
+ii
+H a q b p
+
+   ...(1) 
+For 
+1N  , we have  
+22
+22
+1
+11
+i i i i
+ii
+H a q b p
+
+ . This means motion is confined to 2 -D plane. 
+1 2 2 222
+kT kTH kT     
+. For 
+NN ,  
+2H NkT , 
+2   
+Note: If question is asked in 3D: 
+33
+22
+11
+NN
+i i i i
+ii
+H a q b p
+
+  then 
+3H NkT  
+===== PAGE 24 =====
+ 
+ 
+ 
+GATE Physics-2024 
+Solution-Thermodynamics and Statistical  Mechanics 
+ 
+Physics by fiziks 
+Learn Physics in Right Way 
+ 
+ 
+ H.No. 40 -D, G.F., Jia Sarai, Near IIT, Hauz Khas, New Delhi -16 
+
+ Phone: 011 -26865455/+91 -9871145498, 
+Website: www.physicsbyfiziks.com, Email: fizi ks.physics@gmail.com    
+3 
+ 
+ 
+Q.36 – Q.65 Carry TWO marks Each  
+Q59.  The canonical partition function of an ideal gas is  
+    
+3
+1,, !
+N
+VQ T V N N T
+
+
+                                       
+where 
+,,T V N  and 
+ T  denote temperature, volume, number of particles, and thermal de 
+Broglie wavelength, respectively. Let 
+Bk  be the Boltzmann constant and 
+  be the chemical 
+potential. Take 
+   ln ! lnN N N N . 
+If the number density 
+N
+V
+
+  is 
+25 32.5 10 m   at a temperature 
+T , then 
+ 
+  
+25
+3 10
+BkT
+e
+T
+
+
+  is 
+________ 
+3m  (rounded off to one decimal place ). 
+Ans: 2.5 
+Solution: Given 
+    
+3
+1,, !
+N
+VQ T V N N T
+
+
+   ...(1) 
+Helmholtz free energy is 
+A kTlnQ
+3
+1
+!
+N
+VkTln N 
+   
+3! VkT ln N Nln 
+       
+3
+VA kT Nln N N N ln 
+      
+3
+VkT N lnN N N ln 
+     
+  ...(2) 
+3
+1 1AV kT N ln N lnNN 
+            
+ 
+3
+3 T
+VNln N ln lnkT V
+ 
+       
+3kT
+T
+Ne V
+
+
+ 
+25 3
+3 2.5 10
+kT
+T
+eN mV
+
+
+     
+25 3
+3 10 2.5
+kT
+T
+e m
+
+
+    
+ 
+ 
+===== PAGE 25 =====
+ 
+ 
+ 
+GATE Physics-2024 
+Solution-Electronics  
+ 
+Physics by fiziks 
+Learn Physics in Right Way 
+ 
+ 
+ H.No. 40-D, G.F., Jia Sarai, Near IIT, Hauz Khas, New Delhi -16 
+
+ Phone: 011-26865455/+91-9871145498, 
+Website: www.physicsbyfiziks.com, Email: fiziks.physics@gmail.com    1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+GATE Physics-2024 
+Solution-Electronics  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Be Part of Disciplined Learning 
+===== PAGE 26 =====
+ 
+ 
+ 
+GATE Physics-2024 
+Solution-Electronics 
+ 
+Physics by fiziks 
+Learn Physics in Right Way 
+ 
+2 H.No. 40-D, G.F., Jia Sarai, Near IIT, Hauz Khas, New Delhi -16 
+
+ Phone: 011-26865455/+91-9871145498, 
+Website: www.physicsbyfiziks.com, Email: fiziks.physics@gmail.com    
+ 
+ 
+Q.11 – Q.35 Carry ONE mark Each 
+Q18.  The symbols 
+,, inC D V  and 
+0V  shown in the figure denote capacitor, ideal diode, input 
+voltage and output voltage, respectively. 
+  
+ Which one of the following output waveforms 
+ 0V  is correct for the given input 
+waveform 
+ inV ? 
+(A) 
+ 
+(B) 
+ 
+(C) 
+ 
+(D) 
+ 
+Ans: (A) 
+Solution: 
+The circuit shown in the figure is a clamper circuit. In this voltage level will shift in the  direction 
+of diode current i.e. in upward direction and peak to peak voltage remains the same. 
+ 
+ 
+ 
+ 
+t
+0V
+0V
+3V
+6V
+t
+0V
+3V
+6V
+0V
+t
+0V
+6V
+0V
+t
+0V
+6V
+0V
+0V
+D
+inV
+
+
+C
+t
+3V
+3V
+inV
+===== PAGE 27 =====
+ 
+ 
+ 
+GATE Physics-2024 
+Solution-Electronics  
+ 
+Physics by fiziks 
+Learn Physics in Right Way 
+ 
+ 
+ H.No. 40-D, G.F., Jia Sarai, Near IIT, Hauz Khas, New Delhi -16 
+
+ Phone: 011-26865455/+91-9871145498, 
+Website: www.physicsbyfiziks.com, Email: fiziks.physics@gmail.com    3 
+ 
+ 
+Q24.  Consider the following circuit: 
+ 
+  
+ 
+ 
+ 
+            Suppose the input signal 
+P  is  
+ 
+  
+            and the input signal
+Q  is 
+ 
+  
+         Which one of the following output signals is correct? 
+(A) 
+ 
+(B) 
+ 
+(C) 
+ 
+(D) 
+ 
+Ans: (A) 
+Solution: 
+Y PQ P Q P Q    
+ 
+So output Y is P OR Q. 
+ 
+ 
+ 
+ 
+ 
+ 
+t
+0V
+5V
+Y
+t
+0V
+5V
+Y
+t
+0V
+5V
+Y
+t
+0V
+5V
+Y
+t
+0V
+5V
+P
+Q
+Y
+t
+0V
+5V
+===== PAGE 28 =====
+ 
+ 
+ 
+GATE Physics-2024 
+Solution-Electronics 
+ 
+Physics by fiziks 
+Learn Physics in Right Way 
+ 
+4 H.No. 40-D, G.F., Jia Sarai, Near IIT, Hauz Khas, New Delhi -16 
+
+ Phone: 011-26865455/+91-9871145498, 
+Website: www.physicsbyfiziks.com, Email: fiziks.physics@gmail.com    
+ 
+ 
+Q27.  The temperature dependence of the electrical conductivity 
+   of three intrinsic 
+semiconductors A, B and C is shown in figure. 
+ 
+ Let 
+,ABEE  and 
+CE   be the bandgaps of A, B and C, respectively. Which one of the 
+following relations is correct? 
+(A) 
+C A BE E E   (B) 
+B C AE E E  
+(C) 
+A B CEEE   (D) 
+A C BE E E  
+Ans: (D) 
+Solution: 
+ ienne        where 
+2gBE k T
+i c vn N N e
+
+  
+   2
+g
+i e n c v e n
+B
+Eln lnn ln e ln N N ln e kT                
+ 
+2 B
+Eln c y mx ckT     
+ where Slope 
+2
+g
+B
+Em k  and c is some constant. 
+We have assumed that 
+,cvNN ,
+e  and 
+n  are independent of temperature. 
+A C B A C Bm m m E E E    
+ 
+Q32.  The minimum number of basic logic gates required to realize the Boolean expression 
+   B A B A B A    
+ is ______________ (in integer). 
+Ans: 1 
+Solution: 
+ 
+   Y B A B A B A AB B AB AB         
+ 1Y AB B AB B A AB B BA            
+Y B A  
+ 
+ 
+ 
+ 
+A
+B
+  y A B
+1T
+ ln 
+A
+B
+C
+===== PAGE 29 =====
+ 
+ 
+ 
+GATE Physics-2024 
+Solution-Electronics  
+ 
+Physics by fiziks 
+Learn Physics in Right Way 
+ 
+ 
+ H.No. 40-D, G.F., Jia Sarai, Near IIT, Hauz Khas, New Delhi -16 
+
+ Phone: 011-26865455/+91-9871145498, 
+Website: www.physicsbyfiziks.com, Email: fiziks.physics@gmail.com    5 
+ 
+ 
+Q.36 – Q.65 Carry TWO marks Each 
+Q58.  A typical biasing of a silicon transistor is shown in figure. 
+ 
+ The value of common -emitter current gain 
+  for the transistor is 100. Ignore reverse 
+saturation current. The output voltage 
+0V  (in V) is ____ (in integer). 
+Ans: 12 
+Solution: Applying K.V.L. 
+1 15 ' 100 ' 12 0V I I V    
+ 
+13' 115I mA
+ 
+1300100 ' 12 12 11.3 12115
+ThVI      
+ 
+0.7ThVV 
+ 
+Applying K.V.L. in input section 
+0.7 0.7 0B ThV I R V   
+ 
+00BCII   
+ 
+12CE CCV V V  
+ 
+0 12CEV V V  
+ 
+ 
+Q63.  Consider the operational amplifier circuit shown in figure. 
+ 
+ The output voltage 
+0V  is ______________V (integer). 
+
+
+4 k
+0V
+2 k
+3k
+5 k
+2V
+3V
+5V
+12V
+2.2 k
+0V
+15k
+1V
+100k
+12V
+0.7V
+
+_
+0V
+12V
+2.2 k
+ThV
+ThR
+B
+BI
+0.7V
+E
+
+
+
+
+
+C
+
+
+
+
+_
+CI
+ThV
++
+I'
+1V
+I'
+12 V
+15k
+100k
+B
++
++
++
++
+
+
+
+_
+_
+===== PAGE 30 =====
+ 
+ 
+ 
+GATE Physics-2024 
+Solution-Electronics 
+ 
+Physics by fiziks 
+Learn Physics in Right Way 
+ 
+6 H.No. 40-D, G.F., Jia Sarai, Near IIT, Hauz Khas, New Delhi -16 
+
+ Phone: 011-26865455/+91-9871145498, 
+Website: www.physicsbyfiziks.com, Email: fiziks.physics@gmail.com    
+ 
+ 
+Ans: -12 
+Solution: 
+1 2 3 FI I I I  
+ 
+002 0 3 0 5 0
+2k 3k 5k 4k
+VV V V     
+ 
+ 0 4 1 1 1 12VV    
+ 
+ 
+ 
+ 
+
+
+2V
+3V
+5V
+1I
+2I
+3I
+4I
+0V
+3k
+5k
+4k
+2k
+===== PAGE 31 =====
+ 
+ 
+ 
+GATE Physics-2024 
+Solution-Atomic and Molecular Physics 
+ 
+Physics by fiziks 
+Learn Physics in Right Way 
+ 
+ 
+ H.No. 40-D, G.F., Jia Sarai, Near IIT, Hauz Khas, New Delhi -16 
+
+ Phone: 011-26865455/+91-9871145498, 
+Website: www.physicsbyfiziks.com, Email: fiziks.physics@gmail.com    1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+GATE Physics-2024 
+Solution-Atomic and Molecular Physics 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Be Part of Disciplined Learning 
+===== PAGE 32 =====
+ 
+ 
+ 
+GATE Physics-2024 
+Solution-Atomic and Molecular Physics 
+ 
+Physics by fiziks 
+Learn Physics in Right Way 
+ 
+2 H.No. 40-D, G.F., Jia Sarai, Near IIT, Hauz Khas, New Delhi -16 
+
+ Phone: 011-26865455/+91-9871145498, 
+Website: ww w.physicsbyfiziks.com, Email: fiziks.physics@gmail.com    
+ 
+ 
+Q.11 – Q.35 Carry ONE mark Each 
+Q15.  The mean distance between the two atoms of HD molecule is 
+r , where H and D denote 
+hydrogen and deuterium, respectively. The mass of the hydrogen atom is 
+Hm . The 
+energy difference between two lowest lying rotational states of HD in multiples of 
+ 
+22
+Hmr
+is 
+(A) 
+3
+2                                (B) 
+2
+3                              (C) 6                              (D) 
+4
+3  
+Ans: (A) 
+Solution: 
+Rotational energy levels is 
+ 1JE BJ J  where 
+2
+22B r
+  
+The energy spacing between two consecutive levels is 
+ 1 21JJE E E B J      
+The energy difference between two lowest levels is  
+   
+2
+10 22E E E B r    
+           where 
+222
+33
+H D H
+H
+H D H
+m m m mm m m     
+              
+22
+22
+3
+2 2
+3
+HH
+E mrmr
+    
+  
+Thus correct answer is option (A). 
+ 
+Q21.  Atomic numbers of 
+,,V Cr Fe  and 
+Zn  are 23, 24, 26 and 30, respectively. Which one of 
+the following materials does NOT show an electron spin resonance (ESR) spectra? 
+(A) 
+V                             (B) 
+Cr                              (C) 
+Fe                            (D) 
+Zn  
+Ans: (D) 
+Solution: ESR is exhibited by atoms which possesses unpaired of electrons in their electronic 
+configurations  
+ 
+33Vd
+43Cr d
+63Fe d
+103Zn d
+===== PAGE 33 =====
+ 
+ 
+ 
+GATE Physics-2024 
+Solution-Atomic and Molecular Physics 
+ 
+Physics by fiziks 
+Learn Physics in Right Way 
+ 
+ 
+ H.No. 40-D, G.F., Jia Sarai, Near IIT, Hauz Khas, New Delhi -16 
+
+ Phone: 011-26865455/+91-9871145498, 
+Website: www.physicsbyfiziks.com, Email: fiziks.physics@gmail.com    3 
+ 
+ 
+Q.36 – Q.65 Carry TWO marks Each 
+Q37.  The spin-orbit interaction in a hydrogen-like atom is given by the Hamiltonian  
+                                           
+'H kL S 
+  
+ where 
+k  is a real constant. The splitting between levels 
+2
+32p  and 
+2
+12p  due to this 
+interaction is  
+(A) 
+21
+2 k
+                      (B) 
+23
+2 k
+                      (C) 
+23
+4 k
+                       (D) 
+22k
+  
+Ans: (B) 
+Solution: 
+2
+,
+1
+2
+lsE k l    
+ 
+22
+,
+131 22
+lsE k k    
+  
+Q42.  An atom is subjected to a weak uniform magnetic field 
+B
+ . The number of lines in its 
+Zeeman spectrum for transition from 
+2, 1nl  to 
+1, 0nl  is 
+(A) 8  (B) 10  
+(C) 12  (D) 5 
+Ans: (B) 
+Solution: 
+12, 1, 2n l s  
+ 
+22
+3 2 1 22 ,2pp ;    
+11, 0, 2n l s    
+2
+121 s  
+(i) Transition 
+22
+3 2 1 221ps   
+2
+322 p
+ 
+Jm  
+ 
+2
+122 s
+ 
+Jm  
+ 
+(ii) Transition 
+22
+1 2 1 221ps   
+2
+122 p
+ 
+Jm  
+ 
+2
+122 s
+ 
+Jm  
+So, total number of lines is 10. 
+ 
+1
+2
+1
+2
+1
+2
+1
+2
+3
+2
+1
+2
+1
+2
+3
+2
+1
+2
+1
+2
+===== PAGE 34 =====
+ 
+ 
+ 
+GATE Physics-2024 
+Solution-Atomic and Molecular Physics 
+ 
+Physics by fiziks 
+Learn Physics in Right Way 
+ 
+4 H.No. 40-D, G.F., Jia Sarai, Near IIT, Hauz Khas, New Delhi -16 
+
+ Phone: 011-26865455/+91-9871145498, 
+Website: ww w.physicsbyfiziks.com, Email: fiziks.physics@gmail.com    
+ 
+ 
+Q53.  The curves 
+P and 
+Q  schematically show the variation of X -ray intensity with 
+wavelength at two different accelerating voltages for a given target material. In the figure 
+1 0.25 0.5 1.0     23Å, Å, Å
+ and 
+4 2.25  Å . Take Planck's  constant as 
+346.6 10 Js
+, speed of light as 
+813 10 ms   and elementary charge as 
+191.6 10  C. 
+ 
+ Which of the following statement is/are true? 
+ 
+(A) The accelerating potential corresponding to curve P is greater than that of curve Q 
+(B) The accelerating potential applied to obtain curve Q is 24750 V 
+(C) Peaks (II) and (IV) correspond to radiative transitions from L to K shells 
+(D) Peaks (I) and (III) correspond to radiative transitions from N to K shells 
+Ans: (A), (B), (C) 
+Solution: 
+(a) 
+min
+12375
+V  Å ;   
+min min
+PQ  ,   
+PQVV  
+(b) 
+min
+12375 12375 247500.5
+Q QV  Å  
+(c) and (d) 
+L K M K L K    
+ 
+KL
+hc
+EE  
+ for 
+K ; 
+KM
+hc
+EE    for 
+K ; 
+KN
+hc
+EE    for 
+K  
+ 
+ 
+ 
+1
+2
+3
+4
+  Å
+Q
+P
+ I
+ II
+ III
+ IV
+Relative Intensity 
+===== PAGE 35 =====
+ 
+ 
+ 
+GATE Physics-2023 
+Solution-Solid State Physics 
+ 
+Physics by fiziks 
+Learn Physics in Right Way 
+ 
+ 
+ H.No. 40-D, G.F., Jia Sarai, Near IIT, Hauz Khas, New Delhi -16 
+
+ Phone: 011-26865455/+91-9871145498, 
+Website: www.physicsbyfiziks.com, Email: fiziks.physics@gmail.com    1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+GATE Physics-2023 
+Solution-Solid State Physics 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Be Part of Disciplined Learning 
+===== PAGE 36 =====
+ 
+ 
+ 
+GATE Physics-2023 
+Solution-Solid State Physics 
+ 
+Physics by fiziks 
+Learn Physics in Right Way 
+ 
+2 H.No. 40-D, G.F., Jia Sarai, Near IIT, Hauz Khas, New Delhi -16 
+
+ Phone: 011-26865455/+91-9871145498, 
+Website: www.physicsbyfiziks.com, Email: fiziks.physics@gmail .com   
+ 
+ 
+Q.11 – Q.35 Carry ONE mark Each 
+Q16.  Crystal structures of two metals 
+A  and 
+B  are two-dimensional square lattices with same 
+lattice constant 
+a . Electrons in metals behave as free electrons. The Fermi surfaces 
+corresponding to 
+A  and 
+B  are shown by solid circles in figures. 
+  
+ The electron concentrations in 
+A  and 
+B  are 
+An  and 
+Bn , respectively. The value of 
+B
+A
+n
+n
+
+
+  
+ is 
+(A) 3                                 (B) 2                           (C) 
+33                             (D) 
+2  
+Ans: (D) 
+Solution: 
+The Fermi radius in two-dimension is 
+Fk2 n  where 
+n  is electron concentrated  
+The Fermi radius for metal A is 
+FK a
+  
+The Fermi radius for metal B is 
+2FK a
+  
+ For metal A: 
+2 Ana
+      ...(1)   and       For metal B: 
+2 2 Bna
+     ...(2) 
+Thus 
+2 2 22
+BB
+AA
+nn a
+n a n
+ 
+     
+Therefore, the correct option is (D) 
+ 
+ 
+ 
+ 
+ 0,0
+xk
+,0a
+
+
+yk
+Metal B
+ 0,0
+xk
+,0a
+
+
+yk
+Metal A
+===== PAGE 37 =====
+ 
+ 
+ 
+GATE Physics-2023 
+Solution-Solid State Physics 
+ 
+Physics by fiziks 
+Learn Physics in Right Way 
+ 
+ 
+ H.No. 40-D, G.F., Jia Sarai, Near IIT, Hauz Khas, New Delhi -16 
+
+ Phone: 011-26865455/+91-9871145498, 
+Website: www.physicsbyfiziks.com, Email: fiziks.physics@gmail.com    3 
+ 
+ 
+Q.36 – Q.65 Carry TWO marks Each 
+Q39.  The X-ray diffraction pattern of a monatomic cubic crystal with rigid spherical atoms of 
+radius 1.56Å shows sev eral Bragg reflections of which the reflection appearing at the 
+lowest 
+2  value in from (111) plane. If the wavelength of X -ray used is 0.78Å, Bragg 
+angle (in 
+2 , rounded off to one decimal place ) corresponding to this reflection and the 
+crystal structure, respectively, are 
+(A) 21.6° and body centered cubic              (B) 17.6° and face centered cubic 
+(C) 10.8° and body centered cubic              (D) 8.8° and face centered cubic 
+Ans: (B) 
+Solution: 
+According to the question, the first peak appears for the 
+plane (III). Thus the lattice is face centered cubic. 
+For FCC; 
+24ar  
+4 4 1.56 4.41
+22
+ra A A    
+ 
+Bragg's law is 
+12 sin sin 2d d
+         
+1 2 2 2sin 2 h k la
+      
+ 
+11 0.78sin 3 sin 0.15 8.82 4.41
+A
+A
+     
+ 
+2 17.6    
+Thus correct option is (B) 
+Q44.  An infinite one dimensional lattice extends along 
+x -axis. At each lattice site there exits 
+an ion with spin 
+1
+2 . The spin can point either in 
+z  or 
+z  direction only. Let 
+,PFSS  and 
+AS
+ denote the entropies of paramagnetic, ferromagnetic and antiferromagnetic 
+configurations, respectively. Which of the following relation is/are true? 
+(A) 
+PFSS                     (B) 
+AFSS                     (C) 
+4AFSS                   (D) 
+PASS  
+Ans: (A), (D) 
+Solution: 
+PFSS
+ 
+PASS
+, also 
+AFSS  must be true. 
+(A), (B) and (D) must be true. 
+ 
+ 
+2
+I
+
+ III
+FM
+PM
+AF
+===== PAGE 38 =====
+ 
+ 
+ 
+GATE Physics-2023 
+Solution-Solid State Physics 
+ 
+Physics by fiziks 
+Learn Physics in Right Way 
+ 
+4 H.No. 40-D, G.F., Jia Sarai, Near IIT, Hauz Khas, New Delhi -16 
+
+ Phone: 011-26865455/+91-9871145498, 
+Website: www.physicsbyfiziks.com, Email: fiziks.physics@gmail .com   
+ 
+ 
+Q50.  An extrinsic semiconductor shown in figure carries a current of 
+2 mA  along its length 
+parallel to 
+x  axis. When the majority 
+charge carrier concentration is 
+13 312.5 10 cm 
+ and the sample is exposed to 
+a constant magnetic field applied along the 
+z
+ direction, a Hall voltage of 20 mV is 
+measured with the negative polarity at 
+0y  
+plane. Take the electric charge as 
+191.6 10  C. The concentration of minority charge 
+carrier is negligible. Which of the following statement is/are true? 
+(A) The majority charge carrier is electron  
+(B) The magnitude of the applied magnetic field is 1 Tesla 
+(C) The electric field corresponding to the Hall voltage is in the 
+y  direction  
+(D) The magnitude of Hall coefficient is 50,000 
+31mC   
+Ans: (A), (B) 
+Solution: According to the question 
+ˆˆ ,V Vi B Bk 
+ . 
+   ˆˆˆLF q V B q Vi Bk qVBj    
+  
+If 
+qe , 
+ˆLF eVBj
+  as a result electron will accumulate at 
+0y  plane. Thus, majority career 
+are electrons. Therefore, option (A) is correct. 
+(B) The Hall voltage is 
+H
+IBV new  
+HV newB I
+ 
+3 13 6 3 19 2
+3
+20 10 12.5 10 10 1.6 10 0.5 10
+2 10
+mm   
+
+          
+1 T  
+Thus option (B) is correct. 
+(C) The electric field corresponding to the Hall 
+voltage is in the 
+y  direction. Thus option (c) is 
+not correct. 
+ 
+ 
+ 
+(D) 
+13 6 19
+11
+12.5 10 10 1.6 10
+HR ne       
+310.05mC   
+Thus option (D) is not correct. 
+ 
+ 
+x
+5cm
+0.5cm
+y
+z
+3cm
+
+
+
+
+
+
+
+
+
+x
+y
+z
+E
+
+
+
+
+
+
+
+
+
+===== PAGE 39 =====
+ 
+ 
+ 
+GATE Physics-2023 
+Solution-Solid State Physics 
+ 
+Physics by fiziks 
+Learn Physics in Right Way 
+ 
+ 
+ H.No. 40-D, G.F., Jia Sarai, Near IIT, Hauz Khas, New Delhi -16 
+
+ Phone: 011-26865455/+91-9871145498, 
+Website: www.physicsbyfiziks.com, Email: fiziks.physics@gmail.com    5 
+ 
+ 
+Q52.  The temperature 
+T  dependence of magnetic susceptibility 
+  (Column I) of certain 
+magnetic materials (Column II) are given below. Which of the following option is/are 
+correct? 
+Column I Column II 
+(1) 
+ 
+(P) Diamagnetic 
+ 
+ 
+ 
+(2) 
+ 
+ 
+ 
+ 
+(Q) Paramagnetic 
+ 
+ 
+ 
+(3) 
+ 
+ 
+ 
+ 
+(R) Ferromagnetic 
+ 
+ 
+ 
+(4) 
+ 
+ 
+ 
+ 
+(S) Antiferromagnetic 
+ 
+ 
+ 
+(A) 2 − P, 4 − Q, 3 − S  (B) 4 − P, 1 − Q, 2 − R 
+(C) 4 − Q, 2 − R, 1 − S  (D) 3 − P, 4 − Q, 2 − R 
+Ans: (C), (D) 
+Solution: 
+diamagnet
+= – constant                                                          
+Paramagnet
+C
+T   
+ 
+ 
+ 
+ 
+0
+T
+
+T
+0
+
+T
+0
+
+T
+0
+
+
+0
+T
+
+===== PAGE 40 =====
+ 
+ 
+ 
+GATE Physics-2023 
+Solution-Solid State Physics 
+ 
+Physics by fiziks 
+Learn Physics in Right Way 
+ 
+6 H.No. 40-D, G.F., Jia Sarai, Near IIT, Hauz Khas, New Delhi -16 
+
+ Phone: 011-26865455/+91-9871145498, 
+Website: www.physicsbyfiziks.com, Email: fiziks.physics@gmail .com   
+ 
+ 
+Ferromagnet
+C
+C
+TT  
+                                                         
+Anti-Ferro
+N
+C
+TT    
+ 
+ 
+ 
+ 
+ 
+ 
+Thus options (C) and (D) are correct. 
+Q54.  Apart from the acoustic modes, 9 optical modes are identified from the measurements of 
+photon dispersions of a solid with chemical formula 
+nmAB , where 
+A  and 
+B  denote the 
+atomic species, and 
+n  and 
+m  are integers. Which of the following combination of 
+n  and 
+m
+ is/are possible? 
+(A) 
+1, 1nm   (B) 
+2, 2nm   
+(C) 
+3, 1nm   (D) 
+4, 4nm  
+Ans: (B), (C) 
+Solution: 
+No. of optical modes = 9,     No. of Acoustical modes = 3 
+Total no. of modes 
+3 12p    
+Thus no. of atoms per primitive cell 
+4p .    
+4p n m  
+.  Thus 
+2, 2nm  and 
+3n , 
+1m   
+Q57.  A material behaves as a superconductor below a critical temperature 
+cT  and as a normal 
+conductor above 
+cT . A magnetic field 
+ˆB Bz
+  is applied when 
+cTT . The material is 
+then cooled below 
+cT  in the presence of 
+B
+ . Which of the following figure r epresent the 
+correct configuration of magnetic field lines? 
+(A) 
+ 
+(B) 
+ 
+CTT
+CTT
+T
+
+===== PAGE 41 =====
+ 
+ 
+ 
+GATE Physics-2023 
+Solution-Solid State Physics 
+ 
+Physics by fiziks 
+Learn Physics in Right Way 
+ 
+ 
+ H.No. 40-D, G.F., Jia Sarai, Near IIT, Hauz Khas, New Delhi -16 
+
+ Phone: 011-26865455/+91-9871145498, 
+Website: www.physicsbyfiziks.com, Email: fiziks.physics@gmail.com    7 
+ 
+ 
+(C) 
+ 
+(D) 
+ 
+Ans: (A), (C) 
+Solution: 
+ 0B H M
+ at 
+CTT  
+0B
+ at 
+CTT  
+Thus options (A) and (C) are correct. 
+Q62.  Consider a three -dimensional system of non -interacting bosons with zero chemical 
+potential. The energy of the system 
+2k , where 
+k  is the wavevector. The low 
+temperature specific heat of the system at constant volume depends on the temperature as 
+2
+n
+VCT
+. The value of 
+n  is _____ (in integer). 
+Ans: 3 
+Solution: 
+2
+n
+VCT
+ 
+For three-dimensions 
+3n      
+ 
+ 
+ 
+ 
+CTT
+CTT
+===== PAGE 42 =====
+ 
+ 
+ 
+GATE Physics-2024 
+Solution-Nuclear and Particle Physics 
+ 
+Physics by fiziks 
+Learn Physics in Right Way 
+ 
+ 
+ H.No. 40-D, G.F., Jia Sarai, Near IIT, Hauz Khas, New Delhi -16 
+
+ Phone: 011-26865455/+91-9871145498, 
+Website: www.physicsbyfiziks.com, Email: fiziks.physics@gmail.com    1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+GATE Physics-2024 
+Solution-Nuclear and Particle Physics 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Be Part of Disciplined Learning 
+===== PAGE 43 =====
+ 
+ 
+ 
+GATE Physics-2024 
+Solution-Nuclear and Particle Physics 
+ 
+Physics by fiziks 
+Learn Physics in Right Way 
+ 
+2 H.No. 40-D, G.F., Jia Sarai, Near IIT, Hauz Khas, New Delhi -16 
+
+ Phone: 011-26865455/+91-9871145498, 
+Website: www.physicsbyfiziks.com, Email: fiziks.physics@gmail.com   
+ 
+ 
+Q.11 – Q.35 Carry ONE mark Each 
+Q17.  Consider the induced nuclear fission reaction 
+235 93 141
+92 37 55 2U n Rb Cs n     where neutron   
+             momenta in both initial and final states are negligible. The ratio of the kinetic energies   
+             (KE) of the daughter nuclei, 
+ 
+ 
+93
+37
+141
+55
+KE Rb
+KE Cs   is ________________ 
+(A) 
+93
+141                         (B) 
+141
+93                             (C) 1                             (D) 0 
+Ans: (B) 
+Solution: 
+Rb Csp p p
+;  
+2
+2
+2 141
+2 93
+Rb Rb Cs
+Cs Cs Rb
+KE p M M
+KE p M M    
+Q19.  Let 
+eN  and 
+eT , respectively, denote number and kinetic energy of electrons produced in a 
+nuclear beta decay. Which one of the following distributions is correct? 
+(A) 
+ 
+(B) 
+ 
+ 
+(C) 
+ 
+ 
+(D) 
+ 
+Ans: (C) 
+Solution: It is a standard energy spectrum for 
+   decay. 
+eT
+ 0,0
+eN
+eT
+ 0,0
+eN
+eT
+ 0,0
+eN
+eT
+ 0,0
+eN
+===== PAGE 44 =====
+ 
+ 
+ 
+GATE Physics-2024 
+Solution-Nuclear and Particle Physics 
+ 
+Physics by fiziks 
+Learn Physics in Right Way 
+ 
+ 
+ H.No. 40-D, G.F., Jia Sarai, Near IIT, Hauz Khas, New Delhi -16 
+
+ Phone: 011-26865455/+91-9871145498, 
+Website: www.physicsbyfiziks.com, Email: fiziks.physics@gmail.com    3 
+ 
+ 
+Q26.  Let 
+,PQ  and 
+R  be three different nuclei. Which one of the following nuclear processes 
+is possible? 
+(A) 
+1
+1
+AA
+e z zv P Q e 
+     (B) 
+1
+AA
+e z zv P R e 
+    
+(C) 
+AA
+e z zv P P e e       (D) 
+AA
+e z zv P P     
+Ans: (A) 
+Solution: 
+(b) Lepton number is not conserved. 
+(c) 
+Z  number is not conserved. 
+(d) Lepton number is not conserved. 
+Q.36 – Q.65 Carry TWO marks Each 
+Q36.  Binding energy and rest mass energy of a two -nucleon bound state are denoted by 
+B  and 
+2mc
+, respectively, where 
+c  is the speed of light. The minimum energy of a photon 
+required to dissociate the bound state is 
+(A) 
+B   (B) 
+21 2
+BB mc
+   
+(C) 
+21 2
+BB mc
+   (D) 
+2B mc  
+Ans: (B) 
+Solution: 
+2
+1 H p n  
+; 
+ 
+22
+PnB m m c mc    
+Apply conservation of energy principle, 
+ 
+2
+22 2 4 r
+Pn
+Emc E c m m c c
+
+   
+ 
+ 
+22 2 2mc E E B mc    
+21 2
+BEB mc
+
+     
+Q49.  Decays of mesons and baryons can be categorized as weak, strong and electromagnetic 
+decays depending upon the interactions involved in the processes. Which of the following 
+option is/are true? 
+(A) 
+0   is a weak decay                  (B) 
+00 p    is an electromagnetic decay 
+(C) 
+0K   is a weak decay          (D) 
+p      is a strong decay 
+Ans:  (C), (D) 
+Solution: 
+(a) As 
+  photon is involved, it cannot be a weak interaction. 
+===== PAGE 45 =====
+ 
+ 
+ 
+GATE Physics-2024 
+Solution-Nuclear and Particle Physics 
+ 
+Physics by fiziks 
+Learn Physics in Right Way 
+ 
+4 H.No. 40-D, G.F., Jia Sarai, Near IIT, Hauz Khas, New Delhi -16 
+
+ Phone: 011-26865455/+91-9871145498, 
+Website: www.physicsbyfiziks.com, Email: fiziks.physics@gmail.com   
+ 
+ 
+(b) 
+00 p   . Here third component of isospin 
+ 3I  is not conserved. 
+100 2
+  , so it 
+cannot be electromagnetic interaction. 
+(c) Charge, 
+B  and 
+L  are conserved. 
+3,II  and 
+S  are not conserved. So 
+0k   is a weak 
+interaction. 
+(d) Charge, 
+B , spin and 
+L  are conserved. 
+3,II  and 
+S  are conserved. So it is a strong 
+interaction. 
+Q65.  According to the nuclear shell model, the absolute value of the difference in magnetic 
+moments of 
+15
+8O  and 
+15
+7 N , in the units of nuclear magneton 
+ N  is 
+3a . The magnitude 
+of 
+a  is _________ (in integer). 
+Ans: 2 
+Solution: 
+15
+8 :7 nOn 
+:   
+1 3 122 2
+2 4 11 1 1s p p : 
+1
+2j   
+0
+121.91 1.91 0.631 1 2 1
+z z N N N n
+j
+j        
+ 
+1 3 122 2
+15 2 4 1
+7
+1: 7 :1 1 1 : 2
+pN n s p p j
+ 
+ 1.291
+z z NNp
+j jj     
+1 2 1 1.29 0.261 2 1 2
+NN   
+ 
+ 0 0.63 0.26 0.89z z N N N      
+2.67 2
+33
+NN
+    
+ 
+ 
+===== PAGE 46 =====
+ 
+ 
+ 
+GATE Physics-2024 
+Solution-General Aptitude 
+ 
+Physics by fiziks 
+Learn Physics in Right Way 
+ 
+ 
+ H.No. 40-D, G.F., Jia Sarai, Near IIT, Hauz Khas, New Delhi -16 
+
+ Phone: 011-26865455/+91-9871145498, 
+Website: www.physicsbyfiziks.com, Email: fiziks.physics@gmail.com    1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+GATE Physics-2024 
+Solution-General Aptitude 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Be Part of Disciplined Learning 
+===== PAGE 47 =====
+ 
+ 
+ 
+GATE Physics-2024 
+Solution-General Aptitude 
+ 
+Physics by fiziks 
+Learn Physics in Right Way 
+ 
+2 H.No. 40-D, G.F., Jia Sarai, Near IIT, Hauz Khas, New Delh i-16 
+
+ Phone: 011-26865455/+91-9871145498, 
+Website: www.physicsbyfiziks.com, Email: fiziks.physics@gmail.com    
+ 
+ 
+Section -GA (General Aptitude) 
+Q.1 – Q.5 Multiple Choice Question (MCQ), carry ONE mark each (for each wrong 
+answer: –1/3).  
+Q1.  If ‘→’ denotes increasing order of intensity, then the meaning of the words  
+ [smile → giggle → laugh] is analogous to [disapprove → ________ → chide]. 
+ Which one of the given options is appropriate to fill the blank? 
+(A) reprove                     (B) praise                      (C) reprise                    (D) grieve 
+Ans: (A) 
+Solution: [smile → giggle → laugh] is analogous to [disapprove → reprove → chide]. 
+Q2.  Find the odd one out in the set: 
+ 19,37,21,17,23,29,31,11  
+(A) 21                         (B) 29                              (C) 37                         (D) 23 
+Ans: (A) 
+Solution: All numbers in the set are prime except 21.  
+Q3.  In the following series, identify the number that needs to be changed to form the 
+Fibonacci series. 
+                                 1, 1, 2, 3, 6, 8, 13, 21,… 
+(A) 8                         (B) 21                             (C) 6                         (D) 13 
+Ans: (C) 
+Solution: 
+ 
+Q4.  The real variables 
+,,x y z  and the real constants 
+,,pqr  satisfy 
+                             
+2 2 2
+x y z
+pq r qr p rp q    
+ Given that the denominators are non-zero, the value of 
+px qy rz  is 
+(A) 0  (B) 1  
+(C) 
+pqr   (D) 
+2 2 2pqr  
+===== PAGE 48 =====
+ 
+ 
+ 
+GATE Physics-2024 
+Solution-General Aptitude 
+ 
+Physics by fiziks 
+Learn Physics in Right Way 
+ 
+ 
+ H.No. 40-D, G.F., Jia Sarai, Near IIT, Hauz Khas, New Delhi -16 
+
+ Phone: 011-26865455/+91-9871145498, 
+Website: www.physicsbyfiziks.com, Email: fiziks.physics@gmail.com    3 
+ 
+ 
+Ans: (A) 
+Solution:   
+     
+2 2 2 2 2 2 0
+x y z px qy rz px qy rz
+pq r qr p rp q p pq r q qr p r rp q
+             
+ 
+0px qy rz   
+ 
+Q5.  Take two long dice (rectangular parallelepiped), each having four rectangular faces 
+labelled as 2, 3, 5, and 7. If thrown, the long dice cannot land on the square faces and has 
+1/4 probability of landing on any of th e four rectangular faces. The label on the top face 
+of the dice is the score of the throw. 
+ If thrown together, what is the probability of getting the sum of the two long dice scores 
+greater than 11? 
+ If thrown together, what is the probability of getting the sum of the two long dice scores 
+greater than 11? 
+(A) 3/8                        (B) 1/8                           (C) 1/16                       (D) 3/16 
+Ans: (D) 
+Solution:   
+Table shows all three possibilities of numbers on top faces. 
+Total probability  
+            
+1 1 1 1 1 1 3
+4 4 4 4 4 4 16        
+ 
+Q. 6 – Q. 10 Multiple Choice Question (MCQ), carry TWO marks each (for each wrong 
+answer: –2/3).  
+Q6.  In the given text, the blanks are numbered (i)−(iv). Select the best match for all the 
+ blanks. 
+ Prof. P________ (i) merely a man who narrated funny stories._________ (ii) in his 
+blackest moments he was capable of self-deprecating humor. 
+ Prof. Q__________(iii) a man who hardly narrated funny stories._________(iv) in his 
+blackest moments was he able to find humor. 
+(A) (i) was (ii) Only (iii) wasn’t (iv) Even 
+(B) (i) wasn’t (ii) Even (iii) was (iv) Only 
+(C) (i) was (ii) Even (iii) wasn’t (iv) Only 
+(D) (i) wasn’t (ii) Only (iii) was (iv) Even 
+Ans: (B) 
+  
+5 7 
+7 5 
+7 7 
+1D
+2D
+===== PAGE 49 =====
+ 
+ 
+ 
+GATE Physics-2024 
+Solution-General Aptitude 
+ 
+Physics by fiziks 
+Learn Physics in Right Way 
+ 
+4 H.No. 40-D, G.F., Jia Sarai, Near IIT, Hauz Khas, New Delh i-16 
+
+ Phone: 011-26865455/+91-9871145498, 
+Website: www.physicsbyfiziks.com, Email: fiziks.physics@gmail.com    
+ 
+ 
+Q7.  How many combinations of non -null se ts A, B, C are possible from the subsets of 
+ 2,3,5
+ satisfying the conditions: (i) A is a subset of B, and (ii) B is a subset of C? 
+(A) 28                                  (B) 27                          (C) 18                               (D) 19 
+Ans: MTA 
+Q8.  The bar chart gives the batting averages of VK and RS for 11 calendar years from 2012 
+to 2022. Considering that 2015 and 2019 are world cup years, which one of the following 
+options is true? 
+ 
+(A)  RS has a higher yearly batting average than that of VK in every world cup year. 
+(B)  VK has a higher yearly batting average than that of RS in every world cup year. 
+(C)  VK’s yearly batting average is consistently higher than that of RS between the 
+two world cup years. 
+(D)  RS’s yearly batting average is consistently higher than that of VK in the last three 
+years. 
+Ans: (C) 
+Q9.  A planar rectangular paper has two V-shaped pieces attached as shown below. 
+ 
+ This piece of paper is folded to make the following closed three-dimensional object. 
+2012
+2013
+2014
+2015
+2016
+2017
+2018
+2019
+2020
+2021
+2022
+VK
+RS
+Calendar Year
+0
+20
+40
+60
+80
+100
+120
+140
+Batting Average 
+===== PAGE 50 =====
+ 
+ 
+ 
+GATE Physics-2024 
+Solution-General Aptitude 
+ 
+Physics by fiziks 
+Learn Physics in Right Way 
+ 
+ 
+ H.No. 40-D, G.F., Jia Sarai, Near IIT, Hauz Khas, New Delhi -16 
+
+ Phone: 011-26865455/+91-9871145498, 
+Website: www.physicsbyfiziks.com, Email: fiziks.physics@gmail.com    5 
+ 
+ 
+ 
+The number of folds required to form the above object is 
+(A) 9                                (B) 7                             (C) 11                              (D) 8 
+Ans: (A) 
+Q10.  Four equilateral triangles are used to form a regular closed three -dimensional object by 
+joining along the edges. The angle between any two faces is 
+(A) 30°  (B) 60°  
+(C) 45°  (D) 90° 
+Ans:   MTA 
+ 
+ 
+ 
+ 
+ 

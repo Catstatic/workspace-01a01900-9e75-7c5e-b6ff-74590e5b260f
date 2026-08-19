@@ -1,0 +1,11 @@
+{
+ "round": "R28",
+ "note": "APTIFORGE C5 — mount the aptitude study-content companion (aptitude-content.js, 12 modules) in the head immediately after content-data.js. The script self-merges into window.LOCAL_CONTENT_DATA, so the existing Content Vault lists the 12 aptitude docs with zero base-code rewrites. Single context-anchored insertion pair (original line preserved, companion line appended).",
+ "pairs": [
+  {
+   "name": "aptiforge-script-tag",
+   "old": "<script src=\"./gate-answer-overrides.js\"></script>\n<script src=\"./content-data.js\"></script>\n</head>",
+   "new": "<script src=\"./gate-answer-overrides.js\"></script>\n<script src=\"./content-data.js\"></script>\n<script src=\"./aptitude-content.js\"></script>\n</head>"
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "round": "R29",
+ "note": "VAULTFORGE hardening: inline-math parking (immune to italicizer), pipe-table renderer, code-fence token restore, vault table CSS · R30 esc fold-in absorbed for inline restore",
+ "pairs": [
+  {
+   "name": "vault-hoist-mathblocks-immune-inline",
+   "old": "  function inline(value){return esc(value).replace(/`([^`]+)`/g,'<code>$1</code>').replace(/\\*\\*([^*]+)\\*\\*/g,'<strong>$1</strong>').replace(/\\*([^*]+)\\*/g,'<em>$1</em>');}",
+   "new": "  let mathBlocks=[];\n  function inline(value){return esc(value).replace(/`([^`]+)`/g,'<code>$1</code>').replace(/\\*\\*([^*]+)\\*\\*/g,'<strong>$1</strong>').replace(/\\*([^*]+)\\*/g,'<em>$1</em>').replace(/\\u0001MATH(\\d+)\\u0002/g,(m,n)=>esc(mathBlocks[Number(n)]));}"
+  },
+  {
+   "name": "vault-park-inline-math",
+   "old": "    const mathBlocks=[];\n    const source=String(md||'').replace(/\\$\\$[\\s\\S]*?\\$\\$|\\\\\\[[\\s\\S]*?\\\\\\]/g,match=>{const token='@@MATHBLOCK'+mathBlocks.length+'@@';mathBlocks.push(match);return '\\n'+token+'\\n';});",
+   "new": "    mathBlocks=[];\n    const source=String(md||'')\n      .replace(/\\$\\$[\\s\\S]*?\\$\\$|\\\\\\[[\\s\\S]*?\\\\\\]/g,match=>{const token='@@MATHBLOCK'+mathBlocks.length+'@@';mathBlocks.push(match);return '\\n'+token+'\\n';})\n      .replace(/\\$(?!\\s)([^\\n$]*?)(?<!\\s)\\$(?!\\d)|\\\\\\([\\s\\S]*?\\\\\\)/g,match=>{const token='\\u0001MATH'+mathBlocks.length+'\\u0002';mathBlocks.push(match);return token;});"
+  },
+  {
+   "name": "vault-codeblock-token-restore",
+   "old": "    const closeCode=()=>{out.push('<pre class=\"content-code-block\"><code>'+esc(codeLines.join('\\n'))+'</code></pre>');codeLines=[];inCode=false;};",
+   "new": "    const closeCode=()=>{out.push('<pre class=\"content-code-block\"><code>'+esc(codeLines.join('\\n')).replace(/@@MATHBLOCK(\\d+)@@/g,(m,n)=>esc(mathBlocks[Number(n)])).replace(/\\u0001MATH(\\d+)\\u0002/g,(m,n)=>esc(mathBlocks[Number(n)]))+'</code></pre>');codeLines=[];inCode=false;};"
+  },
+  {
+   "name": "vault-flushTable-def",
+   "old": "    const closeList=()=>{if(list){out.push('</'+list+'>');list=null;}};",
+   "new": "    const closeList=()=>{if(list){out.push('</'+list+'>');list=null;}};\n    let inTable=false,tableRows=[];\n    const flushTable=()=>{if(!inTable)return;inTable=false;const rows=tableRows;tableRows=[];const cells=r=>r.replace(/^\\s*\\||\\|\\s*$/g,'').split('|').map(c=>c.trim());const isSep=r=>r.includes('-')&&/^[\\s|\\-:]*$/.test(r);let html='<div class=\"content-table-wrap\"><table class=\"content-table\">';if(rows.length){html+='<thead><tr>'+cells(rows[0]).map(c=>'<th>'+inline(c)+'</th>').join('')+'</tr></thead>';}html+='<tbody>'+rows.slice(rows[1]&&isSep(rows[1])?2:1).map(r=>'<tr>'+cells(r).map(c=>'<td>'+inline(c)+'</td>').join('')+'</tr>').join('')+'</tbody></table></div>';if(rows.length)out.push(html);};"
+  },
+  {
+   "name": "vault-table-loop-hooks",
+   "old": "      if(/^\\s*$/.test(line)){closePara();closeList();return;}",
+   "new": "      if(inTable&&!/^\\s*\\|.*\\|\\s*$/.test(line)){flushTable();}\n      if(/^\\s*\\|.*\\|\\s*$/.test(line)){closePara();closeList();inTable=true;tableRows.push(trimmed);return;}\n      if(/^\\s*$/.test(line)){closePara();closeList();return;}"
+  },
+  {
+   "name": "vault-final-flush",
+   "old": "    closePara();closeList();if(inCode)closeCode();return out.join('');",
+   "new": "    closePara();closeList();flushTable();if(inCode)closeCode();return out.join('');"
+  },
+  {
+   "name": "vault-table-css",
+   "old": ".content-vault-empty{padding:50px 10px;text-align:center;color:var(--ink-2);font:.8rem/1.5 var(--font-body);}",
+   "new": ".content-vault-empty{padding:50px 10px;text-align:center;color:var(--ink-2);font:.8rem/1.5 var(--font-body);}.content-table-wrap{overflow-x:auto;margin:14px 0;border:1px solid var(--line);border-radius:10px;}table.content-table{border-collapse:collapse;width:100%;font:400 .8rem/1.55 var(--font-body,'Space Grotesk',sans-serif);color:var(--ink-1);}table.content-table th,table.content-table td{border-bottom:1px solid var(--line);border-right:1px solid var(--line);padding:7px 10px;text-align:left;vertical-align:top;}table.content-table th:last-child,table.content-table td:last-child{border-right:0;}table.content-table tr:last-child td{border-bottom:0;}table.content-table thead th{color:var(--ink-0);font-weight:700;background:color-mix(in srgb,var(--accent) 8%,transparent);white-space:nowrap;}table.content-table tbody tr:nth-child(even){background:color-mix(in srgb,var(--ink-0) 3%,transparent);}"
+  }
+ ]
+}

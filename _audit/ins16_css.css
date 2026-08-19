@@ -1,0 +1,21 @@
+/* ============================================================
+   ROUND 17 — INSTANT BOOT VEIL (boot screen paints FIRST)
+   Root cause of "dashboard shows before boot": the overlay is built
+   by round-13 JS near the end of the document, so the 46 MB document paints panels
+   first. Fix: a pure-CSS/static veil parked as the very first element of the body. It covers the viewport from the very first frame — zero
+   JS, zero images — then the round-13 overlay phasers IN over it
+   (same palette) and the veil fades out behind it.
+   Skip-today is honored by the tiny inline script in ins16_html:
+   if today's greeting is already skipped, the veil never appears.
+   ============================================================ */
+.boot-veil{position:fixed;inset:0;z-index:11999;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:18px;background:radial-gradient(1100px 720px at 78% -10%,rgba(90,70,180,.38),transparent 60%),radial-gradient(820px 520px at 12% 110%,rgba(30,60,140,.32),transparent 62%),linear-gradient(180deg,#070a26 0%,#1c1247 55%,#0a0d22 100%);color:#eaf4ff;font-family:'Segoe UI',system-ui,sans-serif;letter-spacing:.18em;overflow:hidden;transition:opacity .45s ease;}
+.boot-veil::before{content:"";position:absolute;inset:0;pointer-events:none;background:repeating-linear-gradient(0deg,rgba(255,255,255,.03) 0 1px,transparent 1px 3px);}
+.boot-veil.gone{opacity:0;pointer-events:none;}
+.boot-veil-core{position:relative;width:64px;height:64px;}
+.boot-veil-core svg{width:100%;height:100%;display:block;animation:bootVeilSpin 6s linear infinite;}
+.boot-veil-label{font:800 11px/1.5 'Courier New',monospace;color:rgba(159,227,255,.75);text-transform:uppercase;animation:bootVeilPulse 1.6s ease-in-out infinite;}
+.boot-veil-bar{width:180px;height:3px;border-radius:99px;background:rgba(159,227,255,.14);overflow:hidden;}
+.boot-veil-bar i{display:block;height:100%;width:38%;border-radius:99px;background:linear-gradient(90deg,transparent,#9fe3ff,transparent);animation:bootVeilScan 1.15s ease-in-out infinite;}
+@keyframes bootVeilSpin{to{transform:rotate(360deg)}}
+@keyframes bootVeilPulse{0%,100%{opacity:.45}50%{opacity:1}}
+@keyframes bootVeilScan{0%{transform:translateX(-110%)}100%{transform:translateX(310%)}}

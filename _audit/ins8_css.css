@@ -1,0 +1,10 @@
+/* ============ AI CHAPTER NAVIGATOR (transfer 8) ============ */
+.ai-chapters{display:flex;flex-wrap:wrap;align-items:center;gap:6px;margin:8px 0 10px;padding:7px 9px;border:1px dashed var(--line,#ccd2dc);border-radius:9px;}
+.ai-chapters-tag{color:var(--accent,#456);font:700 .54rem/1 'DM Mono',monospace;letter-spacing:.14em;margin-right:2px;}
+.ai-chapter-btn{border:1px solid var(--line,#ccd2dc);border-radius:999px;background:transparent;color:var(--ink-1,#444);padding:4px 9px;font:600 .56rem/1.2 'DM Mono',monospace;cursor:pointer;}
+.ai-chapter-btn:hover{border-color:var(--accent,#456);color:var(--ink-0,#111);}
+.cai-body h4.ai-chapter-hi{animation:ai-hi 1.3s ease-out;}
+@keyframes ai-hi{0%{background:color-mix(in srgb,var(--accent,#456) 26%,transparent);}100%{background:transparent;}}
+@media (prefers-reduced-motion:reduce){
+  .cai-body h4.ai-chapter-hi{animation:none;}
+}

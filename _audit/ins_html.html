@@ -1,0 +1,76 @@
+<!-- ============ AI SETTINGS DIALOG (provider-agnostic · local-only) ============ -->
+<div class="ai-settings-shell" id="aiSettingsShell" role="dialog" aria-modal="true" aria-labelledby="aiSettingsTitle">
+  <div class="ai-settings-card">
+    <div class="ai-settings-head">
+      <div>
+        <div class="eyebrow">Local configuration · BYOK</div>
+        <div class="ai-settings-title" id="aiSettingsTitle">AI Settings</div>
+      </div>
+      <button class="ai-settings-close" id="aiSettingsCloseBtn" type="button" onclick="closeAiSettings()">CLOSE ✕</button>
+    </div>
+    <div class="ai-settings-grid">
+      <label for="aiProvider">Provider
+        <select id="aiProvider" onchange="aiProviderChanged()"></select>
+      </label>
+      <label for="aiApiFormat">API format
+        <select id="aiApiFormat" onchange="aiFormatChanged()">
+          <option value="openai-chat">OpenAI Chat Completions</option>
+          <option value="openai-responses">OpenAI Responses API</option>
+          <option value="gemini">Gemini Generative Language</option>
+          <option value="anthropic">Anthropic Messages</option>
+          <option value="openai-compatible">OpenAI-compatible</option>
+          <option value="custom">Custom</option>
+        </select>
+      </label>
+      <label class="ai-field-full" for="aiEndpoint" id="aiEndpointRow">Endpoint / base URL
+        <input id="aiEndpoint" type="url" autocomplete="off" spellcheck="false" placeholder="https://…">
+      </label>
+      <label class="ai-field-full" for="aiModel">Model
+        <input id="aiModel" list="aiModelSuggestions" autocomplete="off" spellcheck="false" placeholder="Pick a suggestion (free/paid shown) or type any model id">
+        <datalist id="aiModelSuggestions"></datalist>
+      </label>
+      <label class="ai-field-full" for="aiApiKey" id="aiKeyRow">API key
+        <span class="ai-key-row">
+          <input id="aiApiKey" type="password" autocomplete="off" placeholder="Stored only in this browser — never backed up">
+          <button class="ai-key-toggle" id="aiKeyToggle" type="button" onclick="aiToggleKeyVisibility()" aria-label="Show or hide API key">SHOW</button>
+        </span>
+      </label>
+      <label class="ai-field-full" for="aiOrg" id="aiOrgRow" style="display:none;">Organization / project (optional)
+        <input id="aiOrg" type="text" autocomplete="off" spellcheck="false" placeholder="org-… / project id (optional)">
+      </label>
+      <label class="ai-field-full" for="aiHeaders" id="aiHeadersRow" style="display:none;">Extra headers (JSON, optional)
+        <textarea id="aiHeaders" spellcheck="false" placeholder='{"X-Custom-Header":"value"}'></textarea>
+      </label>
+      <details class="ai-advanced" id="aiAdvanced">
+        <summary>Generation &amp; network controls</summary>
+        <div class="ai-advanced-grid">
+          <label for="aiTemperature">Temperature
+            <input id="aiTemperature" type="number" min="0" max="2" step="0.05" value="0.2">
+          </label>
+          <label for="aiMaxTokens">Max output tokens
+            <input id="aiMaxTokens" type="number" min="64" max="128000" step="64" value="4096">
+          </label>
+          <label for="aiTimeout">Timeout (seconds)
+            <input id="aiTimeout" type="number" min="5" max="180" step="1" value="45">
+          </label>
+        </div>
+      </details>
+    </div>
+    <div class="ai-privacy">
+      <b>Privacy:</b> your API key and these settings live only in this browser's local storage on this device.
+      Requests go directly from your browser to the provider you pick — no proxy, no cloud sync, nothing is sent
+      automatically. Tracker backups (<b>Download Backup</b>) never include your API key. AI output is advisory and
+      always kept separate from official PYQ answers, scores and notes.
+    </div>
+    <div class="ai-conn" aria-live="polite">
+      <span class="ai-conn-dot" id="aiConnDot"></span>
+      <span class="ai-conn-msg" id="aiConnStatus">Not tested yet.</span>
+    </div>
+    <div class="ai-settings-actions">
+      <button class="data-btn" type="button" onclick="aiSaveSettings()">SAVE SETTINGS</button>
+      <button class="data-btn" type="button" id="aiTestBtn" onclick="aiTestConnection()">TEST CONNECTION</button>
+      <button class="data-btn" type="button" onclick="aiClearSettings()">CLEAR SETTINGS</button>
+      <button class="data-btn" type="button" id="aiClearHistoryBtn" onclick="aiClearHistory()">CLEAR AI HISTORY</button>
+    </div>
+  </div>
+</div>

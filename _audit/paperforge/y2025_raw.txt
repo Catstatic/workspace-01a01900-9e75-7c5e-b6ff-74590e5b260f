@@ -1,0 +1,1696 @@
+
+===== PAGE 1 =====
+ 
+ 
+ 
+GATE Physics Question Paper-2025 
+ 
+Physics by fiziks 
+Learn Physics in Right Way 
+ 
+ 
+ H.No. 40-D, G.F., Jia Sarai, Near IIT, Hauz Khas, New Delhi-16 
+Phone: 011-26865455/+91-9871145498, Website: www.physicsbyfiziks.com, Email: fiziks.physics@gmail.com    1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+GATE Physics 
+Question Paper -2025 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Be Part of Disciplined Learning 
+
+===== PAGE 2 =====
+ 
+ 
+ 
+GATE Physics Question Paper-2025  
+ 
+Physics by fiziks 
+Learn Physics in Right Way 
+ 
+2 H.No. 40-D, G.F., Jia Sarai, Near IIT, Hauz Khas, New Delhi -16 
+Phone: 011-26865455/+91-9871145498, Website: www.physicsbyfiziks.com, Email: fiziks.physics@gmail.com    
+ 
+ 
+General Aptitude 
+Q1.-Q5 Carry One Mark Each 
+Q1. Is there any good show___________ television tonight? 
+Select the most appropriate option to complete the above sentence. 
+(A) in    (B) at    (C) within    (D) on 
+Ans.: (D) 
+Q2. As the police officer was found guilty of embezzlement, he was ________ dismissed from 
+the service in accordance with the Service Rules. 
+Select the most appropriate option to complete the above sentence. 
+(A) sumptuously     (B) brazenly    
+(C) unintentionally               (D) summarily 
+Ans.: (D) 
+Q3. The sum of the following infinite series is: 
+                                
+1 1 1 1 1 ...1! 2! 3! 4! 5!      
+(A) 
+         (B) 
+1 e            (C) 
+1e       (D) 
+e  
+Ans.: (C) 
+Q4. A thin wire is used to construct all the edges of a cube of 
+1m  side by bending, cutting and 
+soldering the wire. If the wir e is 
+12 m  long, what is the minimum number of cuts required to 
+construct the wire frame to form the cube? 
+(A) 3     (B) 4     (C) 6          (D) 12 
+Ans.: (A) 
+Q5. The figures I, II and III are parts of a sequence. Which one of the fo llowing options comes 
+next in the sequence at IV? 
+ 
+ 
+ 
+Ans.: (B) 
+  
+  
+?
+I
+II
+III
+IV
+ B
+ A
+ C
+ D
+===== PAGE 3 =====
+ 
+ 
+ 
+GATE Physics Question Paper-2025 
+ 
+Physics by fiziks 
+Learn Physics in Right Way 
+ 
+ 
+ H.No. 40-D, G.F., Jia Sarai, Near IIT, Hauz Khas, New Delhi-16 
+Phone: 011-26865455/+91-9871145498, Website: www.physicsbyfiziks.com, Email: fiziks.physics@gmail.com    3 
+ 
+ 
+Q6. "Why do they pull down and do away with crooked streets, I wonder which are my delight, 
+and hurt no man living? Every day the wealthier nations are pulling down one or another in the ir 
+capitals and their great towns: they do not know why they do it; neither do I. It ought to be 
+enough, surely, to drive the great broad ways which commerce needs and which are the life -
+channels of a modern city, without destroying all history and all the  humanity in between: the 
+islands of the past." 
+                                   (From Halaire Belloc's "The Crooked Streets") 
+Based only on the information provided in the above passage, which one of the following 
+statements is true? 
+(A) The author of the passage takes delight in wondering. 
+(B) The wealthier nations are pulling down the crooked streets in their capitals. 
+(C) In the past, crooked streets were only built on islands. 
+(D) Great broad ways are needed to protect commerce and history. 
+Ans.: (B) 
+Q7. Rohit goes to a restaurant for lunch at about 1 PM. When he enters the restaurant, he notices 
+that the hour and minute hands on the wall clock are exactly coinciding. After about an hour, 
+when he leaves the restaurant, he notices that the clock hands are again exactly coinciding. How 
+much time (in minutes) did Rohit spend at the restaurant? 
+(A) 
+664 11    (B) 
+566 13     (C) 
+56511     (D) 
+666 13  
+Ans.: (C) 
+Q8. A color model is shown in the figure with color codes: Yellow (Y), Magenta (M),           
+Cyan (Cy), Red (R), Blue (Bl), Green (G) and Black (K). 
+Which one of the following options displays the color codes that are consistent with the color 
+model? 
+ 
+Green
+ G
+Yellow
+ Y
+Cyan
+ Cy
+Blue
+ Bl
+Magenta
+ M
+Black
+ K
+Red
+ R
+===== PAGE 4 =====
+ 
+ 
+ 
+GATE Physics Question Paper-2025  
+ 
+Physics by fiziks 
+Learn Physics in Right Way 
+ 
+4 H.No. 40-D, G.F., Jia Sarai, Near IIT, Hauz Khas, New Delhi -16 
+Phone: 011-26865455/+91-9871145498, Website: www.physicsbyfiziks.com, Email: fiziks.physics@gmail.com    
+ 
+ 
+Cy
+Cy
+K
+G
+G
+Y
+R
+Bl
+Bl
+M
+(A) 
+ 
+(B) 
+ 
+(C) 
+ 
+(D) 
+ 
+Ans.: (A) 
+Q9. A circle with center at 
+   , 0.5,0xy   and radius = 0.5 intersects with another circle with 
+center at 
+   , 1,1xy   and radius = 1 at two points. One of the points of intersection 
+ ,xy  is: 
+(A) 
+ 0,0    (B) 
+ 0.2,0.4     (C) 
+ 0.5,0.5     (D) 
+ 1,2  
+Ans.: (B) 
+Q10. An object is said to have an 
+n -fold rotational symmetry if the object, rotated by an angle of 
+2
+n
+
+, is identical to the original. 
+Which one of the following objects exhibits 4 -fold rotational symmetry about an axis 
+perpendicular to the plane of the screen? 
+Note: The figures shown are representative. 
+(A) 
+ 
+(B) 
+ 
+  
+
+
+
+
+
+
+
+
+Cy
+Cy
+G
+Y
+G
+G
+M
+Bl
+Bl
+K
+Cy
+Y
+G
+R
+M
+G
+Bl
+Cy
+K
+K
+G
+R
+R
+Bl
+Bl
+M
+Y
+Cy
+Cy
+K
+===== PAGE 5 =====
+ 
+ 
+ 
+GATE Physics Question Paper-2025 
+ 
+Physics by fiziks 
+Learn Physics in Right Way 
+ 
+ 
+ H.No. 40-D, G.F., Jia Sarai, Near IIT, Hauz Khas, New Delhi-16 
+Phone: 011-26865455/+91-9871145498, Website: www.physicsbyfiziks.com, Email: fiziks.physics@gmail.com    5 
+ 
+ 
+(C) 
+ 
+(D) 
+ 
+Ans.: (B) 
+ 
+Q.11 – Q.35 Carry ONE mark Each 
+Q11. For a two-dimensional hexagonal lattice with lattice constant 
+a , the atomic density is 
+(A) 
+2
+1
+3a    (B) 
+2
+1
+6a    (C) 
+2
+4
+33 a    (D) 
+2
+1
+33 a  
+Ans.: (C) 
+Q12. Consider a crystal that has a basis of one atom. Its primitive vectors are 
+1
+ˆa ai
+ , 
+2
+ˆa aj
+ , 
+ 3
+ˆˆˆ
+2
+aa i j k  
+, where 
+ˆˆˆ,,i j k  are the unit vectors in the 
+,xy  and 
+z  directions of the Cartesian 
+coordinate system and 
+a  is a positive constant.  
+(A) It is BCC and the volume of the primitive cell is 
+3
+2
+a  
+(B) It is FCC and the volume of the primitive cell is 
+3
+4
+a  
+(C) It is BCC and the volume of the primitive cell is 
+3
+8
+a  
+(D) It is FCC and the volume of the primitive cell is 
+3a  
+Ans.: (A) 
+Q13. A particle of mass 
+m  is in a potential 
+ 
+221
+2V x m x   for 
+0x  and 
+ Vx   for 
+0x , 
+where 
+  is the angular frequency. The ratio of the energies correspondi ng to the lowest energy 
+level to the next higher level is 
+(A) 
+3
+7     (B) 
+1
+2     (C) 
+1
+3     (D) 
+3
+5  
+Ans.: (A) 
+
+
+
+
+
+
+
+
+===== PAGE 6 =====
+ 
+ 
+ 
+GATE Physics Question Paper-2025  
+ 
+Physics by fiziks 
+Learn Physics in Right Way 
+ 
+6 H.No. 40-D, G.F., Jia Sarai, Near IIT, Hauz Khas, New Delhi -16 
+Phone: 011-26865455/+91-9871145498, Website: www.physicsbyfiziks.com, Email: fiziks.physics@gmail.com    
+ 
+ 
+Q14. A particle is scattered from a potential 
+   
+3V r g r 
+ , where 
+g  is a positive constant. 
+Using the first-Born approximation, the angular 
+ ,  dependence of differential scattering 
+cross section 
+d
+d
+
+  is  
+(A) Independent of 
+  but dependent on 
+               (B) Dependent on 
+  but independent of 
+  
+(C) Dependent on both 
+  and 
+                               (D) Independent of both 
+  and 
+  
+Ans.: (D) 
+Q15. The Joule-Thomson expansion of a gas is 
+(A) Isentropic               (B) Isenthalpic                      (C) Isobaric                  (D) Isochoric  
+Ans.: (B) 
+Q16. Which one of the following is correct for the phase velocity 
+pv  and group velocity 
+gv ?     
+(
+c  is the speed of light in vacuum) 
+(A) For matter waves in the relativistic case, 
+2
+pgv v c  
+(B) For electromagnetic waves in a medium, 
+pv   represents the speed with which energy 
+propagates  
+(C) For electromagnetic waves in a medium, both 
+pv  and 
+gv  can be more than 
+c  
+(D) For matter waves in free space, 
+pgvv  
+Ans.: (D) 
+Q17. As per the Drude model of metals, the electrical resistance of a metallic wire of length  
+L  
+and cross-section area 
+A  is  
+(Consider 
+  as the relaxation time, 
+m  as electron mass, 
+n  as carrier concentration and 
+e  as 
+electronic charge)  
+(A) 
+2
+mL
+ne A     (B) 
+2
+2mL
+ne A         (C) 
+22
+mL
+ne A    (D) 
+24
+mL
+ne A  
+Ans.: (A) 
+Q18. Which one of the following baryons has strangeness quantum number 
+1S  ? 
+(A) 
+*0           (B) 
+n               (C) 
+*0           (D) 
+0  
+Ans.: (A) 
+ 
+ 
+ 
+===== PAGE 7 =====
+ 
+ 
+ 
+GATE Physics Question Paper-2025 
+ 
+Physics by fiziks 
+Learn Physics in Right Way 
+ 
+ 
+ H.No. 40-D, G.F., Jia Sarai, Near IIT, Hauz Khas, New Delhi-16 
+Phone: 011-26865455/+91-9871145498, Website: www.physicsbyfiziks.com, Email: fiziks.physics@gmail.com    7 
+ 
+ 
+Q19. A logic gate circuit is shown in the figu re below. The correct combination for the input 
+ ,PQ
+ for which the output 
+1T   is 
+ 
+(A) 
+ 0,0    (B) 
+ 0,1     (C) 
+ 1,1     (D) 
+ 1,0  
+Ans.: (A) 
+ 
+Q20. The nuclear energy levels of mirror nuclei are similar. Using this empirical fact alone, the 
+nuclear force can be said to be independent of which one of the following properties of the 
+nucleons? 
+(A) Mass    (B) Spin      (C) Charge         (D) Parity  
+Ans.: (C) 
+ 
+Q21. Consider the function 
+   
+32
+1
+2
+fz
+zz
+
+  of a complex variable 
+z . The residues of the 
+function at 
+0z  and 
+2z  , respectively, are  
+(A) 
+3
+8  and 
+3
+8      (B) 
+3
+8  and 
+3
+16   
+(C) 
+3
+16  and 
+3
+16      (D) 
+3
+8  and 
+3
+16  
+Ans.: (C) 
+ 
+Q22. Consider one mole of a monovalent metal at absolute zero temperature, obeying the free 
+electron model. Its Fermi energy is 
+FE . The energy corresponding to the filling of 
+2
+AN  
+electrons, where 
+AN  is the Avogadro number, is 
+2n
+FE . The value of 
+n  is 
+(A) 
+2
+3     (B) 
+2
+3     (C) 
+1
+3                (D) –1 
+Ans.: (A) 
+ 
+ 
+P
+Q
+T
+===== PAGE 8 =====
+ 
+ 
+ 
+GATE Physics Question Paper-2025  
+ 
+Physics by fiziks 
+Learn Physics in Right Way 
+ 
+8 H.No. 40-D, G.F., Jia Sarai, Near IIT, Hauz Khas, New Delhi -16 
+Phone: 011-26865455/+91-9871145498, Website: www.physicsbyfiziks.com, Email: fiziks.physics@gmail.com    
+ 
+ 
+Q23. A paramagnetic material containing paramagnetic ions with total angular momentum 
+1
+2J 
+ is kept at absolute temperature 
+T . The ratio of the magnetic field required fo r 80% of the 
+ions to be in the lowest energy state to that required for having 60% of the ions to be in the 
+lowest energy state at the same temperature is  
+(A) 
+2 ln 2
+3ln 2
+    (B) 
+ln 2
+3ln 2
+     (C) 
+3ln 2
+3ln 2
+    (D) 
+ln 3
+3ln 2
+  
+Ans.: (A) 
+Q24. Which of the following option(s) is/are correct for the ground state of a hydrogen atom? 
+(A) Linear Stark effect is zero                     (B) It has definite parity 
+(C) Spin-orbit coupling is zero                    (D) Hyperfine splitting is zero 
+Ans.: (A), (B), (C) 
+Q25. Which of the following option(s) is/are correct for photons? 
+(A) Its rest mass is zero, but its energy is non-zero 
+(B) It carries non-zero linear momentum 
+(C) It carries zero spin angular momentum 
+(D) It has two linearly independent states of polarization 
+Ans.: (A), (B), (D) 
+Q26. A schematic Pressure-Temperature diagram of water is shown in the figure. Which of the 
+following option(s) is/are correct? 
+ 
+(A) Clausius-Clapeyron equation is valid across the melting curve and the vaporization curve 
+(B) Melting curve has the highest slope 
+(C) The critical point exists only for the vaporization curve  
+(D) Clausius-Clapeyron equation is not valid across the melting curve and the vaporization curve 
+Ans.: (A), (B), (C) 
+ P Pa
+TC
+
+===== PAGE 9 =====
+ 
+ 
+ 
+GATE Physics Question Paper-2025 
+ 
+Physics by fiziks 
+Learn Physics in Right Way 
+ 
+ 
+ H.No. 40-D, G.F., Jia Sarai, Near IIT, Hauz Khas, New Delhi-16 
+Phone: 011-26865455/+91-9871145498, Website: www.physicsbyfiziks.com, Email: fiziks.physics@gmail.com    9 
+ 
+ 
+Q27. Which of the following consideration(s) is/are showing that nuclear beta decay, 
+en p e   
+, has to be a three-body decay? 
+(A) Continuous distribution of the electron energy              (B) Spin of the final state 
+(C) Mass of the electron                                                        (D) Mass of the proton 
+Ans.: (A), (B) 
+Q28. Potential energy of two diatomic molecules 
+P  and 
+Q  of the same reduced mass is shown 
+in the figure. According to this diagram, which of the following option(s) is/are correct? 
+ 
+(A) The equilibrium inter-nuclear distance of 
+Q  is more than that of 
+P  
+(B) The total energy 
+0E  separates bound and unbound states of the molecules 
+(C) The lowest vibrational frequency of 
+P  is larger than that of 
+Q  
+(D) Dissociation energy of 
+Q  is more than that of 
+P  
+Ans.: (A), (B), (C) 
+Q29. Nuclear radiation emitted from a 
+60Co  radioactive source is detected by a photomultiplier 
+tube (PMT) coupled to a scintillator crystal. Which of the following option(s) is/are correct? 
+(A) 
+  radiation from 
+60Co  will directly hit the photocathode of the PMT without interacting 
+with the scintillator crystal and produce a signal 
+(B) 
+  radiation from 
+60Co  source interacts with the scintillator crystal, producing 
+  radiation, 
+which will hit the photocathode of the PMT and produce a signal 
+(C) A mu-metal shield is put all around the PMT to nullify the effect of external electric fields 
+(D) A mu-metal shield is put all around the PMT to nullify the effect of external magnetic fields 
+Ans.: (B), (D) 
+ 
+ 
+ 
+0
+r
+P
+Q
+ Ur
+===== PAGE 10 =====
+ 
+ 
+ 
+GATE Physics Question Paper-2025  
+ 
+Physics by fiziks 
+Learn Physics in Right Way 
+ 
+10 H.No. 40-D, G.F., Jia Sarai, Near IIT, Hauz Khas, New Delhi -16 
+Phone: 011-26865455/+91-9871145498, Website: www.physicsbyfiziks.com, Email: fiziks.physics@gmail.com    
+ 
+ 
+Q30. One mole of an ideal monatomic gas at absolute temperatur e 
+T  undergoes free expansion 
+to double its original volume, so that the entropy change is 
+1S . An identical amount of the same 
+gas at absolute temperature 
+2T  undergoes isothermal expansion to double its original volume, so 
+that the entropy change is 
+2S . The value of 
+1
+2
+S
+S
+
+  (in integer) is ______________ 
+Ans.: 1 
+Q31. A linear dielectric sphere of radius 
+R  has uniform frozen-in polarization along the z -axis. 
+The center of the sphere initially coincides with the origin, about which the electric dipole 
+moment is 
+1p
+ . When the sphere is shifted to the point 
+ 2 ,0,0R , the corre sponding dipole 
+moment with respect to the origin is 
+2p
+ . The value of 
+1
+2
+p
+p
+  (in integer)  
+Ans.: 1 
+Q32. The effective magnetic moment (in units of Bohr magneton) for the ground state of an 
+isolated 
+4 f  ion with 6 unpaired electrons in the 
+4 f  shell according to Hund's rules is               
+(in integer) ________ 
+Ans.: 0 
+Q33. Powder X -ray diffraction pattern of a cubic solid with lattice constant 
+a  has the (111) 
+diffraction peak at 
+30  . If the lattice expands such that the lattice constant becomes 
+1.25a , 
+the angle (in degrees) corresponding to the (111) peak changes to 
+1 1sin n
+  . The value of 
+n  
+(rounded off to one decimal place) is _____________ 
+Ans.: 2.5 
+Q34. Consider a monatomic chain of length 
+30cm . The phonon density of states is 
+41.2 10 s . 
+Assuming the Debye model, the velocity of sound in m/s (rounded off to one decimal place) is 
+_______ 
+Ans.: 794 - 797  
+Q35. The 
+  baryon with spin 
+3
+2 , at rest, decays to a proton and a pion 
+ 
+0p    . The 
+  
+has positive intrinsic parity and 
+0  has negative intrinsic parity. The orbital angular momentum 
+of the proton-pion system (in integer) is ___________ 
+Ans.: 1 
+ 
+ 
+===== PAGE 11 =====
+ 
+ 
+ 
+GATE Physics Question Paper-2025 
+ 
+Physics by fiziks 
+Learn Physics in Right Way 
+ 
+ 
+ H.No. 40-D, G.F., Jia Sarai, Near IIT, Hauz Khas, New Delhi-16 
+Phone: 011-26865455/+91-9871145498, Website: www.physicsbyfiziks.com, Email: fiziks.physics@gmail.com    11 
+ 
+ 
+PQ d
+QR d
+RS d
+ST d
+TU d
+UP d
+x
+P
+Q
+d
+d
+y
+R
+I
+S
+T
+30
+U
+z
+90PQR QRS STU TUP     
+Q.36 – Q.55 Carry TWO marks Each 
+Q36. The sc reened nuclear charge of neutral Helium atom is given as 
+1.7e , where 
+e  is the 
+magnitude of the electronic charge. Assuming the Bohr model of the atom for which the energy 
+levels are 
+2
+2
+1
+2
+n
+ZE n  atomic units (Z is the atomic number), the first ionization potential of 
+Helium in atomic units is 
+(A) 0.89   (B) 1.78      (C) 0.94    (D) 3.16 
+Ans.: (A) 
+Q37. The wire loop shown in the figure carries a steady current 
+I . Each straight section of the 
+loop has length 
+d . A part of the loop lies in 
+xy  plane and the other part is titled at 30° with 
+respect to the 
+xz  plane. The magnitude of the magnetic dipol e moment of the loop (in 
+appropriate units) is  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(A) 
+22Id            (B) 
+22Id       (C) 
+23Id             (D) 
+2Id  
+Ans.: (D) 
+Q38. The figure shows a system of two equal masses 
+m  and three massless horizontal springs 
+with spring constants 
+1 2 1,,k k k . Ignore gravity. The masses can move only in the horizontal 
+direction and there is no dissipation. If 
+11, 2mk  and 
+2 3k   (all in appropriate units), the 
+frequencies of the normal modes of the system in the same system of units are 
+ 
+(A) 
+2, 8       (B) 
+2, 6            (C) 
+3, 10     (D) 
+3, 8  
+Ans.: (A) 
+1k
+2k
+1k
+m
+m
+
+
+===== PAGE 12 =====
+ 
+ 
+ 
+GATE Physics Question Paper-2025  
+ 
+Physics by fiziks 
+Learn Physics in Right Way 
+ 
+12 H.No. 40-D, G.F., Jia Sarai, Near IIT, Hauz Khas, New Delhi -16 
+Phone: 011-26865455/+91-9871145498, Website: www.physicsbyfiziks.com, Email: fiziks.physics@gmail.com    
+ 
+ 
+Q39. Two projectile protons 
+1P  and 
+2P  both with spin up (along the 
+z  direction) are scattered 
+from another fixed target proton 
+T  with spin up at rest in the 
+xy  plane, as shown in the figure. 
+They scatter one at a time. The nuclear interaction potential between both the projectiles and the 
+target proton is 
+LS 
+ , where 
+L
+  is the orbital angular momentum of the system with respect to 
+the target, 
+S
+  is the spin angular momentum of the system and 
+  is a negative co nstant in 
+appropriate units. Which one of the following is correct? 
+ 
+(A) 
+1P  will be scattered in the 
+y  direction (upward) and 
+2P  will be scattered in th e 
+y  
+direction (downward) 
+(B) 
+1P  will be scattered in the 
+y  direction (upward) and 
+2P  will be scattered in the 
+y  
+direction (upward) 
+(C) 
+1P  will be scattered in the 
+y  direction (downward) and 
+2P  will be scattered in the 
+y  
+direction (upward) 
+(D) 
+1P  will be sca ttered in the 
+y  direction (downward) and 
+2P  will be scattered in the 
+y  
+direction (downward) 
+Ans.: (B) 
+Q40. A thin circular ring of radius 
+R  lies in the 
+xy  plane with its center coinciding with the 
+origin. The ring carries a uniform line charge density 
+ . The quadrupole contribution to the 
+electrostatic potential at the point 
+ 0,0, d , where 
+dR
+ , is  
+(A) 
+3
+3
+04
+R
+d
+
+     (B) 0    (C) 
+3
+3
+04
+R
+d
+
+     (D) 
+3
+3
+02
+R
+d
+
+  
+Ans.: (A) 
+ 
+ 
+ 
+1P
+2P
+y
+x
+T
+ 0,0
+
+===== PAGE 13 =====
+ 
+ 
+ 
+GATE Physics Question Paper-2025 
+ 
+Physics by fiziks 
+Learn Physics in Right Way 
+ 
+ 
+ H.No. 40-D, G.F., Jia Sarai, Near IIT, Hauz Khas, New Delhi-16 
+Phone: 011-26865455/+91-9871145498, Website: www.physicsbyfiziks.com, Email: fiziks.physics@gmail.com    13 
+ 
+ 
+Q41. An 
+ particle is scattered from an 
+Au  target at rest as shown in the figure. 
+1D  and 
+2D  are 
+the detectors to detect the scattered 
+  particle at an angle 
+  and along the beam direction, 
+respectively, as shown. The signals from 
+1D  and 
+2D  are converted to logic signals and fed to 
+logic gates. When a particle is detected, the signal is 1 and is 0 otherwise. Which one of the 
+following circuits detects the particle scattered at the angle 
+  only? 
+ 
+(A) 
+ 
+     (B) 
+ 
+(C) 
+ 
+(D) 
+ 
+Ans.: (A) 
+ 
+Q42. Consider a two-level system with energy states 
+  and 
+ . The number of particles at 
+  
+level is 
+N  and the number of particles at 
+  level is 
+N . The total energy  of the system is 
+E  
+and the total number of particles is 
+N N N . In the thermodynamic limit, the inverse of the 
+absolute temperature of the system is  
+(Given: 
+ln ! lnN N N N 
+ ) 
+(A) 
+ln2
+B
+ENk
+EN
+
+
+
+ 
+
+               (B) 
+lnBk N                 (C) 
+ln2
+Bk N                   (D) 
+lnB
+ENk
+EN
+
+
+
+ 
+
+  
+Ans.: (A) 
+ 
+ 
+ 
+1D
+2D
+1D
+2D
+
+
+1D
+2D
+Au
+
+1D
+2D
+1D
+2D
+===== PAGE 14 =====
+ 
+ 
+ 
+GATE Physics Question Paper-2025  
+ 
+Physics by fiziks 
+Learn Physics in Right Way 
+ 
+14 H.No. 40-D, G.F., Jia Sarai, Near IIT, Hauz Khas, New Delhi -16 
+Phone: 011-26865455/+91-9871145498, Website: www.physicsbyfiziks.com, Email: fiziks.physics@gmail.com    
+ 
+ 
+Q43. Let 
+m  and 
+n denote the energy eigen states of a one -dimensional simple harmonic 
+oscillator. The position and momentum operators are 
+ˆX  and 
+ˆP ,  respectively. The matrix 
+element 
+ˆˆm PX n  is non-zero when 
+(A) 
+2mn  only                                     (B) 
+mn  or 
+2mn  
+(C) 
+3mn  only                                     (D) 
+1mn  only 
+Ans.: (B) 
+Q44. A two -level quantum system has energy eigenvalues 
+1E  and 
+2E . A perturbing potential 
+' xH 
+ is introduced, where 
+  is a constant having dimensions of energy, 
+  is a small 
+dimensionless parameter, and 
+01
+10
+x  . The magnitudes of the first and the second order 
+corrections to 
+1E  due to 
+'H , respectively, are 
+(A) 0 and 
+22
+12EE
+ 
+                                    (B) 
+2
+  and 
+22
+12EE
+ 
+  
+(C) 
+  and 
+22
+12EE
+ 
+                                (D) 0 and 
+22
+12
+1
+2 EE
+ 
+  
+Ans.: (A) 
+Q45. An electron with mass 
+m  and charge 
+q  is in the spin up state 
+1
+0
+
+  at time 
+0t . A 
+constant magnetic field is applied along the 
+y -axis, 
+0
+ˆB B j
+ , where 
+0B  is a constant. The 
+Hamiltonian of the system is 
+yH 
+ , where 
+0 02
+qB
+m  and 
+0
+0
+y
+i
+i  . The minimum 
+time after which the electron will be in the spin down state along the 
+x -axis, i.e., 
+11
+12
+
+ , is 
+(A) 
+8
+
+                  (B) 
+4
+
+                
+(C) 
+2
+
+         (D) 
+
+  
+Ans.: (B) 
+===== PAGE 15 =====
+ 
+ 
+ 
+GATE Physics Question Paper-2025 
+ 
+Physics by fiziks 
+Learn Physics in Right Way 
+ 
+ 
+ H.No. 40-D, G.F., Jia Sarai, Near IIT, Hauz Khas, New Delhi-16 
+Phone: 011-26865455/+91-9871145498, Website: www.physicsbyfiziks.com, Email: fiziks.physics@gmail.com    15 
+ 
+ 
+Q46. A system of three non-identical spin 
+1
+2  particles has the Hamiltonian 
+ 1 2 32
+AH S S S  
+ , 
+where 
+12,SS
+  and 
+3S
+  are the spin operators of particles labelled 1, 2 and 3 respectively and 
+A  is a 
+constant with appropriate dimensions. The set of possible energy eigenvalues of the system is 
+(A) 
+0, ,2
+A A       (B) 
+0, ,22
+AA    (C) 
+30, ,22
+AA       (D) 
+30, , 22
+AA  
+Ans.: (A) 
+Q47. Which of the following option(s) is/are correct for a Type I superconductor? 
+(A) The phase transition to the normal state in the absence of a magnetic field is of second order 
+(B) With increase in temperature, the critical magnetic field decreases linearly to zero 
+(C) Below the critical temperature, the entropy in the superconducting state is less than that in 
+the normal state 
+(D) The phase transition to the normal state in the presence of a magnetic field is of first order 
+Ans.: (A), (C), (D) 
+Q48. Consider two hypothetical nuclei 
+1X  and 
+2X  undergoing 
+  decay, resulting in nuclei      
+1Y
+ and 
+2Y , respectively. The decay scheme and the corresponding 
+PJ  values of the nuclei are 
+given in the figure. Which of the following option(s) is/are correct? (
+J  is the total angular 
+momentum and 
+P  is parity) 
+ 
+(A) 
+11XY  is Fermi transition and 
+22XY  is Fermi transition 
+(B) 
+11XY  is Fermi transition and 
+22XY  is Gamow-Teller transition 
+(C) 
+11XY  is Gamow-Teller transition and 
+22XY  is Fermi transition 
+(D) 
+11XY  is Gamow-Teller transition and 
+22XY  is Gamow-Teller transition 
+Ans.: (B) 
+Q49. A point charge 
+q  is placed at a distance 
+d  above an infinite, grounded conducting plate 
+placed on the 
+xy  plane at 
+0z . The electrosta tic potential in 
+0z  region is given by 
+12  
+, where 
+ 
+1 2220
+1
+4
+q
+x y z d
+       and 
+ 
+2 2220
+1
+4
+q
+x y z d
+      . Which 
+of the following option(s) is/are correct? 
+1X
+1Y
+0PJ 
+0PJ 
+ 
+2X
+0PJ 
+1PJ 
+2Y
+ 
+===== PAGE 16 =====
+ 
+ 
+ 
+GATE Physics Question Paper-2025  
+ 
+Physics by fiziks 
+Learn Physics in Right Way 
+ 
+16 H.No. 40-D, G.F., Jia Sarai, Near IIT, Hauz Khas, New Delhi -16 
+Phone: 011-26865455/+91-9871145498, Website: www.physicsbyfiziks.com, Email: fiziks.physics@gmail.com    
+ 
+ 
+(A) The magnitude of the force experienced by the point charge 
+q  is 
+2
+2
+0
+1
+16
+q
+d  
+(B) The electrostatic energy of the system is 
+2
+0
+1
+8
+q
+d   
+(C) The induced surface charge density on the plate is proportional to 
+2 2 2
+1
+x y d  
+(D) The electrostatic potential 
+1  satisfies Poisson's equation for 
+0z  
+Ans.: (A), (D) 
+Q50. In coordinates 
+ ,tx , a contra variant second rank tensor 
+A  has non -zero di agonal 
+components 
+ttAP  and 
+xxAQ , with all other components vanishing, and 
+,PQ  being real 
+constants. Here, 
+t  is time and 
+x  is space coo rdinate. Consider a Lorentz transformation 
+   , ', 't x t x
+ to another frame that moves with relative speed 
+v  in the 
+x  direction, so that 
+'AA
+. If 
+'ttA  and 
+'xxA  are the diagonal components of 
+'A , then setting the speed of light 
+1c
+, and with 
+2
+1
+1 v
+ 
+ , which of the following option(s) is/are correct? 
+(A) 
+2 2 2'ttA P v Q                                (B) 
+2 2 2'ttA v P v Q  
+(C) 
+2 2 2'xxA v P Q                               (D) 
+22'xxA v P Q   
+Ans.: (A), (C) 
+Q51. The Lagrangian of a particle of mass 
+m  and charge 
+q  moving in a uniform magnetic field 
+of magnitude 
+2B  that points in the 
+z  direction, is given by 
+ 
+2
+2
+yx
+mL v qB xv yv    where 
+,,x y zv v v
+ are the components of its velocity 
+v
+ . If 
+,,x y zp p p  denote the conjugate momenta in the 
+,,x y z
+ directions and 
+H  is the Hamiltonian, which of the following options(s) is/are correct? 
+(A) 
+ 1
+x
+dx p qBydt m                              (B) 
+ 
+x
+y
+dp qB p qBxdt m  
+(C) 
+ 
+y
+x
+dp qB p qBydt m                         (D) 
+   
+22 21
+2
+x y zH p qBy p qBx pm
+      
+Ans.: (B), (C), (D) 
+ 
+ 
+ 
+===== PAGE 17 =====
+ 
+ 
+ 
+GATE Physics Question Paper-2025 
+ 
+Physics by fiziks 
+Learn Physics in Right Way 
+ 
+ 
+ H.No. 40-D, G.F., Jia Sarai, Near IIT, Hauz Khas, New Delhi-16 
+Phone: 011-26865455/+91-9871145498, Website: www.physicsbyfiziks.com, Email: fiziks.physics@gmail.com    17 
+ 
+ 
+Q52. A bead is constrained to move along a long, massless, frictionless horizontal rod parallel to 
+the 
+x  axis. The rod itself is moving vertically upward along the 
+z  direction against gravity with 
+a constant speed, starting from 
+0z  at 
+0t , and remains horizontal. The conjugate momenta 
+are denoted by 
+,,x y zp p p  and the Hamiltonian by 
+H . Which of the following option(s) is/are 
+correct? 
+(A) 
+H  is the total energy of the system and is conserved  
+(B) 
+H  is the total energy of the system and is not conserved 
+(C) 
+H  is not the total energy of the system, but it is conserved  
+(D) 
+H  is not the total energy of the system and is not conserved 
+Ans.: (D) 
+ 
+Q53. In a one-dimensional Hamiltonian system with position 
+q  and momentum 
+p , consider the 
+canonical transformation 
+ 
+21,,q p Q P qp p
+   , where 
+Q  and 
+P  are the new position and 
+momentum, respectively. Which of the following option(s) regarding the generating function 𝐹 
+is/are correct? 
+(A) 
+ 1 , qF F q Q Q                                    (B) 
+ 2 ,F F q P Pq  
+(C) 
+ 3 ,2 pF F p Q Q                                 (D) 
+ 4 , PF F p P p  
+Ans.: (A), (D) 
+ 
+Q54. The energy of a free, relativistic particle of rest mass 
+m  moving along the 
+x  axis in one 
+dimension, is denoted by 
+T . When moving in a given potential 
+ Vx , its Hamiltonian is 
+ H T V x
+. In the presence of this potential, its speed is 
+v , conjugate momentum 
+p , and the 
+Lagrangian 
+L . Then, which of the following option(s) is/are correct? 
+(A) 
+ 
+2
+22
+2
+pH c m V x c                             (B) 
+2 2 2
+pcv
+p m c
+
+   
+(C) 
+ 
+2
+2
+21 vL mc V x c                              (D) 
+ 
+2
+2
+21 vL mc V x c    
+Ans.: (A), (B), (D) 
+ 
+ 
+===== PAGE 18 =====
+ 
+ 
+ 
+GATE Physics Question Paper-2025  
+ 
+Physics by fiziks 
+Learn Physics in Right Way 
+ 
+18 H.No. 40-D, G.F., Jia Sarai, Near IIT, Hauz Khas, New Delhi -16 
+Phone: 011-26865455/+91-9871145498, Website: www.physicsbyfiziks.com, Email: fiziks.physics@gmail.com    
+ 
+ 
+Q55. Consider the integral 
+                                         
+411
+2
+zI dz abi zz ba
+
+       
+
+ , 
+where 
+z  is a complex variable and 
+,ab  are positive real numbers. The integral is taken over a 
+unit circle with center at the origin. Which of the following option(s) is/are correct? 
+(A) 
+5
+8I   when 
+1, 2ab                       (B) 
+10
+3I   when 
+1, 3ab  
+(C) 
+5
+8I   when 
+2, 1ab                       (D) 
+5
+8I   when 
+3, 2ab  
+Ans.: (A), (C) 
+Q56. A neutral conducting sphere of radius 
+R  is placed in a uniform electric field of magnitude 
+0E
+, that points along the 
+z  axis. The electrostatic potential at any point 
+r
+  outside the sphere is 
+given by 
+ 
+3
+00 3, 1 cos RV r V E r r     , where 
+0V  is the constant potential of the sphere. 
+Which of the following option(s) is/are correct? 
+(A) The induced surface charge density on the sphere is proportional to 
+sin  
+(B) As 
+r , 
+0 ˆcosE E r 
+  
+(C) The electric field at any point is curl free for 
+rR  
+(D) The electric field at any point is divergence free for 
+rR  
+Ans.: (C), (D) 
+Q57. A point charge 
+q  is placed at the origin, inside a linear dielectric medium of infinite extent, 
+having relative permittivity 
+r . Which of the following option(s) is/are correct? 
+(A) The magnitude of the polarization varies as 
+2
+1
+r  
+(B) The magnitude of the polarization varies as 
+3
+1
+r  
+(C) The magnitude of the screened charge due to the diele ctric medium is less than the 
+magnitude of the point charge 
+q  for 
+1r  
+(D) The magnitude of the screened charge due to the dielectric medium is more than the 
+magnitude of the point charge 
+q  for 
+1r  
+Ans.: (A), (C) 
+===== PAGE 19 =====
+ 
+ 
+ 
+GATE Physics Question Paper-2025 
+ 
+Physics by fiziks 
+Learn Physics in Right Way 
+ 
+ 
+ H.No. 40-D, G.F., Jia Sarai, Near IIT, Hauz Khas, New Delhi-16 
+Phone: 011-26865455/+91-9871145498, Website: www.physicsbyfiziks.com, Email: fiziks.physics@gmail.com    19 
+ 
+ 
+Q58. A linear magnetic material in the form of a cylinder of radius 
+R  and length 
+L  is placed 
+with its axis parallel to the 
+z  axis. The cylinder has uniform magnetization 
+ˆMk . Which of the 
+following option(s) is/are correct? 
+(A) The magnetic field at any point outside the cylinder can be expressed as the gradient of a 
+scalar function 
+(B) The bound volume current density is zero 
+(C) The surface current density on the curved surface is non-zero 
+(D) The surface current densities on the flat surfaces (top and bottom) are non-zero 
+Ans.: (A), (B), (C) 
+Q59. Cyclotrons are used to accelerate ions like deuterons 
+ d  and 
+  particles. Keeping the 
+magnetic field same for both, 
+d  and 
+  are extracted with energies 
+10 MeV and 
+20 MeV  with 
+extraction radii 
+dr  and 
+r , respectively. Taking the masses 
+22000dM MeV c  and 
+24000M MeV c 
+, the value of 
+d
+r
+r
+  (in integer) is _____________ 
+Ans.: 1 
+Q60. In the transistor circuit shown in the figure, 
+0.7BEVV   and 
+400DC  . The value of the 
+base current in 
+A  (rounded off to one decimal place) is ____________ 
+ 
+Ans.:  18 to 19 
+Q61. Consider the set 
+ 
+21, ,xx . An orthonormal basis in 
+ 1,1x  is formed from these three 
+terms, where the normalization of a function 
+ fx  is defined via 
+ 
+1 22
+1
+1x f x dx
+
+ . If the 
+orthonormal basis set is 
+ 
+23 5 1 21, , 5 32 2 2 xx N
+ 
+ , then the value of 
+N  (in integer) is 
+____________ 
+Ans.: 6 
+100 k
+1k
+1k
+400DC 
+10V
+===== PAGE 20 =====
+ 
+ 
+ 
+GATE Physics Question Paper-2025  
+ 
+Physics by fiziks 
+Learn Physics in Right Way 
+ 
+20 H.No. 40-D, G.F., Jia Sarai, Near IIT, Hauz Khas, New Delhi -16 
+Phone: 011-26865455/+91-9871145498, Website: www.physicsbyfiziks.com, Email: fiziks.physics@gmail.com    
+ 
+ 
+Q62. The Hamiltonian for a one dimensional system with mass 
+m , position 
+q  and momentum 
+p
+ is 
+   
+2
+2, 2
+pH p q q A q m , where 
+ Aq  is a real function of 
+q . If 
+ 
+2
+2 5dqm qA qdt  , then 
+   dA q A q ndq q 
+. The value of 
+n  (in integer) is __________________ 
+Ans.: 3 
+Q63. A system of five identical, non-interacting particles with mass 
+m  and spin 
+3
+2  is confined to 
+a one-dimensional potential well of length 
+L . If the lowest energy of the system is 
+22
+22N mL
+
+ , the 
+value of 
+N  (in integer) is _____  
+Ans.: 8 
+Q64. A wheel of mass 
+4M  and radius 
+R is made of a thin uniform distribution of mass 
+3M  at 
+the rim and a point mass 
+M  at the center. The spokes of the wheel are massless. The center of 
+mass of the wheel is connected to a horizontal ma ssless rod of length 
+2R , with one end fixed at 
+O
+, as shown in the figure. The wheel rolls without slipping on horizontal ground with angular 
+speed 
+ . If 
+L
+  is the total angular momentum of the wheel about 
+O , then the magnitude 
+ 
+22dL N MRdt 
+. The value of 
+N  (in integer) is ____  
+ 
+Ans.: 6 
+ 
+ 
+ 
+ 
+ 
+R
+2R
+O
+
+
+R
+M
+3M
+Front view
+===== PAGE 21 =====
+ 
+ 
+ 
+GATE Physics Question Paper-2025 
+ 
+Physics by fiziks 
+Learn Physics in Right Way 
+ 
+ 
+ H.No. 40-D, G.F., Jia Sarai, Near IIT, Hauz Khas, New Delhi-16 
+Phone: 011-26865455/+91-9871145498, Website: www.physicsbyfiziks.com, Email: fiziks.physics@gmail.com    21 
+ 
+ 
+Q65. The figure shows a n op-amp circuit with a 
+5.1V  Zener diode in the feedback loop. The   
+op-amp runs from 
+15V  supplies. If a 
+1V  is applied at the input, the output voltage (rounded 
+off to one decimal place) is ____________ 
+ 
+Ans.: 7 to 7.2 
+15V
+1V
+in
+
+
+5.1V
+15V
+1k
+1k
+out

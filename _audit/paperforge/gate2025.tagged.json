@@ -1,0 +1,1087 @@
+{
+ "id": "gate2025",
+ "label": "GATE 2025 Physics",
+ "source": "user-supplied fiziks PDF",
+ "keyStatus": "fiziks-solved",
+ "totalQ": 65,
+ "questions": [
+  {
+   "n": 1,
+   "part": "GA",
+   "marks": 1,
+   "type": "MCQ",
+   "stem": "Is there any good show___________ television tonight?\nSelect the most appropriate option to complete the above sentence.",
+   "opts": [
+    "in",
+    "at",
+    "within",
+    "on"
+   ],
+   "ans": "D",
+   "note": null,
+   "lane": "aptitude",
+   "subtopic": "verbal"
+  },
+  {
+   "n": 2,
+   "part": "GA",
+   "marks": 1,
+   "type": "MCQ",
+   "stem": "As the police officer was found guilty of embezzlement, he was ________ dismissed from\nthe service in accordance with the Service Rules.\nSelect the most appropriate option to complete the above sentence.",
+   "opts": [
+    "sumptuously",
+    "brazenly",
+    "unintentionally",
+    "summarily"
+   ],
+   "ans": "D",
+   "note": null,
+   "lane": "aptitude",
+   "subtopic": "verbal"
+  },
+  {
+   "n": 3,
+   "part": "GA",
+   "marks": 1,
+   "type": "MCQ",
+   "stem": "The sum of the following infinite series is:\n\n1 1 1 1 1 ...1! 2! 3! 4! 5!    ",
+   "opts": [
+    "",
+    "1 e",
+    "1e",
+    "e"
+   ],
+   "ans": "C",
+   "note": null,
+   "lane": "aptitude",
+   "subtopic": "series-patterns"
+  },
+  {
+   "n": 4,
+   "part": "GA",
+   "marks": 1,
+   "type": "MCQ",
+   "stem": "A thin wire is used to construct all the edges of a cube of\n1m side by bending, cutting and\nsoldering the wire. If the wir e is\n12 m long, what is the minimum number of cuts required to\nconstruct the wire frame to form the cube?",
+   "opts": [
+    "3",
+    "4",
+    "6",
+    "12"
+   ],
+   "ans": "A",
+   "note": null,
+   "lane": "aptitude",
+   "subtopic": "quant-core"
+  },
+  {
+   "n": 5,
+   "part": "GA",
+   "marks": 1,
+   "type": "MCQ",
+   "stem": "The figures I, II and III are parts of a sequence. Which one of the fo llowing options comes\nnext in the sequence at IV?\n\n\n?\nI\nII\nIII\nIV\n B\n A\n C\n D",
+   "opts": [],
+   "ans": "B",
+   "note": "figure-dependent-options",
+   "lane": "aptitude",
+   "subtopic": "spatial"
+  },
+  {
+   "n": 6,
+   "part": "GA",
+   "marks": 2,
+   "type": "MCQ",
+   "stem": "\"Why do they pull down and do away with crooked streets, I wonder which are my delight,\nand hurt no man living? Every day the wealthier nations are pulling down one or another in the ir\ncapitals and their great towns: they do not know why they do it; neither do I. It ought to be\nenough, surely, to drive the great broad ways which commerce needs and which are the life -\nchannels of a modern city, without destroying all history and all the humanity in between: the\nislands of the past.\"\n (From Halaire Belloc's \"The Crooked Streets\")\nBased only on the information provided in the above passage, which one of the following\nstatements is true?",
+   "opts": [
+    "The author of the passage takes delight in wondering.",
+    "The wealthier nations are pulling down the crooked streets in their capitals.",
+    "In the past, crooked streets were only built on islands.",
+    "Great broad ways are needed to protect commerce and history."
+   ],
+   "ans": "B",
+   "note": null,
+   "lane": "aptitude",
+   "subtopic": "verbal"
+  },
+  {
+   "n": 7,
+   "part": "GA",
+   "marks": 2,
+   "type": "MCQ",
+   "stem": "Rohit goes to a restaurant for lunch at about 1 PM. When he enters the restaurant, he notices\nthat the hour and minute hands on the wall clock are exactly coinciding. After about an hour,\nwhen he leaves the restaurant, he notices that the clock hands are again exactly coinciding. How\nmuch time (in minutes) did Rohit spend at the restaurant?",
+   "opts": [
+    "664 11",
+    "566 13",
+    "56511",
+    "666 13"
+   ],
+   "ans": "C",
+   "note": null,
+   "lane": "aptitude",
+   "subtopic": "probability-combinatorics"
+  },
+  {
+   "n": 8,
+   "part": "GA",
+   "marks": 2,
+   "type": "MCQ",
+   "stem": "A color model is shown in the figure with color codes: Yellow (Y), Magenta (M),\nCyan (Cy), Red (R), Blue (Bl), Green (G) and Black (K).\nWhich one of the following options displays the color codes that are consistent with the color\nmodel?\n\nGreen\n G\nYellow\n Y\nCyan\n Cy\nBlue\n Bl\nMagenta\n M\nBlack\n K\nRed\n R\n\n4 H.No. 40-D, G.F., Jia Sarai, Near IIT, Hauz Khas, New Delhi -16\n\nCy\nCy\nK\nG\nG\nY\nR\nBl\nBl\nM",
+   "opts": [],
+   "ans": "A",
+   "note": "figure-dependent-options",
+   "lane": "aptitude",
+   "subtopic": "spatial"
+  },
+  {
+   "n": 9,
+   "part": "GA",
+   "marks": 2,
+   "type": "MCQ",
+   "stem": "A circle with center at\n   , 0.5,0xy  and radius = 0.5 intersects with another circle with\ncenter at\n   , 1,1xy  and radius = 1 at two points. One of the points of intersection\n ,xy is:",
+   "opts": [
+    " 0,0",
+    " 0.2,0.4",
+    " 0.5,0.5",
+    " 1,2"
+   ],
+   "ans": "B",
+   "note": null,
+   "lane": null,
+   "subtopic": null
+  },
+  {
+   "n": 10,
+   "part": "GA",
+   "marks": 2,
+   "type": "MCQ",
+   "stem": "An object is said to have an\nn -fold rotational symmetry if the object, rotated by an angle of\nn\n\n, is identical to the original.\nWhich one of the following objects exhibits 4 -fold rotational symmetry about an axis\nperpendicular to the plane of the screen?\nNote: The figures shown are representative.\n(A)",
+   "opts": [
+    "\n\n\n\n\n\n\n\nCy\nCy\nG\nY\nG\nG\nM\nBl\nBl\nK\nCy\nY\nG\nR\nM\nG\nBl\nCy\nK\nK\nG\nR\nR\nBl\nBl\nM\nY\nCy\nCy\nK"
+   ],
+   "ans": "B",
+   "note": "figure-dependent-options",
+   "lane": "aptitude",
+   "subtopic": "spatial"
+  },
+  {
+   "n": 11,
+   "part": "PH",
+   "marks": 1,
+   "type": "MCQ",
+   "stem": "For a two-dimensional hexagonal lattice with lattice constant\na , the atomic density is",
+   "opts": [
+    "3a",
+    "6a",
+    "33 a",
+    "33 a"
+   ],
+   "ans": "C",
+   "note": null,
+   "lane": "solidstate",
+   "subtopic": "crystal-structure"
+  },
+  {
+   "n": 12,
+   "part": "PH",
+   "marks": 1,
+   "type": "MCQ",
+   "stem": "Consider a crystal that has a basis of one atom. Its primitive vectors are\nˆa ai\n ,\nˆa aj\n ,\n 3\nˆˆˆ\naa i j k  \n, where\nˆˆˆ,,i j k are the unit vectors in the\n,xy and\nz directions of the Cartesian\ncoordinate system and\na is a positive constant.",
+   "opts": [
+    "It is BCC and the volume of the primitive cell is\na",
+    "It is FCC and the volume of the primitive cell is\na",
+    "It is BCC and the volume of the primitive cell is\na",
+    "It is FCC and the volume of the primitive cell is\n3a"
+   ],
+   "ans": "A",
+   "note": null,
+   "lane": "solidstate",
+   "subtopic": "crystal-structure"
+  },
+  {
+   "n": 13,
+   "part": "PH",
+   "marks": 1,
+   "type": "MCQ",
+   "stem": "A particle of mass\nm is in a potential\n \n2V x m x  for\n0x and\n Vx  for\n0x ,\nwhere\n is the angular frequency. The ratio of the energies correspondi ng to the lowest energy\nlevel to the next higher level is",
+   "opts": [
+    "7",
+    "2",
+    "3",
+    "\n\n\n\n\n\n\n\n\n6 H.No. 40-D, G.F., Jia Sarai, Near IIT, Hauz Khas, New Delhi -16"
+   ],
+   "ans": "A",
+   "note": null,
+   "lane": null,
+   "subtopic": null
+  },
+  {
+   "n": 14,
+   "part": "PH",
+   "marks": 1,
+   "type": "MCQ",
+   "stem": "A particle is scattered from a potential\n   \n3V r g r \n , where\ng is a positive constant.\nUsing the first-Born approximation, the angular\n , dependence of differential scattering\ncross section\nd\nd\n\n is",
+   "opts": [
+    "Independent of\n but dependent on\n",
+    "Dependent on\n but independent of\n",
+    "Dependent on both\n and\n",
+    "Independent of both\n and\n"
+   ],
+   "ans": "D",
+   "note": null,
+   "lane": "quantum",
+   "subtopic": "scattering"
+  },
+  {
+   "n": 15,
+   "part": "PH",
+   "marks": 1,
+   "type": "MCQ",
+   "stem": "The Joule-Thomson expansion of a gas is",
+   "opts": [
+    "Isentropic",
+    "Isenthalpic",
+    "Isobaric",
+    "Isochoric"
+   ],
+   "ans": "B",
+   "note": null,
+   "lane": "thermo",
+   "subtopic": "laws-maxwell"
+  },
+  {
+   "n": 16,
+   "part": "PH",
+   "marks": 1,
+   "type": "MCQ",
+   "stem": "Which one of the following is correct for the phase velocity\npv and group velocity\ngv ?\n(\nc is the speed of light in vacuum)",
+   "opts": [
+    "For matter waves in the relativistic case,\npgv v c",
+    "For electromagnetic waves in a medium,\npv represents the speed with which energy\npropagates",
+    "For electromagnetic waves in a medium, both\npv and\ngv can be more than\nc",
+    "For matter waves in free space,\npgvv"
+   ],
+   "ans": "D",
+   "note": null,
+   "lane": "emtheory",
+   "subtopic": "waves-media"
+  },
+  {
+   "n": 17,
+   "part": "PH",
+   "marks": 1,
+   "type": "MCQ",
+   "stem": "As per the Drude model of metals, the electrical resistance of a metallic wire of length\nL\nand cross-section area\nA is\n(Consider\n as the relaxation time,\nm as electron mass,\nn as carrier concentration and\ne as\nelectronic charge)",
+   "opts": [
+    "mL\nne A",
+    "2mL\nne A",
+    "mL\nne A",
+    "mL\nne A"
+   ],
+   "ans": "A",
+   "note": null,
+   "lane": "solidstate",
+   "subtopic": "free-electron"
+  },
+  {
+   "n": 18,
+   "part": "PH",
+   "marks": 1,
+   "type": "MCQ",
+   "stem": "Which one of the following baryons has strangeness quantum number\n1S  ?",
+   "opts": [
+    "*0",
+    "n",
+    "*0",
+    "0"
+   ],
+   "ans": "A",
+   "note": null,
+   "lane": "nuclear",
+   "subtopic": "conservation-quark"
+  },
+  {
+   "n": 19,
+   "part": "PH",
+   "marks": 1,
+   "type": "MCQ",
+   "stem": "A logic gate circuit is shown in the figu re below. The correct combination for the input\n ,PQ\n for which the output\n1T  is",
+   "opts": [
+    " 0,0",
+    " 0,1",
+    " 1,1",
+    " 1,0"
+   ],
+   "ans": "A",
+   "note": null,
+   "lane": "electronics",
+   "subtopic": "digital-logic"
+  },
+  {
+   "n": 20,
+   "part": "PH",
+   "marks": 1,
+   "type": "MCQ",
+   "stem": "The nuclear energy levels of mirror nuclei are similar. Using this empirical fact alone, the\nnuclear force can be said to be independent of which one of the following properties of the\nnucleons?",
+   "opts": [
+    "Mass",
+    "Spin",
+    "Charge",
+    "Parity"
+   ],
+   "ans": "C",
+   "note": null,
+   "lane": "quantum",
+   "subtopic": "angular-spin"
+  },
+  {
+   "n": 21,
+   "part": "PH",
+   "marks": 1,
+   "type": "MCQ",
+   "stem": "Consider the function\n   \nfz\nzz\n\n of a complex variable\nz . The residues of the\nfunction at\n0z and\n2z  , respectively, are",
+   "opts": [
+    "8 and\n8",
+    "8 and\n16",
+    "16 and\n16",
+    "8 and"
+   ],
+   "ans": "C",
+   "note": null,
+   "lane": "mathphys",
+   "subtopic": "complex-analysis"
+  },
+  {
+   "n": 22,
+   "part": "PH",
+   "marks": 1,
+   "type": "MCQ",
+   "stem": "Consider one mole of a monovalent metal at absolute zero temperature, obeying the free\nelectron model. Its Fermi energy is\nFE . The energy corresponding to the filling of\nAN\nelectrons, where\nAN is the Avogadro number, is\n2n\nFE . The value of\nn is",
+   "opts": [
+    "3",
+    "3",
+    "3",
+    "–1\n\n\nP\nQ\nT\n\n8 H.No. 40-D, G.F., Jia Sarai, Near IIT, Hauz Khas, New Delhi -16"
+   ],
+   "ans": "A",
+   "note": null,
+   "lane": "thermo",
+   "subtopic": "quantum-stats"
+  },
+  {
+   "n": 23,
+   "part": "PH",
+   "marks": 1,
+   "type": "MCQ",
+   "stem": "A paramagnetic material containing paramagnetic ions with total angular momentum\n2J \n is kept at absolute temperature\nT . The ratio of the magnetic field required fo r 80% of the\nions to be in the lowest energy state to that required for having 60% of the ions to be in the\nlowest energy state at the same temperature is",
+   "opts": [
+    "2 ln 2\n3ln 2\n",
+    "ln 2\n3ln 2\n",
+    "3ln 2\n3ln 2\n",
+    "ln 3\n3ln 2\n"
+   ],
+   "ans": "A",
+   "note": null,
+   "lane": "emtheory",
+   "subtopic": "magnetostatics"
+  },
+  {
+   "n": 24,
+   "part": "PH",
+   "marks": 1,
+   "type": "MSQ",
+   "stem": "Which of the following option(s) is/are correct for the ground state of a hydrogen atom?",
+   "opts": [
+    "Linear Stark effect is zero",
+    "It has definite parity",
+    "Spin-orbit coupling is zero",
+    "Hyperfine splitting is zero"
+   ],
+   "ans": [
+    "A",
+    "B",
+    "C"
+   ],
+   "note": null,
+   "lane": "quantum",
+   "subtopic": "angular-spin"
+  },
+  {
+   "n": 25,
+   "part": "PH",
+   "marks": 1,
+   "type": "MSQ",
+   "stem": "Which of the following option(s) is/are correct for photons?",
+   "opts": [
+    "Its rest mass is zero, but its energy is non-zero",
+    "It carries non-zero linear momentum",
+    "It carries zero spin angular momentum",
+    "It has two linearly independent states of polarization"
+   ],
+   "ans": [
+    "A",
+    "B",
+    "D"
+   ],
+   "note": null,
+   "lane": "quantum",
+   "subtopic": "angular-spin"
+  },
+  {
+   "n": 26,
+   "part": "PH",
+   "marks": 1,
+   "type": "MSQ",
+   "stem": "A schematic Pressure-Temperature diagram of water is shown in the figure. Which of the\nfollowing option(s) is/are correct?",
+   "opts": [
+    "Clausius-Clapeyron equation is valid across the melting curve and the vaporization curve",
+    "Melting curve has the highest slope",
+    "The critical point exists only for the vaporization curve",
+    "Clausius-Clapeyron equation is not valid across the melting curve and the vaporization curve\n\n\n P Pa\nTC\n"
+   ],
+   "ans": [
+    "A",
+    "B",
+    "C"
+   ],
+   "note": null,
+   "lane": "thermo",
+   "subtopic": "phase-transitions"
+  },
+  {
+   "n": 27,
+   "part": "PH",
+   "marks": 1,
+   "type": "MSQ",
+   "stem": "Which of the following consideration(s) is/are showing that nuclear beta decay,\nen p e   \n, has to be a three-body decay?",
+   "opts": [
+    "Continuous distribution of the electron energy",
+    "Spin of the final state",
+    "Mass of the electron",
+    "Mass of the proton"
+   ],
+   "ans": [
+    "A",
+    "B"
+   ],
+   "note": null,
+   "lane": "quantum",
+   "subtopic": "angular-spin"
+  },
+  {
+   "n": 28,
+   "part": "PH",
+   "marks": 1,
+   "type": "MSQ",
+   "stem": "Potential energy of two diatomic molecules\nP and\nQ of the same reduced mass is shown\nin the figure. According to this diagram, which of the following option(s) is/are correct?",
+   "opts": [
+    "The equilibrium inter-nuclear distance of\nQ is more than that of\nP",
+    "The total energy\n0E separates bound and unbound states of the molecules",
+    "The lowest vibrational frequency of\nP is larger than that of\nQ",
+    "Dissociation energy of\nQ is more than that of\nP"
+   ],
+   "ans": [
+    "A",
+    "B",
+    "C"
+   ],
+   "note": null,
+   "lane": "atomic",
+   "subtopic": "mol-spectra"
+  },
+  {
+   "n": 29,
+   "part": "PH",
+   "marks": 1,
+   "type": "MSQ",
+   "stem": "Nuclear radiation emitted from a\n60Co radioactive source is detected by a photomultiplier\ntube (PMT) coupled to a scintillator crystal. Which of the following option(s) is/are correct?",
+   "opts": [
+    " radiation from\n60Co will directly hit the photocathode of the PMT without interacting\nwith the scintillator crystal and produce a signal",
+    " radiation from\n60Co source interacts with the scintillator crystal, producing\n radiation,\nwhich will hit the photocathode of the PMT and produce a signal",
+    "A mu-metal shield is put all around the PMT to nullify the effect of external electric fields",
+    "A mu-metal shield is put all around the PMT to nullify the effect of external magnetic fields\n\n\nr\nP\nQ\n Ur\n\n10 H.No. 40-D, G.F., Jia Sarai, Near IIT, Hauz Khas, New Delhi -16"
+   ],
+   "ans": [
+    "B",
+    "D"
+   ],
+   "note": null,
+   "lane": "emtheory",
+   "subtopic": "electrostatics"
+  },
+  {
+   "n": 30,
+   "part": "PH",
+   "marks": 1,
+   "type": "NAT",
+   "stem": "One mole of an ideal monatomic gas at absolute temperatur e\nT undergoes free expansion\nto double its original volume, so that the entropy change is\n1S . An identical amount of the same\ngas at absolute temperature\n2T undergoes isothermal expansion to double its original volume, so\nthat the entropy change is\n2S . The value of\nS\nS\n\n (in integer) is ______________",
+   "opts": [],
+   "ans": "1",
+   "note": null,
+   "lane": "thermo",
+   "subtopic": "laws-maxwell"
+  },
+  {
+   "n": 31,
+   "part": "PH",
+   "marks": 1,
+   "type": "NAT",
+   "stem": "A linear dielectric sphere of radius\nR has uniform frozen-in polarization along the z -axis.\nThe center of the sphere initially coincides with the origin, about which the electric dipole\nmoment is\n1p\n . When the sphere is shifted to the point\n 2 ,0,0R , the corre sponding dipole\nmoment with respect to the origin is\n2p\n . The value of\np\np\n (in integer)",
+   "opts": [],
+   "ans": "1",
+   "note": null,
+   "lane": "emtheory",
+   "subtopic": "dielectrics"
+  },
+  {
+   "n": 32,
+   "part": "PH",
+   "marks": 1,
+   "type": "NAT",
+   "stem": "The effective magnetic moment (in units of Bohr magneton) for the ground state of an\nisolated\n4 f ion with 6 unpaired electrons in the\n4 f shell according to Hund's rules is\n(in integer) ________",
+   "opts": [],
+   "ans": "0",
+   "note": null,
+   "lane": null,
+   "subtopic": null
+  },
+  {
+   "n": 33,
+   "part": "PH",
+   "marks": 1,
+   "type": "NAT",
+   "stem": "Powder X -ray diffraction pattern of a cubic solid with lattice constant\na has the (111)\ndiffraction peak at\n30  . If the lattice expands such that the lattice constant becomes\n1.25a ,\nthe angle (in degrees) corresponding to the (111) peak changes to\n1 1sin n\n  . The value of\nn\n(rounded off to one decimal place) is _____________",
+   "opts": [],
+   "ans": "2.5",
+   "note": null,
+   "lane": "solidstate",
+   "subtopic": "crystal-structure"
+  },
+  {
+   "n": 34,
+   "part": "PH",
+   "marks": 1,
+   "type": "NAT",
+   "stem": "Consider a monatomic chain of length\n30cm . The phonon density of states is\n41.2 10 s .\nAssuming the Debye model, the velocity of sound in m/s (rounded off to one decimal place) is\n_______",
+   "opts": [],
+   "ans": "794 - 797",
+   "note": null,
+   "lane": "solidstate",
+   "subtopic": "phonons-specheat"
+  },
+  {
+   "n": 35,
+   "part": "PH",
+   "marks": 1,
+   "type": "NAT",
+   "stem": "The\n baryon with spin\n2 , at rest, decays to a proton and a pion\n \n0p    . The\n\nhas positive intrinsic parity and\n0 has negative intrinsic parity. The orbital angular momentum\nof the proton-pion system (in integer) is ___________\n\n\nPQ d\nQR d\nRS d\nST d\nTU d\nUP d\nx\nP\nQ\nd\nd\ny\nR\nI\nS\nT\n30\nU\nz\n90PQR QRS STU TUP     ",
+   "opts": [],
+   "ans": "1",
+   "note": null,
+   "lane": "nuclear",
+   "subtopic": "conservation-quark"
+  },
+  {
+   "n": 36,
+   "part": "PH",
+   "marks": 2,
+   "type": "MCQ",
+   "stem": "The sc reened nuclear charge of neutral Helium atom is given as\n1.7e , where\ne is the\nmagnitude of the electronic charge. Assuming the Bohr model of the atom for which the energy\nlevels are\nn\nZE n atomic units (Z is the atomic number), the first ionization potential of\nHelium in atomic units is",
+   "opts": [
+    "0.89",
+    "1.78",
+    "0.94",
+    "3.16"
+   ],
+   "ans": "A",
+   "note": null,
+   "lane": "quantum",
+   "subtopic": "hydrogen-atom"
+  },
+  {
+   "n": 37,
+   "part": "PH",
+   "marks": 2,
+   "type": "MCQ",
+   "stem": "The wire loop shown in the figure carries a steady current\nI . Each straight section of the\nloop has length\nd . A part of the loop lies in\nxy plane and the other part is titled at 30° with\nrespect to the\nxz plane. The magnitude of the magnetic dipol e moment of the loop (in\nappropriate units) is",
+   "opts": [
+    "22Id",
+    "22Id",
+    "23Id",
+    "2Id"
+   ],
+   "ans": "D",
+   "note": null,
+   "lane": null,
+   "subtopic": null
+  },
+  {
+   "n": 38,
+   "part": "PH",
+   "marks": 2,
+   "type": "MCQ",
+   "stem": "The figure shows a system of two equal masses\nm and three massless horizontal springs\nwith spring constants\n1 2 1,,k k k . Ignore gravity. The masses can move only in the horizontal\ndirection and there is no dissipation. If\n11, 2mk and\n2 3k  (all in appropriate units), the\nfrequencies of the normal modes of the system in the same system of units are",
+   "opts": [
+    "2, 8",
+    "2, 6",
+    "3, 10",
+    "3, 8\n\n\n1k\n2k\n1k\nm\nm\n\n\n\n12 H.No. 40-D, G.F., Jia Sarai, Near IIT, Hauz Khas, New Delhi -16"
+   ],
+   "ans": "A",
+   "note": null,
+   "lane": "classical",
+   "subtopic": "small-oscillations"
+  },
+  {
+   "n": 39,
+   "part": "PH",
+   "marks": 2,
+   "type": "MCQ",
+   "stem": "Two projectile protons\n1P and\n2P both with spin up (along the\nz direction) are scattered\nfrom another fixed target proton\nT with spin up at rest in the\nxy plane, as shown in the figure.\nThey scatter one at a time. The nuclear interaction potential between both the projectiles and the\ntarget proton is\nLS \n , where\nL\n is the orbital angular momentum of the system with respect to\nthe target,\nS\n is the spin angular momentum of the system and\n is a negative co nstant in\nappropriate units. Which one of the following is correct?",
+   "opts": [
+    "1P will be scattered in the\ny direction (upward) and\n2P will be scattered in th e\ny\ndirection (downward)",
+    "1P will be scattered in the\ny direction (upward) and\n2P will be scattered in the\ny\ndirection (upward)",
+    "1P will be scattered in the\ny direction (downward) and\n2P will be scattered in the\ny\ndirection (upward)",
+    "1P will be sca ttered in the\ny direction (downward) and\n2P will be scattered in the\ny\ndirection (downward)"
+   ],
+   "ans": "B",
+   "note": null,
+   "lane": "quantum",
+   "subtopic": "angular-spin"
+  },
+  {
+   "n": 40,
+   "part": "PH",
+   "marks": 2,
+   "type": "MCQ",
+   "stem": "A thin circular ring of radius\nR lies in the\nxy plane with its center coinciding with the\norigin. The ring carries a uniform line charge density\n . The quadrupole contribution to the\nelectrostatic potential at the point\n 0,0, d , where\ndR\n , is",
+   "opts": [
+    "R\nd\n\n",
+    "0",
+    "R\nd\n\n",
+    "R\nd\n\n\n\n\n1P\n2P\ny\nx\nT\n 0,0"
+   ],
+   "ans": "A",
+   "note": null,
+   "lane": "emtheory",
+   "subtopic": "electrostatics"
+  },
+  {
+   "n": 41,
+   "part": "PH",
+   "marks": 2,
+   "type": "MCQ",
+   "stem": "An\n particle is scattered from an\nAu target at rest as shown in the figure.\n1D and\n2D are\nthe detectors to detect the scattered\n particle at an angle\n and along the beam direction,\nrespectively, as shown. The signals from\n1D and\n2D are converted to logic signals and fed to\nlogic gates. When a particle is detected, the signal is 1 and is 0 otherwise. Which one of the\nfollowing circuits detects the particle scattered at the angle\n only?",
+   "opts": [],
+   "ans": "A",
+   "note": "figure-dependent-options",
+   "lane": "quantum",
+   "subtopic": "scattering"
+  },
+  {
+   "n": 42,
+   "part": "PH",
+   "marks": 2,
+   "type": "MCQ",
+   "stem": "Consider a two-level system with energy states\n and\n . The number of particles at\n\nlevel is\nN and the number of particles at\n level is\nN . The total energy of the system is\nE\nand the total number of particles is\nN N N . In the thermodynamic limit, the inverse of the\nabsolute temperature of the system is\n(Given:\nln ! lnN N N N \n )",
+   "opts": [
+    "ln2\nB\nENk\nEN\n\n\n\n \n\n",
+    "lnBk N",
+    "ln2\nBk N",
+    "lnB\nENk\nEN\n\n\n\n \n\n\n\n\n1D\n2D\n1D\n2D\n\n\n1D\n2D\nAu\n\n1D\n2D\n1D\n2D\n\n14 H.No. 40-D, G.F., Jia Sarai, Near IIT, Hauz Khas, New Delhi -16"
+   ],
+   "ans": "A",
+   "note": null,
+   "lane": "quantum",
+   "subtopic": "two-level"
+  },
+  {
+   "n": 43,
+   "part": "PH",
+   "marks": 2,
+   "type": "MCQ",
+   "stem": "Let\nm and\nn denote the energy eigen states of a one -dimensional simple harmonic\noscillator. The position and momentum operators are\nˆX and\nˆP , respectively. The matrix\nelement\nˆˆm PX n is non-zero when",
+   "opts": [
+    "2mn only",
+    "mn or\n2mn",
+    "3mn only",
+    "1mn only"
+   ],
+   "ans": "B",
+   "note": null,
+   "lane": "mathphys",
+   "subtopic": "linear-algebra"
+  },
+  {
+   "n": 44,
+   "part": "PH",
+   "marks": 2,
+   "type": "MCQ",
+   "stem": "A two -level quantum system has energy eigenvalues\n1E and\n2E . A perturbing potential\n' xH \n is introduced, where\n is a constant having dimensions of energy,\n is a small\ndimensionless parameter, and\nx  . The magnitudes of the first and the second order\ncorrections to\n1E due to\n'H , respectively, are",
+   "opts": [
+    "0 and\n12EE\n \n",
+    " and\n12EE\n \n",
+    " and\n12EE\n \n",
+    "0 and\n2 EE\n \n"
+   ],
+   "ans": "A",
+   "note": null,
+   "lane": "quantum",
+   "subtopic": "operators-commutators"
+  },
+  {
+   "n": 45,
+   "part": "PH",
+   "marks": 2,
+   "type": "MCQ",
+   "stem": "An electron with mass\nm and charge\nq is in the spin up state\n\n at time\n0t . A\nconstant magnetic field is applied along the\ny -axis,\nˆB B j\n , where\n0B is a constant. The\nHamiltonian of the system is\nyH \n , where\n0 02\nqB\nm and\ny\ni\ni  . The minimum\ntime after which the electron will be in the spin down state along the\nx -axis, i.e.,\n\n , is",
+   "opts": [
+    "\n",
+    "\n",
+    "\n",
+    "\n"
+   ],
+   "ans": "B",
+   "note": null,
+   "lane": "classical",
+   "subtopic": "hamiltonian"
+  },
+  {
+   "n": 46,
+   "part": "PH",
+   "marks": 2,
+   "type": "MCQ",
+   "stem": "A system of three non-identical spin\n2 particles has the Hamiltonian\n 1 2 32\nAH S S S  \n ,\nwhere\n12,SS\n and\n3S\n are the spin operators of particles labelled 1, 2 and 3 respectively and\nA is a\nconstant with appropriate dimensions. The set of possible energy eigenvalues of the system is",
+   "opts": [
+    "0, ,2\nA A",
+    "0, ,22\nAA",
+    "30, ,22\nAA",
+    "30, , 22\nAA"
+   ],
+   "ans": "A",
+   "note": null,
+   "lane": "quantum",
+   "subtopic": "operators-commutators"
+  },
+  {
+   "n": 47,
+   "part": "PH",
+   "marks": 2,
+   "type": "MSQ",
+   "stem": "Which of the following option(s) is/are correct for a Type I superconductor?",
+   "opts": [
+    "The phase transition to the normal state in the absence of a magnetic field is of second order",
+    "With increase in temperature, the critical magnetic field decreases linearly to zero",
+    "Below the critical temperature, the entropy in the superconducting state is less than that in\nthe normal state",
+    "The phase transition to the normal state in the presence of a magnetic field is of first order"
+   ],
+   "ans": [
+    "A",
+    "C",
+    "D"
+   ],
+   "note": null,
+   "lane": "thermo",
+   "subtopic": "phase-transitions"
+  },
+  {
+   "n": 48,
+   "part": "PH",
+   "marks": 2,
+   "type": "MCQ",
+   "stem": "Consider two hypothetical nuclei\n1X and\n2X undergoing\n decay, resulting in nuclei\n1Y\n and\n2Y , respectively. The decay scheme and the corresponding\nPJ values of the nuclei are\ngiven in the figure. Which of the following option(s) is/are correct? (\nJ is the total angular\nmomentum and\nP is parity)",
+   "opts": [
+    "11XY is Fermi transition and\n22XY is Fermi transition",
+    "11XY is Fermi transition and\n22XY is Gamow-Teller transition",
+    "11XY is Gamow-Teller transition and\n22XY is Fermi transition",
+    "11XY is Gamow-Teller transition and\n22XY is Gamow-Teller transition"
+   ],
+   "ans": "B",
+   "note": null,
+   "lane": "quantum",
+   "subtopic": "angular-spin"
+  },
+  {
+   "n": 49,
+   "part": "PH",
+   "marks": 2,
+   "type": "MSQ",
+   "stem": "A point charge\nq is placed at a distance\nd above an infinite, grounded conducting plate\nplaced on the\nxy plane at\n0z . The electrosta tic potential in\n0z region is given by\n12  \n, where\n \n1 2220\nq\nx y z d\n      and\n \n2 2220\nq\nx y z d\n      . Which\nof the following option(s) is/are correct?\n1X\n1Y\n0PJ \n0PJ \n \n2X\n0PJ \n1PJ \n2Y\n \n\n16 H.No. 40-D, G.F., Jia Sarai, Near IIT, Hauz Khas, New Delhi -16",
+   "opts": [
+    "The magnitude of the force experienced by the point charge\nq is\nq\nd",
+    "The electrostatic energy of the system is\nq\nd ",
+    "The induced surface charge density on the plate is proportional to\n2 2 2\nx y d",
+    "The electrostatic potential\n1 satisfies Poisson's equation for\n0z"
+   ],
+   "ans": [
+    "A",
+    "D"
+   ],
+   "note": null,
+   "lane": "emtheory",
+   "subtopic": "electrostatics"
+  },
+  {
+   "n": 50,
+   "part": "PH",
+   "marks": 2,
+   "type": "MSQ",
+   "stem": "In coordinates\n ,tx , a contra variant second rank tensor\nA has non -zero di agonal\ncomponents\nttAP and\nxxAQ , with all other components vanishing, and\n,PQ being real\nconstants. Here,\nt is time and\nx is space coo rdinate. Consider a Lorentz transformation\n   , ', 't x t x\n to another frame that moves with relative speed\nv in the\nx direction, so that\n'AA\n. If\n'ttA and\n'xxA are the diagonal components of\n'A , then setting the speed of light\n1c\n, and with\n1 v\n \n , which of the following option(s) is/are correct?",
+   "opts": [
+    "2 2 2'ttA P v Q",
+    "2 2 2'ttA v P v Q",
+    "2 2 2'xxA v P Q",
+    "22'xxA v P Q "
+   ],
+   "ans": [
+    "A",
+    "C"
+   ],
+   "note": null,
+   "lane": "classical",
+   "subtopic": "relativity"
+  },
+  {
+   "n": 51,
+   "part": "PH",
+   "marks": 2,
+   "type": "MSQ",
+   "stem": "The Lagrangian of a particle of mass\nm and charge\nq moving in a uniform magnetic field\nof magnitude\n2B that points in the\nz direction, is given by\n \nyx\nmL v qB xv yv   where\n,,x y zv v v\n are the components of its velocity\nv\n . If\n,,x y zp p p denote the conjugate momenta in the\n,,x y z\n directions and\nH is the Hamiltonian, which of the following options(s) is/are correct?",
+   "opts": [
+    " 1\nx\ndx p qBydt m",
+    " \nx\ny\ndp qB p qBxdt m",
+    " \ny\nx\ndp qB p qBydt m ",
+    "   \n22 21\nx y zH p qBy p qBx pm\n    "
+   ],
+   "ans": [
+    "B",
+    "C",
+    "D"
+   ],
+   "note": null,
+   "lane": "classical",
+   "subtopic": "lagrangian"
+  },
+  {
+   "n": 52,
+   "part": "PH",
+   "marks": 2,
+   "type": "MCQ",
+   "stem": "A bead is constrained to move along a long, massless, frictionless horizontal rod parallel to\nthe\nx axis. The rod itself is moving vertically upward along the\nz direction against gravity with\na constant speed, starting from\n0z at\n0t , and remains horizontal. The conjugate momenta\nare denoted by\n,,x y zp p p and the Hamiltonian by\nH . Which of the following option(s) is/are\ncorrect?",
+   "opts": [
+    "H is the total energy of the system and is conserved",
+    "H is the total energy of the system and is not conserved",
+    "H is not the total energy of the system, but it is conserved",
+    "H is not the total energy of the system and is not conserved"
+   ],
+   "ans": "D",
+   "note": null,
+   "lane": "classical",
+   "subtopic": "hamiltonian"
+  },
+  {
+   "n": 53,
+   "part": "PH",
+   "marks": 2,
+   "type": "MSQ",
+   "stem": "In a one-dimensional Hamiltonian system with position\nq and momentum\np , consider the\ncanonical transformation\n \n21,,q p Q P qp p\n   , where\nQ and\nP are the new position and\nmomentum, respectively. Which of the following option(s) regarding the generating function 𝐹\nis/are correct?",
+   "opts": [
+    " 1 , qF F q Q Q",
+    " 2 ,F F q P Pq",
+    " 3 ,2 pF F p Q Q",
+    " 4 , PF F p P p"
+   ],
+   "ans": [
+    "A",
+    "D"
+   ],
+   "note": null,
+   "lane": "classical",
+   "subtopic": "canonical-pb"
+  },
+  {
+   "n": 54,
+   "part": "PH",
+   "marks": 2,
+   "type": "MSQ",
+   "stem": "The energy of a free, relativistic particle of rest mass\nm moving along the\nx axis in one\ndimension, is denoted by\nT . When moving in a given potential\n Vx , its Hamiltonian is\n H T V x\n. In the presence of this potential, its speed is\nv , conjugate momentum\np , and the\nLagrangian\nL . Then, which of the following option(s) is/are correct?",
+   "opts": [
+    " \npH c m V x c  ",
+    "2 2 2\npcv\np m c\n\n",
+    " \n21 vL mc V x c  ",
+    " \n21 vL mc V x c  \n\n\n18 H.No. 40-D, G.F., Jia Sarai, Near IIT, Hauz Khas, New Delhi -16"
+   ],
+   "ans": [
+    "A",
+    "B",
+    "D"
+   ],
+   "note": null,
+   "lane": "classical",
+   "subtopic": "relativity"
+  },
+  {
+   "n": 55,
+   "part": "PH",
+   "marks": 2,
+   "type": "MSQ",
+   "stem": "Consider the integral\n\nzI dz abi zz ba\n\n       \n\n ,\nwhere\nz is a complex variable and\n,ab are positive real numbers. The integral is taken over a\nunit circle with center at the origin. Which of the following option(s) is/are correct?",
+   "opts": [
+    "8I  when\n1, 2ab",
+    "3I  when\n1, 3ab",
+    "8I  when\n2, 1ab",
+    "8I  when\n3, 2ab"
+   ],
+   "ans": [
+    "A",
+    "C"
+   ],
+   "note": null,
+   "lane": null,
+   "subtopic": null
+  },
+  {
+   "n": 56,
+   "part": "PH",
+   "marks": 2,
+   "type": "MSQ",
+   "stem": "A neutral conducting sphere of radius\nR is placed in a uniform electric field of magnitude\n0E\n, that points along the\nz axis. The electrostatic potential at any point\nr\n outside the sphere is\ngiven by\n \n00 3, 1 cos RV r V E r r     , where\n0V is the constant potential of the sphere.\nWhich of the following option(s) is/are correct?",
+   "opts": [
+    "The induced surface charge density on the sphere is proportional to\nsin",
+    "As\nr ,\n0 ˆcosE E r ",
+    "The electric field at any point is curl free for\nrR",
+    "The electric field at any point is divergence free for\nrR"
+   ],
+   "ans": [
+    "C",
+    "D"
+   ],
+   "note": null,
+   "lane": "emtheory",
+   "subtopic": "electrostatics"
+  },
+  {
+   "n": 57,
+   "part": "PH",
+   "marks": 2,
+   "type": "MSQ",
+   "stem": "A point charge\nq is placed at the origin, inside a linear dielectric medium of infinite extent,\nhaving relative permittivity\nr . Which of the following option(s) is/are correct?",
+   "opts": [
+    "The magnitude of the polarization varies as\nr",
+    "The magnitude of the polarization varies as\nr",
+    "The magnitude of the screened charge due to the diele ctric medium is less than the\nmagnitude of the point charge\nq for\n1r",
+    "The magnitude of the screened charge due to the dielectric medium is more than the\nmagnitude of the point charge\nq for\n1r"
+   ],
+   "ans": [
+    "A",
+    "C"
+   ],
+   "note": null,
+   "lane": "emtheory",
+   "subtopic": "dielectrics"
+  },
+  {
+   "n": 58,
+   "part": "PH",
+   "marks": 2,
+   "type": "MSQ",
+   "stem": "A linear magnetic material in the form of a cylinder of radius\nR and length\nL is placed\nwith its axis parallel to the\nz axis. The cylinder has uniform magnetization\nˆMk . Which of the\nfollowing option(s) is/are correct?",
+   "opts": [
+    "The magnetic field at any point outside the cylinder can be expressed as the gradient of a\nscalar function",
+    "The bound volume current density is zero",
+    "The surface current density on the curved surface is non-zero",
+    "The surface current densities on the flat surfaces (top and bottom) are non-zero"
+   ],
+   "ans": [
+    "A",
+    "B",
+    "C"
+   ],
+   "note": null,
+   "lane": "thermo",
+   "subtopic": "engines-cycles"
+  },
+  {
+   "n": 59,
+   "part": "PH",
+   "marks": 2,
+   "type": "NAT",
+   "stem": "Cyclotrons are used to accelerate ions like deuterons\n d and\n particles. Keeping the\nmagnetic field same for both,\nd and\n are extracted with energies\n10 MeV and\n20 MeV with\nextraction radii\ndr and\nr , respectively. Taking the masses\n22000dM MeV c and\n24000M MeV c \n, the value of\nd\nr\nr\n (in integer) is _____________",
+   "opts": [],
+   "ans": "1",
+   "note": null,
+   "lane": "emtheory",
+   "subtopic": "magnetostatics"
+  },
+  {
+   "n": 60,
+   "part": "PH",
+   "marks": 2,
+   "type": "NAT",
+   "stem": "In the transistor circuit shown in the figure,\n0.7BEVV  and\n400DC  . The value of the\nbase current in\nA (rounded off to one decimal place) is ____________",
+   "opts": [],
+   "ans": "18 to 19",
+   "note": null,
+   "lane": "electronics",
+   "subtopic": "bjt-fet-amplifiers"
+  },
+  {
+   "n": 61,
+   "part": "PH",
+   "marks": 2,
+   "type": "NAT",
+   "stem": "Consider the set\n \n21, ,xx . An orthonormal basis in\n 1,1x is formed from these three\nterms, where the normalization of a function\n fx is defined via\n \n1 22\n1x f x dx\n\n . If the\northonormal basis set is\n \n23 5 1 21, , 5 32 2 2 xx N\n \n , then the value of\nN (in integer) is\n____________\n\n\n100 k\n1k\n1k\n400DC \n10V\n\n20 H.No. 40-D, G.F., Jia Sarai, Near IIT, Hauz Khas, New Delhi -16",
+   "opts": [],
+   "ans": "6",
+   "note": null,
+   "lane": "solidstate",
+   "subtopic": "crystal-structure"
+  },
+  {
+   "n": 62,
+   "part": "PH",
+   "marks": 2,
+   "type": "NAT",
+   "stem": "The Hamiltonian for a one dimensional system with mass\nm , position\nq and momentum\np\n is\n   \n2, 2\npH p q q A q m , where\n Aq is a real function of\nq . If\n \n2 5dqm qA qdt  , then\n   dA q A q ndq q \n. The value of\nn (in integer) is __________________",
+   "opts": [],
+   "ans": "3",
+   "note": null,
+   "lane": "classical",
+   "subtopic": "hamiltonian"
+  },
+  {
+   "n": 63,
+   "part": "PH",
+   "marks": 2,
+   "type": "NAT",
+   "stem": "A system of five identical, non-interacting particles with mass\nm and spin\n2 is confined to\na one-dimensional potential well of length\nL . If the lowest energy of the system is\n22N mL\n\n , the\nvalue of\nN (in integer) is _____",
+   "opts": [],
+   "ans": "8",
+   "note": null,
+   "lane": "quantum",
+   "subtopic": "angular-spin"
+  },
+  {
+   "n": 64,
+   "part": "PH",
+   "marks": 2,
+   "type": "NAT",
+   "stem": "A wheel of mass\n4M and radius\nR is made of a thin uniform distribution of mass\n3M at\nthe rim and a point mass\nM at the center. The spokes of the wheel are massless. The center of\nmass of the wheel is connected to a horizontal ma ssless rod of length\n2R , with one end fixed at\nO\n, as shown in the figure. The wheel rolls without slipping on horizontal ground with angular\nspeed\n . If\nL\n is the total angular momentum of the wheel about\nO , then the magnitude\n \n22dL N MRdt \n. The value of\nN (in integer) is ____\n\n\nR\n2R\nO\n\n\nR\nM\n3M\nFront view",
+   "opts": [],
+   "ans": "6",
+   "note": null,
+   "lane": "quantum",
+   "subtopic": "angular-spin"
+  },
+  {
+   "n": 65,
+   "part": "PH",
+   "marks": 2,
+   "type": "NAT",
+   "stem": "The figure shows a n op-amp circuit with a\n5.1V Zener diode in the feedback loop. The\nop-amp runs from\n15V supplies. If a\n1V is applied at the input, the output voltage (rounded\noff to one decimal place) is ____________\n\n\n15V\n1V\nin\n\n\n5.1V\n15V\n1k\n1k\nout",
+   "opts": [],
+   "ans": "7 to 7.2",
+   "note": null,
+   "lane": "electronics",
+   "subtopic": "diode-circuits"
+  }
+ ]
+}

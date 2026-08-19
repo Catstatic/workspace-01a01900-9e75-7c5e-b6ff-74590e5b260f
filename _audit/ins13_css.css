@@ -1,0 +1,15 @@
+/* ============================================================
+   ROUND 14 — BOOT BACKGROUND ROTATION
+   ins12 painted a single artwork behind the boot overlay via
+   .boot-overlay::before. The rotation hook (ins13_js) now stamps a
+   --boot-bg CSS variable on the overlay element each time it opens;
+   this rule simply consumes it. When the variable is absent (very
+   old cached CSS, hook disabled) it falls back to the still ship-
+   ping command-center-bg.jpg, so nothing ever goes blank.
+   Pool order (user-selected, all locally grade-enhanced, no API):
+     0 boot-bg-void-hq.jpg   VOID OBSERVATORY   (gallery #6)
+     1 boot-bg-palace-hq.jpg MOON PALACE        (gallery #2)
+     2 boot-bg-babel-hq.jpg  BABEL LIBRARY      (gallery #7)
+     3 boot-bg-torii-hq.jpg  TORII OF STARS     (gallery #8)
+   ============================================================ */
+.boot-overlay::before{background-image:var(--boot-bg,url("command-center-bg.jpg")),url("command-center-bg.svg");}

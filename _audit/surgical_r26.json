@@ -1,0 +1,221 @@
+{
+ "round": 26,
+ "note": "SKINFORGE + CASTFORGE: cut escape/backrooms (14 seams), graft kaiju8/batman/moonknight themes + igris/huoyuhao/gehrman/fool personas, mode mappings. Wave 2: deep-cut token lists, observer maps, activeText chain, maze tomb re-skin. Wave 3: removals rebuilt as context-anchored pairs (baseline-unique old, current-unique new) + apostrophe fix.",
+ "pairs": [
+  {
+   "name": "cut-css-fxlayer-group",
+   "old": ".theme-black .fx-layer, .theme-backrooms .fx-layer, .theme-escape .fx-layer, .theme-neon .fx-layer, .theme-white .fx-layer{",
+   "new": ".theme-black .fx-layer, .theme-neon .fx-layer, .theme-white .fx-layer{"
+  },
+  {
+   "name": "cut-css-reduced-motion",
+   "old": ".theme-black::before, .theme-backrooms::before, .theme-escape::after, .theme-system::before,",
+   "new": ".theme-black::before, .theme-system::before,"
+  },
+  {
+   "name": "graft-js-themes-add",
+   "old": "l · spirit rings · cultivation', supportsVoice:true, themeVoice:'tangsan' },\n  'theme-lotm':     { label:'BEYONDER',       shortLabel:'LOTM',        swatchColors:['#1a1108','#c8985a','#e0b878','#f4e4c1'], description:'Beyonder · parchment · sealed sigils',   supportsVoice:true,  themeVoice:'klein' },\n  'theme-physics':  { label:'PHYSICS LAB',    shortLabel:'PHYSICS',     swatchColors:['#0a0e14','#00d4ff','#ffd700','#ff6a00'], description:'Physics Lab · three character worlds', supportsVoice:true,  themeVoice:null }",
+   "new": "l · spirit rings · cultivation', supportsVoice:true, themeVoice:'tangsan' },\n  'theme-lotm':     { label:'BEYONDER',       shortLabel:'LOTM',        swatchColors:['#1a1108','#c8985a','#e0b878','#f4e4c1'], description:'Beyonder · parchment · sealed sigils',   supportsVoice:true,  themeVoice:'klein' },\n  'theme-physics':  { label:'PHYSICS LAB',    shortLabel:'PHYSICS',     swatchColors:['#0a0e14','#00d4ff','#ffd700','#ff6a00'], description:'Physics Lab · three character worlds', supportsVoice:true,  themeVoice:null },\n  'theme-kaiju8':    { label:'KAIJU NO. 8',    shortLabel:'KAIJU NO. 8', swatchColors:['#05070f','#00e5ff','#7df9ff','#ff3355'], description:'Kaiju defense · bio-energy · breach grid',  supportsVoice:false, themeVoice:null },\n  'theme-batman':    { label:'THE DARK KNIGHT', shortLabel:'BATMAN',      swatchColors:['#0a0a0c','#ffd60a','#9aa5b1','#1b2735'], description:'Gotham noir · bat-signal · detective',    supportsVoice:false, themeVoice:null },\n  'theme-moonknight':{ label:'MOON KNIGHT',     shortLabel:'MOON KNIGHT', swatchColors:['#0d1021','#e8e6df','#d4af37','#5eead4'], description:'Moonlit marble · Khonshu gold · tomb maze', supportsVoice:false, themeVoice:null }"
+  },
+  {
+   "name": "graft-js-theme-voices",
+   "old": "// STRICT THEME-VOICE MAPPING — characters stay locked to their own theme\n// White Room = COTE roster, System = Jinwoo only (extensible later), etc.\n// Themes with empty array have NO characters (black, backrooms, escape, neon)\nconst THEME_VOICES = {\n  'theme-white':    ['ayanokoji','horikita','ryuuen','ichinose','sakayanagi'],\n  'theme-black':    [],\n  'theme-backrooms':[],\n  'theme-escape':   [],\n  'theme-neon':     [],\n  'theme-system':   ['jinwoo'],\n  'theme-aincrad':  ['kirito'],\n  'theme-shrek':    ['tangsan'],\n  'theme-lotm':     ['klein'],\n  // Physics Guy intentionally comes first when Physics Lab opens.\n  'theme-physics':  ['physguy','feynman','astro']\n};",
+   "new": "// STRICT THEME-VOICE MAPPING — characters stay locked to their own theme\n// White Room = COTE roster; CASTFORGE (R26) seated Igris in System, Huo Yuhao beside Tang San, Gehrman & The Fool in Beyonder.\n// Themes with empty array have NO characters (black, neon, kaiju8, batman, moonknight).\nconst THEME_VOICES = {\n  'theme-white':    ['ayanokoji','horikita','ryuuen','ichinose','sakayanagi'],\n  'theme-black':    [],\n  'theme-neon':     [],\n  'theme-kaiju8':   [],\n  'theme-batman':   [],\n  'theme-moonknight':[],\n  'theme-system':   ['jinwoo','igris'],\n  'theme-aincrad':  ['kirito'],\n  'theme-shrek':    ['tangsan','huoyuhao'],\n  'theme-lotm':     ['klein','gehrman','fool'],\n  // Physics Guy intentionally comes first when Physics Lab opens.\n  'theme-physics':  ['physguy','feynman','astro']\n};"
+  },
+  {
+   "name": "graft-js-particle-colors",
+   "old": "    'theme-lotm': ['#c8985a','#e0b878','#f4e4c1']\n  };",
+   "new": "    'theme-lotm': ['#c8985a','#e0b878','#f4e4c1'],\n    'theme-kaiju8': ['#00e5ff','#7df9ff','#ff3355'],\n    'theme-batman': ['#ffd60a','#9aa5b1','#1b2735'],\n    'theme-moonknight': ['#e8e6df','#d4af37','#5eead4']\n  };"
+  },
+  {
+   "name": "graft-js-theme-quotes-add",
+   "old": "Lab notebook > Instagram. Fill notebook.\",\n    \"Experiment logged. Data +10. Rank +1.\"\n  ]",
+   "new": "Lab notebook > Instagram. Fill notebook.\",\n    \"Experiment logged. Data +10. Rank +1.\"\n  ],\n  'theme-kaiju8': [\n    \"Breach alarm rings for the unprepared. You? You logged the drill.\",\n    \"No. 8 didn't choose power over study. Power followed the form book.\",\n    \"Sync rate rises one honest rep at a time. No shortcut circuits.\",\n    \"Defense Force rule: hold the line. The topic you skip is the breach.\",\n    \"Core pulse steady? Then steady the schedule too.\",\n    \"Monster of record clears the board quietly. Be the record.\",\n    \"A clean sweep starts with one clean session.\",\n    \"The suit only amplifies what's inside. Charge the operator first.\",\n    \"Every marked question is a neutralized threat. Mark honestly.\",\n    \"Sortie complete only when the log says complete.\"\n  ],\n  'theme-batman': [\n    \"Gotham rewards the prepared. Preparation is the plan, bats optional.\",\n    \"No superpowers here. Detective work. Topic by topic, case closed.\",\n    \"The signal only shines when clouds gather. Hard week? Beacon hours.\",\n    \"Fear is data. Mark where it spikes, then patrol there twice.\",\n    \"Evidence board: weak topics connected by one red string — avoidance.\",\n    \"Midnight oil burns cleanest in small disciplined shifts.\",\n    \"Armor on, cape off. Notes first, glory later.\",\n    \"The city sleeps; the ledger doesn't. Log the patrol.\",\n    \"A lead ignored becomes a case unsolved. Follow the lead today.\",\n    \"Be the storm the weakness fears.\"\n  ],\n  'theme-moonknight': [\n    \"Moonlight favors the nightly. One more vigil, one more aspect.\",\n    \"Khonshu counts phases, not excuses. Tonight counts.\",\n    \"Two identities, one ledger: reading and recall. Balance both.\",\n    \"The tomb opens for the patient. Chapter by chapter, sealed deep.\",\n    \"Crescent to full — slow arcs win the night sky.\",\n    \"The mummy wraps in layers. So does mastery.\",\n    \"White suit shows every stain. Clean answers show every step.\",\n    \"Voices argue; the plan executes. Silence the debate, start the block.\",\n    \"Egyptian nights were mapped by watchers. Watch the syllabus nightly.\",\n    \"The avatar acts because the god commands. Your god is the logbook.\"\n  ]"
+  },
+  {
+   "name": "graft-js-theme-text-add",
+   "old": "periment logged. Data +10.', pomoBreakDone:'⟢ Lab cleaned. Next experiment ready.', examLabel:(p)=>`${p} — EXPERIMENT` }",
+   "new": "periment logged. Data +10.', pomoBreakDone:'⟢ Lab cleaned. Next experiment ready.', examLabel:(p)=>`${p} — EXPERIMENT` },\n  'theme-kaiju8':    { countdown:(d)=>`NEUTRALIZATION WINDOW: ${d} DAYS TO BREACH`, milestone:(r)=>r===1?'✦ THREAT LEVEL ZERO — YOU ARE THE ACE ✦':`⟢ Breach level ${r} sealed. Suit sync +${r*10}%.`, pomoComplete:'⟢ Drill logged. Core output +10.', pomoBreakDone:'⟢ Reactor cooled. Next sortie primed.', examLabel:(p)=>`${p} — KAIJU ENGAGEMENT` },\n  'theme-batman':    { countdown:(d)=>`GOTHAM PROTOCOL: ${d} NIGHTS TO MIDNIGHT`, milestone:(r)=>r===1?'◆ THE CITY SLEEPS SAFE — CASES CLEARED ◆':`⟢ Case ${r} closed. Evidence sealed.`, pomoComplete:'⟢ Patrol logged. Intel +10.', pomoBreakDone:'⟢ Cape hung. Cowl charged. Next patrol ready.', examLabel:(p)=>`${p} — CASE FILE` },\n  'theme-moonknight':{ countdown:(d)=>`PHASE COUNT: ${d} NIGHTS TO FULL MOON`, milestone:(r)=>r===1?'✦ AVATAR ASCENDANT — MOONLIGHT CROWNS YOU ✦':`⟢ Phase ${r} complete. Path cleared.`, pomoComplete:'⟢ Vigil logged. Resolve +10.', pomoBreakDone:'⟢ Shade rested. Streets await the next round.', examLabel:(p)=>`${p} — NIGHT PATROL` }"
+  },
+  {
+   "name": "graft-js-voices-add",
+   "old": "ess into motivation to study the very laws that built it.' }",
+   "new": "ess into motivation to study the very laws that built it.' },\n  igris: { label:'IGRIS', greeting:'Silent · absolute · knightly', role:'Blood-Red Commander · first blade of the Shadow Army', description:'\"The Monarch commands. I execute.\" Igris does not flatter and does not hurry. Each rep you log is a soldier raised; he counts them without comment, then asks for one more.', signature:'The knight who knelt only once — and never again. His aura runs crimson because his patience does not.' },\n  huoyuhao: { label:'HUO YUHAO', greeting:'Observant · gentle · unshakable', role:'Spirit Eyes · Ice Emperor lineage · Soul Land 2', description:'\"Look closer — the match is decided before the first strike.\" Huo Yuhao reads the whole field at once: weak points, openings, escape routes. He studies the way he fights, with every sense open and nothing wasted.', signature:'The boy the Spirit Eyes chose. Where Tang San built the legend, Huo Yuhao inherits it — in violet and ice.' },\n  gehrman: { label:'GEHRMAN SPARROW', greeting:'Cold · precise · courteous as a drawn trigger', role:'Bounty hunter above the Sea of Fog', description:'\"State the target. Everything else is waste.\" Gehrman strips each task to a mark and a method. No drama, no drift — the syllabus is only a wanted poster: name, face, time of collection.', signature:'The cold idol of the Fog Sea. Gentlest manners, quickest draw — with him, revision is a hunt and every weak topic gets a bounty.' },\n  fool: { label:'THE FOOL', greeting:'Distant · tranquil · impossibly deep', role:'The great existence above the gray fog · host of the Tarot Club', description:'\"Whisper the doubt. The fog will answer.\" The Fool does not lecture. He listens — and the gray fog rearranges what you know into what you command. Slow words, long patience, pathways made home.', signature:'Seated at the fog-shrouded table head. Beyonders advance by acting — he advances you by making the unknown feel seated beside you.' }"
+  },
+  {
+   "name": "graft-js-voice-quotes-add",
+   "old": "Observe.\",\n    \"Calm evaluator asks next accurate step. Step across cosmos.\"\n  ]",
+   "new": "Observe.\",\n    \"Calm evaluator asks next accurate step. Step across cosmos.\"\n  ],\n  igris: [\n    \"The Commander counts only completed drills. Complete one.\",\n    \"Kneeling was the beginning. Rise means logging the next hour.\",\n    \"A blade stays silent until the swing. Your pen, same rule.\",\n    \"No retreat formation exists in my book. Neither in yours.\",\n    \"Armor remembers every scar. Memory works — earn yours.\",\n    \"One order today: clear the marked topic. Move.\",\n    \"The Monarch watches the tally, not the excuse.\"\n  ],\n  huoyuhao: [\n    \"Spirit Eyes open: the whole field, all at once. Read first, solve fast.\",\n    \"Ice steadies the hand. Breathe, then derive.\",\n    \"Weak spots glow violet to a careful observer. Observe yours.\",\n    \"Control beats force. Pace the session; land every question.\",\n    \"The ring forms when the practice is real. No counterfeit rings.\",\n    \"My advantage was attention, not talent. Yours too.\",\n    \"A calm field of view wins more than a loud strike.\"\n  ],\n  gehrman: [\n    \"Poster drafted: today's weak topic. Collect before dusk.\",\n    \"A hunter never fires at the fog. Aim only at solved steps.\",\n    \"Bounty math: forty focused minutes outscore four drifting hours.\",\n    \"Courtesy costs nothing, panic costs marks. Keep both facts.\",\n    \"Track the concept, not the clock. Trails stay while ticks fly.\",\n    \"Every missed question leaves a trail. Follow it tomorrow.\",\n    \"Close the file, collect the fee. The fee is rank.\"\n  ],\n  fool: [\n    \"Above the fog, all confusion sits as furniture. Move one piece today.\",\n    \"The pathway advances by acting. Your ritual: one honest block.\",\n    \"History forgets hesitation. The ledger records only the scripted.\",\n    \"Tarot is guesswork; progress is architecture. Build, then divine.\",\n    \"The castle has many chairs. Empty ones await named topics.\",\n    \"Gray fog clears in spirals. Confusion lifts the same way — slowly, then suddenly.\",\n    \"Ponder well; the starlight has time, your calendar less so.\"\n  ]"
+  },
+  {
+   "name": "graft-js-voice-colors",
+   "old": "    jinwoo:['#00d4ff','#7c3aed','#ffd700']\n  };",
+   "new": "    jinwoo:['#00d4ff','#7c3aed','#ffd700'],\n    igris:['#ff3b47','#ff8a7a','#ffd0c8'],\n    huoyuhao:['#b98cff','#9fd8ff','#efe6ff'],\n    gehrman:['#9aa3ad','#c8ced6','#e8ddd0'],\n    fool:['#8b93a0','#e3e8f2','#d8b8c0']\n  };"
+  },
+  {
+   "name": "graft-js-mode-personas",
+   "old": "if(b.classList.contains('voice-ryuuen'))return'target';",
+   "new": "if(b.classList.contains('voice-ryuuen')||b.classList.contains('voice-igris')||b.classList.contains('voice-gehrman'))return'target';"
+  },
+  {
+   "name": "graft-js-mode-worlds",
+   "old": "if(b.classList.contains('theme-backrooms'))return'maze';",
+   "new": "if(b.classList.contains('theme-moonknight'))return'maze';\n    if(b.classList.contains('theme-kaiju8'))return'lattice';"
+  },
+  {
+   "name": "graft-js-mode-cipher",
+   "old": "if(b.classList.contains('theme-black')||b.classList.contains('theme-escape'))return'cipher';",
+   "new": "if(b.classList.contains('theme-black')||b.classList.contains('theme-batman'))return'cipher';"
+  },
+  {
+   "name": "relabel-css-maze-comment",
+   "old": "/* Maze / backrooms */",
+   "new": "/* Maze — tomb-of-Khonshu skin under MOON KNIGHT */"
+  },
+  {
+   "name": "relabel-js-comment-pure",
+   "old": "// Pure themes (black, backrooms, escape, neon) — no character tint",
+   "new": "// Pure themes (black, neon, kaiju8, batman, moonknight) — no character tint"
+  },
+  {
+   "name": "relabel-js-comment-nochar",
+   "old": "// If this theme has NO characters (black room, backrooms, escape, neon) — hide card entirely",
+   "new": "// If this theme has NO characters (black, neon, kaiju8, batman, moonknight) — hide card entirely"
+  },
+  {
+   "name": "graft-js-activetext",
+   "old": "      else if(currentTheme==='theme-escape') activeText = 'LOCK IS OPEN';\n      else if(currentTheme==='theme-backrooms') activeText = 'EXTRACTION IMMINENT';\n",
+   "new": "      else if(currentTheme==='theme-kaiju8') activeText = '✦ BREACH SEALED — ACE ON SCENE ✦';\n      else if(currentTheme==='theme-batman') activeText = 'CASE CLOSED — THE CITY SLEEPS';\n      else if(currentTheme==='theme-moonknight') activeText = 'FULL MOON — AVATAR ASCENDANT';\n"
+  },
+  {
+   "name": "graft-js-watermark",
+   "old": "      'theme-white':'WHITE ROOM','theme-black':'BLACK SITE','theme-backrooms':'LEVEL 0',\n      'theme-escape':'ROOM 04','theme-system':'PLAYER','theme-neon':'JACK IN',",
+   "new": "      'theme-white':'WHITE ROOM','theme-black':'BLACK SITE','theme-kaiju8':'KAIJU NO. 8',\n      'theme-batman':'DARK KNIGHT','theme-moonknight':'MOON KNIGHT','theme-system':'PLAYER','theme-neon':'JACK IN',"
+  },
+  {
+   "name": "graft-js-themewords",
+   "old": "    'theme-backrooms':['LEVEL SHIFT','KEEP MOVING','EXIT TRACE FOUND','FLUORESCENT HUM'],\n    'theme-escape':['TUMBLER CLICK','LOCK PATTERN FOUND','ESCAPE VECTOR','TIME REMAINS'],\n",
+   "new": "    'theme-kaiju8':['BREACH SEALED','SYNC +10%','CORE STABLE','THREAT NEUTRALIZED'],\n    'theme-batman':['EVIDENCE SEALED','PATROL CLEAN','SIGNAL LIT','CASE CLOSED'],\n    'theme-moonknight':['PHASE HELD','ASPECT STEADY','MOONLIT PATH','VIGIL LOGGED'],\n"
+  },
+  {
+   "name": "graft-js-themelabels",
+   "old": "    'theme-backrooms':'LEVEL 0 // OBSERVED',\n    'theme-escape':'LOCK STATE // OBSERVED',\n",
+   "new": "    'theme-kaiju8':'KAIJU NO. 8 // OBSERVED',\n    'theme-batman':'GOTHAM NIGHT // OBSERVED',\n    'theme-moonknight':'MOON PHASE // OBSERVED',\n"
+  },
+  {
+   "name": "relabel-js-cipher-eyebrow",
+   "old": "eyebrow:'BLACK ROOM / ESCAPE ROOM'",
+   "new": "eyebrow:'BLACK ROOM / DARK KNIGHT'"
+  },
+  {
+   "name": "graft-js-maze-modeinfo",
+   "old": "maze:{title:'LEVEL 0 EXTRACTION',subtitle:'The fluorescent hum is not the map. Find the exit.',eyebrow:'BACKROOMS BREAK PROTOCOL',tip:'Recover both keys, keep away from the Smiler, then reach the exit.',time:600},",
+   "new": "maze:{title:'TOMB OF KHONSHU',subtitle:'The moonlit corridors are not the map. Find the exit.',eyebrow:'MOON KNIGHT / TOMB PROTOCOL',tip:'Recover both canopic keys, evade the tomb guardian, then reach the exit.',time:600},"
+  },
+  {
+   "name": "relabel-js-maze-lore1",
+   "old": "'The Smiler found you · heart lost.'",
+   "new": "'The tomb guardian found you · heart lost.'"
+  },
+  {
+   "name": "relabel-js-maze-lore2",
+   "old": "finish('Extraction failed · the level consumed the subject.')",
+   "new": "finish('The tomb sealed itself · the aspect was claimed.')"
+  },
+  {
+   "name": "relabel-js-maze-lore3",
+   "old": "finish('Extraction complete · you escaped Level 0.')",
+   "new": "finish('Tomb extraction complete · the moon saw you out.')"
+  },
+  {
+   "name": "relabel-js-maze-lore4",
+   "old": "setStatus('Find both keys. Avoid the moving Smiler.')",
+   "new": "setStatus('Find both canopic keys. Avoid the moving guardian.')"
+  },
+  {
+   "name": "cut-families",
+   "old": " 0 rgba(0,150,255,0.5);}94%{transform:translate(1px,-0.5px);}}\n\n/* ============== THEME: BACKROOMS ============== */\n.theme-backrooms{\n  --bg-0:#c9b458; --bg-1:#b89e3e; --bg-2:#a08a2c; --bg-3:#7a6820;\n  --ink-0:#3d2f1f; --ink-1:#5a4a30; --ink-2:#7a5a3a;\n  --line:#8b5a1a; --line-strong:#6a3e0a;\n  --accent:#8b5a1a; --accent-dim:#6a3e0a; --gold:#4a3a1a;\n  --cold:#4a6b1a; --green:#5a7a2a; --red:#a8442a;\n}\n.theme-backrooms body{\n  background:\n    repeating-linear-gradient(0deg, rgba(0,0,0,0.02) 0px, rgba(0,0,0,0.02) 1px, transparent 1px, transparent 40px),\n    repeating-linear-gradient(90deg, rgba(61,47,31,0.015) 0px, rgba(61,47,31,0.015) 1px, transparent 1px, transparent 80px),\n    repeating-linear-gradient(45deg, transparent 0px, transparent 24px, rgba(61,47,31,0.035) 25px, transparent 26px),\n    repeating-linear-gradient(-45deg, transparent 0px, transparent 24px, rgba(61,47,31,0.035) 25px, transparent 26px),\n    linear-gradient(180deg, #d4c068 0%, #c9b458 22%, #b89e3e 100%);\n  color:var(--ink-0);\n  font-family:'Courier New', monospace;\n}\n.theme-backrooms::before{\n  content:\"\"; position:fixed; inset:0; pointer-events:none; z-index:9990;\n  background:\n    linear-gradient(180deg, rgba(255,255,255,0.18) 0%, rgba(255,255,255,0) 2%),\n    radial-gradient(ellipse at 30% 10%, rgba(255,255,200,0.18), transparent 45%),\n    radial-gradient(ellipse at 70% 20%, rgba(255,255,200,0.12), transparent 35%);\n  opacity:0.9;\n  animation: backroomsFlicker 0.18s steps(1) infinite, backroomsHum 4s ease-in-out infinite;\n}\n.theme-backrooms::after{\n  content:\"\"; position:fixed; inset:0; pointer-events:none; z-index:9991;\n  background-image:\n    radial-gradient(1.5px 1.5px at 20% 30%, rgba(61,47,31,0.12) 100%, transparent),\n    radial-gradient(1px 1px at 40% 70%, rgba(61,47,31,0.09) 100%, transparent),\n    radial-gradient(1.2px 1.2px at 90% 40%, rgba(61,47,31,0.10) 100%, transparent),\n    radial-gradient(1px 1px at 65% 15%, rgba(61,47,31,0.08) 100%, transparent);\n  background-size: 400px 400px, 500px 500px, 300px 300px, 600px 600px;\n  animation: backroomsDustDrift 22s linear infinite;\n  opacity:0.6;\n}\n@keyframes backroomsFlicker{0%{opacity:0.9;}2%{opacity:0.75;}4%{opacity:0.92;}6%{opacity:0.88;}8%{opacity:1;}100%{opacity:0.92;}}\n@keyframes backroomsHum{0%,100%{filter:brightness(1);}50%{filter:brightness(1.03) saturate(1.05);}}\n@keyframes backroomsDustDrift{0%{transform:translate(0,0);}100%{transform:translate(-30px,30px);}}\n.theme-backrooms .scanlines{opacity:0.10; animation: backroomsScan 3.5s linear infinite;}\n@keyframes backroomsScan{0%{transform:translateY(0);}100%{transform:translateY(40px);}}\n.theme-backrooms .rank-hero-num{ color:#3d2f1f; text-shadow:0 0 14px rgba(74,58,26,0.45); animation: backroomsBuzz 0.12s steps(1) infinite alternate; }\n@keyframes backroomsBuzz{0%{transform:translateX(0);}100%{transform:translateX(0.3px);}}\n.theme-backrooms .hud{ border-top-color:rgba(74,58,26,0.55) !important; box-shadow:inset 0 2px 12px rgba(61,47,31,0.18); }\n\n/* ============== THEME: ESCAPE ROOM ============== */\n.theme-escape{\n  --bg-0:#1c1c1e; --bg-1:#252528; --bg-2:#2c2c30; --bg-3:#35353a;\n  --ink-0:#e8e6e2; --ink-1:#b0aca6; --ink-2:#7a766e;\n  --line:#3a3a3e; --line-strong:#4a4a4e;\n  --accent:#d63031; --accent-dim:#8a1a1a; --gold:#b8860b;\n  --cold:#00b894; --green:#5ac85a; --red:#e8443a;\n}\n.theme-escape body{\n  background:\n    radial-gradient(ellipse at 20% 20%, rgba(214,48,49,0.08), transparent 40%),\n    radial-gradient(ellipse at 80% 80%, rgba(184,134,11,0.06), transparent 45%),\n    radial-gradient(ellipse at 50% 50%, rgba(0,184,148,0.03), transparent 70%),\n    linear-gradient(135deg, #1c1c1e 0%, #232326 30%, #1e2024 60%, #1c1c1e 100%);\n  color:var(--ink-0);\n}\n.theme-escape::before{\n  content:\"\"; position:fixed; inset:0; pointer-events:none; z-index:1;\n  background:\n    repeating-linear-gradient(90deg, transparent 0px, transparent 48px, rgba(232,230,226,0.015) 48px, rgba(232,230,226,0.015) 50px),\n    repeating-linear-gradient(0deg, transparent 0px, transparent 48px, rgba(232,230,226,0.01) 48px, rgba(232,230,226,0.01) 50px);\n  opacity:0.6;\n}\n.theme-escape::after{\n  content:\"\"; position:fixed; left:50%; top:50%; width:160vmax; height:160vmax; pointer-events:none; z-index:2;\n  background: conic-gradient(from 0deg at 50% 50%, transparent 0deg, rgba(214,48,49,0.015) 18deg, transparent 38deg, rgba(184,134,11,0.012) 78deg, transparent 120deg, rgba(214,48,49,0.01) 190deg, transparent 360deg);\n  transform: translate(-50%,-50%) rotate(0deg);\n  animation: escapeTickRotate 120s linear infinite;\n  opacity:0.9;\n}\n@keyframes escapeTickRotate{0%{transform:translate(-50%,-50%) rotate(0deg);}100%{transform:translate(-50%,-50%) rotate(360deg);}}\n.theme-escape .scanlines{\n  opacity:0.07;\n  background: linear-gradient(90deg, transparent 0%, rgba(214,48,49,0.04) 50%, transparent 100%);\n  height:2px;\n  animation: escapeScanSweep 4.5s ease-in-out infinite;\n  top:0; bottom:auto;\n}\n@keyframes escapeScanSweep{0%{top:0%; opacity:0;}10%{opacity:0.18;}90%{opacity:0.18;}100%{top:100%; opacity:0;}}\n.theme-escape .hud{ border-top-color:rgba(214,48,49,0.42) !important; position:relative; }\n.theme-escape .hud::after{\n  content:\"\"; position:absolute; right:12px; top:50%; width:8px; height:8px; background:#d63031; border-radius:50%; box-shadow:0 0 8px #d63031, 0 0 16px rgba(214,48,49,0.5);\n  transform:translateY(-50%);\n  animation: escapeRedBlink 1.2s steps(2) infinite;\n}\n@keyframes escapeRedBlink{0%{opacity:1;}50%{opacity:0.2;}100%{opacity:1;}}\n.theme-escape .rank-hero-num{ color:#ff6b6b; text-shadow:0 0 16px rgba(214,48,49,0.6), 0 0 32px rgba(214,48,49,0.25); animation: escapeNumPulse 2.8s ease-in-out infinite; }\n@keyframes escapeNumPulse{0%,100%{text-shadow:0 0 16px rgba(214,48,49,0.55);}50%{text-shadow:0 0 24px rgba(214,48,49,0.85), 0 0 48px rgba(214,48,49,0.3);}}\n\n/* ============== THEME: SYSTEM (Solo Leveling) ============== */\n.theme-system{",
+   "new": " 0 rgba(0,150,255,0.5);}94%{transform:translate(1px,-0.5px);}}\n\n/* ============== THEME: SYSTEM (Solo Leveling) ============== */\n.theme-system{"
+  },
+  {
+   "name": "cut-gallery",
+   "old": "y-card:hover{ box-shadow:0 0 0 1px rgba(140,31,42,0.42), 0 0 22px rgba(140,31,42,0.22); }\n.theme-backrooms .gallery-card:hover{ box-shadow:0 0 0 1px rgba(74,58,26,0.42), 0 4px 18px rgba(61,47,31,0.18); }\n.theme-system .gallery-card:hover{ box-shadow:0 0 0 1px rgba(0,212,255",
+   "new": "y-card:hover{ box-shadow:0 0 0 1px rgba(140,31,42,0.42), 0 0 22px rgba(140,31,42,0.22); }\n.theme-system .gallery-card:hover{ box-shadow:0 0 0 1px rgba(0,212,255"
+  },
+  {
+   "name": "cut-ceiling",
+   "old": ".85), 0.8px 0 rgba(255,0,110,0.85);\n  transform:translateX(0.4px);\n}\n\n/* ---- Backrooms: Ceiling tile flicker + distant hum light ---- */\n.theme-backrooms body::after{\n  content:\"\"; position:fixed; inset:0; pointer-events:none; z-index:1;\n  background:\n    radial-gradient(ellipse 340px 220px at 50% -8%, rgba(255,255,200,0.14), transparent 62%),\n    radial-gradient(ellipse 180px 120px at 22% 28%, rgba(255,255,200,0.07), transparent 58%),\n    radial-gradient(ellipse 200px 140px at 78% 42%, rgba(255,255,200,0.05), transparent 60%);\n  animation: backroomsCeilingFlicker 0.22s steps(1) infinite;\n  opacity:0.88;\n}\n@keyframes backroomsCeilingFlicker{\n  0%{opacity:0.88;}\n  4%{opacity:0.72;}\n  6%{opacity:0.90;}\n  8%{opacity:0.86;}\n  100%{opacity:0.88;}\n}\n\n/* ---- White Room: Surveillance grid + evaluation line ---- */\n.theme-white body::after{\n  content:\"\"; position:fixed; inset:0; pointer-events:none; z-index:0;\n  background:\n    linear-gradient(90deg, transparent 0px, rgba(11,12,14,0.012) 1px, transparent 1px),\n    linear-gradient(0deg, transparent 0px, rgba(11,12,14,0.008) 1px, transparent 1px),\n    radial-gradient(ellipse at center, transparent 62%, rgba(11,12,14,0.035) 100%);\n  background-size: 42px 42px, 42px 42px, 100% 100%;\n  opacity:0.9;\n}\n.theme-white #subtleScan{\n  background:linear-gradient(90deg, transparent, rgba(11,12,14,0.18), transparent);\n  height:1px; opacity:0.12; animation-duration:19s;\n}\n.theme-white .character-card{\n  box-shadow:0 0 0 1px var(--line), 0 2px 12px rgba(11,12,14,0.06), inset 0 0 0 1px rgba(255,255,255,0.8);\n}\n\n/* ---- Escape: Lock tumblers animation ---- */\n.theme-escape .hud-bar-fill{\n  position:relative; overflow:hidden;\n}\n.theme-escape .hud-bar-fill::after{\n  content:\"\"; position:absolute; inset:0;\n  background:repeating-linear-gradient(90deg, transparent 0px, transparent 6px, rgba(255,255,255,0.14) 6px, rgba(255,255,255,0.14) 7px);\n  animation: escapeTumbler 2.8s linear infinite;\n}\n@keyframes escapeTumbler{0%{transform:translateX(-14px);}100%{transform:translateX(0);}}\n\n/* Global performance tweak */\n@media (prefers-reduced-motion: reduce){\n  .fx-la",
+   "new": ".85), 0.8px 0 rgba(255,0,110,0.85);\n  transform:translateX(0.4px);\n}\n\n/* Global performance tweak */\n@media (prefers-reduced-motion: reduce){\n  .fx-la"
+  },
+  {
+   "name": "cut-fxblocks",
+   "old": "88%{opacity:0.92; transform:translateY(0);}92%{opacity:0.32;}}\n\n/* ---- BACKROOMS: Exit sign + moist carpet + buzz overlay ---- */\n.theme-backrooms #fxBackrooms{\n  position:fixed; inset:0; pointer-events:none; z-index:0; opacity:0;\n}\n.theme-backrooms #fxBackrooms{ opacity:0.88; }\n.theme-backrooms #fxBackrooms::before{\n  content:\"EXIT\"; position:absolute; right:8%; top:18%;\n  font-family:'Bebas Neue',monospace; font-size:42px; letter-spacing:0.18em;\n  color:rgba(180,60,30,0.10); background:rgba(60,40,10,0.06);\n  border:1px solid rgba(180,60,30,0.10); padding:2px 10px;\n  box-shadow:0 0 18px rgba(255,60,20,0.08), inset 0 0 12px rgba(255,80,30,0.06);\n  transform:perspective(400px) rotateY(-18deg);\n  animation: exitFlicker 0.24s steps(1) infinite, exitGlow 2.8s ease-in-out infinite;\n}\n.theme-backrooms #fxBackrooms::after{\n  content:\"\"; position:absolute; left:0; right:0; bottom:0; height:34%;\n  background:\n    radial-gradient(ellipse 80% 40% at 50% 100%, rgba(61,47,31,0.12), transparent 72%),\n    repeating-linear-gradient(90deg, transparent 0px, transparent 18px, rgba(61,47,31,0.06) 18px, rgba(61,47,31,0.06) 19px);\n  opacity:0.52; filter:blur(0.3px);\n  animation: carpetMoist 8s ease-in-out infinite alternate;\n}\n@keyframes exitFlicker{0%{opacity:0.92;}4%{opacity:0.42;}6%{opacity:0.96;}10%{opacity:0.88;}100%{opacity:0.92;}}\n@keyframes exitGlow{0%,100%{box-shadow:0 0 12px rgba(255,60,20,0.06);}50%{box-shadow:0 0 22px rgba(255,60,20,0.14), 0 0 42px rgba(255,100,30,0.08);}}\n@keyframes carpetMoist{0%{filter:brightness(1) blur(0.3px);}100%{filter:brightness(1.06) blur(0.2px);}}\n\n/* ---- ESCAPE ROOM: Large clock + tumblers + chain ---- */\n.theme-escape #fxEscape{\n  position:fixed; inset:0; pointer-events:none; z-index:0; opacity:0;\n}\n.theme-escape #fxEscape{ opacity:0.78; }\n.theme-escape #fxEscape::before{\n  content:\"\"; position:absolute; left:50%; top:50%; width:78vmin; height:78vmin; margin:-39vmin 0 0 -39vmin;\n  border-radius:50%; border:1px dashed rgba(232,230,226,0.06);\n  border-top-color:rgba(214,48,49,0.12); border-right-color:rgba(184,134,11,0.08);\n  box-shadow:inset 0 0 34px rgba(214,48,49,0.04), 0 0 48px rgba(0,0,0,0.18);\n  animation: escapeClockTick 28s linear infinite;\n}\n.theme-escape #fxEscape::after{\n  content:\"◐ ◑ ◒ ◓\"; position:absolute; left:50%; top:8%;\n  font-size:18px; letter-spacing:0.62em; color:rgba(232,230,226,0.08);\n  transform:translateX(-50%);\n  animation: escapeTumblerSpin 3.2s steps(4) infinite;\n}\n@keyframes escapeClockTick{0%{transform:rotate(0deg);}100%{transform:rotate(360deg);}}\n@keyframes escapeTumblerSpin{0%{content:\"◐ ◑ ◒ ◓\";}25%{content:\"◑ ◒ ◓ ◐\";}50%{content:\"◒ ◓ ◐ ◑\";}75%{content:\"◓ ◐ ◑ ◒\";}}\n\n/* ---- SYSTEM: Damage numbers + mana orb + arise text ---- */\n.theme-",
+   "new": "88%{opacity:0.92; transform:translateY(0);}92%{opacity:0.32;}}\n\n/* ---- SYSTEM: Damage numbers + mana orb + arise text ---- */\n.theme-"
+  },
+  {
+   "name": "cut-fxshow",
+   "old": "e,\n.theme-black #fxBlack,\n.theme-backrooms #fxBackrooms,\n.theme-escape #fxEscape,\n.theme-system #fxSystem,\n.them",
+   "new": "e,\n.theme-black #fxBlack,\n.theme-system #fxSystem,\n.them"
+  },
+  {
+   "name": "cut-fxhide",
+   "old": "theme-black .fx-atmo:not(#fxBlack){ opacity:0 !important; }\n.theme-backrooms .fx-atmo:not(#fxBackrooms){ opacity:0 !important; }\n.theme-escape .fx-atmo:not(#fxEscape){ opacity:0 !important; }\n.theme-system .fx-atmo:not(#fxSystem){ opacity:0 !important;",
+   "new": "theme-black .fx-atmo:not(#fxBlack){ opacity:0 !important; }\n.theme-system .fx-atmo:not(#fxSystem){ opacity:0 !important;"
+  },
+  {
+   "name": "cut-charcards",
+   "old": "8%{filter:brightness(0.94);}99%{filter:brightness(1.04);}}\n\n.theme-backrooms .character-card{ animation: backroomsCardBuzz 0.18s steps(1) infinite alternate; }\n@keyframes backroomsCardBuzz{0%{transform:translateX(0);}100%{transform:translateX(0.4px);}}\n\n.theme-escape .character-card{ position:relative; }\n.theme-escape .character-card::before{\n  content:\"\"; position:absolute; top:6px; right:8px; width:6px; height:6px; background:#00b894; border-radius:50%;\n  box-shadow:0 0 6px #00b894; animation: escapeGreen 1.8s steps(2) infinite;\n}\n@keyframes escapeGreen{0%{opacity:1;}50%{opacity:0.18;}100%{opacity:1;}}\n\n.theme-neon .character-card{ animation: ",
+   "new": "8%{filter:brightness(0.94);}99%{filter:brightness(1.04);}}\n\n.theme-neon .character-card{ animation: "
+  },
+  {
+   "name": "cut-domdivs",
+   "old": "div>\n<div class=\"fx-atmo fx-black-atmo\" id=\"fxBlack\"></div>\n<div class=\"fx-atmo fx-backrooms-atmo\" id=\"fxBackrooms\"></div>\n<div class=\"fx-atmo fx-escape-atmo\" id=\"fxEscape\"></div>\n<div class=\"fx-atmo fx-system-atmo\" id=\"fxSystem\">",
+   "new": "div>\n<div class=\"fx-atmo fx-black-atmo\" id=\"fxBlack\"></div>\n<div class=\"fx-atmo fx-system-atmo\" id=\"fxSystem\">"
+  },
+  {
+   "name": "cut-themequotes",
+   "old": "value max? Not yet. Keep logging.\"\n  ],\n  'theme-backrooms': [\n    \"Backrooms hum 60Hz. Keep moving. Level not cleared till exit.\",\n    \"Liminal not lost. Between. Keep walking through weak topic.\",\n    \"Carpet damp, lights buzz. Extraction imminent if you don't stop.\",\n    \"Level 0: yellow, buzz. Level 1: you cleared one topic.\",\n    \"No-clip through avoidance? No. Walk through.\",\n    \"Exit sign flickers. Follow pattern, not panic.\",\n    \"Moist, yellow, endless? Syllabus finite. Finite beats infinite.\",\n    \"Hum is data. Hum says keep moving.\",\n    \"Extra extraction? No. Extra focus.\",\n    \"Quiet time over. Continue.\"\n  ],\n  'theme-escape': [\n    \"Tumbler 1 click. Tumbler 2 click. Lock opens for who stays.\",\n    \"Puzzle not locked. You locked. Solve self first 15 min.\",\n    \"Tick tock red blink but lock is logic, not luck. Logic.\",\n    \"Escape room: 60 min. Exam: 180 min. Same pressure. Practice pressure.\",\n    \"Lock attempt logged. Next attempt smarter.\",\n    \"Combination is pattern. PYQ pattern = lock combination.\",\n    \"Chain? Break one link = weak topic. Break today.\",\n    \"Escape needs team? Your team = timer + notes.\",\n    \"Tumbler final clicked? Rank opens.\",\n    \"Red dot blink is timer. Timer is friend.\"\n  ],\n  'theme-system': [\n    \"SYSTE",
+   "new": "value max? Not yet. Keep logging.\"\n  ],\n  'theme-system': [\n    \"SYSTE"
+  },
+  {
+   "name": "cut-themes",
+   "old": "supportsVoice:false, themeVoice:null },\n  'theme-backrooms':{ label:'THE BACKROOMS',  shortLabel:'BACKROOMS',   swatchColors:['#c9b458','#3d2f1f','#8b5a1a','#4a6b1a'], description:'Liminal horror · fluorescent hum',      supportsVoice:false, themeVoice:null },\n  'theme-escape':   { label:'ESCAPE ROOM',    shortLabel:'ESCAPE ROOM', swatchColors:['#1c1c1e','#d63031','#b8860b','#00b894'], description:'Puzzle pressure · ticking clock',        supportsVoice:false, themeVoice:null },\n  'theme-system':   { label:'SYSTEM',   ",
+   "new": "supportsVoice:false, themeVoice:null },\n  'theme-system':   { label:'SYSTEM',   "
+  },
+  {
+   "name": "cut-pcolors",
+   "old": "lack': ['#8c1f2a','#c8985a','#5a5a5a'],\n    'theme-backrooms': ['#8b5a1a','#c9b458','#5a4a30'],\n    'theme-escape': ['#d63031','#b8860b','#00b894'],\n    'theme-system': ['#00d4ff','#7c3aed'",
+   "new": "lack': ['#8c1f2a','#c8985a','#5a5a5a'],\n    'theme-system': ['#00d4ff','#7c3aed'"
+  },
+  {
+   "name": "cut-themetext",
+   "old": "eady.', examLabel:(p)=>`${p} — LIVE` },\n  'theme-backrooms':{ countdown:(d)=>`HOURS UNTIL EXTRACTION: ~${d*24}`, milestone:()=>'LEVEL UP — keep moving', pomoComplete:'⟢ Quiet time over. Continue.', pomoBreakDone:'⟢ Stay silent a while longer.', examLabel:(p)=>`${p} — FOUND DOCUMENT` },\n  'theme-escape':   { countdown:(d)=>`LOCKDOWN IN: ${d} DAYS`, milestone:(r)=>`TUMBLER ${r===1?'FINAL':r} CLICKED. The lock is opening.`, pomoComplete:'⟢ Lock logged. Take a breather.', pomoBreakDone:'⟢ Back to the lock.', examLabel:(p)=>`${p} — LOCK ATTEMPT` },\n  'theme-system':   { countdown:(d)=>`RA",
+   "new": "eady.', examLabel:(p)=>`${p} — LIVE` },\n  'theme-system':   { countdown:(d)=>`RA"
+  },
+  {
+   "name": "cut-milestone",
+   "old": ".milestone,\nbody.theme-lotm .milestone,\nbody.theme-backrooms .milestone,\nbody.theme-escape .milestone,\nbody.voice-ayanokoji.ayanokoji-blue .milestone,\nbo",
+   "new": ".milestone,\nbody.theme-lotm .milestone,\nbody.theme-kaiju8 .milestone,\nbody.theme-batman .milestone,\nbody.theme-moonknight .milestone,\nbody.voice-ayanokoji.ayanokoji-blue .milestone,\nbo"
+  },
+  {
+   "name": "cut-qfonts",
+   "old": ":'DM Mono','JetBrains Mono',monospace;}\nbody.theme-backrooms{--q-body:'Space Grotesk','Segoe UI',sans-serif;--q-display:'Special Elite','Space Grotesk',sans-serif;--q-mono:'DM Mono','JetBrains Mono',monospace;}\nbody.theme-escape{--q-body:'Space Grotesk','Segoe UI',sans-serif;--q-display:'Orbitron','Space Grotesk',sans-serif;--q-mono:'DM Mono','JetBrains Mono',monospace;}\nbody.theme-system{--q-body:'Space Grotes",
+   "new": ":'DM Mono','JetBrains Mono',monospace;}\nbody.theme-system{--q-body:'Space Grotes"
+  },
+  {
+   "name": "cut-eventacc",
+   "old": "8e7;--event-glow:rgba(211,91,104,.46);}\nbody.theme-backrooms{--event-accent:#8b6b25;--event-accent-2:#f2d04d;--event-ink:#3d2f1f;--event-glow:rgba(242,208,77,.38);}\nbody.theme-escape{--event-accent:#e05c5d;--event-accent-2:#d5a347;--event-ink:#fff1e7;--event-glow:rgba(224,92,93,.46);}\nbody.theme-system{--event-accent:#7b73ff",
+   "new": "8e7;--event-glow:rgba(211,91,104,.46);}\nbody.theme-system{--event-accent:#7b73ff"
+  },
+  {
+   "name": "cut-physburst",
+   "old": "t;transform:translate(-50%,-50%) rotate(45deg) !important;}\nbody.theme-backrooms .phys-click-burst::before{border-radius:4px !important;}\n\n\n/* AUDIO FX — immediate visual feedback plus optional micr",
+   "new": "t;transform:translate(-50%,-50%) rotate(45deg) !important;}\n\n\n/* AUDIO FX — immediate visual feedback plus optional micr"
+  },
+  {
+   "name": "graft-css-event-accent",
+   "old": "body.theme-lotm{--event-accent:#cda36d;--event-accent-2:#a888d7;--event-ink:#f7ead1;--event-glow:rgba(205,163,109,.44);}\n",
+   "new": "body.theme-lotm{--event-accent:#cda36d;--event-accent-2:#a888d7;--event-ink:#f7ead1;--event-glow:rgba(205,163,109,.44);}\nbody.theme-kaiju8{--event-accent:#00e5ff;--event-accent-2:#ff3355;--event-ink:#e6fbff;--event-glow:rgba(0,229,255,.46);}\nbody.theme-batman{--event-accent:#ffd60a;--event-accent-2:#9aa5b1;--event-ink:#f5f6fa;--event-glow:rgba(255,214,10,.44);}\nbody.theme-moonknight{--event-accent:#d4af37;--event-accent-2:#5eead4;--event-ink:#f5f1e6;--event-glow:rgba(212,175,55,.42);}\n"
+  }
+ ]
+}

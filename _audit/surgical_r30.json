@@ -1,0 +1,11 @@
+{
+ "round": "R30",
+ "note": "vault-block-push-esc: escape math content when restoring display blocks (raw < inside $$ broke reader parse); standalone baseline hook, no overlap with R29",
+ "pairs": [
+  {
+   "name": "vault-block-push-esc",
+   "old": "out.push('<div class=\"content-math-block\">'+mathBlocks[Number(blockMatch[1])]+'</div>');return;",
+   "new": "out.push('<div class=\"content-math-block\">'+esc(mathBlocks[Number(blockMatch[1])])+'</div>');return;"
+  }
+ ]
+}

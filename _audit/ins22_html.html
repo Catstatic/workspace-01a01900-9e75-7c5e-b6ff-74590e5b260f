@@ -1,0 +1,28 @@
+<!-- ============================================================
+     ROUND 22 — STATIC-FIRST BOOT COMMAND CENTER
+     The deck is now document-level markup: the first element after the
+     body tag opens. It paints with the very first frame — before the
+     dashboard (46 MB of panels) finishes parsing. Styling comes from the
+     round-13 stylesheet in the head; the date and the skip-today honor
+     are hydrated pre-paint by the inline guardian; the round-13 engine
+     then ADOPTS this node (same ids, same structure — ROUND 22 ADOPT)
+     once the end-of-body scripts parse. Round-17's veil stays beneath it
+     (z 11999 < 12000) and lifts instantly since this node always exists.
+     ============================================================ -->
+<div id="bootCenterOverlay" class="boot-overlay" role="dialog" aria-modal="true" aria-label="Boot command center"><div class="boot-shell"><div class="boot-card"><div class="boot-head"><div><div class="boot-eyebrow">BOOT SEQUENCE // DAILY COMMAND CENTER</div><div class="boot-title">COMMAND DECK ONLINE</div><div class="boot-date" id="bootDate">SYNCING THE SHIFT…</div></div><button class="boot-close" id="bootClose" aria-label="Close command deck">×</button></div><div class="boot-quote"><div class="boot-quote-label"><span>FOOD FOR THOUGHT</span><button class="boot-quote-another" id="bootAnother">↻ ANOTHER</button></div><div class="boot-quote-text" id="bootQuoteText">“Momentum is just consistency wearing a lab coat.”</div></div><div class="boot-cc-slot" id="bootCcSlot"><div class="boot-cc-pending" style="font:700 .62rem/1.7 'Courier New',monospace;letter-spacing:.24em;color:rgba(159,227,255,.55);text-align:center;padding:40px 12px;border:1px dashed rgba(159,227,255,.22);border-radius:12px;">COMMAND CORE SYNCING — THE LIVE TRIAGE CARD MOUNTS IN A MOMENT</div></div><div class="boot-actions"><button class="boot-enter" id="bootEnter">ENTER THE LAB →</button><label class="boot-skip"><input type="checkbox" id="bootSkipToday"> SKIP TODAY’S GREETING</label></div><div class="boot-foot">ESC / CLICK OUTSIDE TO DISMISS · THE COMMAND CENTER LIVES IN YOUR DASHBOARD · THIS CARD IS THE LIVE ONE, NOT A COPY</div></div></div></div>
+<script>
+/* ROUND 22 guardian — pre-paint hydration: real date + instant skip-today honor. */
+(function(){
+  "use strict";
+  var ov=document.getElementById("bootCenterOverlay");
+  if(!ov)return;
+  try{
+    var d=new Date();
+    var de=ov.querySelector("#bootDate");
+    if(de)de.textContent=d.toLocaleDateString([], {weekday:"long",day:"numeric",month:"long",year:"numeric"}).toUpperCase()+" · SHIFT BEGINS";
+    var today=d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0");
+    if(localStorage.getItem("csir_boot_skip_v1")===today){ov.style.display="none";return;}
+  }catch(e){}
+  try{document.body.classList.add("boot-open");}catch(e_){}
+})();
+</script>

@@ -1,0 +1,14 @@
+/* ========================================================================
+   FIGFORGE · CONTENT VAULT INLINE FIGURES (ROUND 32) — styles
+   Framed figure blocks injected between theory blocks by the ROUND 32
+   engine. Palette-locked dark, tracker CSS vars with hard fallbacks.
+   ======================================================================== */
+#contentReader .ff-fig{margin:24px auto;max-width:980px;padding:14px 14px 9px;border:1px solid rgba(110,168,254,.28);border-radius:14px;background:rgba(11,14,19,.72);box-shadow:0 6px 22px rgba(0,0,0,.35);}
+#contentReader .ff-fig .ff-art{width:100%;}
+#contentReader .ff-fig .ff-art svg{width:100%;height:auto;display:block;border-radius:8px;}
+#contentReader .ff-fig figcaption{display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 10px;margin-top:10px;font-family:var(--font-mono,'Courier New',monospace);}
+#contentReader .ff-fig .ff-num{font-size:.6rem;font-weight:700;letter-spacing:.18em;color:#0b0e13;background:#6ea8fe;border-radius:5px;padding:2px 7px;}
+#contentReader .ff-fig .ff-title{font-size:.8rem;font-weight:700;letter-spacing:.04em;color:var(--ink-0,#e6edf3);}
+#contentReader .ff-fig .ff-cap{flex-basis:100%;font-size:.7rem;line-height:1.55;color:var(--ink-2,rgba(230,237,243,.6));}
+#contentReader .ff-fig .ff-ai{margin-left:auto;font-size:.55rem;font-weight:700;letter-spacing:.16em;color:#d9a441;border:1px solid rgba(217,164,65,.5);border-radius:5px;padding:2px 6px;}
+#contentReader pre[data-ff-hidden]{display:none !important;}

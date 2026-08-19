@@ -1,0 +1,11 @@
+{
+ "round": "R27",
+ "note": "FOCUSFRAME — the full-backup localStorage sweep must skip fg:* keys (plan rule: goal brackets/timers are per-device UI state, never part of backup payloads). Single context-anchored modification inside fullBackupPayload().",
+ "pairs": [
+  {
+   "name": "backup-sweep-skips-fg-keys",
+   "old": "const raw={};for(let i=0;i<localStorage.length;i++){const k=localStorage.key(i);raw[k]=localStorage.getItem(k);}",
+   "new": "const raw={};for(let i=0;i<localStorage.length;i++){const k=localStorage.key(i);if(k&&k.indexOf('fg:')===0)continue;raw[k]=localStorage.getItem(k);}"
+  }
+ ]
+}

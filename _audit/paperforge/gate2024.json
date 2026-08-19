@@ -1,0 +1,952 @@
+{
+ "id": "gate2024",
+ "label": "GATE 2024 Physics",
+ "source": "user-supplied fiziks PDF",
+ "keyStatus": "fiziks-solved",
+ "totalQ": 65,
+ "questions": [
+  {
+   "n": 1,
+   "part": "GA",
+   "marks": 1,
+   "type": "MCQ",
+   "stem": "If ‘→’ denotes increasing order of intensity, then the meaning of the words\n [smile → giggle → laugh] is analogous to [disapprove → ________ → chide].\n Which one of the given options is appropriate to fill the blank?",
+   "opts": [
+    "reprove",
+    "praise",
+    "reprise",
+    "grieve"
+   ],
+   "ans": "A",
+   "note": null
+  },
+  {
+   "n": 2,
+   "part": "GA",
+   "marks": 1,
+   "type": "MCQ",
+   "stem": "Find the odd one out in the set:\n 19,37,21,17,23,29,31,11",
+   "opts": [
+    "21",
+    "29",
+    "37",
+    "23"
+   ],
+   "ans": "A",
+   "note": null
+  },
+  {
+   "n": 3,
+   "part": "GA",
+   "marks": 1,
+   "type": "MCQ",
+   "stem": "In the following series, identify the number that needs to be changed to form the\nFibonacci series.\n 1, 1, 2, 3, 6, 8, 13, 21,…",
+   "opts": [
+    "8",
+    "21",
+    "6",
+    "13"
+   ],
+   "ans": "C",
+   "note": null
+  },
+  {
+   "n": 4,
+   "part": "GA",
+   "marks": 1,
+   "type": "MCQ",
+   "stem": "The real variables\n,,x y z and the real constants\n,,pqr satisfy\n\n2 2 2\nx y z\npq r qr p rp q  \n Given that the denominators are non-zero, the value of\npx qy rz is",
+   "opts": [
+    "0",
+    "1",
+    "pqr",
+    "2 2 2pqr"
+   ],
+   "ans": "A",
+   "note": null
+  },
+  {
+   "n": 5,
+   "part": "GA",
+   "marks": 1,
+   "type": "MCQ",
+   "stem": "Take two long dice (rectangular parallelepiped), each having four rectangular faces\nlabelled as 2, 3, 5, and 7. If thrown, the long dice cannot land on the square faces and has\n1/4 probability of landing on any of th e four rectangular faces. The label on the top face\nof the dice is the score of the throw.\n If thrown together, what is the probability of getting the sum of the two long dice scores\ngreater than 11?\n If thrown together, what is the probability of getting the sum of the two long dice scores\ngreater than 11?",
+   "opts": [
+    "3/8",
+    "1/8",
+    "1/16",
+    "3/16"
+   ],
+   "ans": "D",
+   "note": null
+  },
+  {
+   "n": 6,
+   "part": "GA",
+   "marks": 2,
+   "type": "MCQ",
+   "stem": "In the given text, the blanks are numbered (i)−(iv). Select the best match for all the\n blanks.\n Prof. P________ (i) merely a man who narrated funny stories._________ (ii) in his\nblackest moments he was capable of self-deprecating humor.\n Prof. Q__________(iii) a man who hardly narrated funny stories._________(iv) in his\nblackest moments was he able to find humor.",
+   "opts": [
+    "(i) was (ii) Only (iii) wasn’t (iv) Even",
+    "(i) wasn’t (ii) Even (iii) was (iv) Only",
+    "(i) was (ii) Even (iii) wasn’t (iv) Only",
+    "(i) wasn’t (ii) Only (iii) was (iv) Even\n\n\n5 7\n7 5\n7 7\n1D\n2D\n\n4 H.No. 40-D, G.F., Jia Sarai, Near IIT, Hauz Khas, New Delh i-16"
+   ],
+   "ans": "B",
+   "note": null
+  },
+  {
+   "n": 7,
+   "part": "GA",
+   "marks": 2,
+   "type": "MCQ",
+   "stem": "How many combinations of non -null se ts A, B, C are possible from the subsets of\n 2,3,5\n satisfying the conditions: (i) A is a subset of B, and (ii) B is a subset of C?",
+   "opts": [
+    "28",
+    "27",
+    "18",
+    "19"
+   ],
+   "ans": "MTA",
+   "note": "marks-to-all"
+  },
+  {
+   "n": 8,
+   "part": "GA",
+   "marks": 2,
+   "type": "MCQ",
+   "stem": "The bar chart gives the batting averages of VK and RS for 11 calendar years from 2012\nto 2022. Considering that 2015 and 2019 are world cup years, which one of the following\noptions is true?",
+   "opts": [
+    "RS has a higher yearly batting average than that of VK in every world cup year.",
+    "VK has a higher yearly batting average than that of RS in every world cup year.",
+    "VK’s yearly batting average is consistently higher than that of RS between the\ntwo world cup years.",
+    "RS’s yearly batting average is consistently higher than that of VK in the last three\nyears."
+   ],
+   "ans": "C",
+   "note": null
+  },
+  {
+   "n": 9,
+   "part": "GA",
+   "marks": 2,
+   "type": "MCQ",
+   "stem": "A planar rectangular paper has two V-shaped pieces attached as shown below.\n\n This piece of paper is folded to make the following closed three-dimensional object.\n2012\n2013\n2014\n2015\n2016\n2017\n2018\n2019\n2020\n2021\n2022\nVK\nRS\nCalendar Year\nBatting Average\n\nThe number of folds required to form the above object is",
+   "opts": [
+    "9",
+    "7",
+    "11",
+    "8"
+   ],
+   "ans": "A",
+   "note": null
+  },
+  {
+   "n": 10,
+   "part": "GA",
+   "marks": 2,
+   "type": "MCQ",
+   "stem": "Four equilateral triangles are used to form a regular closed three -dimensional object by\njoining along the edges. The angle between any two faces is",
+   "opts": [
+    "30°",
+    "60°",
+    "45°",
+    "90°"
+   ],
+   "ans": "MTA",
+   "note": "marks-to-all"
+  },
+  {
+   "n": 11,
+   "part": "PH",
+   "marks": 1,
+   "type": "MCQ",
+   "stem": "If\n 1 ,F Q q Qq is the generating function of a canonical transformation from\n ,pq to\n ,PQ\n, then which one of the following relations is correct?",
+   "opts": [
+    "pQ\nPq",
+    "PQ\npq",
+    "pQ\nPq",
+    "PQ\npq"
+   ],
+   "ans": "C",
+   "note": null
+  },
+  {
+   "n": 12,
+   "part": "PH",
+   "marks": 1,
+   "type": "MCQ",
+   "stem": "An unpolarized plane electromagnetic wave in a dielectric medium 1 is incident on a\nplane interface that separates medium 1 from another dielectric medium 2. Medium 1 and\nmedium 2 have refractive indices\n1n and\n2n , respectively, with\n21nn . If the angle of\nincidence is\n1 2\ntan n\nn\n \n\n , which one of the following statements is true?",
+   "opts": [
+    "The reflected wave is unpolarized",
+    "The reflected wave is polarized parallel to the plane of incidence",
+    "The reflected wave is polarized perpendicular to the plane of incidence",
+    "There is no transmitted wa ve"
+   ],
+   "ans": "C",
+   "note": null
+  },
+  {
+   "n": 13,
+   "part": "PH",
+   "marks": 1,
+   "type": "MCQ",
+   "stem": "The wavefunction of a particle in an infinite one-dimensional potential well at time\nt is\n\n       \n312 64\n1 2 3\n2 1 1, 3 66\niE tiE t iE t iix t e x e e x e e x       \n\n where\n12, and\n3 are the normalized ground state, the normalized first excited state\nand the normalized second excited state, respectively.\n12,EE and\n3E are the eigen -\nenergies corresponding to\n12, and\n3 , respectively. The expectation value of energy\nof the particle in state\n ,xt is",
+   "opts": [
+    "6 E",
+    "3 E",
+    "2 E",
+    "114E"
+   ],
+   "ans": "A",
+   "note": null
+  },
+  {
+   "n": 14,
+   "part": "PH",
+   "marks": 1,
+   "type": "MCQ",
+   "stem": "If a thermodynamical system is adiabatically isolated and experiences a change in\nvolume under an exter nally applied constant pressure, then the thermodynamical\npotential minimized at equilibrium is the",
+   "opts": [
+    "enthalpy",
+    "Helmholtz free energy",
+    "Gibbs free energy",
+    "grand potential"
+   ],
+   "ans": "A",
+   "note": null
+  },
+  {
+   "n": 15,
+   "part": "PH",
+   "marks": 1,
+   "type": "MCQ",
+   "stem": "The mean distance between the two atoms of HD molecule is\nr , where H and D denote\nhydrogen and deuterium, respectively. The mass of the hydrogen atom is\nHm . The\nenergy difference between two lowest lying rotational states of HD in multiples of\n \nHmr\nis",
+   "opts": [
+    "2",
+    "3",
+    "6"
+   ],
+   "ans": "A",
+   "note": "figure-dependent-options"
+  },
+  {
+   "n": 16,
+   "part": "PH",
+   "marks": 1,
+   "type": "MCQ",
+   "stem": "Crystal structures of two metals\nA and\nB are two-dimensional square lattices with same\nlattice constant\na . Electrons in metals behave as free electrons. The Fermi surfaces\ncorresponding to\nA and\nB are shown by solid circles in figures.\n\n The electron concentrations in\nA and\nB are\nAn and\nBn , respectively. The value of\nB\nA\nn\nn\n\n\n\n is",
+   "opts": [
+    "3",
+    "2",
+    "33"
+   ],
+   "ans": "D",
+   "note": "figure-dependent-options"
+  },
+  {
+   "n": 17,
+   "part": "PH",
+   "marks": 1,
+   "type": "MCQ",
+   "stem": "Consider the induced nuclear fission reaction\n235 93 141\n92 37 55 2U n Rb Cs n    where neutron\n momenta in both initial and final states are negligible. The ratio of the kinetic energies\n (KE) of the daughter nuclei,\n \n \nKE Rb\nKE Cs is ________________",
+   "opts": [
+    "141",
+    "93",
+    "1",
+    "0"
+   ],
+   "ans": "B",
+   "note": null
+  },
+  {
+   "n": 18,
+   "part": "PH",
+   "marks": 1,
+   "type": "MCQ",
+   "stem": "The symbols\n,, inC D V and\n0V shown in the figure denote capacitor, ideal diode, input\nvoltage and output voltage, respectively.\n\n Which one of the following output waveforms\n 0V is correct for the given input\nwaveform\n inV ?",
+   "opts": [],
+   "ans": "A",
+   "note": "figure-dependent-options"
+  },
+  {
+   "n": 19,
+   "part": "PH",
+   "marks": 1,
+   "type": "MCQ",
+   "stem": "Let\neN and\neT , respectively, denote number and kinetic energy of electrons produced in a\nnuclear beta decay. Which one of the following distributions is correct?",
+   "opts": [],
+   "ans": "C",
+   "note": "figure-dependent-options"
+  },
+  {
+   "n": 20,
+   "part": "PH",
+   "marks": 1,
+   "type": "MCQ",
+   "stem": "An infinitely long cylinder of radius\nR carries a frozen -in magnetization\nˆsM ke z \n ,\nwhere\nk is a constant and\ns is the distance from the axis of cylinder. The magnetic\npermeability of free space is\n0 . There is no free current present anywhe re. The magnetic\nflux density\n B\n inside the cylinder is",
+   "opts": [
+    "0",
+    "0 ˆRke z ",
+    "0 ˆske z ",
+    "0 ˆs Rke z s  \n"
+   ],
+   "ans": "C",
+   "note": null
+  },
+  {
+   "n": 21,
+   "part": "PH",
+   "marks": 1,
+   "type": "MCQ",
+   "stem": "Atomic numbers of\n,,V Cr Fe and\nZn are 23, 24, 26 and 30, respectively. Which one of\nthe following materials does NOT show an electron spin resonance (ESR) spectra?",
+   "opts": [
+    "V",
+    "Cr",
+    "Fe",
+    "Zn"
+   ],
+   "ans": "D",
+   "note": null
+  },
+  {
+   "n": 22,
+   "part": "PH",
+   "marks": 1,
+   "type": "MCQ",
+   "stem": "A particle is subjected to a potential\n\n  0\n,0\n,\n0, elsewhere\nx\nV x V a x b\n\n  \n\n Here,\n0a and\nba . If the energy of the particle\n0EV , which one of the following\nschematics is a valid quantum mechanical wavefunction\n  for the system?",
+   "opts": [],
+   "ans": "B",
+   "note": "figure-dependent-options"
+  },
+  {
+   "n": 23,
+   "part": "PH",
+   "marks": 1,
+   "type": "MCQ",
+   "stem": "Let\n ,,p q t\n be the phase space density of an ensemble of a system. The Hamilton ian of\nthe system is\n ,H p q\n . If\n ,AB denotes the Poisson bracket of\nA and\nB , then\n\n0d\ndt\n  implies",
+   "opts": [
+    "0t\n ",
+    " , Ht\n  ",
+    ", 2\npq\nt\n   ",
+    ", 2\nqq\nt\n   "
+   ],
+   "ans": "B",
+   "note": null
+  },
+  {
+   "n": 24,
+   "part": "PH",
+   "marks": 1,
+   "type": "MCQ",
+   "stem": "Consider the following circuit:\n\n Suppose the input signal\nP is\n\n and the input signal\nQ is\n\n Which one of the following output signals is correct?",
+   "opts": [],
+   "ans": "A",
+   "note": "figure-dependent-options"
+  },
+  {
+   "n": 25,
+   "part": "PH",
+   "marks": 1,
+   "type": "MCQ",
+   "stem": "An inertial observer sees two spacecrafts\nS and\nT flying away from each other along\nx -\naxis with individual speed\n0.5c , where\nc is the speed of light. The speed of\nT with\nrespect to\nS is",
+   "opts": [
+    "5 c",
+    "3 c",
+    "c",
+    "3 c"
+   ],
+   "ans": "A",
+   "note": null
+  },
+  {
+   "n": 26,
+   "part": "PH",
+   "marks": 1,
+   "type": "MCQ",
+   "stem": "Let\n,PQ and\nR be three different nuclei. Which one of the following nuclear processes\nis possible?",
+   "opts": [
+    "AA\ne z zv P Q e \n  ",
+    "AA\ne z zv P R e \n  ",
+    "AA\ne z zv P P e e    ",
+    "AA\ne z zv P P   "
+   ],
+   "ans": "A",
+   "note": null
+  },
+  {
+   "n": 27,
+   "part": "PH",
+   "marks": 1,
+   "type": "MCQ",
+   "stem": "The temperature dependence of the electrical conductivity\n  of three intrinsic\nsemiconductors A, B and C is shown in figure.\n\n Let\n,ABEE and\nCE be the bandgaps of A, B and C, respectively. Which one of the\nfollowing relations is correct?",
+   "opts": [
+    "C A BE E E",
+    "B C AE E E",
+    "A B CEEE",
+    "A C BE E E"
+   ],
+   "ans": "D",
+   "note": null
+  },
+  {
+   "n": 28,
+   "part": "PH",
+   "marks": 1,
+   "type": "MCQ",
+   "stem": "Following trial wavefunctions\n 12'\nZ r r\ne\n\n\n and\n  \n12'\n2 1 2 1\nZ r r\ne g r r\n\n  \n\n are used to get a variational estimate of the ground state energy of the helium atom.\n'Z\nand\ng are the variational parameters,\n1r\n and\n2r\n are the position vectors of the electrons.\nLet\n0E be the exact ground state energy of the helium atom.\n1E and\n2E are the\nvariational estimates of the ground state energy of the helium atom corresponding to\n1\nand\n2 , respectively. Which one of the following options is true?",
+   "opts": [
+    "1 0 2 0 1 2,,E E E E E E  ",
+    "1 0 2 0 1 2,,E E E E E E  ",
+    "1 0 2 0 1 2,,E E E E E E  ",
+    "1 0 2 0 1 2,,E E E E E E  "
+   ],
+   "ans": "D",
+   "note": null
+  },
+  {
+   "n": 29,
+   "part": "PH",
+   "marks": 1,
+   "type": "MCQ",
+   "stem": "The wavefunction for particle is given by the form\n ix\ne\n , where\n and\n real\nconstants. In which one of the following potentials\n Vx , the particle is moving?",
+   "opts": [
+    " \n22V x x ",
+    " \nxV x e ",
+    "  0Vx ",
+    "   sinV x x "
+   ],
+   "ans": "C",
+   "note": null
+  },
+  {
+   "n": 30,
+   "part": "PH",
+   "marks": 1,
+   "type": "MSQ",
+   "stem": "Consider a volume integral\n2 1\nV\nI dV r\n \n over a volume\nV , where\n2 2 2r x y z   . Which of the following statement is/are\ncorrect?",
+   "opts": [
+    "4I  , if\n0r is inside the volume\nV",
+    "Integrand vanishes for\n0r",
+    "0I  , if\n0r is not inside the volume\nV",
+    "Integrand diverges as\nr"
+   ],
+   "ans": [
+    "A",
+    "B",
+    "C"
+   ],
+   "note": null
+  },
+  {
+   "n": 31,
+   "part": "PH",
+   "marks": 1,
+   "type": "MSQ",
+   "stem": "The complex function\n1ze\n  has _______________",
+   "opts": [
+    "a simple pole at\n1z",
+    "an essential singularity at\n1z",
+    "a residue equal to –2 at\n1z",
+    "a branch point at\n1z"
+   ],
+   "ans": [
+    "B",
+    "C"
+   ],
+   "note": null
+  },
+  {
+   "n": 32,
+   "part": "PH",
+   "marks": 1,
+   "type": "NAT",
+   "stem": "The minimum number of basic logic gates required to realize the Boolean expression\n   B A B A B A    \n is ______________ (in integer).",
+   "opts": [],
+   "ans": "1",
+   "note": null
+  },
+  {
+   "n": 33,
+   "part": "PH",
+   "marks": 1,
+   "type": "NAT",
+   "stem": "The vapor pressure\n P of solid ammonia is given by\n  3754ln 23.03P T , while that\nof liquid ammonia is given by\n  3063ln 19.49P T , where\nT is the temperature in K.\n The temperature of the triple point of ammonia is ____________ K ( rounded off to two\ndecimal places).",
+   "opts": [],
+   "ans": "195.10 to 195.30",
+   "note": null
+  },
+  {
+   "n": 34,
+   "part": "PH",
+   "marks": 1,
+   "type": "NAT",
+   "stem": "The electric field in a region depends only on\nx and\ny coordinates as\n\n \nˆˆxx yyEk xy\n \n\n where k is a constant. The flux of\nE\n through the surface of a sphere of radius\nR with its\ncenter at the origin is\nn kR , where the value of\nn is ___________ (in integer).",
+   "opts": [],
+   "ans": "4",
+   "note": null
+  },
+  {
+   "n": 35,
+   "part": "PH",
+   "marks": 1,
+   "type": "NAT",
+   "stem": "The Hamiltonian of a system of\nN particles in volume\nV at temperature\nT is\n\nNN\ni i i i\nii\nH a q b p\n\n\n where\nia and\nib are positive constants. The ensemble average of the Hamiltonian is\nBNk T\n, where\nBk is the Boltzmann constant. The value of\n is ________(in integer).",
+   "opts": [],
+   "ans": "2",
+   "note": null
+  },
+  {
+   "n": 36,
+   "part": "PH",
+   "marks": 2,
+   "type": "MCQ",
+   "stem": "Binding energy and rest mass energy of a two -nucleon bound state are denoted by\nB and\n2mc\n, respectively, where\nc is the speed of light. The minimum energy of a photon\nrequired to dissociate the bound state is",
+   "opts": [
+    "B",
+    "21 2\nBB mc\n",
+    "21 2\nBB mc\n",
+    "2B mc"
+   ],
+   "ans": "B",
+   "note": null
+  },
+  {
+   "n": 37,
+   "part": "PH",
+   "marks": 2,
+   "type": "MCQ",
+   "stem": "The spin-orbit interaction in a hydrogen-like atom is given by the Hamiltonian\n\n'H kL S \n\n where\nk is a real constant. The splitting between levels\n32p and\n12p due to this\ninteraction is",
+   "opts": [
+    "2 k",
+    "2 k",
+    "4 k",
+    "22k"
+   ],
+   "ans": "B",
+   "note": null
+  },
+  {
+   "n": 38,
+   "part": "PH",
+   "marks": 2,
+   "type": "MCQ",
+   "stem": "Consider the Lagrangian\n0L mxy m xy \n . If\nxp and\nyp denote the generalized\nmomenta conjugate to\nx and\ny , respectively, then the canonical equations of motion are",
+   "opts": [
+    "00, , ,\nyx\nxy\nppx p m x y p m ymm    ",
+    "00, , ,\nyx\nxy\nppx p m x y p m ymm    ",
+    "00, , ,\ny x\nxy\np px p m y y p m xmm    ",
+    "00, , ,\ny x\nxy\np px p m y y p m xmm    "
+   ],
+   "ans": "C",
+   "note": null
+  },
+  {
+   "n": 39,
+   "part": "PH",
+   "marks": 2,
+   "type": "MCQ",
+   "stem": "The X-ray diffraction pattern of a monatomic cubic crystal with rigid spherical atoms of\nradius 1.56Å shows sev eral Bragg reflections of which the reflection appearing at the\nlowest\n2 value in from (111) plane. If the wavelength of X -ray used is 0.78Å, Bragg\nangle (in\n2 , rounded off to one decimal place ) corresponding to this reflection and the\ncrystal structure, respectively, are",
+   "opts": [
+    "21.6° and body centered cubic",
+    "17.6° and face centered cubic",
+    "10.8° and body centered cubic",
+    "8.8° and face centered cubic"
+   ],
+   "ans": "B",
+   "note": null
+  },
+  {
+   "n": 40,
+   "part": "PH",
+   "marks": 2,
+   "type": "MCQ",
+   "stem": "In a parallel plate capacitor, the plate at\n0x is grounded and the plate at\nxd is\nmaintained at a potential\n0V . The space between the two plates is filled with a linear\ndielectric of permittivity\n0 1 x\nd\n  , where\n0 is the permittivity of free space.\nNeglecting the edge effects, the electric field\n E\n inside the capacitor is",
+   "opts": [
+    " \n0 ˆ\nln 2\nV xdx ",
+    "0 ˆV xd",
+    " \n0 ˆV xdx ",
+    " \n0 ˆVd xd x x \n\n\nˆr\nR\n\n4 H.No. 40 -D, G.F., Jia Sarai, Near IIT, Hauz Khas, New Delhi -16"
+   ],
+   "ans": "A",
+   "note": null
+  },
+  {
+   "n": 41,
+   "part": "PH",
+   "marks": 2,
+   "type": "MCQ",
+   "stem": "The equation of motion for the forced simple harmonic oscillator is\n\n     \n2 cosx t x t F t\n\n where\n 00xt  and\n 00xt \n .Which one of the following options is correct?",
+   "opts": [
+    "   sinx t t t ",
+    "   cosx t t t ",
+    " xt ",
+    " \ntx t e "
+   ],
+   "ans": "A",
+   "note": null
+  },
+  {
+   "n": 42,
+   "part": "PH",
+   "marks": 2,
+   "type": "MCQ",
+   "stem": "An atom is subjected to a weak uniform magnetic field\nB\n . The number of lines in its\nZeeman spectrum for transition from\n2, 1nl to\n1, 0nl is",
+   "opts": [
+    "8",
+    "10",
+    "12",
+    "5"
+   ],
+   "ans": "B",
+   "note": null
+  },
+  {
+   "n": 43,
+   "part": "PH",
+   "marks": 2,
+   "type": "MSQ",
+   "stem": "Consider two matrices:\n01P  and\n01Q \n Which of the following statement is/are true?",
+   "opts": [
+    "P and Q have same set of eigenvalues",
+    "P and Q commute with each other",
+    "P and Q have different sets of linearly independent eigenvectors",
+    "P is diagonalizable"
+   ],
+   "ans": [
+    "A",
+    "B",
+    "C"
+   ],
+   "note": null
+  },
+  {
+   "n": 44,
+   "part": "PH",
+   "marks": 2,
+   "type": "MSQ",
+   "stem": "An infinite one dimensional lattice extends along\nx -axis. At each lattice site there exits\nan ion with spin\n2 . The spin can point either in\nz or\nz direction only. Let\n,PFSS and\nAS\n denote the entropies of paramagnetic, ferromagnetic and antiferromagnetic\nconfigurations, respectively. Which of the following relation is/are true?",
+   "opts": [
+    "PFSS",
+    "AFSS",
+    "4AFSS",
+    "PASS"
+   ],
+   "ans": [
+    "A",
+    "D"
+   ],
+   "note": null
+  },
+  {
+   "n": 45,
+   "part": "PH",
+   "marks": 2,
+   "type": "MSQ",
+   "stem": "Consider a vector field\n \n22 ˆ ˆ2 3 4F xz y y yz z  \n . The closed path\n : A B C D A    \n in\n0z plane is shown in figure.\n\nF dl\n\n\n denotes the line integral of\nF\n along the closed path\n . Which of the following\noption is/are true?\n\n 0,0A\n 1,0B\n 1,1C\n 0,1D\ny\nx\n\n4 H.No. 40-D, G.F., Jia Sarai, Near IIT, Hauz Khas, New Delhi -16",
+   "opts": [
+    "0F dl\n\n",
+    "F\n is non-conservative",
+    "0F ",
+    "F\n can be written as the gradient of a scalar field"
+   ],
+   "ans": [
+    "A",
+    "B"
+   ],
+   "note": null
+  },
+  {
+   "n": 46,
+   "part": "PH",
+   "marks": 2,
+   "type": "MSQ",
+   "stem": "Two point charges of charge\nq each are placed a distance\n2d apart. A grounded solid\nconducting sphere of radius\na is placed midway between them. Assume\n22ad .\nWhich of the following statement is/are true?",
+   "opts": [
+    "If\nda , the net force acting on the charges is directed towards each other",
+    "The potential at the surface of the sphere is zero",
+    "Total induced charge on the sphere is\n2aq\nd\n",
+    "The potential at the center of the sphere is non -zero"
+   ],
+   "ans": [
+    "A",
+    "B",
+    "C"
+   ],
+   "note": null
+  },
+  {
+   "n": 47,
+   "part": "PH",
+   "marks": 2,
+   "type": "MSQ",
+   "stem": "A particle of mass\nm is moving in the potential\n \n1 ,02\n,0\nV m x xVx\nx\n \n \n Figures,\n,,P Q R and\nS show different combinations of the values of\n0 and\n0V .\n\n     ,,\nP Q R\nj j jE E E and\n S\njE with\n0,1, 2,...j , are the eigen -energies of the\nj -th level for\nthe potentials shown in figures\n,,P Q R and\nS , respectively. Which of the statement\nis/are true?",
+   "opts": [
+    "   \nPQ\nEE ",
+    "   \nQS\nEE ",
+    "   \nPR\nEE ",
+    "   \nRQ\nEE "
+   ],
+   "ans": [
+    "B",
+    "C",
+    "D"
+   ],
+   "note": null
+  },
+  {
+   "n": 48,
+   "part": "PH",
+   "marks": 2,
+   "type": "MSQ",
+   "stem": "The non-relativistic Hamiltonian for a single electron atom is\n \npH V r m where\n\n Vr is the Coulomb potential and\nm is the mass of the electron. Considering the spin-\n orbit interaction term\n11' 2\ndVH L S m c r dr\n added to\n0H , which of the following\n statement is/are true?",
+   "opts": [
+    "'H commutes with\n2L",
+    "'H commutes with\nzL and\nzS",
+    "For a given value o f principal quantum number\nn and orbital angular momentum\nquantum number\nl , there are\n 2 2 1l degenerate eigenstates of\n0H",
+    "0, , , zH L S L and\nzS have a set of simultaneous eigenstates"
+   ],
+   "ans": [
+    "A",
+    "C",
+    "D"
+   ],
+   "note": null
+  },
+  {
+   "n": 49,
+   "part": "PH",
+   "marks": 2,
+   "type": "MSQ",
+   "stem": "Decays of mesons and baryons can be categorized as weak, strong and electromagnetic\ndecays depending upon the interactions involved in the processes. Which of the following\noption is/are true?",
+   "opts": [
+    "0  is a weak decay",
+    "00 p   is an electromagnetic decay",
+    "0K  is a weak decay",
+    "p     is a strong decay"
+   ],
+   "ans": [
+    "C",
+    "D"
+   ],
+   "note": null
+  },
+  {
+   "n": 50,
+   "part": "PH",
+   "marks": 2,
+   "type": "MSQ",
+   "stem": "An extrinsic semiconductor shown in figure carries a current of\n2 mA along its length\nparallel to\nx axis. When the majority\ncharge carrier concentration is\n13 312.5 10 cm \n and the sample is exposed to\na constant magnetic field applied along the\nz\n direction, a Hall voltage of 20 mV is\nmeasured with the negative polarity at\n0y\nplane. Take the electric charge as\n191.6 10  C. The concentration of minority charge\ncarrier is negligible. Which of the following statement is/are true?",
+   "opts": [
+    "The majority charge carrier is electron",
+    "The magnitude of the applied magnetic field is 1 Tesla",
+    "The electric field corresponding to the Hall voltage is in the\ny direction",
+    "The magnitude of Hall coefficient is 50,000\n31mC "
+   ],
+   "ans": [
+    "A",
+    "B"
+   ],
+   "note": null
+  },
+  {
+   "n": 51,
+   "part": "PH",
+   "marks": 2,
+   "type": "MSQ",
+   "stem": "A and\n , 1,2,3,...,Bn   are contravariant and covariant vectors, respectively. By\nconvention, any repeated indices are summed over. Which of the following expression\nis/are tensors?",
+   "opts": [
+    "AB\n",
+    "AB\nAB\n\n\n\n",
+    "A\nB\n\n",
+    "AB\n"
+   ],
+   "ans": [
+    "A",
+    "B"
+   ],
+   "note": null
+  },
+  {
+   "n": 52,
+   "part": "PH",
+   "marks": 2,
+   "type": "MSQ",
+   "stem": "The temperature\nT dependence of magnetic susceptibility\n (Column I) of certain\nmagnetic materials (Column II) are given below. Which of the following option is/are\ncorrect?\nColumn I Column II\n(1)\n\n(P) Diamagnetic\n\n(2)\n\n(Q) Paramagnetic\n\n(3)\n\n(R) Ferromagnetic\n\n(4)\n\n(S) Antiferromagnetic",
+   "opts": [
+    "2 − P, 4 − Q, 3 − S",
+    "4 − P, 1 − Q, 2 − R",
+    "4 − Q, 2 − R, 1 − S",
+    "3 − P, 4 − Q, 2 − R"
+   ],
+   "ans": [
+    "C",
+    "D"
+   ],
+   "note": null
+  },
+  {
+   "n": 53,
+   "part": "PH",
+   "marks": 2,
+   "type": "MSQ",
+   "stem": "The curves\nP and\nQ schematically show the variation of X -ray intensity with\nwavelength at two different accelerating voltages for a given target material. In the figure\n1 0.25 0.5 1.0     23Å, Å, Å\n and\n4 2.25  Å . Take Planck's constant as\n346.6 10 Js\n, speed of light as\n813 10 ms  and elementary charge as\n191.6 10  C.\n\n Which of the following statement is/are true?",
+   "opts": [
+    "The accelerating potential corresponding to curve P is greater than that of curve Q",
+    "The accelerating potential applied to obtain curve Q is 24750 V",
+    "Peaks (II) and (IV) correspond to radiative transitions from L to K shells",
+    "Peaks (I) and (III) correspond to radiative transitions from N to K shells"
+   ],
+   "ans": [
+    "A",
+    "B",
+    "C"
+   ],
+   "note": null
+  },
+  {
+   "n": 54,
+   "part": "PH",
+   "marks": 2,
+   "type": "MSQ",
+   "stem": "Apart from the acoustic modes, 9 optical modes are identified from the measurements of\nphoton dispersions of a solid with chemical formula\nnmAB , where\nA and\nB denote the\natomic species, and\nn and\nm are integers. Which of the following combination of\nn and\nm\n is/are possible?",
+   "opts": [
+    "1, 1nm",
+    "2, 2nm",
+    "3, 1nm",
+    "4, 4nm"
+   ],
+   "ans": [
+    "B",
+    "C"
+   ],
+   "note": null
+  },
+  {
+   "n": 55,
+   "part": "PH",
+   "marks": 2,
+   "type": "MSQ",
+   "stem": "An oscillating electric dipole of moment\n   0 ˆcosd t d t z \n is placed at origin as shown\nin figure. Consider a point\n ,,Pr  at a very large distance from the d ipole. Here\n,r \nand\n are spherical polar coordinates. Which of the following statement is/are true for\nintensity of radiation?",
+   "opts": [
+    "Intensity is zero if P is on the\nz axis",
+    "Intensity is zero at\n,, 24P r R    ",
+    "Intensity at\n,, 24P r R     is greater than that at\n,, 44P r R    ",
+    "Intensity at\n,, 24P r R     is equal to that at\n,, 44P r R    "
+   ],
+   "ans": [
+    "A",
+    "C"
+   ],
+   "note": null
+  },
+  {
+   "n": 56,
+   "part": "PH",
+   "marks": 2,
+   "type": "MSQ",
+   "stem": "The Fourier transform and its inverse transform are respectively defined as\n   1\nixf f x e dx \n\n\n\n \n and\n   1\nixf x f e d \n\n \n\n \n . Consider two\nfunctions\nf and\ng . Another function\n*fg is defined as\n\n      1*\nf g x f y g x y dy\n\n\n\n \n Which of the following relation is/are true?\n Note: Tilde (~) denote the Fourier transform.\n\n\n2 H.No. 40 -D, G.F., Jia Sarai , Near IIT, Hauz Khas, New Delhi -16",
+   "opts": [],
+   "ans": [
+    "A",
+    "B",
+    "D"
+   ],
+   "note": "figure-dependent-options"
+  },
+  {
+   "n": 57,
+   "part": "PH",
+   "marks": 2,
+   "type": "MSQ",
+   "stem": "A material behaves as a superconductor below a critical temperature\ncT and as a normal\nconductor above\ncT . A magnetic field\nˆB Bz\n is applied when\ncTT . The material is\nthen cooled below\ncT in the presence of\nB\n . Which of the following figure r epresent the\ncorrect configuration of magnetic field lines?\n(A)",
+   "opts": [
+    "CTT\nCTT\nT\n\n\nGATE Physics-2023"
+   ],
+   "ans": [
+    "A",
+    "C"
+   ],
+   "note": "figure-dependent-options"
+  },
+  {
+   "n": 58,
+   "part": "PH",
+   "marks": 2,
+   "type": "NAT",
+   "stem": "A typical biasing of a silicon transistor is shown in figure.\n\n The value of common -emitter current gain\n for the transistor is 100. Ignore reverse\nsaturation current. The output voltage\n0V (in V) is ____ (in integer).",
+   "opts": [],
+   "ans": "12",
+   "note": null
+  },
+  {
+   "n": 59,
+   "part": "PH",
+   "marks": 2,
+   "type": "NAT",
+   "stem": "The canonical partition function of an ideal gas is\n    \n1,, !\nN\nVQ T V N N T\n\n\n\nwhere\n,,T V N and\n T denote temperature, volume, number of particles, and thermal de\nBroglie wavelength, respectively. Let\nBk be the Boltzmann constant and\n be the chemical\npotential. Take\n   ln ! lnN N N N .\nIf the number density\nN\nV\n\n is\n25 32.5 10 m  at a temperature\nT , then\n \n  \n3 10\nBkT\ne\nT\n\n\n is\n________\n3m (rounded off to one decimal place ).",
+   "opts": [],
+   "ans": "2.5",
+   "note": null
+  },
+  {
+   "n": 60,
+   "part": "PH",
+   "marks": 2,
+   "type": "NAT",
+   "stem": "Lagrangian of a particle of mass\nm is\n2L mx x \n , where\n is a positive constant. If\nthe particle oscillates with total energy\nE , then the time period of oscillations is\n \nE\ndxa\nExm\n\n\n\n\n \n\n. The value of\na is ____________ (in integer).",
+   "opts": [],
+   "ans": "4",
+   "note": null
+  },
+  {
+   "n": 61,
+   "part": "PH",
+   "marks": 2,
+   "type": "NAT",
+   "stem": "A particle of mass\nm in an infinite potential well of width\na is subjected to a\nperturbation,\n2' 40\nhV ma as shown in figure, where\nh is Planck's constant.\n\n The first order energy shift of the fourth energy eigenstate due to this perturbation is\n\nh\nNma\n\n\n The value of\nN is____________ (in integer).",
+   "opts": [],
+   "ans": "160",
+   "note": null
+  },
+  {
+   "n": 62,
+   "part": "PH",
+   "marks": 2,
+   "type": "NAT",
+   "stem": "Consider a three -dimensional system of non -interacting bosons with zero chemical\npotential. The energy of the system\n2k , where\nk is the wavevector. The low\ntemperature specific heat of the system at constant volume depends on the temperature as\nn\nVCT\n. The value of\nn is _____ (in integer).",
+   "opts": [],
+   "ans": "3",
+   "note": null
+  },
+  {
+   "n": 63,
+   "part": "PH",
+   "marks": 2,
+   "type": "NAT",
+   "stem": "Consider the operational amplifier circuit shown in figure.\n\n The output voltage\n0V is ______________V (integer).\n\n\n4 k\n0V\n2 k\n3k\n5 k\n2V\n3V\n5V\n12V\n2.2 k\n0V\n15k\n1V\n100k\n12V\n0.7V\n\n_\n0V\n12V\n2.2 k\nThV\nThR\nB\nBI\n0.7V\nE\n\n\n\n\n\nC\n\n\n\n\n_\nCI\nThV\n+\nI'\n1V\nI'\n12 V\n15k\n100k\nB\n+\n+\n+\n+\n\n\n\n_\n_\n\n6 H.No. 40-D, G.F., Jia Sarai, Near IIT, Hauz Khas, New Delhi -16",
+   "opts": [],
+   "ans": "-12",
+   "note": null
+  },
+  {
+   "n": 64,
+   "part": "PH",
+   "marks": 2,
+   "type": "NAT",
+   "stem": "An electron in the Coulomb field of a p roton is in the following state of coherent\nsuperposition of orthonormal states\nnlm\n\n100 210 320\n1 1 5\n33 3\n     \n Let\n12,EE , and\n3E represent the firs t three energy levels of the system. A sequence of\nmeasurements is done on the same system at different times. Energy is measured first at\ntime\n1t and the outcome is\n2E . Then total angular momentum is measu red at time\n21tt \nand finally energy is measured again at\n32tt  . The probability of finding the system in a\nstate with energy\n2E after the final measurement is\n9P . The value of\nP is _____ ( in\ninteger).\n\n\n\n\na\na\n'V\n\n8 H.No. 40-D, G.F., Jia Sarai, Near IIT, Hauz Khas, New Delhi -16",
+   "opts": [],
+   "ans": "9",
+   "note": null
+  },
+  {
+   "n": 65,
+   "part": "PH",
+   "marks": 2,
+   "type": "NAT",
+   "stem": "According to the nuclear shell model, the absolute value of the difference in magnetic\nmoments of\n8O and\n7 N , in the units of nuclear magneton\n N is\n3a . The magnitude\nof\na is _________ (in integer).",
+   "opts": [],
+   "ans": "2",
+   "note": null
+  }
+ ]
+}

@@ -1,0 +1,399 @@
+{
+ "figures": [
+  {
+   "id": "ff-nuc-woodssaxon",
+   "doc": "nuclear and particle physics.md",
+   "bytes": 11797
+  },
+  {
+   "id": "ff-nuc-ba-curve",
+   "doc": "nuclear and particle physics.md",
+   "bytes": 13547
+  },
+  {
+   "id": "ff-nuc-gamow",
+   "doc": "nuclear and particle physics.md",
+   "bytes": 24557
+  },
+  {
+   "id": "ff-nuc-massparabola",
+   "doc": "nuclear and particle physics.md",
+   "bytes": 15222
+  },
+  {
+   "id": "ff-cm-cells",
+   "doc": "condensed matter.md",
+   "bytes": 8601
+  },
+  {
+   "id": "ff-cm-disp-mono",
+   "doc": "condensed matter.md",
+   "bytes": 18120
+  },
+  {
+   "id": "ff-cm-disp-dia",
+   "doc": "condensed matter.md",
+   "bytes": 11928
+  },
+  {
+   "id": "ff-cm-kronig",
+   "doc": "condensed matter.md",
+   "bytes": 28811
+  },
+  {
+   "id": "ff-am-windows",
+   "doc": "atomic and molecular physics.md",
+   "bytes": 12850
+  },
+  {
+   "id": "ff-am-helium",
+   "doc": "atomic and molecular physics.md",
+   "bytes": 6580
+  },
+  {
+   "id": "ff-cl-pendulum",
+   "doc": "classical mechanics.md",
+   "bytes": 26562
+  },
+  {
+   "id": "ff-cl-veff",
+   "doc": "classical mechanics.md",
+   "bytes": 24792
+  },
+  {
+   "id": "ff-cl-labcm",
+   "doc": "classical mechanics.md",
+   "bytes": 5353
+  },
+  {
+   "id": "ff-qm-well",
+   "doc": "Quantum Mechanics.md",
+   "bytes": 27011
+  },
+  {
+   "id": "ff-qm-osc",
+   "doc": "Quantum Mechanics.md",
+   "bytes": 29901
+  },
+  {
+   "id": "ff-qm-tunnel",
+   "doc": "Quantum Mechanics.md",
+   "bytes": 20858
+  },
+  {
+   "id": "ff-qm-hydrogen",
+   "doc": "Quantum Mechanics.md",
+   "bytes": 18320
+  },
+  {
+   "id": "ff-th-mb",
+   "doc": "thermodynamics.md",
+   "bytes": 15099
+  },
+  {
+   "id": "ff-th-stats",
+   "doc": "thermodynamics.md",
+   "bytes": 19824
+  },
+  {
+   "id": "ff-th-blackbody",
+   "doc": "thermodynamics.md",
+   "bytes": 26466
+  },
+  {
+   "id": "ff-em-dipole",
+   "doc": "Electromagnetic theory .md",
+   "bytes": 10950
+  },
+  {
+   "id": "ff-em-boundary",
+   "doc": "Electromagnetic theory .md",
+   "bytes": 3731
+  },
+  {
+   "id": "ff-em-skin",
+   "doc": "Electromagnetic theory .md",
+   "bytes": 21291
+  },
+  {
+   "id": "ff-em-reflect",
+   "doc": "Electromagnetic theory .md",
+   "bytes": 3049
+  },
+  {
+   "id": "ff-mm-bessel",
+   "doc": "MATHEMATICAL METHODS IN PHYSICS .md",
+   "bytes": 28395
+  },
+  {
+   "id": "ff-mm-gibbs",
+   "doc": "MATHEMATICAL METHODS IN PHYSICS .md",
+   "bytes": 25736
+  },
+  {
+   "id": "ff-el-diode",
+   "doc": "CSIR_NET_Electronics_Notes.md",
+   "bytes": 19262
+  },
+  {
+   "id": "ff-el-loadline",
+   "doc": "CSIR_NET_Electronics_Notes.md",
+   "bytes": 28227
+  },
+  {
+   "id": "ff-el-rectifier",
+   "doc": "CSIR_NET_Electronics_Notes.md",
+   "bytes": 27219
+  },
+  {
+   "id": "ff-te-landau",
+   "doc": "thermo+ electronics+ experimental methods.md",
+   "bytes": 17442
+  },
+  {
+   "id": "ff-adv-wkb",
+   "doc": "CM+ EMT+ QM adv.md",
+   "bytes": 18905
+  },
+  {
+   "id": "ff-nuc-shape",
+   "doc": "nuclear and particle physics.md",
+   "bytes": 6677
+  },
+  {
+   "id": "ff-nuc-deuteron",
+   "doc": "nuclear and particle physics.md",
+   "bytes": 11387
+  },
+  {
+   "id": "ff-nuc-shell",
+   "doc": "nuclear and particle physics.md",
+   "bytes": 12250
+  },
+  {
+   "id": "ff-nuc-breit",
+   "doc": "nuclear and particle physics.md",
+   "bytes": 15019
+  },
+  {
+   "id": "ff-cm-hcp",
+   "doc": "condensed matter.md",
+   "bytes": 4682
+  },
+  {
+   "id": "ff-cm-lj",
+   "doc": "condensed matter.md",
+   "bytes": 15483
+  },
+  {
+   "id": "ff-cm-scdos",
+   "doc": "condensed matter.md",
+   "bytes": 2982
+  },
+  {
+   "id": "ff-cm-roton",
+   "doc": "condensed matter.md",
+   "bytes": 12127
+  },
+  {
+   "id": "ff-cm-disloc",
+   "doc": "condensed matter.md",
+   "bytes": 14078
+  },
+  {
+   "id": "ff-cl-stability",
+   "doc": "classical mechanics.md",
+   "bytes": 10464
+  },
+  {
+   "id": "ff-cl-coupled",
+   "doc": "classical mechanics.md",
+   "bytes": 5080
+  },
+  {
+   "id": "ff-qm-stern",
+   "doc": "Quantum Mechanics.md",
+   "bytes": 4552
+  },
+  {
+   "id": "ff-qm-veff",
+   "doc": "Quantum Mechanics.md",
+   "bytes": 20948
+  },
+  {
+   "id": "ff-th-carnot",
+   "doc": "thermodynamics.md",
+   "bytes": 9512
+  },
+  {
+   "id": "ff-th-phase",
+   "doc": "thermodynamics.md",
+   "bytes": 7868
+  },
+  {
+   "id": "ff-te-langevin",
+   "doc": "thermo+ electronics+ experimental methods.md",
+   "bytes": 11891
+  },
+  {
+   "id": "ff-te-bec",
+   "doc": "thermo+ electronics+ experimental methods.md",
+   "bytes": 13370
+  },
+  {
+   "id": "ff-el-zener",
+   "doc": "CSIR_NET_Electronics_Notes.md",
+   "bytes": 15490
+  },
+  {
+   "id": "ff-el-mosfet",
+   "doc": "CSIR_NET_Electronics_Notes.md",
+   "bytes": 30548
+  },
+  {
+   "id": "ff-el-opamp",
+   "doc": "CSIR_NET_Electronics_Notes.md",
+   "bytes": 4059
+  },
+  {
+   "id": "ff-am-lineshape",
+   "doc": "atomic and molecular physics.md",
+   "bytes": 17793
+  },
+  {
+   "id": "ff-am-morse",
+   "doc": "atomic and molecular physics.md",
+   "bytes": 17727
+  },
+  {
+   "id": "ff-am-rot",
+   "doc": "atomic and molecular physics.md",
+   "bytes": 8045
+  },
+  {
+   "id": "ff-mm-green",
+   "doc": "math methods advanced.md",
+   "bytes": 20239
+  },
+  {
+   "id": "ff-nuc-fission",
+   "doc": "nuclear and particle physics.md",
+   "bytes": 9902
+  },
+  {
+   "id": "ff-nuc-schmidt",
+   "doc": "nuclear and particle physics.md",
+   "bytes": 12187
+  },
+  {
+   "id": "ff-nuc-kurie",
+   "doc": "nuclear and particle physics.md",
+   "bytes": 5778
+  },
+  {
+   "id": "ff-nuc-kin",
+   "doc": "nuclear and particle physics.md",
+   "bytes": 4516
+  },
+  {
+   "id": "ff-nuc-octet",
+   "doc": "nuclear and particle physics.md",
+   "bytes": 5789
+  },
+  {
+   "id": "ff-nuc-wu",
+   "doc": "nuclear and particle physics.md",
+   "bytes": 7010
+  },
+  {
+   "id": "ff-cm-bz",
+   "doc": "condensed matter.md",
+   "bytes": 16796
+  },
+  {
+   "id": "ff-cm-classif",
+   "doc": "condensed matter.md",
+   "bytes": 5571
+  },
+  {
+   "id": "ff-cm-kronigfun",
+   "doc": "condensed matter.md",
+   "bytes": 18366
+  },
+  {
+   "id": "ff-cm-joseph",
+   "doc": "condensed matter.md",
+   "bytes": 9150
+  },
+  {
+   "id": "ff-cm-liquid",
+   "doc": "condensed matter.md",
+   "bytes": 14505
+  },
+  {
+   "id": "ff-cl-hardsphere",
+   "doc": "classical mechanics.md",
+   "bytes": 8725
+  },
+  {
+   "id": "ff-am-esr",
+   "doc": "atomic and molecular physics.md",
+   "bytes": 3977
+  },
+  {
+   "id": "ff-am-raman",
+   "doc": "atomic and molecular physics.md",
+   "bytes": 6565
+  },
+  {
+   "id": "ff-am-laser3",
+   "doc": "atomic and molecular physics.md",
+   "bytes": 3326
+  },
+  {
+   "id": "ff-am-laser4",
+   "doc": "atomic and molecular physics.md",
+   "bytes": 3967
+  },
+  {
+   "id": "ff-am-gaas",
+   "doc": "atomic and molecular physics.md",
+   "bytes": 10186
+  },
+  {
+   "id": "ff-am-alkali",
+   "doc": "atomic and molecular physics.md",
+   "bytes": 6660
+  },
+  {
+   "id": "ff-te-gunniv",
+   "doc": "thermo+ electronics+ experimental methods.md",
+   "bytes": 10200
+  },
+  {
+   "id": "ff-te-detector",
+   "doc": "thermo+ electronics+ experimental methods.md",
+   "bytes": 3710
+  },
+  {
+   "id": "ff-te-ising",
+   "doc": "thermo+ electronics+ experimental methods.md",
+   "bytes": 10896
+  },
+  {
+   "id": "ff-qm-stark",
+   "doc": "Quantum Mechanics.md",
+   "bytes": 5351
+  },
+  {
+   "id": "ff-qm-exchange",
+   "doc": "Quantum Mechanics.md",
+   "bytes": 3080
+  }
+ ],
+ "total": 78,
+ "bytes": 1048890,
+ "avg": 13447,
+ "max": 30548,
+ "sha256": "a18d1fcb903250aab810720fe087635f07e4d269997192bd549ec6804b0e162d"
+}

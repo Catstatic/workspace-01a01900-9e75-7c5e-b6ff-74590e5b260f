@@ -1,0 +1,39 @@
+/* ============ ROUND 12 — break-overlay fit & scroll fix ============
+   Root cause fixed here: the chrome pass force-clips both game shells
+   (overflow:hidden on the shell, for its texture/rounding) while the
+   shell itself was height-capped at calc(100vh - 48px) — so on shorter
+   screens everything below the fold was clipped with NO way to reach it.
+   Fix: the shell keeps its visual clipping, but the fixed overlay becomes
+   the scroller. align-items:flex-start + shell margin:auto keeps the card
+   centered when it fits the screen, and lets the whole modal scroll when
+   it does not. Plus: short-viewport compaction so most laptops see the
+   full modal without scrolling at all. */
+.break-game-modal,.theme-game-modal{
+  align-items:flex-start !important;
+  overflow-y:auto !important;
+  overflow-x:hidden;
+  overscroll-behavior:contain;
+  scrollbar-width:thin;
+  scrollbar-color:color-mix(in srgb,var(--game-accent,#79f6ff) 45%,transparent) transparent;
+}
+.break-game-shell,.theme-game-shell{
+  max-height:none !important;
+  margin:auto !important;
+}
+@media (max-height:900px) and (min-width:781px){
+  .break-game-header,.theme-game-header{padding:14px 24px 10px !important;}
+  .break-game-header h2,.theme-game-header h2{font-size:1.45rem !important;}
+  .break-game-header p,.theme-game-header p{font-size:.78rem !important;}
+  .break-game-layout,.theme-game-layout{padding:16px 24px 18px !important;gap:16px !important;}
+  .break-game-modal .break-board-frame{width:min(100%,calc(100vh - 340px)) !important;padding:10px !important;}
+  .break-timer{font-size:clamp(2rem,7vh,3.4rem) !important;}
+  .break-game-quote{margin:12px 0 !important;padding:11px 14px !important;font-size:.88rem !important;}
+  .break-instructions{padding-top:14px !important;font-size:.72rem !important;}
+  .break-instructions p{margin:5px 0 !important;}
+  .theme-game-arena{min-height:380px !important;}
+  .chess-level-control{margin-top:12px !important;padding-top:10px !important;}
+}
+@media (max-height:740px) and (min-width:781px){
+  .break-game-modal .break-board-frame{width:min(100%,calc(100vh - 300px)) !important;}
+  .break-instructions{display:none !important;}
+}

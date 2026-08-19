@@ -1,0 +1,89 @@
+/* ============================================================================
+   FOCUSFRAME — TEAL GOAL BRACKETS & READING TIMER (ROUND 27 · part 1: skin)
+   Spec: project/FOCUSFRAME_PLAN.md — two draggable teal goal lines inside the
+   Content Vault reader, whisper-faded teal goal tint, live reading-estimate
+   chip riding the END line.
+   House red line honored by construction: content blocks get a translucent
+   teal OVERLAY LAYER (background-image gradient) — text color, titles and
+   typography are never touched by any fg- rule. Zero base rules edited.
+   ============================================================================ */
+
+/* ---- armed state: reader becomes the positioning context ---- */
+.content-vault-reader.fg-armed{position:relative;}
+
+/* ---- overlay layer (covers full scroll content, inert except lines/chip) ---- */
+.fg-layer{position:absolute;left:0;top:0;width:100%;pointer-events:none;z-index:6;}
+
+/* ---- the two teal goal lines ---- */
+.fg-line{position:absolute;left:0;right:0;height:16px;margin-top:-8px;display:flex;align-items:center;
+  pointer-events:auto;cursor:grab;touch-action:none;user-select:none;-webkit-user-select:none;z-index:6;}
+.fg-line:active,.fg-line.fg-dragging{cursor:grabbing;}
+.fg-line:focus-visible{outline:2px solid rgba(45,212,191,.85);outline-offset:2px;border-radius:6px;}
+.fg-line::before{content:'';position:absolute;left:6px;right:6px;top:7px;height:2px;border-radius:2px;
+  background:#2dd4bf;
+  box-shadow:0 0 10px rgba(45,212,191,.65),0 0 24px rgba(45,212,191,.32);
+  animation:fgPulse 2.8s ease-in-out infinite;}
+@keyframes fgPulse{
+  0%,100%{box-shadow:0 0 10px rgba(45,212,191,.65),0 0 24px rgba(45,212,191,.32);}
+  50%{box-shadow:0 0 15px rgba(45,212,191,.9),0 0 36px rgba(45,212,191,.5);}
+}
+
+/* ---- line tag: label + grab handle ---- */
+.fg-tag{position:absolute;top:50%;transform:translateY(-50%);display:inline-flex;align-items:center;gap:6px;
+  padding:2px 9px;border-radius:999px;pointer-events:none;white-space:nowrap;
+  background:rgba(8,22,24,.88);border:1px solid rgba(45,212,191,.55);
+  color:#7ef0e2;font-size:9px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;
+  backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);}
+.fg-line-start .fg-tag{left:12px;}
+.fg-line-end .fg-tag{right:12px;}
+.fg-tag .fg-grip{font-size:11px;letter-spacing:0;opacity:.85;}
+
+/* ---- goal tint: overlay gradient paints OVER the block's own background,
+        UNDER its text — computed color/typography stay untouched.
+        Strength = explicit step classes on the reader (base rule = whisper) ---- */
+.fg-in-goal{
+  background-image:linear-gradient(rgba(45,212,191,.065),rgba(45,212,191,.065));
+}
+.fg-tint-0 .fg-in-goal{background-image:linear-gradient(rgba(45,212,191,.035),rgba(45,212,191,.035));}
+.fg-tint-1 .fg-in-goal{background-image:linear-gradient(rgba(45,212,191,.05),rgba(45,212,191,.05));}
+.fg-tint-2 .fg-in-goal{background-image:linear-gradient(rgba(45,212,191,.065),rgba(45,212,191,.065));}
+.fg-tint-3 .fg-in-goal{background-image:linear-gradient(rgba(45,212,191,.085),rgba(45,212,191,.085));}
+.fg-tint-4 .fg-in-goal{background-image:linear-gradient(rgba(45,212,191,.11),rgba(45,212,191,.11));}
+
+/* ---- the estimate/timer chip (docked to the END line) ---- */
+.fg-chip{position:absolute;right:10px;display:flex;flex-wrap:wrap;align-items:center;gap:6px;
+  padding:6px 8px;border-radius:12px;max-width:min(92%,560px);
+  background:rgba(8,22,24,.87);border:1px solid rgba(45,212,191,.5);
+  box-shadow:0 8px 28px rgba(0,0,0,.35),0 0 18px rgba(45,212,191,.16);
+  backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);
+  pointer-events:auto;z-index:7;}
+.fg-chip-main{border:1px solid rgba(45,212,191,.55);background:rgba(45,212,191,.1);color:#bff5ec;
+  border-radius:9px;padding:5px 11px;font-size:10px;font-weight:800;letter-spacing:.12em;cursor:pointer;
+  text-transform:uppercase;line-height:1.35;}
+.fg-chip-main:hover{background:rgba(45,212,191,.2);}
+.fg-chip-main:focus-visible{outline:2px solid rgba(45,212,191,.85);outline-offset:1px;}
+.fg-chip.fg-chip-running .fg-chip-main{background:rgba(45,212,191,.22);box-shadow:0 0 14px rgba(45,212,191,.3);}
+.fg-chip.fg-chip-done{border-color:rgba(52,211,153,.7);box-shadow:0 8px 28px rgba(0,0,0,.35),0 0 22px rgba(52,211,153,.35);}
+.fg-chip.fg-chip-done .fg-chip-main{border-color:rgba(52,211,153,.7);background:rgba(52,211,153,.16);color:#b8f5d9;}
+.fg-chip select{border:1px solid rgba(45,212,191,.4);background:rgba(8,22,24,.9);color:#9df0e5;border-radius:7px;
+  font-size:9px;font-weight:700;letter-spacing:.08em;padding:3px 4px;cursor:pointer;}
+.fg-chip .fg-tint-wrap{display:inline-flex;align-items:center;gap:5px;color:#6fd9cb;font-size:9px;
+  font-weight:700;letter-spacing:.1em;text-transform:uppercase;}
+.fg-chip input[type=range].fg-tint{width:64px;accent-color:#2dd4bf;cursor:pointer;}
+.fg-chip-complete{border:1px solid rgba(52,211,153,.65);background:rgba(52,211,153,.14);color:#b8f5d9;
+  border-radius:9px;padding:5px 10px;font-size:9px;font-weight:800;letter-spacing:.12em;cursor:pointer;text-transform:uppercase;}
+.fg-chip-complete:hover{background:rgba(52,211,153,.26);}
+.fg-chip-complete:focus-visible{outline:2px solid rgba(52,211,153,.85);outline-offset:1px;}
+
+/* ---- the vault-controls toggle button ---- */
+#fgToggleBtn{padding:4px 11px;border-radius:8px;border:1px solid rgba(45,212,191,.45);
+  background:rgba(45,212,191,.08);color:#67e8f9;font-size:10px;font-weight:700;letter-spacing:.12em;
+  text-transform:uppercase;cursor:pointer;}
+#fgToggleBtn:hover{background:rgba(45,212,191,.16);}
+#fgToggleBtn:focus-visible{outline:2px solid rgba(45,212,191,.85);outline-offset:1px;}
+#fgToggleBtn[aria-pressed="true"]{background:rgba(45,212,191,.24);box-shadow:0 0 12px rgba(45,212,191,.4);color:#d5fffa;}
+
+/* ---- reduced motion: glow pulse off, lines stay visible & static ---- */
+@media (prefers-reduced-motion: reduce){
+  .fg-line::before{animation:none;}
+}

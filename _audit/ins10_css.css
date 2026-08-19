@@ -1,0 +1,11 @@
+/* ============ GAMEFORGE II — Gray Fog Archives + White Room Commentator (round 11) ============ */
+.mystery-ai-note{display:flex;justify-content:center;margin:-4px 0 10px;}
+.gf-chess-commentary{display:flex;align-items:flex-start;gap:9px;margin:10px 8px 0;padding:9px 12px;border:1px solid rgba(120,200,255,.16);border-radius:8px;background:rgba(255,255,255,.045);box-shadow:inset 0 1px rgba(255,255,255,.06),0 6px 18px rgba(0,0,0,.10);position:relative;z-index:2;}
+.gf-chess-commentary .gf-chess-tag{flex:0 0 auto;font:700 .55rem/1.7 'DM Mono',monospace;letter-spacing:.12em;color:var(--game-accent-2,#9fd8ff);padding:2px 7px;border:1px solid currentColor;border-radius:999px;opacity:.92;white-space:nowrap;}
+.gf-chess-commentary .gf-chess-line{font:400 .74rem/1.5 'Cormorant Garamond',Georgia,serif;color:var(--game-ink,#e8f4ff);opacity:.94;min-height:1em;}
+.gf-chess-commentary.is-ai .gf-chess-tag{color:#67e8f9;}
+.gf-chess-commentary.gf-fade{animation:gfCommFade .45s ease;}
+@keyframes gfCommFade{from{opacity:.15;transform:translateY(3px);}to{opacity:1;transform:none;}}
+@media (prefers-reduced-motion:reduce){
+  .gf-chess-commentary.gf-fade{animation:none;}
+}

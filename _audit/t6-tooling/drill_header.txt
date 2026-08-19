@@ -1,0 +1,29 @@
+/* =====================================================================
+   [OPERATION TOPICFORGE v3 · STAGE T6 · CONCEPT DRILL FLEET — RANKS 1-10 of 28]
+   Forged: 2026-08-14 · 10 drills x 25 problems = 250 · stamp 6 seed / 12
+   standard / 7 apex per drill · CSIR marking · 55 min · inline-SVG
+   figures (dice grids, clock faces, well ladders, scattering geometry,
+   op-amp topologies, counter waveforms) — zero external files.
+   Roster: the ten hottest repeat-offender concepts, each crossing 10+
+   distinct exam sessions in the mined vault (151 session-hits combined).
+   *** AI-GENERATED PRACTICE CONTENT — original-by-construction (Four
+   Laws), pattern-mined from PYQ frequency signals. Official PYQ answers,
+   scores, marking and attempt limits untouched. ***
+   ===================================================================== */
+(function(){
+'use strict';
+var DR = {
+  meta: {
+    lane: 'drills',
+    laneLabel: 'Concept Drills — repeat-offender roster ranks 1-10',
+    stage: 'T6',
+    forged: '2026-08-14',
+    aiGenerated: true,
+    label: 'AI-GENERATED PRACTICE CONTENT — original problems, exam-flavored; not official PYQs',
+    mined: { hits: 151, subtopics: 10 },
+    stamp: { seed: 6, standard: 12, apex: 7 },
+    scheme: { seed: { p: 3.5, n: -0.875 }, standard: { p: 3.5, n: -0.875 }, apex: { p: 5.0, n: 0 } },
+    minutes: 55,
+    maxScore: 98
+  },
+  mocks: [

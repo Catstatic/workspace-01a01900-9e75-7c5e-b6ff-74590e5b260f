@@ -1,0 +1,42 @@
+/* ============================================================
+   ROUND 18 — FORGE GAMES: CORE CASCADE + STAR LATTICE chrome.
+   Grid cells, energy pips, pulse/wave animations, HUD chips.
+   Uses the shell's existing --game-accent/--game-ink tokens so both
+   games inherit the active theme (Aincrad ice-blue, etc.) for free.
+   ============================================================ */
+.forge-wrap{display:flex;flex-direction:column;gap:10px;align-items:center;width:100%;}
+.forge-hud{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;width:100%;}
+.forge-chip{border:1px solid color-mix(in srgb,var(--game-accent) 40%,transparent);border-radius:9px;padding:6px 10px;font:700 .6rem/1 'DM Mono','JetBrains Mono',monospace;letter-spacing:.14em;color:var(--game-ink);background:color-mix(in srgb,var(--game-accent) 9%,transparent);display:inline-flex;gap:6px;align-items:center;}
+.forge-chip b{color:#fff;font-size:.78rem;}
+.forge-chip.warn{border-color:rgba(255,120,120,.5);background:rgba(255,120,120,.08);}
+.forge-grid{display:grid;gap:6px;touch-action:none;user-select:none;-webkit-user-select:none;}
+.forge-cell{position:relative;border:1px solid color-mix(in srgb,var(--game-accent) 22%,transparent);border-radius:10px;background:rgba(8,12,26,.72);cursor:pointer;transition:transform .12s ease,box-shadow .2s ease,border-color .2s ease;width:46px;height:46px;display:flex;align-items:center;justify-content:center;}
+@media (max-width:560px){.forge-cell{width:38px;height:38px;}}
+.forge-cell:hover{transform:translateY(-1px);border-color:color-mix(in srgb,var(--game-accent) 65%,transparent);}
+.forge-cell.locked{cursor:default;}
+.forge-cell.flash{animation:forgeFlash .3s ease;}
+@keyframes forgeFlash{0%{box-shadow:0 0 0 0 rgba(159,227,255,.75)}100%{box-shadow:0 0 18px 10px rgba(159,227,255,0)}}
+/* ---- cascade orbs ---- */
+.forge-orb{width:62%;height:62%;border-radius:50%;display:block;position:relative;transition:transform .18s ease,filter .2s ease;}
+.forge-orb .pip{position:absolute;border-radius:50%;background:rgba(255,255,255,.92);width:16%;height:16%;box-shadow:0 0 4px rgba(255,255,255,.8);}
+.forge-orb.s1{background:radial-gradient(circle at 34% 32%,#7fd4ff,#2b6f9f 62%,#173a55);}
+.forge-orb.s2{background:radial-gradient(circle at 34% 32%,#ffd27f,#b0702c 62%,#5c3a17);}
+.forge-orb.s3{background:radial-gradient(circle at 34% 32%,#ff9d9d,#a83232 62%,#571c1c);animation:forgeThrob 1s ease-in-out infinite;}
+.forge-orb.s4{background:radial-gradient(circle at 34% 32%,#d49dff,#7b2cb0 62%,#3a1555);animation:forgeThrob .65s ease-in-out infinite;}
+@keyframes forgeThrob{0%,100%{transform:scale(1)}50%{transform:scale(1.14)}}
+.forge-cell.friendly .forge-orb{background:radial-gradient(circle at 34% 32%,#a9f5d6,#2f9d6f 62%,#17573c);}
+.forge-cell.boom{animation:forgeBoom .42s ease;}
+@keyframes forgeBoom{0%{transform:scale(1);box-shadow:0 0 0 0 rgba(169,245,214,.9)}55%{transform:scale(1.35)}100%{transform:scale(1);box-shadow:0 0 22px 12px rgba(169,245,214,0)}}
+.forge-cell.dormant{border-style:dashed;opacity:.72;}
+/* ---- star lattice (flow) ---- */
+.forge-cell.end{border-width:2px;}
+.forge-dot{width:52%;height:52%;border-radius:50%;display:block;box-shadow:0 0 10px currentColor,inset 0 0 6px rgba(255,255,255,.35);}
+.forge-cell[data-fill="line"]{background:color-mix(in srgb,var(--line-color,#9fe3ff) 26%,rgba(8,12,26,.72));border-color:var(--line-color,#9fe3ff);}
+.forge-cell.spark{animation:forgeSpark .5s ease;}
+@keyframes forgeSpark{0%{box-shadow:0 0 0 0 currentColor}100%{box-shadow:0 0 16px 8px transparent}}
+.forge-cell.complete .forge-dot{animation:forgeThrob 1.4s ease-in-out infinite;}
+.forge-active-banner{font:700 .62rem/1 'DM Mono',monospace;letter-spacing:.16em;color:var(--game-ink);opacity:.85;}
+.forge-actions{display:flex;gap:8px;flex-wrap:wrap;justify-content:center;}
+.forge-btn{border:1px solid color-mix(in srgb,var(--game-accent) 45%,transparent);border-radius:9px;background:color-mix(in srgb,var(--game-accent) 12%,transparent);color:var(--game-ink);font:700 .6rem/1 'DM Mono',monospace;letter-spacing:.12em;padding:8px 12px;cursor:pointer;transition:transform .15s ease,background .15s ease;}
+.forge-btn:hover{transform:translateY(-1px);background:color-mix(in srgb,var(--game-accent) 24%,transparent);}
+.forge-log{min-height:1.1em;font:600 .62rem/1.5 'DM Mono',monospace;letter-spacing:.08em;color:var(--game-ink);opacity:.8;text-align:center;max-width:440px;}

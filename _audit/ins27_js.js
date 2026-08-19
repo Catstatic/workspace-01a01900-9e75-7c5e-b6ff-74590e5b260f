@@ -1,0 +1,441 @@
+/* ============================================================================
+   ROUND 29 — NEURAL AMP DECK (part 2: brain + data)
+   Music player ported from the donor page (72 GitHub-repo tracks + 6 live
+   radio streams), redesigned to tracker design language. Zero base edits —
+   launcher mounts onto the existing quick-dock, deck is injected markup.
+   ============================================================================ */
+
+/* ═══════════════════════════════════════════════════════════════════════
+   NEURAL AMP DECK (part 2: brain) — ported from the donor page, redesigned.
+   72 GitHub-hosted tracks + 6 live radio streams, categories, search,
+   prev/next/shuffle/loop, seek bar, volume, auto-reconnect watch-dog.
+   ═══════════════════════════════════════════════════════════════════════ */
+(function () {
+'use strict';
+if (typeof document === 'undefined' || !document.addEventListener) return;
+
+var GH_BASE = 'https://raw.githubusercontent.com/xiao-zen-xo-hash/Neural-link/main/';
+const NEURAL_TRACKS = {
+  gh_bamboo:{name:'🎋 Bamboo Forest',file:'Bamboo%20Forest.mp3'},
+  gh_inner:{name:'🧘 Bushidō Flute',file:'Inner_Strength_Meditation_Japanese_Bamboo_Flute_Bushid%C5%8D_Spirit_1.mp3'},
+  gh_classical_veena:{name:'🪕 Classical Veena',file:'Classical-Veena-instrumental-mus.MP3'},
+  gh_shinchan:{name:'🌸 Shinchan Soothing BGM',file:'Shinchan%20has%20such%20a%20soothing%20BGM.mp3'},
+  gh_first_sight:{name:'🌄 First Sight',file:'First%20Sight.mp3'},
+  gh_gulabi:{name:'🎸 Gulabi Aankhen Guitar',file:'Gulabi%20Aankhen%20SANAM%20Fingerstyle%20Guitar%20Cover.mp3'},
+  gh_krish:{name:'🦚 Krish — Govinda Hare Murari',file:'Krish_Theme_Krishna_Theme_Shri_Krishna_Govinda_Hare_Murari_Soulful.mp3'},
+  gh_krishna_flute:{name:'🪈 Krishna Enchanting Flute 4K',file:'Krishna_Flute_2_Enchanting_Flute_4K_Video_by_Lakhinandan_Lahon.mp3'},
+  gh_dark_academia:{name:'🌙 Dark Academia Night',file:'a%20playlist%20for%20night%20studies%20dark%20academia.mp3'},
+  gh_00:{name:'⏳ 00:00 Let It Go',file:'00%2000.mp3'},
+  gh_codex:{name:'💻 Codex',file:'Codex.mp3'},
+  gh_silence:{name:'🔇 Silence of Reality',file:'Silence%20of%20Reality.mp3'},
+  gh_memory:{name:'🔁 Memory Reboot Slowed',file:'Memory%20Reboot%20Slowed.mp3'},
+  gh_overthinker:{name:'🧠 Overthinker',file:'Overthinker.mp3'},
+  gh_ordinary:{name:'🫧 Ordinary Person (Leo)',file:'Ordinary%20Person%20From%20Leo.mp3'},
+  gh_hislerim:{name:'🎻 Hislerim',file:'Hislerim.mp3'},
+  gh_aye_khuda:{name:'🙏 Aye Khuda (Paathshaala)',file:'Aye%20Khuda%20-%20Paathshaala%20%20Guitar%20Cover%20%20Swaroop%20Pandey.mp3'},
+  gh_положение:{name:'🌀 Положение 2',file:'%D0%9F%D0%BE%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%202.mp3'},
+  gh_chinese_song:{name:'🌸 离别开出花',file:'p%C4%ABn_y%C4%ABn_g%C4%93_c%C3%AD%E3%80%91_%E5%B0%B1%E6%98%AF%E5%8D%97%E6%96%B9%E5%87%AF_%E7%A6%BB%E5%88%AB%E5%BC%80%E5%87%BA%E8%8A%B1_%E5%8B%95%E6%85%8B%E6%AD%8C%E8%A9%9E.mp3'},
+  gh_jing:{name:'🎵 敬',file:'%E6%95%AC.mp3'},
+  gh_remember:{name:'🏆 Remember the Name',file:'Remember%20the%20Name%20feat.Styles%20of%20Beyond.mp3'},
+  gh_nights:{name:'🌟 The Nights',file:'The%20Nights.mp3'},
+  gh_glorious:{name:'🌅 Glorious Morning',file:'Glorious%20Morning.mp3'},
+  gh_glorious_metal:{name:'⚡ Glorious Morning (Metal)',file:'Glorious%20Morning%20Metal%20version%20SEYAR.mp3'},
+  gh_veeron:{name:'🛡️ Veeron Ke Veer Aa',file:'Veeron%20Ke%20Veer%20Aa%20-%20Aditi%20Paul.mp3'},
+  gh_dhurandhar:{name:'🔥 Dhurandhar Title Track',file:'Dhurandhar%20Title%20Track%20From%20Dhurandhar.mp3'},
+  gh_piercing:{name:'💥 Piercing Light',file:'Piercing%20Light.mp3'},
+  gh_idaten:{name:'🚴 Idaten Jump OST',file:'Idaten_Jump_OST_04_Yasuharu_Takanashi_Tobe_!_Mohamed_Amine_Belkebir.mp3'},
+  gh_timebomb:{name:'💣 Time Bomb',file:'Time%20Bomb.mp3'},
+  gh_formula:{name:'🎬 Formula (Euphoria)',file:'Labrinth_%E2%80%93_Formula_Extended_version_Euphoria_Original_Score_from.mp3'},
+  gh_mission:{name:'🕵️ Mission Impossible',file:'Mission%20Impossible%20Theme.mp3'},
+  gh_what_are_you:{name:'🦸 Superman Theme',file:'What%20Are%20You%20Going%20to%20Do%20When%20You%20Are%20Not%20Saving%20the%20World.mp3'},
+  gh_f1:{name:'🏎️ F1 Theme',file:'F1.mp3'},
+  gh_guowushang:{name:'⚔️ 国士无双 Battle Ver.',file:'%E5%9B%BD%E5%A3%AB%E6%97%A0%E5%8F%8C%20%E6%88%98%E6%96%97%E7%89%88.mp3'},
+  gh_fairy_tail:{name:'🧙 Fairy Tail Main Theme',file:'FAIRY%20TAIL%20%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%86%E3%83%BC%E3%83%9E%202024.mp3'},
+  gh_new_hero:{name:'🦸 New Type of Hero',file:'New%20Type%20of%20Hero%28%E5%87%B8%E8%AE%8A%E8%8B%B1%E9%9B%84X%E5%8B%95%E7%95%AB%E5%8E%9F%E8%81%B2%E5%B8%B6%29.mp3'},
+  gh_erased:{name:'🎭 勿忘我 THE ERASED',file:'%E5%8B%BF%E5%BF%98%E6%88%91%20THE%20ERASED%20%28%E8%AF%A1%E7%A7%98%E4%B9%8B%E4%B8%BB%E5%B0%8F%E4%B8%91%E7%AF%87%E5%8A%A8%E7%94%BB%E7%BB%88%E5%B9%95%E6%9B%B2%29.mp3'},
+  gh_sao:{name:'🗡️ SAO 2 Gunland Epic',file:'%E3%82%BD%E3%83%BC%E3%83%89%E3%82%A2%E3%83%BC%E3%83%88%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B32_Sword_Art_Online_2_OST_Epic_Gunland_Cover_FL_Studio.mp3'},
+  gh_kantara:{name:'🌿 Kantara Instrumental',file:'Kantara_Instrumental_The_Divine_Roar_Returns_Roopa_Revathi_The_Band.mp3'},
+  gh_senbonzakura:{name:'🌸 Senbonzakura',file:'Senbonzakura%20Re%20Recording.mp3'},
+  gh_reawaker:{name:'⚡ LiSA ReawakeR',file:'LiSA%E3%80%8EReawakeR%20feat.Felix%20of%20Stray%20Kids%20%E3%80%8FMUSiC%20CLiP.mp3'},
+  gh_loki:{name:'🐍 Loki x Carol of Bells',file:'Loki%20Green%20Theme%20x%20Carol%20of%20the%20Bells.mp3'},
+  gh_bling:{name:'💥 Bling Bang Bang Born',file:'Bling%20Bang%20Bang%20Born.mp3'},
+  gh_tangled:{name:'🌀 Tangled Kingdom Dance',file:'Tangled_Kingdom_Dance_Forever!_Low_Whistle_Fantasy_Cover.mp3'},
+  gh_moonu:{name:'🌙 Moonu BGM Re-Orchestrated',file:'Moonu%20BGM%20Re%20Orchestrated%20Version.mp3'},
+  gh_x_ballad:{name:'🎤 X Ballad Cover',file:'X%20Ballad%20Version%20Cover%20by%20Kwon%20Jin%20Ah.mp3'},
+  gh_x_golden:{name:'✨ X Golden',file:'X%20Golden.mp3'},
+  gh_back_in_black:{name:'🖤 Back In Black',file:'Back%20In%20Black.mp3'},
+  gh_highway:{name:'🛣️ Highway to Hell',file:'Highway%20to%20Hell.mp3'},
+  gh_we_will:{name:'👊 We Will Rock You',file:'We%20Will%20Rock%20You%20Remastered%202011.mp3'},
+  gh_beyblade:{name:'🌀 Let It Rip! Beyblade',file:'Beyblade%20song%20Let%20s%20beyblade.mp3'},
+  gh_jackie:{name:'🥋 Jackie Chan Adventures',file:"Wheatus_Chan's_The_Man_Lyrics_Jackie_Chan_Adventures_Theme_Song.mp3"},
+  gh_revenge:{name:'😤 REVENGE',file:'REVENGE.mp3'},
+  gh_revenge_slowed:{name:'💀 REVENGE Mega Slowed',file:'REVENGE%20Mega%20Slowed.mp3'},
+  gh_revenge_super:{name:'🌑 REVENGE Super Slowed',file:'REVENGE%20Super%20Slowed.mp3'},
+  gh_violento:{name:'🔥 VIOLENTO',file:'VIOLENTO.mp3'},
+  gh_rcb:{name:'🏏 RCB Anthem',file:'Rcb%20Anthem%20Grey%20face%20flip.mp3'},
+  gh_sunflower:{name:'🌻 Sunflower (Spider-Verse)',file:'Sunflower%20%28Spider-Man_%20Into%20the%20Spider-Verse%29.mp3'},
+  gh_te_amo:{name:'❤️ Te Amo (Unplugged)',file:'Te%20Amo%20Unplugged%20Raghav%20Chaitanya.mp3'},
+  gh_mask_off:{name:'🎭 Mask Off',file:'Mask%20Off.mp3'},
+  gh_starboy:{name:'⭐ Starboy Remix',file:'The_Weeknd_Starboy_Trat%C3%B6_BL_OFFICIAL_Remix_Superman_vs_Justice_League.mp3'},
+  gh_foreign:{name:'🌍 Foreign',file:'Foreign.mp3'},
+  gh_dont_stop:{name:"🎶 Don't Stop The Music",file:"Don%20t%20Stop%20The%20Music.mp3"},
+  gh_whoopty:{name:'🐍 Whoopty',file:'Whoopty.mp3'},
+  gh_lutt:{name:'🎧 Lutt Le Gaye 16D',file:'Lutt_le_Gaye_16D_Audio_%F0%9F%8E%A7_Put_Your_Headphones_On_360Soundscape.mp3'},
+  gh_gandagana:{name:'🌊 GANDAGANA Remix',file:'Gwen%20Rose%20GANDAGANA%20Emin%20Nilsen%20Remix.mp3'},
+  gh_i_called:{name:'📞 I Called Some Friends',file:'I%20Called%20Some%20Friends.mp3'},
+  gh_they_dont:{name:"🎤 They Don't Care About Us",file:"They%20Don%20t%20Care%20About%20Us%20Remastered%20Version.mp3"},
+  gh_can_you_hear:{name:'🎵 Can You Hear The Music',file:'Can%20You%20Hear%20The%20Music.mp3'},
+  gh_dennana:{name:'🐯 Dennana Dennana Tiger',file:'Dennana_Dennana_Revisited_Pili_Mix_DJ_PRH_Pili_Tiger_dance_Huli.mp3'},
+  gh_peaky:{name:'🎩 Peaky Blinders Theme',file:'peaky_blinders_theme_song_only_instrumental_no_vocal_peakyblinders.mp3'},
+  gh_tick_tock:{name:'⏰ Tick Tock',file:'Tick%20Tock.mp3'},
+};
+
+const RADIO_CHANNELS=[
+  {name:'🔥 Lofi Hip-Hop Radio',url:'https://streams.ilovemusic.de/iloveradio17.mp3'},
+  {name:'🎵 Chillhop Essentials',url:'https://streams.ilovemusic.de/iloveradio2.mp3'},
+  {name:'🧠 Deep Focus Beats',url:'https://ice1.somafm.com/defcon-128-mp3'},
+  {name:'🌌 Space Station',url:'https://ice1.somafm.com/spacestation-128-mp3'},
+  {name:'🎹 Jazz & Blues',url:'https://ice1.somafm.com/blues-128-mp3'},
+  {name:'🌿 Groove Salad',url:'https://ice1.somafm.com/groovesalad-128-mp3'},
+];
+
+const MP_CATEGORIES = [
+  { key: 'all',        label: '✦ ALL',           keys: null },
+  { key: 'morning',    label: '🌅 MORNING',       keys: ['gh_bamboo','gh_inner','gh_classical_veena','gh_shinchan','gh_first_sight','gh_gulabi','gh_krish','gh_krishna_flute'] },
+  { key: 'study',      label: '📚 STUDY',         keys: ['gh_dark_academia','gh_00','gh_codex','gh_silence','gh_memory','gh_overthinker','gh_ordinary','gh_hislerim','gh_aye_khuda','gh_положение','gh_chinese_song','gh_jing'] },
+  { key: 'power',      label: '⚡ POWER',          keys: ['gh_remember','gh_nights','gh_glorious','gh_glorious_metal','gh_veeron','gh_dhurandhar','gh_piercing','gh_idaten','gh_timebomb','gh_formula','gh_mission','gh_what_are_you','gh_f1','gh_guowushang'] },
+  { key: 'anime',      label: '🎌 ANIME',          keys: ['gh_fairy_tail','gh_new_hero','gh_erased','gh_sao','gh_kantara','gh_senbonzakura','gh_reawaker','gh_loki','gh_bling','gh_tangled','gh_moonu','gh_x_ballad','gh_x_golden'] },
+  { key: 'rock',       label: '🎸 ROCK',           keys: ['gh_back_in_black','gh_highway','gh_we_will','gh_beyblade','gh_jackie','gh_revenge','gh_revenge_slowed','gh_revenge_super','gh_violento','gh_rcb'] },
+  { key: 'chill',      label: '🌊 CHILL',          keys: ['gh_sunflower','gh_te_amo','gh_mask_off','gh_starboy','gh_foreign','gh_dont_stop','gh_whoopty','gh_lutt','gh_gandagana','gh_i_called','gh_they_dont','gh_can_you_hear','gh_dennana','gh_peaky','gh_tick_tock'] },
+  { key: 'radio',      label: '📻 RADIO',          keys: ['radio_0','radio_1','radio_2','radio_3','radio_4','radio_5'], isRadio: true },
+];
+
+var MP_CAT_MAP = {};
+MP_CATEGORIES.forEach(function (c) {
+  if (c.keys) c.keys.forEach(function (k) { MP_CAT_MAP[k] = c.key; });
+});
+
+var LS = {
+  get: function (k, d) { try { var v = localStorage.getItem('ampdeck:' + k); return v === null ? d : v; } catch (e) { return d; } },
+  set: function (k, v) { try { localStorage.setItem('ampdeck:' + k, v); } catch (e) {} }
+};
+
+var TOTAL_SOURCES = Object.keys(NEURAL_TRACKS).length + RADIO_CHANNELS.length;
+
+/* ------------------------------ audio core ------------------------------ */
+var audio = document.createElement('audio');
+audio.id = 'ampAudio';
+audio.preload = 'auto';
+audio.style.display = 'none';
+document.body.appendChild(audio);
+
+var state = {
+  key: LS.get('last', 'gh_dark_academia'),
+  playing: false,
+  loop: LS.get('loop', '1') === '1',
+  cat: 'all',
+  query: '',
+  list: [],            // current visible entries = transport order
+  reconnectTimer: null
+};
+
+function entryUrl(key) {
+  if (key.indexOf('radio_') === 0) {
+    var ch = RADIO_CHANNELS[+key.slice(6)];
+    return ch ? ch.url : '';
+  }
+  var t = NEURAL_TRACKS[key];
+  return t ? GH_BASE + t.file : '';
+}
+function entryName(key) {
+  if (key.indexOf('radio_') === 0) {
+    var ch = RADIO_CHANNELS[+key.slice(6)];
+    return ch ? ch.name : '';
+  }
+  var t = NEURAL_TRACKS[key];
+  return t ? t.name : '';
+}
+function isRadio(key) { return key.indexOf('radio_') === 0; }
+
+/* ------------------------------ markup ------------------------------ */
+var deck, launcher;
+
+function buildLauncher() {
+  launcher = document.createElement('button');
+  launcher.id = 'ampLauncher';
+  launcher.className = 'quick-btn';
+  launcher.type = 'button';
+  launcher.textContent = '🎧';
+  launcher.title = 'Neural Amp Deck — 78 tracks & radio';
+  var dock = document.querySelector('.quick-dock');
+  if (dock) { dock.appendChild(launcher); }
+  else {
+    var solo = document.createElement('div');
+    solo.className = 'quick-dock';
+    solo.appendChild(launcher);
+    document.body.appendChild(solo);
+  }
+  launcher.addEventListener('click', toggleDeck);
+}
+
+function buildDeck() {
+  deck = document.createElement('div');
+  deck.id = 'ampDeck';
+  deck.setAttribute('role', 'dialog');
+  deck.setAttribute('aria-label', 'music deck');
+  deck.innerHTML =
+    '<div class="amp-head">' +
+      '<div class="amp-vinyl"></div>' +
+      '<div class="amp-np"><div class="amp-np-kicker">NEURAL LINK AUDIO · AMP DECK</div>' +
+      '<div class="amp-np-title"><span id="ampNpText">pick a track — ' + TOTAL_SOURCES + ' sources ready</span></div>' +
+      '<div class="amp-live">LIVE RADIO</div></div>' +
+      '<button class="amp-close" type="button" title="Close deck (Esc)">✕</button>' +
+    '</div>' +
+    '<div class="amp-transport">' +
+      '<button class="amp-tbtn" id="ampShuf" type="button" title="Shuffle">🔀</button>' +
+      '<button class="amp-tbtn" id="ampPrev" type="button" title="Previous">⏮</button>' +
+      '<button class="amp-tbtn amp-play" id="ampPlay" type="button" title="Play / pause">▶</button>' +
+      '<button class="amp-tbtn" id="ampNext" type="button" title="Next">⏭</button>' +
+      '<button class="amp-tbtn" id="ampLoop" type="button" title="Loop current">🔁</button>' +
+    '</div>' +
+    '<div class="amp-progress"><span id="ampCur">0:00</span>' +
+      '<div class="amp-bar" id="ampBar"><div class="amp-fill" id="ampFill"></div></div>' +
+      '<span id="ampTot">--:--</span></div>' +
+    '<div class="amp-volume">🔊<input type="range" min="0" max="100" id="ampVol"><span id="ampVolPct">80%</span></div>' +
+    '<div class="amp-status" id="ampStatus"></div>' +
+    '<div class="amp-search"><input id="ampSearch" type="text" placeholder="⌕  search ' + TOTAL_SOURCES + ' sources…" aria-label="search tracks"></div>' +
+    '<div class="amp-cats" id="ampCats"></div>' +
+    '<div class="amp-list" id="ampList"></div>';
+  document.body.appendChild(deck);
+
+  deck.querySelector('.amp-close').addEventListener('click', closeDeck);
+  byId('ampPlay').addEventListener('click', togglePlay);
+  byId('ampNext').addEventListener('click', next);
+  byId('ampPrev').addEventListener('click', prev);
+  byId('ampShuf').addEventListener('click', shuffle);
+  byId('ampLoop').addEventListener('click', function () {
+    state.loop = !state.loop;
+    LS.set('loop', state.loop ? '1' : '0');
+    this.classList.toggle('on', state.loop);
+  });
+  byId('ampLoop').classList.toggle('on', state.loop);
+
+  var vol = byId('ampVol');
+  vol.value = Math.round(parseFloat(LS.get('vol', '0.8')) * 100);
+  applyVolume();
+  vol.addEventListener('input', function () { LS.set('vol', String(vol.value / 100)); applyVolume(); });
+
+  byId('ampSearch').addEventListener('input', function () { state.query = this.value; renderList(); });
+
+  byId('ampBar').addEventListener('pointerdown', function (e) {
+    if (isRadio(state.key)) return;
+    if (!isFinite(audio.duration) || !audio.duration) return;
+    var r = this.getBoundingClientRect();
+    var frac = Math.min(1, Math.max(0, (e.clientX - r.left) / r.width));
+    try { audio.currentTime = frac * audio.duration; } catch (err) {}
+  });
+
+  renderCats();
+  renderList();
+}
+
+function byId(id) { return document.getElementById(id); }
+
+function applyVolume() {
+  var v = Math.round(parseFloat(LS.get('vol', '0.8')) * 100);
+  audio.volume = Math.min(1, Math.max(0, v / 100));
+  var pct = byId('ampVolPct'); if (pct) pct.textContent = v + '%';
+}
+
+/* ------------------------------ catalogue ------------------------------ */
+function entriesFor(cat, query) {
+  var out = [];
+  var push = function (key) { out.push({ key: key, name: entryName(key), tag: isRadio(key) ? 'radio' : (MP_CAT_MAP[key] || ''), radio: isRadio(key) }); };
+  if (cat === 'radio') {
+    RADIO_CHANNELS.forEach(function (_, i) { push('radio_' + i); });
+  } else {
+    var catKeys = cat === 'all' ? null : (MP_CATEGORIES.filter(function (c) { return c.key === cat; })[0] || {}).keys;
+    Object.keys(NEURAL_TRACKS).forEach(function (k) {
+      if (catKeys && catKeys.indexOf(k) < 0) return;
+      push(k);
+    });
+    if (cat === 'all') RADIO_CHANNELS.forEach(function (_, i) { push('radio_' + i); });
+  }
+  var q = (query || '').toLowerCase().trim();
+  if (q) out = out.filter(function (e) { return e.name.toLowerCase().indexOf(q) >= 0; });
+  return out;
+}
+
+function renderCats() {
+  var box = byId('ampCats');
+  box.innerHTML = '';
+  MP_CATEGORIES.forEach(function (cat) {
+    var b = document.createElement('button');
+    b.type = 'button';
+    b.className = 'amp-chip' + (cat.isRadio ? ' radio-chip' : '') + (state.cat === cat.key ? ' active' : '');
+    b.textContent = cat.label;
+    b.addEventListener('click', function () { state.cat = cat.key; renderCats(); renderList(); });
+    box.appendChild(b);
+  });
+}
+
+function renderList() {
+  var list = byId('ampList');
+  list.innerHTML = '';
+  state.list = entriesFor(state.cat, state.query);
+  if (!state.list.length) {
+    var d = document.createElement('div');
+    d.className = 'amp-empty';
+    d.textContent = 'no tracks match that filter';
+    list.appendChild(d);
+    paintTransport();
+    return;
+  }
+  state.list.forEach(function (e) {
+    var row = document.createElement('div');
+    row.className = 'amp-row' + (e.key === state.key ? ' current' : '');
+    row.setAttribute('data-key', e.key);
+    var eq = document.createElement('div'); eq.className = 'amp-eq';
+    eq.innerHTML = '<i></i><i></i><i></i>';
+    var nm = document.createElement('div'); nm.className = 'amp-row-name'; nm.textContent = e.name;
+    var tg = document.createElement('div'); tg.className = 'amp-row-tag' + (e.radio ? ' is-radio' : '');
+    tg.textContent = e.radio ? 'RADIO' : (e.tag || 'TRACK').toUpperCase();
+    row.appendChild(eq); row.appendChild(nm); row.appendChild(tg);
+    row.addEventListener('click', function () { playKey(e.key); });
+    list.appendChild(row);
+  });
+  paintTransport();
+}
+
+/* ------------------------------ transport/playback ------------------------------ */
+function setStatus(txt, cls) {
+  var s = byId('ampStatus');
+  if (!s) return;
+  s.textContent = txt || '';
+  s.className = 'amp-status' + (cls ? ' ' + cls : '');
+}
+function setNowPlaying() {
+  var np = byId('ampNpText');
+  if (np) np.textContent = state.key ? entryName(state.key) : 'pick a track';
+  deck.classList.toggle('radio-mode', isRadio(state.key));
+}
+function playKey(key) {
+  state.key = key;
+  LS.set('last', key);
+  clearTimeout(state.reconnectTimer);
+  var url = entryUrl(key);
+  if (!url) return;
+  audio.src = url;
+  audio.load();
+  state.playing = true;
+  var p = audio.play();
+  setStatus('buffering…', 'warn');
+  if (p && p.catch) p.then(function () { setStatus('', ''); }).catch(function () {
+    setStatus('⚠ tap ▶ once more — browser wants a gesture', 'warn');
+    state.playing = false; paintTransport();
+  });
+  setNowPlaying(); renderListKeep(key);
+}
+function renderListKeep(key) {
+  var rows = byId('ampList').querySelectorAll('.amp-row');
+  for (var i = 0; i < rows.length; i++) rows[i].classList.toggle('current', rows[i].getAttribute('data-key') === key);
+  paintTransport();
+}
+function togglePlay() {
+  if (!audio.src) { playKey(state.key); return; }
+  if (audio.paused) {
+    audio.play().then(function () { state.playing = true; paintTransport(); }).catch(function () {});
+  } else {
+    audio.pause(); state.playing = false; paintTransport();
+  }
+}
+function stepTo(d) {
+  if (!state.list.length) return;
+  var i = -1;
+  for (var n = 0; n < state.list.length; n++) if (state.list[n].key === state.key) { i = n; break; }
+  var nxt = state.list[(i + d + state.list.length) % state.list.length];
+  playKey(nxt.key);
+}
+function next() { stepTo(1); }
+function prev() { stepTo(-1); }
+function shuffle() {
+  var all = entriesFor('all', '');
+  var pick = all[Math.floor(Math.random() * all.length)];
+  playKey(pick.key);
+}
+function paintTransport() {
+  deck.classList.toggle('playing', !!state.playing);
+  var pb = byId('ampPlay'); if (pb) pb.textContent = state.playing ? '⏸' : '▶';
+  if (launcher) launcher.classList.toggle('amp-pulse', !!state.playing);
+}
+
+/* ------------------------------ audio events ------------------------------ */
+function fmt(t) {
+  if (!isFinite(t)) return '--:--';
+  t = Math.floor(t);
+  return Math.floor(t / 60) + ':' + ('0' + (t % 60)).slice(-2);
+}
+audio.addEventListener('timeupdate', function () {
+  if (isRadio(state.key) || !isFinite(audio.duration)) { byId('ampFill').style.width = '0%'; return; }
+  byId('ampCur').textContent = fmt(audio.currentTime);
+  byId('ampTot').textContent = fmt(audio.duration);
+  byId('ampFill').style.width = (audio.duration ? (audio.currentTime / audio.duration * 100) : 0) + '%';
+});
+audio.addEventListener('loadedmetadata', function () {
+  byId('ampTot').textContent = isRadio(state.key) ? 'LIVE' : fmt(audio.duration);
+  byId('ampCur').textContent = '0:00';
+});
+audio.addEventListener('ended', function () {
+  if (state.loop && !isRadio(state.key)) { try { audio.currentTime = 0; } catch (e) {} audio.play().catch(function () {}); }
+  else next();
+});
+audio.addEventListener('playing', function () { state.playing = true; paintTransport(); setStatus('', ''); });
+audio.addEventListener('pause', function () { /* pause event also fires on transient stalls */ });
+function reconnectSoon() {
+  clearTimeout(state.reconnectTimer);
+  if (!state.playing) return;
+  state.reconnectTimer = setTimeout(function () {
+    if (!state.playing || !audio.src) return;
+    var t = 0; try { t = audio.currentTime; } catch (e) {}
+    setStatus('↻ reconnecting…', 'warn');
+    var bust = audio.src.indexOf('?') < 0 ? '?t=' + Date.now() : audio.src.split('?')[0] + '?t=' + Date.now();
+    audio.src = bust;
+    audio.load();
+    audio.play().then(function () {
+      try { if (!isRadio(state.key) && t > 5) audio.currentTime = t; } catch (e) {}
+      setStatus('', '');
+    }).catch(function () { setStatus('⚠ reconnect failed — tap ▶', 'warn'); });
+  }, 2500);
+}
+audio.addEventListener('stalled', reconnectSoon);
+audio.addEventListener('error', function () { if (state.playing) reconnectSoon(); });
+
+/* ------------------------------ deck open/close ------------------------------ */
+function openDeck() {
+  deck.classList.add('open');
+  renderCats(); renderList();
+  setNowPlaying();
+  setTimeout(function () {
+    var cur = byId('ampList').querySelector('.amp-row.current');
+    if (cur && typeof cur.scrollIntoView === 'function') cur.scrollIntoView({ block: 'nearest' });
+  }, 30);
+}
+function closeDeck() { deck.classList.remove('open'); }
+function toggleDeck() { deck.classList.contains('open') ? closeDeck() : openDeck(); }
+document.addEventListener('keydown', function (e) {
+  if (e.key === 'Escape' && deck && deck.classList.contains('open')) closeDeck();
+});
+
+/* ------------------------------ boot ------------------------------ */
+buildLauncher();
+buildDeck();
+setNowPlaying();
+window.AMP_DECK = {
+  open: openDeck, close: closeDeck, toggle: toggleDeck,
+  play: playKey, next: next, prev: prev, shuffle: shuffle,
+  state: function () { return { key: state.key, playing: state.playing, cat: state.cat, visible: state.list.length, loop: state.loop }; },
+  counts: function () { return { tracks: Object.keys(NEURAL_TRACKS).length, radio: RADIO_CHANNELS.length, cats: MP_CATEGORIES.length }; },
+  alive: function () { return !!(launcher && deck && byId('ampList')); }
+};
+})();
+

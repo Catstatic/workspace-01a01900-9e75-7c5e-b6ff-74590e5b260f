@@ -1,0 +1,851 @@
+{
+ "id": "gate2020",
+ "label": "GATE 2020 Physics",
+ "source": "user-supplied fiziks PDF",
+ "keyStatus": "unkeyed",
+ "totalQ": 65,
+ "questions": [
+  {
+   "n": 1,
+   "part": "GA",
+   "marks": 1,
+   "type": "MCQ",
+   "stem": "He is known for his unscrupulous ways . He always sheds ___________ tears to deceive\npeople.",
+   "opts": [
+    "fox’s",
+    "crocodile’s",
+    "crocodile",
+    "fox"
+   ],
+   "ans": null,
+   "note": "no-key-in-pdf"
+  },
+  {
+   "n": 2,
+   "part": "GA",
+   "marks": 1,
+   "type": "MCQ",
+   "stem": "Jofra Archer, the England fast bowler, is __________ than accurate.",
+   "opts": [
+    "more fast",
+    "faster",
+    "less fast",
+    "more faster"
+   ],
+   "ans": null,
+   "note": "no-key-in-pdf"
+  },
+  {
+   "n": 3,
+   "part": "GA",
+   "marks": 1,
+   "type": "MCQ",
+   "stem": "Select the word that fits the analogy:\n Build : Building :: Grow :",
+   "opts": [
+    "Grown",
+    "Grew",
+    "Growth",
+    "Growed"
+   ],
+   "ans": null,
+   "note": "no-key-in-pdf"
+  },
+  {
+   "n": 4,
+   "part": "GA",
+   "marks": 1,
+   "type": "MCQ",
+   "stem": "I do not think you know the cas e well enough to have opinions . Having said that, I agree\nwith your other point.\n What does the phrase “having said that” mean in the given text?",
+   "opts": [
+    "as opposed to what I have said",
+    "despite what I have said",
+    "in addition to what I have said",
+    "contrary to what I have said"
+   ],
+   "ans": null,
+   "note": "no-key-in-pdf"
+  },
+  {
+   "n": 5,
+   "part": "GA",
+   "marks": 1,
+   "type": "MCQ",
+   "stem": "Define\n x as the greatest integer less than or equal to x , for each  ,x   . If  yx ,\nthen area under y for  1, 4x is",
+   "opts": [
+    "1",
+    "3",
+    "4",
+    "6"
+   ],
+   "ans": null,
+   "note": "no-key-in-pdf"
+  },
+  {
+   "n": 6,
+   "part": "GA",
+   "marks": 2,
+   "type": "MCQ",
+   "stem": "Crowd funding deals with mobilisation of funds for a project from a large number of\npeople, who would be willing to invest sm aller amounts through web-based platforms in\nthe project.\n Based on the above paragraph, which of th e following is correct about crowd funding?",
+   "opts": [
+    "Funds raised through unwilling contributions on web-based platforms",
+    "Funds raised through large contributions on web-based platforms",
+    "Funds raised through coerced contributions on web-based platforms",
+    "Funds raised through voluntary contributions on web-based platforms\nInstitute for NET/JRF, GATE, IIT‐JAM, M.Sc. Entrance, JEST, TIFR and GRE in Physics"
+   ],
+   "ans": null,
+   "note": "no-key-in-pdf"
+  },
+  {
+   "n": 7,
+   "part": "GA",
+   "marks": 2,
+   "type": "MCQ",
+   "stem": ",,PQR and S are to be uniquely coded using  and  . If P is coded as  and Q as\n , then R and S , respectively, can be coded as",
+   "opts": [
+    " and ",
+    " and ",
+    " and ",
+    " and "
+   ],
+   "ans": null,
+   "note": "no-key-in-pdf"
+  },
+  {
+   "n": 8,
+   "part": "GA",
+   "marks": 2,
+   "type": "MCQ",
+   "stem": "The sum of the first n terms in the sequence 8,88,888,8888,... is",
+   "opts": [
+    "81 910 180 8\nn n",
+    "81 910 180 8\nn n",
+    "80 810 181 9\nn n",
+    "80 810 181 9\nn n"
+   ],
+   "ans": null,
+   "note": "no-key-in-pdf"
+  },
+  {
+   "n": 9,
+   "part": "GA",
+   "marks": 2,
+   "type": "MCQ",
+   "stem": "Select the graph that schematically represents BOTH my x and 1/ my x properly in the\ninterval 01 x , for integer values of m , where 1m\n\n(a) (b)\n\n(c)",
+   "opts": [
+    "y\n1/ mx\nmx\n1 x 0\ny\n1/ mx\nmx\n1 x\ny\n1/ mx\nmx\nx 0\ny\n1/ mx\nmx\n1 x\nInstitute for NET/JRF, GATE, IIT‐JAM, M.Sc. Entrance, JEST, TIFR and GRE in Physics"
+   ],
+   "ans": null,
+   "note": "figure-dependent-options"
+  },
+  {
+   "n": 10,
+   "part": "GA",
+   "marks": 2,
+   "type": "MCQ",
+   "stem": "The bar graph shows the data of the stude nts who appeared and passed in an examination\nfor four schools ,,PQR and S . The average of success rates (i n percentage) of these four\nschool is_________.",
+   "opts": [
+    "58.5%",
+    "58.8%",
+    "59.0%",
+    "59.3%\nSchoolSSchool RSchool QSchool P\nNumber of students\nAppeared Passed\nPerformance of Schools P, Q, R and S\nInstitute for NET/JRF, GATE, IIT‐JAM, M.Sc. Entrance, JEST, TIFR and GRE in Physics"
+   ],
+   "ans": null,
+   "note": "no-key-in-pdf"
+  },
+  {
+   "n": 11,
+   "part": "PH",
+   "marks": 1,
+   "type": "MCQ",
+   "stem": "Which one of the following is a solution of   \ndu x ku xdx  , for k real?",
+   "opts": [
+    "kxe",
+    "sin kx",
+    "cos kx",
+    "sinh x"
+   ],
+   "ans": null,
+   "note": "no-key-in-pdf"
+  },
+  {
+   "n": 12,
+   "part": "PH",
+   "marks": 1,
+   "type": "MCQ",
+   "stem": "A real, invertible 33 matrix M has eigenvalues  ,1 , 2 , 3i i  and the corresponding\neigenvectors are ,1 , 2 , 3iei  respectively. Which one of the following is correct?",
+   "opts": [
+    "1\nii\ni\nM ee  , for 1, 2, 3i",
+    "1 1\nii\ni\nM ee \n  , for 1, 2,3i",
+    "1\nii iM ee   , for 1, 2,3i",
+    "The eigenvalues of M and 1M are not related"
+   ],
+   "ans": null,
+   "note": "no-key-in-pdf"
+  },
+  {
+   "n": 13,
+   "part": "PH",
+   "marks": 1,
+   "type": "MCQ",
+   "stem": "A quantum particle is su bjected to the potential\n \n, 2\n0, 22\n, 2\nax\naaVx x\nax\n \n  \n\n\n\n The ground state wave function of the particle is proportional to",
+   "opts": [
+    "sin 2\nx\na\n\n",
+    "sin x\na\n\n",
+    "cos 2\nx\na\n\n",
+    "cos x\na\n\n"
+   ],
+   "ans": null,
+   "note": "no-key-in-pdf"
+  },
+  {
+   "n": 14,
+   "part": "PH",
+   "marks": 1,
+   "type": "MCQ",
+   "stem": "Let ˆa and †ˆa , respectively denote the lo wering and raising operato rs of a one-dimensional\nsimple harmonic oscillator. Let n be the energy eigenstate of the simple harmonic\noscillator. Given that n is also an eigen state of ††ˆˆˆ ˆaaa a , the corresponding eigenvalue is",
+   "opts": [
+    " 1nn ",
+    " 1nn ",
+    " \n1n",
+    "2n"
+   ],
+   "ans": null,
+   "note": "no-key-in-pdf"
+  },
+  {
+   "n": 15,
+   "part": "PH",
+   "marks": 1,
+   "type": "MCQ",
+   "stem": "Which one of the following is a universal logic gate?",
+   "opts": [
+    "AND",
+    "NOT",
+    "OR",
+    "NAND\nInstitute for NET/JRF, GATE, IIT‐JAM, M.Sc. Entrance, JEST, TIFR and GRE in Physics"
+   ],
+   "ans": null,
+   "note": "no-key-in-pdf"
+  },
+  {
+   "n": 16,
+   "part": "PH",
+   "marks": 1,
+   "type": "MCQ",
+   "stem": "Which one of the following is the correct binary equivalent of the hexadecimal 6FC ?",
+   "opts": [
+    "0110 1111 1100",
+    "1111 0110 1100",
+    "1100 0110 1111",
+    "0110 1100 0111"
+   ],
+   "ans": null,
+   "note": "no-key-in-pdf"
+  },
+  {
+   "n": 17,
+   "part": "PH",
+   "marks": 1,
+   "type": "MCQ",
+   "stem": "The total angular momentum j of the ground state of the 17\n8 O nucleus is",
+   "opts": [
+    "1\n2",
+    "1",
+    "3",
+    "5"
+   ],
+   "ans": null,
+   "note": "no-key-in-pdf"
+  },
+  {
+   "n": 18,
+   "part": "PH",
+   "marks": 1,
+   "type": "MCQ",
+   "stem": "A particle X is produced in the process p KX  via the strong interaction. If the\nquark content of the K is us , the quark content of X is",
+   "opts": [
+    "cs",
+    "uud",
+    "uus",
+    "ud"
+   ],
+   "ans": null,
+   "note": "no-key-in-pdf"
+  },
+  {
+   "n": 19,
+   "part": "PH",
+   "marks": 1,
+   "type": "MCQ",
+   "stem": "A medium  1, 1, 0rr  is semi-transparent to an electromagnetic wave when",
+   "opts": [
+    "Conduction current >> Displacement current",
+    "Conduction current << Displacement current",
+    "Conduction current = Displacement current",
+    "Both Conduction current and Displacement current are zero"
+   ],
+   "ans": null,
+   "note": "no-key-in-pdf"
+  },
+  {
+   "n": 20,
+   "part": "PH",
+   "marks": 1,
+   "type": "MCQ",
+   "stem": "A particle is moving in a central force field given by\n3 ˆkFr r\n\n, where ˆr is the unit vector\npointing away from the center of the field. The potential energy of the particle is given by",
+   "opts": [
+    "2\nk\nr",
+    "22\nk\nr",
+    "2\nk\nr",
+    "22\nk\nr"
+   ],
+   "ans": null,
+   "note": "no-key-in-pdf"
+  },
+  {
+   "n": 21,
+   "part": "PH",
+   "marks": 1,
+   "type": "MCQ",
+   "stem": "Choose the correct statemen t related to the Fermi energy  FE and the chemical potential\n of a metal",
+   "opts": [
+    "FE  only at 0K",
+    "FE  at finite temperature",
+    "FE  at 0K",
+    "FE  at finite temperature"
+   ],
+   "ans": null,
+   "note": "no-key-in-pdf"
+  },
+  {
+   "n": 22,
+   "part": "PH",
+   "marks": 1,
+   "type": "MCQ",
+   "stem": "Consider a diatomic molecule formed by identical atoms. If VE and CE represent the\nenergy of the vibrational nuclear motion and el ectronic motion respectively, then in terms\nof the electronic mass m and nuclear mass M , V\nC\nE\nE is proportional to",
+   "opts": [
+    "1/2\nm\nM\n\n",
+    "m\nM",
+    "3/2\nm\nM\n\n",
+    "m\nM\n\n\n\nInstitute for NET/JRF, GATE, IIT‐JAM, M.Sc. Entrance, JEST, TIFR and GRE in Physics"
+   ],
+   "ans": null,
+   "note": "no-key-in-pdf"
+  },
+  {
+   "n": 23,
+   "part": "PH",
+   "marks": 1,
+   "type": "MCQ",
+   "stem": "Which one of the following relations determin es the manner in which the electric field lines\nare refracted across the interface between two di electric media having dielectric constants\n1 and 2 (see figure)?",
+   "opts": [
+    "11 22sin sin  ",
+    "11 2 2cos cos  ",
+    "11 2 2tan tan  ",
+    "11 2 2cot cot  "
+   ],
+   "ans": null,
+   "note": "no-key-in-pdf"
+  },
+  {
+   "n": 24,
+   "part": "PH",
+   "marks": 1,
+   "type": "MCQ",
+   "stem": "If E\n\n and B\n\n are the electric and magnetic fields respectively, then E B\n \n is",
+   "opts": [
+    "odd under parity and even under time reversal",
+    "even under parity and odd under time reversal",
+    "odd under parity and odd under time reversal",
+    "even under parity and even under time reversal"
+   ],
+   "ans": null,
+   "note": "no-key-in-pdf"
+  },
+  {
+   "n": 25,
+   "part": "PH",
+   "marks": 1,
+   "type": "MCQ",
+   "stem": "A small disc is suspended by a fiber such that it is free to rotate about the fiber axis (see\nfigure). For small angular deflections, the Hamiltonian for the disc is given by\n\npH I\n \n where I is the moment of inertia and  is the restoring torque per unit deflection. The\ndisc is subjected to angular deflections   due to thermal collisions from the surrounding\ngas at temperature T and p is the momentum conjugate to . The average and the root-\nmean-square angular deflection, avg and rms , respectively are",
+   "opts": [
+    "0avg  and\n3/2\nB\nrms\nkT \n",
+    "0avg  and\n1/2\nB\nrms\nkT \n",
+    "0 avg  and\n1/2\nB\nrms\nkT \n",
+    "0 avg  and\n3/2\nB\nrms\nkT \n\n\n2\n2E\n\n2E\n\n1\n1\n2\nInstitute for NET/JRF, GATE, IIT‐JAM, M.Sc. Entrance, JEST, TIFR and GRE in Physics"
+   ],
+   "ans": null,
+   "note": "no-key-in-pdf"
+  },
+  {
+   "n": 26,
+   "part": "PH",
+   "marks": 1,
+   "type": "MCQ",
+   "stem": "As shown in the figure, an ideal gas is confined to chamber A of an insulated container,\nwith vacuum in chamber B . When the plug in the wall separating the chambers A and B\nis removed, the gas fills both the chambers. Which one of the following statements is true?",
+   "opts": [
+    "The temperature of the gas remains unchanged",
+    "Internal energy of the gas decreases",
+    "Temperature of the gas decreases as it expands to fill the space in chamber\nB",
+    "Internal energy of the gas increases as its atoms have more space to move around"
+   ],
+   "ans": null,
+   "note": "no-key-in-pdf"
+  },
+  {
+   "n": 27,
+   "part": "PH",
+   "marks": 1,
+   "type": "NAT",
+   "stem": "Particle A with angular momentum 3\n2j decays into two particles B and C with\nangular momenta 1j and 2j , respectively. If 33 11,1 , 1 ,22 22 B\nA C\n , the value of \nis____________",
+   "opts": [],
+   "ans": null,
+   "note": "no-key-in-pdf"
+  },
+  {
+   "n": 28,
+   "part": "PH",
+   "marks": 1,
+   "type": "NAT",
+   "stem": "Far from the Earth, the Ea rth’s magnetic field can be approximated as due to a bar magnet\nof magnetic pole strength 1441 0A m . Assume this magnetic field is generated by a current\ncarrying loop encircling the magnetic equator. The current required to do so is about\n41 0An , where n is an integer. The value of n is ______.\n (Earth’s circumference: 741 0 m )",
+   "opts": [],
+   "ans": null,
+   "note": "no-key-in-pdf"
+  },
+  {
+   "n": 29,
+   "part": "PH",
+   "marks": 1,
+   "type": "NAT",
+   "stem": "The number of distinct ways the primitive unit cell can be constructed for the two\ndimensional lattice as shown in the figure is_______.\n\nA B\nPlug\na\na\nInstitute for NET/JRF, GATE, IIT‐JAM, M.Sc. Entrance, JEST, TIFR and GRE in Physics",
+   "opts": [],
+   "ans": null,
+   "note": "no-key-in-pdf"
+  },
+  {
+   "n": 30,
+   "part": "PH",
+   "marks": 1,
+   "type": "NAT",
+   "stem": "A hydrogenic atom is subject ed to a strong magnetic field. In the absence of spin-orbit\ncoupling, the number of doubly degenerate states created out of the d -level is ________",
+   "opts": [],
+   "ans": null,
+   "note": "no-key-in-pdf"
+  },
+  {
+   "n": 31,
+   "part": "PH",
+   "marks": 1,
+   "type": "NAT",
+   "stem": "A particle Y undergoes strong decay Y    . The isospin of Y is ________",
+   "opts": [],
+   "ans": null,
+   "note": "no-key-in-pdf"
+  },
+  {
+   "n": 32,
+   "part": "PH",
+   "marks": 1,
+   "type": "NAT",
+   "stem": "For a complex variable z and the contour :1cz  taken in the counter clockwise\ndirection, 2\n12 3\n2 C\nzd ziz z\n   ________",
+   "opts": [],
+   "ans": null,
+   "note": "no-key-in-pdf"
+  },
+  {
+   "n": 33,
+   "part": "PH",
+   "marks": 1,
+   "type": "NAT",
+   "stem": "Let p be the momentum conjugate to the generalized coordinate q . If the transformation\n 2c o smQq p\n 2s i nmPqp\nis canonical, then m ________",
+   "opts": [],
+   "ans": null,
+   "note": "no-key-in-pdf"
+  },
+  {
+   "n": 34,
+   "part": "PH",
+   "marks": 1,
+   "type": "NAT",
+   "stem": "A conducting sphere of radius 1m is placed in air. The maximu m number of electrons that\ncan be put on the sphe re to avoid electri cal breakdown is about 71 0 n , where n is an\ninteger. The value of n is ______.\nAssume:\nBreakdown electric field strength in air is 631 0 /EV m\n\n\nPermittivity of free space 12\n0 8.85 10 / Fm \nElectron charge 191.60 10eC ",
+   "opts": [],
+   "ans": null,
+   "note": "no-key-in-pdf"
+  },
+  {
+   "n": 35,
+   "part": "PH",
+   "marks": 1,
+   "type": "NAT",
+   "stem": "If a particle is moving al ong a sinusoidal curve, the number of degree of freedom of the\nparticle is ___________\nInstitute for NET/JRF, GATE, IIT‐JAM, M.Sc. Entrance, JEST, TIFR and GRE in Physics",
+   "opts": [],
+   "ans": null,
+   "note": "no-key-in-pdf"
+  },
+  {
+   "n": 36,
+   "part": "PH",
+   "marks": 2,
+   "type": "MCQ",
+   "stem": "The product of eigenvalues of\n\n\n\n is",
+   "opts": [
+    "1",
+    "1",
+    "0",
+    "2"
+   ],
+   "ans": null,
+   "note": "no-key-in-pdf"
+  },
+  {
+   "n": 37,
+   "part": "PH",
+   "marks": 2,
+   "type": "MCQ",
+   "stem": "Let 123\n11 1\n0, 1, 1\n00 1\nee e\n  \n        \n. Let  123,,Se e e . Let 3 denote the three\ndimensional real vector space. Which one of the following is correct?",
+   "opts": [
+    "S is an orthonormal set",
+    "S is a linearly dependent set",
+    "S is a basis for 3",
+    "ii\ni\nee\n\n\n\n"
+   ],
+   "ans": null,
+   "note": "no-key-in-pdf"
+  },
+  {
+   "n": 38,
+   "part": "PH",
+   "marks": 2,
+   "type": "MCQ",
+   "stem": "ˆ\nxS denotes the spin operator defined 01ˆ\nxS  \n . Which one of the following is correct?",
+   "opts": [
+    "The eigenstates of spin operator ˆ\nxS are 1\n0x\n \n and 0\n1x\n ",
+    "The eigenstates of spin operator ˆ\nxS are 11\n12x\n \n and 11\n12x\n ",
+    "In the spin state\n2 3\n\n\n, upon the measurement of ˆ\nxS , the probability for obtaining\nx\n\nis 1",
+    "In the spin state\n2 3\n\n\n, upon the measurement of ˆ\nxS , the probability for obtaining\nx\n\nis 23\n"
+   ],
+   "ans": null,
+   "note": "no-key-in-pdf"
+  },
+  {
+   "n": 39,
+   "part": "PH",
+   "marks": 2,
+   "type": "MCQ",
+   "stem": "The input voltage  inV to the circuit shown in the figure is  2cos 100 tV . The output\nvoltage  outV is 2cos 100 2tV  \n. If 1R k  , the value of C (in F )is",
+   "opts": [
+    "0.1",
+    "1",
+    "10",
+    "100\n12VC\n\n outV\n12V\nR\ninV\nR\nR\nInstitute for NET/JRF, GATE, IIT‐JAM, M.Sc. Entrance, JEST, TIFR and GRE in Physics"
+   ],
+   "ans": null,
+   "note": "no-key-in-pdf"
+  },
+  {
+   "n": 40,
+   "part": "PH",
+   "marks": 2,
+   "type": "MCQ",
+   "stem": "Consider a 4 -bit counter cons tructed out of four flip-flops. It is formed by connecting the\nJ and K inputs to logic high and feeding the Q output to the clock input of the following\nflip-flop (see the figure). The input signal to th e counter is a series of square pulses and the\nchange of state is triggere d by the falling edge. At time 0tt the outputs are in logic low\nstate  0123 0QQ QQ . Then at 1tt , the logic state of the outputs is",
+   "opts": [
+    "01 2 1, 0, 0QQQ  and 3 0Q ",
+    "012 0, 0, 0QQ Q and 3 1Q ",
+    "01 2 1, 0, 1QQQ  and 3 0Q ",
+    "01 2 0, 1, 1QQ Q and 3 1Q "
+   ],
+   "ans": null,
+   "note": "no-key-in-pdf"
+  },
+  {
+   "n": 41,
+   "part": "PH",
+   "marks": 2,
+   "type": "MCQ",
+   "stem": "Consider the Lagrangian\ndx dyLa b c x ydt dt\n   \n, where ,ab and c are constants. If\nxp and yp are the momenta conjugate to the coordinates x and y respectively, then the\nHamiltonian is",
+   "opts": [
+    "yx pp cxyab",
+    "yx pp cxyab",
+    "yx pp cxyab",
+    "yx pp cxyab\n1t\n0t 0t\nInput signal\nJ\nck\nK Q\nQ J\nck\nK Q\nQ\n0Q\nJ\nck\nK Q\nQ\n1Q\nJ\nck\nK Q\nQ\n2Q 3Q\n4-bit ripple counter(logic high)\nInput\nInstitute for NET/JRF, GATE, IIT‐JAM, M.Sc. Entrance, JEST, TIFR and GRE in Physics"
+   ],
+   "ans": null,
+   "note": "no-key-in-pdf"
+  },
+  {
+   "n": 42,
+   "part": "PH",
+   "marks": 2,
+   "type": "MCQ",
+   "stem": "Which one of the following matrices does NOT represent a proper rotation in a plane?",
+   "opts": [
+    "sin cos\ncos sin\n \n \n\n",
+    "cos sin\nsin cos\n \n \n\n",
+    "sin cos\ncos sin\n \n \n\n",
+    "sin cos\ncos sin\n \n \n\n"
+   ],
+   "ans": null,
+   "note": "no-key-in-pdf"
+  },
+  {
+   "n": 43,
+   "part": "PH",
+   "marks": 2,
+   "type": "MCQ",
+   "stem": "A uniform magnetic field 0 ˆB By\n\n exists in an internal frame K . A perfect conducting\nsphere moves with a constant velocity 0 ˆvv x with respect to this inertial frame. The rest\nframe of the sphere is K (see figure). The electric and magnetic fields in K and K are\nrelated as\n\n \n\n1,\n1/\nEE E Ev B\nvBB B B E vcc\n\n\n\n\n\n         \n\n\n    \n   \n The induced surface charge density on the sphere (to the lowest order in /vc ) in the frame\nK is",
+   "opts": [
+    "maximum along\nz",
+    "maximum along y",
+    "maximum along x",
+    "uniform over the sphere\nz\ny\nK\nx\nz\ny\nK\nx\nInstitute for NET/JRF, GATE, IIT‐JAM, M.Sc. Entrance, JEST, TIFR and GRE in Physics"
+   ],
+   "ans": null,
+   "note": "no-key-in-pdf"
+  },
+  {
+   "n": 44,
+   "part": "PH",
+   "marks": 2,
+   "type": "MCQ",
+   "stem": "A charge q moving with uniform speed enters a cylindrical region in free space at 0t \nand exits the region at t  (see figure). Which one of the following options best describes\nthe time dependence of the total electric flux  t , through the entire surface of the\ncylinder?",
+   "opts": [],
+   "ans": null,
+   "note": "figure-dependent-options"
+  },
+  {
+   "n": 45,
+   "part": "PH",
+   "marks": 2,
+   "type": "MCQ",
+   "stem": "Consider a one-dimensional non-magnetic crysta l with one atom per uni t cell. Assume that\nthe valence electrons (i) do not interact with each other and (ii) interact weakly with the\nions. If\nn is the number of valence electrons per unit cell, then at 0 K ,",
+   "opts": [
+    "the crystal is metallic for any value of n",
+    "the crystal is non-metallic for any value of n",
+    "the crystal is metallic for even values of n",
+    "the crystal is metallic for odd values of n\nq\nt\n0t  t  t\n t\n0t  t  t\nt\n0t  t  t\n t\n0t  t  t\nInstitute for NET/JRF, GATE, IIT‐JAM, M.Sc. Entrance, JEST, TIFR and GRE in Physics"
+   ],
+   "ans": null,
+   "note": "no-key-in-pdf"
+  },
+  {
+   "n": 46,
+   "part": "PH",
+   "marks": 2,
+   "type": "MCQ",
+   "stem": "According to the Fermi gas model of nucle us, the nucleons move in a spherical volume of\nradius R (\n0R A , where A is the mass number and 0R is an empirical constant with the\ndimensions of length). The Fermi energy of the nucleus FE is proportional to",
+   "opts": [
+    "2\n0R",
+    "R",
+    "2\nR",
+    "3\nR"
+   ],
+   "ans": null,
+   "note": "no-key-in-pdf"
+  },
+  {
+   "n": 47,
+   "part": "PH",
+   "marks": 2,
+   "type": "MCQ",
+   "stem": "Consider a two di mensional crystal with 3 atoms in the basis. The number of allowed\noptical branches n and acoustic branches  m due to the lattice vibrations are",
+   "opts": [
+    " ,2 , 4nm ",
+    "   ,3 , 3nm ",
+    " ,4 , 2nm ",
+    "   ,1 , 5nm "
+   ],
+   "ans": null,
+   "note": "no-key-in-pdf"
+  },
+  {
+   "n": 48,
+   "part": "PH",
+   "marks": 2,
+   "type": "MCQ",
+   "stem": "The internal energy U of a system is given by  \n2/3 2,US V V S   , where  is a constant\nof appropriate dimensions; V and S denote the volume and entropy, respectively. Which\none of the following gives the correct equation of state of the system?",
+   "opts": [
+    "1/3\n2 constantPV\nT ",
+    "1/3 constantPV\nT ",
+    "1/3 constantP\nVT ",
+    "2/3\nconstantPV\nT "
+   ],
+   "ans": null,
+   "note": "no-key-in-pdf"
+  },
+  {
+   "n": 49,
+   "part": "PH",
+   "marks": 2,
+   "type": "MCQ",
+   "stem": "The potential energy of a particle of mass m is given by\n  \n22sin / 2 , 0, 0Ux a k x a k   \n The angular frequency of small os cillations of the particle about 0x is",
+   "opts": [
+    "2 2ak m",
+    "2 ak m",
+    "2\nak m",
+    "22 ak m"
+   ],
+   "ans": null,
+   "note": "no-key-in-pdf"
+  },
+  {
+   "n": 50,
+   "part": "PH",
+   "marks": 2,
+   "type": "NAT",
+   "stem": "The radial wave function of a par ticle in a central potential is give by\n exp 2\nrrRr A aa\n \n, where A is the normalization constant and a is positive constant\nof suitable dimensions. If a is the most probable distance of the particle from the force\ncenter, the value of  is ___________",
+   "opts": [],
+   "ans": null,
+   "note": "no-key-in-pdf"
+  },
+  {
+   "n": 51,
+   "part": "PH",
+   "marks": 2,
+   "type": "NAT",
+   "stem": "A free particle of mass M is located in a three-dimensional cubic potential well with\nimpenetrable walls. The degeneracy of the fifth excited state of the particle is _________\nInstitute for NET/JRF, GATE, IIT‐JAM, M.Sc. Entrance, JEST, TIFR and GRE in Physics",
+   "opts": [],
+   "ans": null,
+   "note": "no-key-in-pdf"
+  },
+  {
+   "n": 52,
+   "part": "PH",
+   "marks": 2,
+   "type": "NAT",
+   "stem": "Consider the circuit given in the figure. Let the forward voltage drop across each diode be\n0.7V . The current I (in mA) through the resistor is ___________.",
+   "opts": [],
+   "ans": null,
+   "note": "no-key-in-pdf"
+  },
+  {
+   "n": 53,
+   "part": "PH",
+   "marks": 2,
+   "type": "NAT",
+   "stem": "Let u\n denote the 4 -velocity of a relativistic particle whose square 1uu\n  . If  is\nthe Levi-Civita tensor then the value of uuuu   \n is ________.",
+   "opts": [],
+   "ans": null,
+   "note": "no-key-in-pdf"
+  },
+  {
+   "n": 54,
+   "part": "PH",
+   "marks": 2,
+   "type": "NAT",
+   "stem": "Consider a simple cubic monoatomic Brav ais lattice which has a basis with vectors\n12 ˆˆ ˆ0, , 4\narr x y z a  is the lattice parameter. The Bragg reflection is observed due to\nthe change in the wave vector between the in cident and the scattered beam as given by\n11 2 2 3 3Kn Gn G n G\n\n, where 12,GG\n \n and 3G\n\n are primitive reciprocal lattice vectors. For\n12 3, 3nn and 3 2n  , the geometrical structure factor is _________",
+   "opts": [],
+   "ans": null,
+   "note": "no-key-in-pdf"
+  },
+  {
+   "n": 55,
+   "part": "PH",
+   "marks": 2,
+   "type": "NAT",
+   "stem": "A plane electromagne tic wave of wavelength  is incident on a circular loop of conducting\nwire. The loop radius is aa  . The angle (in degrees), ma de by the Poynting vector\nwith the normal to the plane of the loop to generate a maximum induced electrical signal, is\n__________",
+   "opts": [],
+   "ans": null,
+   "note": "no-key-in-pdf"
+  },
+  {
+   "n": 56,
+   "part": "PH",
+   "marks": 2,
+   "type": "NAT",
+   "stem": "An electron in a hydrogen atom is in the state 3, 2, 2 nl m   . Let ˆ\nyL denote the\ny -component of the orbital angul ar momentum operator. If  \n2 2ˆ\nyL   , the value of \nis____________",
+   "opts": [],
+   "ans": null,
+   "note": "no-key-in-pdf"
+  },
+  {
+   "n": 57,
+   "part": "PH",
+   "marks": 2,
+   "type": "NAT",
+   "stem": "A sinusoidal voltage of the form    0 cosVt V t  is applied across a parallel plate\ncapacitor placed in vacuum. Ignoring the edge e ffects, the induced emf within the region\nbetween the capacitor plates can be expressed as a power series in . The lowest non-\nvanishing exponent in  is ___________",
+   "opts": [],
+   "ans": null,
+   "note": "no-key-in-pdf"
+  },
+  {
+   "n": 58,
+   "part": "PH",
+   "marks": 2,
+   "type": "NAT",
+   "stem": "If\nsink\nk\nx ak x\n\n\n , for x  , the value of 2a is_______\n1k\nI\n10.1V\nInstitute for NET/JRF, GATE, IIT‐JAM, M.Sc. Entrance, JEST, TIFR and GRE in Physics",
+   "opts": [],
+   "ans": null,
+   "note": "no-key-in-pdf"
+  },
+  {
+   "n": 59,
+   "part": "PH",
+   "marks": 2,
+   "type": "NAT",
+   "stem": "Let \n10, 2\n11, 22\n10, 2\nn\nx n\nfx n x nn\nxn\n \n  \n\n \n. The value of lim sin nn\nf xx d x\n\n\n\n is______.",
+   "opts": [],
+   "ans": null,
+   "note": "no-key-in-pdf"
+  },
+  {
+   "n": 60,
+   "part": "PH",
+   "marks": 2,
+   "type": "NAT",
+   "stem": "Consider the Hamiltonian 0\nˆˆ ˆHH H  where\nˆ 00\nE\nHE\nE\n\n\n and ˆH is the time independent perturbation given by\n\nˆ 0\nk\nHk k\nk\n\n\n, where 0k  . If, the maximum energy eigenvalues of ˆH is 3 eV\ncorresponding to 2E eV , the value of k (rounded off to three decimal places) in eV\nis______________ check the question",
+   "opts": [],
+   "ans": null,
+   "note": "no-key-in-pdf"
+  },
+  {
+   "n": 61,
+   "part": "PH",
+   "marks": 2,
+   "type": "NAT",
+   "stem": "A hydrogen atom is in an orbital angular momentum state ,lm l . If L\n\n lies on a cone\nwhich makes a half angle 030 with respect to the z -axis, the value of l is __________",
+   "opts": [],
+   "ans": null,
+   "note": "no-key-in-pdf"
+  },
+  {
+   "n": 62,
+   "part": "PH",
+   "marks": 2,
+   "type": "NAT",
+   "stem": "In the center of mass fram e, two protons each having energy 7000GeV , collide to produce\nprotons and anti-protons. The maximum number of anti-protons produced is___________\n (Assume the proton mass to be 21/GeV c )",
+   "opts": [],
+   "ans": null,
+   "note": "no-key-in-pdf"
+  },
+  {
+   "n": 63,
+   "part": "PH",
+   "marks": 2,
+   "type": "NAT",
+   "stem": "Consider a gas of hydrogen atoms in the at mosphere of the Sun where the temperature is\n5800 K . If a sample from this atmosphere contains 236.023 10 of hydrogen atoms in the\nground state, the number of hydrogen at oms in the first excited state is\napproximately8 10 n , where n is an integer. The value of n is __________.\n (Boltzmann constant: 58.617 10 / eV K )\nInstitute for NET/JRF, GATE, IIT‐JAM, M.Sc. Entrance, JEST, TIFR and GRE in Physics",
+   "opts": [],
+   "ans": null,
+   "note": "no-key-in-pdf"
+  },
+  {
+   "n": 64,
+   "part": "PH",
+   "marks": 2,
+   "type": "NAT",
+   "stem": "For a gas of non-interacting particles, the probability that a particle has a speed v in the\ninternal v to vd v is given by\n \n3/2\n/224 2\nBmv k T\nB\nmfv d v v d v e kT \n \n\n\n If E is the energy of a particle, then the maximum in the corresponding energy distribution\nin units of / BEk T occurs at _________ (rounded off to one decimal place).",
+   "opts": [],
+   "ans": null,
+   "note": "no-key-in-pdf"
+  },
+  {
+   "n": 65,
+   "part": "PH",
+   "marks": 2,
+   "type": "NAT",
+   "stem": "The Planck’s energy density distribution is given by  \n/23 1BkTu\nce \n\n\n\n\n . At long\nwavelengths, the energy density of photons in thermal equilibrium with a cavity at\ntemperature T varies as T , where  is ___________.\n\n ------------------ --------------------------------------------------------------------------------------------",
+   "opts": [],
+   "ans": null,
+   "note": "no-key-in-pdf"
+  }
+ ]
+}
